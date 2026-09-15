@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:59Z",
-        "age_hours": 159.5,
+        "age_hours": 165.5,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "ext.saemartinique.ovh",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,20 +36,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 159,
           "trip_join": {
-            "n": 151,
-            "of": 163
+            "n": 442,
+            "of": 478
           },
           "stop_updates_timed": {
-            "n": 109,
-            "of": 109
+            "n": 319,
+            "of": 319
           },
           "cancelled": {
-            "n": 151,
-            "of": 163
+            "n": 442,
+            "of": 478
           },
           "no_trip_id": 0
         }

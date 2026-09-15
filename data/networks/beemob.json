@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T18:07:53Z",
-        "age_hours": 113.8,
+        "age_hours": 119.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 79,
           "trip_join": {
-            "n": 158,
-            "of": 158
+            "n": 303,
+            "of": 303
           },
           "stop_updates_timed": {
-            "n": 4605,
-            "of": 4636
+            "n": 8704,
+            "of": 8773
           },
           "cancelled": {
             "n": 0,
-            "of": 158
+            "of": 303
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,20 +71,20 @@
           "no_header_timestamp": 0,
           "entities": 33,
           "with_position": {
-            "n": 67,
-            "of": 67
+            "n": 129,
+            "of": 129
           },
           "with_trip_id": {
-            "n": 67,
-            "of": 67
+            "n": 129,
+            "of": 129
           },
           "with_route_id": {
-            "n": 67,
-            "of": 67
+            "n": 129,
+            "of": 129
           },
           "trip_join": {
-            "n": 67,
-            "of": 67
+            "n": 129,
+            "of": 129
           }
         }
       }

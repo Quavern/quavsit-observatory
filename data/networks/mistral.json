@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T19:07:22Z",
-        "age_hours": 16.8,
+        "age_hours": 22.8,
         "timetable_ends_on": "2026-11-30",
         "days_left": 76,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-rdtpm-toulon.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 70,
+          "header_age_seconds": 72,
           "no_header_timestamp": 0,
           "entities": 493,
           "trip_join": {
-            "n": 936,
-            "of": 986
+            "n": 1768,
+            "of": 1824
           },
           "stop_updates_timed": {
-            "n": 28813,
-            "of": 29322
+            "n": 55065,
+            "of": 56375
           },
           "cancelled": {
-            "n": 2,
-            "of": 986
+            "n": 10,
+            "of": 1824
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-rdtpm-toulon.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,26 +71,26 @@
           "no_header_timestamp": 0,
           "entities": 192,
           "with_position": {
-            "n": 384,
-            "of": 384
+            "n": 753,
+            "of": 753
           },
           "with_trip_id": {
-            "n": 378,
-            "of": 384
+            "n": 740,
+            "of": 753
           },
           "with_route_id": {
-            "n": 378,
-            "of": 384
+            "n": 740,
+            "of": 753
           },
           "trip_join": {
-            "n": 368,
-            "of": 378
+            "n": 728,
+            "of": 740
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -103,10 +103,10 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 8,
+          "entities": 9,
           "informed_resolved": {
-            "n": 42,
-            "of": 42
+            "n": 88,
+            "of": 88
           }
         }
       }

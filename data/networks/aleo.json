@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:12Z",
-        "age_hours": 20.8,
+        "age_hours": 26.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 21,
           "trip_join": {
-            "n": 20,
-            "of": 20
+            "n": 43,
+            "of": 43
           },
           "stop_updates_timed": {
-            "n": 647,
-            "of": 648
+            "n": 1347,
+            "of": 1365
           },
           "cancelled": {
             "n": 0,
-            "of": 20
+            "of": 43
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,20 +71,20 @@
           "no_header_timestamp": 0,
           "entities": 21,
           "with_position": {
-            "n": 20,
-            "of": 20
+            "n": 43,
+            "of": 43
           },
           "with_trip_id": {
-            "n": 20,
-            "of": 20
+            "n": 43,
+            "of": 43
           },
           "with_route_id": {
-            "n": 20,
-            "of": 20
+            "n": 43,
+            "of": 43
           },
           "trip_join": {
-            "n": 20,
-            "of": 20
+            "n": 43,
+            "of": 43
           }
         }
       }

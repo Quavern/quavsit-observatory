@@ -8,8 +8,8 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T17:07:56Z",
-        "age_hours": 18.8,
+        "refreshed_at": "2026-09-15T17:08:42Z",
+        "age_hours": 0.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {

@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:06Z",
-        "age_hours": 159.5,
+        "age_hours": 165.5,
         "timetable_ends_on": "2027-06-27",
         "days_left": 285,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 66,
           "trip_join": {
-            "n": 67,
-            "of": 67
+            "n": 139,
+            "of": 139
           },
           "stop_updates_timed": {
-            "n": 1258,
-            "of": 1262
+            "n": 2438,
+            "of": 2442
           },
           "cancelled": {
             "n": 0,
-            "of": 67
+            "of": 139
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,26 +71,26 @@
           "no_header_timestamp": 0,
           "entities": 66,
           "with_position": {
-            "n": 64,
-            "of": 64
+            "n": 131,
+            "of": 131
           },
           "with_trip_id": {
-            "n": 64,
-            "of": 64
+            "n": 131,
+            "of": 131
           },
           "with_route_id": {
-            "n": 64,
-            "of": 64
+            "n": 131,
+            "of": 131
           },
           "trip_join": {
-            "n": 64,
-            "of": 64
+            "n": 131,
+            "of": 131
           }
         },
         "alerts": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,

@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:23Z",
-        "age_hours": 159.7,
+        "age_hours": 165.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 93,
           "trip_join": {
-            "n": 185,
-            "of": 187
+            "n": 387,
+            "of": 394
           },
           "stop_updates_timed": {
-            "n": 5776,
-            "of": 5968
+            "n": 11825,
+            "of": 12167
           },
           "cancelled": {
             "n": 0,
-            "of": 187
+            "of": 394
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,26 +71,26 @@
           "no_header_timestamp": 0,
           "entities": 36,
           "with_position": {
-            "n": 72,
-            "of": 72
+            "n": 156,
+            "of": 156
           },
           "with_trip_id": {
-            "n": 72,
-            "of": 72
+            "n": 156,
+            "of": 156
           },
           "with_route_id": {
-            "n": 72,
-            "of": 72
+            "n": 156,
+            "of": 156
           },
           "trip_join": {
-            "n": 72,
-            "of": 72
+            "n": 156,
+            "of": 156
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -105,8 +105,8 @@
           "no_header_timestamp": 0,
           "entities": 6,
           "informed_resolved": {
-            "n": 22,
-            "of": 22
+            "n": 44,
+            "of": 44
           }
         }
       }

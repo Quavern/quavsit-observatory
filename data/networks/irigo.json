@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:04Z",
-        "age_hours": 7.8,
+        "age_hours": 13.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 34,
+          "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 220,
           "trip_join": {
-            "n": 441,
-            "of": 441
+            "n": 937,
+            "of": 937
           },
           "stop_updates_timed": {
-            "n": 9697,
-            "of": 9697
+            "n": 19904,
+            "of": 19904
           },
           "cancelled": {
             "n": 0,
-            "of": 441
+            "of": 937
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,30 +67,30 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 23,
+          "header_age_seconds": 35,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 194,
           "with_position": {
-            "n": 327,
-            "of": 327
+            "n": 745,
+            "of": 745
           },
           "with_trip_id": {
-            "n": 327,
-            "of": 327
+            "n": 745,
+            "of": 745
           },
           "with_route_id": {
-            "n": 327,
-            "of": 327
+            "n": 745,
+            "of": 745
           },
           "trip_join": {
-            "n": 327,
-            "of": 327
+            "n": 745,
+            "of": 745
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -105,8 +105,8 @@
           "no_header_timestamp": 0,
           "entities": 17,
           "informed_resolved": {
-            "n": 46,
-            "of": 46
+            "n": 93,
+            "of": 93
           }
         }
       }

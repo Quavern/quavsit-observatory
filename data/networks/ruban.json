@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T17:08:52Z",
-        "age_hours": 18.8,
+        "refreshed_at": "2026-09-15T17:09:29Z",
+        "age_hours": 0.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 347,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "app.pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 4,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 39,
           "trip_join": {
-            "n": 39,
-            "of": 39
+            "n": 78,
+            "of": 78
           },
           "stop_updates_timed": {
-            "n": 1184,
-            "of": 1191
+            "n": 2423,
+            "of": 2445
           },
           "cancelled": {
             "n": 0,
-            "of": 39
+            "of": 78
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,24 +67,24 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 4,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 39,
           "with_position": {
-            "n": 39,
-            "of": 39
+            "n": 78,
+            "of": 78
           },
           "with_trip_id": {
-            "n": 39,
-            "of": 39
+            "n": 78,
+            "of": 78
           },
           "with_route_id": {
-            "n": 39,
-            "of": 39
+            "n": 78,
+            "of": 78
           },
           "trip_join": {
-            "n": 39,
-            "of": 39
+            "n": 78,
+            "of": 78
           }
         }
       }

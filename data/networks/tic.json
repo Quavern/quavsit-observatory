@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 159.8,
+        "age_hours": 165.8,
         "timetable_ends_on": "2026-11-11",
         "days_left": 57,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 40,
+          "entities": 37,
           "trip_join": {
-            "n": 80,
-            "of": 80
+            "n": 153,
+            "of": 153
           },
           "stop_updates_timed": {
-            "n": 1311,
-            "of": 1311
+            "n": 2472,
+            "of": 2472
           },
           "cancelled": {
             "n": 0,
-            "of": 80
+            "of": 153
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,20 +71,20 @@
           "no_header_timestamp": 0,
           "entities": 13,
           "with_position": {
-            "n": 27,
-            "of": 27
+            "n": 53,
+            "of": 53
           },
           "with_trip_id": {
-            "n": 27,
-            "of": 27
+            "n": 53,
+            "of": 53
           },
           "with_route_id": {
-            "n": 27,
-            "of": 27
+            "n": 53,
+            "of": 53
           },
           "trip_join": {
-            "n": 27,
-            "of": 27
+            "n": 53,
+            "of": 53
           }
         }
       }

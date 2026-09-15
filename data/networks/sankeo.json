@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T09:10:22Z",
-        "age_hours": 26.7,
+        "age_hours": 32.7,
         "timetable_ends_on": "2026-09-27",
         "days_left": 12,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "eur.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,20 +36,20 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 34,
+          "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 129,
           "trip_join": {
-            "n": 259,
-            "of": 259
+            "n": 532,
+            "of": 532
           },
           "stop_updates_timed": {
-            "n": 5325,
-            "of": 5530
+            "n": 10818,
+            "of": 11130
           },
           "cancelled": {
             "n": 0,
-            "of": 259
+            "of": 532
           },
           "no_trip_id": 0
         }

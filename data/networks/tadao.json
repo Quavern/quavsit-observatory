@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:11:19Z",
-        "age_hours": 24.7,
+        "age_hours": 30.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,20 +36,20 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 33,
+          "header_age_seconds": 17,
           "no_header_timestamp": 0,
           "entities": 175,
           "trip_join": {
-            "n": 346,
-            "of": 346
+            "n": 754,
+            "of": 754
           },
           "stop_updates_timed": {
-            "n": 1526,
-            "of": 1526
+            "n": 3140,
+            "of": 3140
           },
           "cancelled": {
             "n": 0,
-            "of": 346
+            "of": 754
           },
           "no_trip_id": 0
         }

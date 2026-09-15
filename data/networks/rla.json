@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-09T07:10:52Z",
-        "age_hours": 148.7,
+        "age_hours": 154.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 39,
+          "header_age_seconds": 30,
           "no_header_timestamp": 0,
           "entities": 926,
           "trip_join": {
-            "n": 1852,
-            "of": 1852
+            "n": 3352,
+            "of": 3352
           },
           "stop_updates_timed": {
-            "n": 32207,
-            "of": 32207
+            "n": 58447,
+            "of": 58447
           },
           "cancelled": {
             "n": 0,
-            "of": 1852
+            "of": 3352
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,24 +67,24 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 36,
+          "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 213,
           "with_position": {
-            "n": 426,
-            "of": 426
+            "n": 838,
+            "of": 838
           },
           "with_trip_id": {
-            "n": 426,
-            "of": 426
+            "n": 838,
+            "of": 838
           },
           "with_route_id": {
-            "n": 426,
-            "of": 426
+            "n": 838,
+            "of": 838
           },
           "trip_join": {
-            "n": 426,
-            "of": 426
+            "n": 838,
+            "of": 838
           }
         }
       }

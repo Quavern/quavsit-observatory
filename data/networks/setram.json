@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:28Z",
-        "age_hours": 159.5,
+        "age_hours": 165.5,
         "timetable_ends_on": "2026-11-28",
         "days_left": 74,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "eur.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 229,
           "trip_join": {
-            "n": 458,
-            "of": 458
+            "n": 917,
+            "of": 917
           },
           "stop_updates_timed": {
-            "n": 10705,
-            "of": 10943
+            "n": 21525,
+            "of": 21988
           },
           "cancelled": {
             "n": 0,
-            "of": 458
+            "of": 917
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,28 +69,28 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 79,
+          "entities": 87,
           "with_position": {
-            "n": 159,
-            "of": 159
+            "n": 362,
+            "of": 362
           },
           "with_trip_id": {
-            "n": 155,
-            "of": 159
+            "n": 346,
+            "of": 362
           },
           "with_route_id": {
-            "n": 155,
-            "of": 159
+            "n": 346,
+            "of": 362
           },
           "trip_join": {
-            "n": 155,
-            "of": 155
+            "n": 345,
+            "of": 346
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -105,8 +105,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 2,
-            "of": 2
+            "n": 4,
+            "of": 4
           }
         }
       }

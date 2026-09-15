@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:27Z",
-        "age_hours": 111.7,
+        "age_hours": 117.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 4,
+          "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 66,
           "trip_join": {
-            "n": 132,
-            "of": 132
+            "n": 277,
+            "of": 277
           },
           "stop_updates_timed": {
-            "n": 3202,
-            "of": 3397
+            "n": 6940,
+            "of": 7272
           },
           "cancelled": {
             "n": 0,
-            "of": 132
+            "of": 277
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,24 +67,24 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 4,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 19,
+          "entities": 20,
           "with_position": {
-            "n": 39,
-            "of": 39
+            "n": 83,
+            "of": 83
           },
           "with_trip_id": {
-            "n": 39,
-            "of": 39
+            "n": 83,
+            "of": 83
           },
           "with_route_id": {
-            "n": 39,
-            "of": 39
+            "n": 83,
+            "of": 83
           },
           "trip_join": {
-            "n": 39,
-            "of": 39
+            "n": 83,
+            "of": 83
           }
         }
       }

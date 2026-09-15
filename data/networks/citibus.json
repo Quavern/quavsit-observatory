@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:23Z",
-        "age_hours": 159.4,
+        "age_hours": 165.4,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-citibus-narbonne.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -40,23 +40,23 @@
           "no_header_timestamp": 0,
           "entities": 66,
           "trip_join": {
-            "n": 15,
-            "of": 71
+            "n": 27,
+            "of": 165
           },
           "stop_updates_timed": {
-            "n": 1041,
-            "of": 1041
+            "n": 2222,
+            "of": 2222
           },
           "cancelled": {
-            "n": 2,
-            "of": 71
+            "n": 4,
+            "of": 165
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-citibus-narbonne.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -71,26 +71,26 @@
           "no_header_timestamp": 0,
           "entities": 66,
           "with_position": {
-            "n": 61,
-            "of": 61
+            "n": 140,
+            "of": 140
           },
           "with_trip_id": {
-            "n": 61,
-            "of": 61
+            "n": 140,
+            "of": 140
           },
           "with_route_id": {
-            "n": 61,
-            "of": 61
+            "n": 140,
+            "of": 140
           },
           "trip_join": {
-            "n": 14,
-            "of": 61
+            "n": 26,
+            "of": 140
           }
         },
         "alerts": {
           "host": "notifytest.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -105,8 +105,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 4,
-            "of": 4
+            "n": 8,
+            "of": 8
           }
         }
       }
