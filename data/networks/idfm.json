@@ -1,0 +1,28 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "idfm",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T17:07:56Z",
+        "age_hours": 16.0,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": {
+          "lines": 2120,
+          "stops": 55961,
+          "trips": null,
+          "stop_times": null
+        },
+        "pan_dataset_slug": null,
+        "last_error": null,
+        "timetable_ends_on_reason": "not_gtfs"
+      },
+      "realtime": {}
+    }
+  ]
+}

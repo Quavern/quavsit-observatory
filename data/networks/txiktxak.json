@@ -1,0 +1,81 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "txiktxak",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T03:10:12Z",
+        "age_hours": 77.9,
+        "timetable_ends_on": "2027-07-04",
+        "days_left": 292,
+        "counts": {
+          "lines": 45,
+          "stops": 2775,
+          "trips": 6011,
+          "stop_times": 204276
+        },
+        "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 415,
+          "trip_join": {
+            "n": 415,
+            "of": 415
+          },
+          "stop_updates_timed": {
+            "n": 12581,
+            "of": 13152
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 415
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 7,
+          "informed_resolved": {
+            "n": 8,
+            "of": 8
+          }
+        }
+      }
+    }
+  ]
+}

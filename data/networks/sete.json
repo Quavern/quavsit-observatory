@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "sete",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T07:08:17Z",
+        "age_hours": 74.0,
+        "timetable_ends_on": "2027-04-04",
+        "days_left": 201,
+        "counts": {
+          "lines": 23,
+          "stops": 518,
+          "trips": 2997,
+          "stop_times": 60007
+        },
+        "pan_dataset_slug": "reseau-bus-sete-agglopole-mobilite",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "sete.ceccli.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 132,
+          "trip_join": {
+            "n": 132,
+            "of": 132
+          },
+          "stop_updates_timed": {
+            "n": 2063,
+            "of": 2063
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 132
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "sete.ceccli.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 45,
+          "with_position": {
+            "n": 45,
+            "of": 45
+          },
+          "with_trip_id": {
+            "n": 34,
+            "of": 45
+          },
+          "with_route_id": {
+            "n": 34,
+            "of": 45
+          },
+          "trip_join": {
+            "n": 34,
+            "of": 34
+          }
+        }
+      }
+    }
+  ]
+}

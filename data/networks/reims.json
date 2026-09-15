@@ -1,0 +1,59 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "reims",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T19:09:16Z",
+        "age_hours": 61.9,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 47,
+        "counts": {
+          "lines": 28,
+          "stops": 1224,
+          "trips": 16666,
+          "stop_times": 424596
+        },
+        "pan_dataset_slug": "offre-de-transport-du-reseau-grand-reims-mobilites-communaute-urbaine-du-grand-reims",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 41,
+          "no_header_timestamp": 0,
+          "entities": 303,
+          "trip_join": {
+            "n": 303,
+            "of": 303
+          },
+          "stop_updates_timed": {
+            "n": 5915,
+            "of": 5915
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 303
+          },
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "muvistrada",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:19:38Z",
+        "age_hours": 156.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 107,
+        "counts": {
+          "lines": 13,
+          "stops": 554,
+          "trips": 974,
+          "stop_times": 15824
+        },
+        "pan_dataset_slug": "information-sur-les-transports-en-commun",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

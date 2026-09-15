@@ -1,0 +1,115 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "bibus",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T23:09:38Z",
+        "age_hours": 105.9,
+        "timetable_ends_on": "2026-12-20",
+        "days_left": 96,
+        "counts": {
+          "lines": 72,
+          "stops": 1078,
+          "trips": 7979,
+          "stop_times": 159770
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 61,
+          "no_header_timestamp": 0,
+          "entities": 1363,
+          "trip_join": {
+            "n": 1332,
+            "of": 1363
+          },
+          "stop_updates_timed": {
+            "n": 34695,
+            "of": 34695
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 1363
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 56,
+          "no_header_timestamp": 0,
+          "entities": 123,
+          "with_position": {
+            "n": 123,
+            "of": 123
+          },
+          "with_trip_id": {
+            "n": 123,
+            "of": 123
+          },
+          "with_route_id": {
+            "n": 123,
+            "of": 123
+          },
+          "trip_join": {
+            "n": 123,
+            "of": 123
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 4,
+          "no_header_timestamp": 0,
+          "entities": 34,
+          "informed_resolved": {
+            "n": 43,
+            "of": 43
+          }
+        }
+      }
+    }
+  ]
+}

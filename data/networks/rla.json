@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "rla",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-09T07:10:52Z",
+        "age_hours": 145.9,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 107,
+        "counts": {
+          "lines": 112,
+          "stops": 4545,
+          "trips": 18849,
+          "stop_times": 458857
+        },
+        "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 36,
+          "no_header_timestamp": 0,
+          "entities": 932,
+          "trip_join": {
+            "n": 932,
+            "of": 932
+          },
+          "stop_updates_timed": {
+            "n": 16103,
+            "of": 16103
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 932
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 51,
+          "no_header_timestamp": 0,
+          "entities": 213,
+          "with_position": {
+            "n": 213,
+            "of": 213
+          },
+          "with_trip_id": {
+            "n": 213,
+            "of": 213
+          },
+          "with_route_id": {
+            "n": 213,
+            "of": 213
+          },
+          "trip_join": {
+            "n": 213,
+            "of": 213
+          }
+        }
+      }
+    }
+  ]
+}

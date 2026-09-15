@@ -1,0 +1,81 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "choletbus",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T11:09:11Z",
+        "age_hours": 22.0,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 290,
+        "counts": {
+          "lines": 19,
+          "stops": 664,
+          "trips": 1490,
+          "stop_times": 24973
+        },
+        "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 22,
+          "no_header_timestamp": 0,
+          "entities": 66,
+          "trip_join": {
+            "n": 66,
+            "of": 66
+          },
+          "stop_updates_timed": {
+            "n": 1471,
+            "of": 1472
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 66
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 2,
+          "informed_resolved": {
+            "n": 4,
+            "of": 4
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "cts",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T19:07:13Z",
+        "age_hours": 110.0,
+        "timetable_ends_on": "2027-03-09",
+        "days_left": 175,
+        "counts": {
+          "lines": 48,
+          "stops": 1354,
+          "trips": 33134,
+          "stop_times": 758538
+        },
+        "pan_dataset_slug": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

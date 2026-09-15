@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "sibra",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T18:09:58Z",
+        "age_hours": 110.9,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 33,
+        "counts": {
+          "lines": 27,
+          "stops": 1859,
+          "trips": 7170,
+          "stop_times": 212170
+        },
+        "pan_dataset_slug": "offre-de-transports-sibra-a-annecy-gtfs",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

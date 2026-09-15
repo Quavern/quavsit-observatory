@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "ginko",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T07:09:29Z",
+        "age_hours": 25.9,
+        "timetable_ends_on": "2026-10-25",
+        "days_left": 40,
+        "counts": {
+          "lines": 182,
+          "stops": 2035,
+          "trips": 9528,
+          "stop_times": 181768
+        },
+        "pan_dataset_slug": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

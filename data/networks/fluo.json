@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "fluo",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T01:07:23Z",
+        "age_hours": 8.0,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 348,
+        "counts": {
+          "lines": 2163,
+          "stops": 19062,
+          "trips": 11834,
+          "stop_times": 138301
+        },
+        "pan_dataset_slug": "offre-du-reseau-de-transport-interurbain-fluo-grand-est",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

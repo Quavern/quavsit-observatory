@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "horizon",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:16:33Z",
+        "age_hours": 156.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 350,
+        "counts": {
+          "lines": 18,
+          "stops": 509,
+          "trips": 1408,
+          "stop_times": 37954
+        },
+        "pan_dataset_slug": "reseau-de-bus-urbain-horizon",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

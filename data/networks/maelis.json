@@ -1,0 +1,85 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "maelis",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "never_ingested",
+        "refreshed_at": null,
+        "age_hours": null,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": null,
+        "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
+        "last_error": {
+          "reason": "timeout",
+          "host": "saeiv-p01.navocap.com"
+        }
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 20,
+          "trip_join": null,
+          "stop_updates_timed": {
+            "n": 626,
+            "of": 626
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 20
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "with_position": {
+            "n": 10,
+            "of": 10
+          },
+          "with_trip_id": {
+            "n": 10,
+            "of": 10
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 10
+          },
+          "trip_join": null
+        }
+      }
+    }
+  ]
+}

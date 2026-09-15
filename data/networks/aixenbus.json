@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "aixenbus",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T19:07:14Z",
+        "age_hours": 14.0,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 33,
+        "counts": {
+          "lines": 63,
+          "stops": 1110,
+          "trips": 4325,
+          "stop_times": 114594
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

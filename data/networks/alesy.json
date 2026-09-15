@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "alesy",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T22:07:22Z",
+        "age_hours": 83.0,
+        "timetable_ends_on": "2028-12-31",
+        "days_left": 838,
+        "counts": {
+          "lines": 121,
+          "stops": 2581,
+          "trips": 1570,
+          "stop_times": 26458
+        },
+        "pan_dataset_slug": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "alesy.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 24,
+          "no_header_timestamp": 0,
+          "entities": 270,
+          "trip_join": {
+            "n": 270,
+            "of": 270
+          },
+          "stop_updates_timed": {
+            "n": 5359,
+            "of": 5361
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 270
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "alesy.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 10,
+          "no_header_timestamp": 0,
+          "entities": 17,
+          "with_position": {
+            "n": 17,
+            "of": 17
+          },
+          "with_trip_id": {
+            "n": 17,
+            "of": 17
+          },
+          "with_route_id": {
+            "n": 17,
+            "of": 17
+          },
+          "trip_join": {
+            "n": 17,
+            "of": 17
+          }
+        }
+      }
+    }
+  ]
+}

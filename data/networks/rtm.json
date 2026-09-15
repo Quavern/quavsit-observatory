@@ -1,0 +1,50 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "rtm",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T09:09:11Z",
+        "age_hours": 24.0,
+        "timetable_ends_on": "2026-11-12",
+        "days_left": 58,
+        "counts": {
+          "lines": 125,
+          "stops": 2754,
+          "trips": 44911,
+          "stop_times": 1012742
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null
+      },
+      "realtime": {
+        "alerts": {
+          "host": "api-mobilite.rbgl.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 192,
+          "no_header_timestamp": 0,
+          "entities": 77,
+          "informed_resolved": {
+            "n": 496,
+            "of": 703
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "tag",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T13:07:38Z",
+        "age_hours": 20.0,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 107,
+        "counts": {
+          "lines": 55,
+          "stops": 2554,
+          "trips": 26867,
+          "stop_times": 625872
+        },
+        "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

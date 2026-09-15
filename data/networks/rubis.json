@@ -1,0 +1,85 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "rubis",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "never_ingested",
+        "refreshed_at": null,
+        "age_hours": null,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": null,
+        "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
+        "last_error": {
+          "reason": "timeout",
+          "host": "saeiv-p01.navocap.com"
+        }
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 56,
+          "trip_join": null,
+          "stop_updates_timed": {
+            "n": 1581,
+            "of": 1581
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 56
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 28,
+          "with_position": {
+            "n": 28,
+            "of": 28
+          },
+          "with_trip_id": {
+            "n": 28,
+            "of": 28
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 28
+          },
+          "trip_join": null
+        }
+      }
+    }
+  ]
+}

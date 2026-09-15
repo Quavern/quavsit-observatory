@@ -1,0 +1,25 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "envibus",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "never_ingested",
+        "refreshed_at": null,
+        "age_hours": null,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": null,
+        "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-bus-du-reseau-des-transports-publics-envibus",
+        "last_error": {
+          "reason": "timeout",
+          "host": "open-share.agglo-casa.fr"
+        }
+      },
+      "realtime": {}
+    }
+  ]
+}

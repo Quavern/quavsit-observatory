@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "max",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T07:09:40Z",
+        "age_hours": 25.9,
+        "timetable_ends_on": "2027-08-28",
+        "days_left": 347,
+        "counts": {
+          "lines": 6,
+          "stops": 123,
+          "trips": 266,
+          "stop_times": 3865
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 4,
+          "trip_join": {
+            "n": 2,
+            "of": 2
+          },
+          "stop_updates_timed": {
+            "n": 19,
+            "of": 19
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 2
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 4,
+          "with_position": {
+            "n": 2,
+            "of": 2
+          },
+          "with_trip_id": {
+            "n": 2,
+            "of": 2
+          },
+          "with_route_id": {
+            "n": 2,
+            "of": 2
+          },
+          "trip_join": {
+            "n": 2,
+            "of": 2
+          }
+        }
+      }
+    }
+  ]
+}

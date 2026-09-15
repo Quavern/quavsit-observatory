@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "azalys",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T07:07:55Z",
+        "age_hours": 2.0,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 33,
+        "counts": {
+          "lines": 72,
+          "stops": 1157,
+          "trips": 1782,
+          "stop_times": 38247
+        },
+        "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 32,
+          "no_header_timestamp": 0,
+          "entities": 34,
+          "trip_join": {
+            "n": 34,
+            "of": 34
+          },
+          "stop_updates_timed": {
+            "n": 856,
+            "of": 856
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 34
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 26,
+          "no_header_timestamp": 0,
+          "entities": 16,
+          "with_position": {
+            "n": 16,
+            "of": 16
+          },
+          "with_trip_id": {
+            "n": 16,
+            "of": 16
+          },
+          "with_route_id": {
+            "n": 16,
+            "of": 16
+          },
+          "trip_join": {
+            "n": 16,
+            "of": 16
+          }
+        }
+      }
+    }
+  ]
+}

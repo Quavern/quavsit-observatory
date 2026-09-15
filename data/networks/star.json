@@ -1,0 +1,115 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "star",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T15:09:40Z",
+        "age_hours": 17.9,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 33,
+        "counts": {
+          "lines": 155,
+          "stops": 1804,
+          "trips": 84136,
+          "stop_times": 1823871
+        },
+        "pan_dataset_slug": "versions-des-horaires-theoriques-des-lignes-de-bus-et-de-metro-du-reseau-star-dans-les-formats-gtfs-et-netex-ainsi-que-les-urls-dacces-au-gtfs-rt-1",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 382,
+          "trip_join": {
+            "n": 369,
+            "of": 382
+          },
+          "stop_updates_timed": {
+            "n": 9559,
+            "of": 9941
+          },
+          "cancelled": {
+            "n": 2,
+            "of": 382
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 1,
+          "no_header_timestamp": 0,
+          "entities": 154,
+          "with_position": {
+            "n": 154,
+            "of": 154
+          },
+          "with_trip_id": {
+            "n": 154,
+            "of": 154
+          },
+          "with_route_id": {
+            "n": 154,
+            "of": 154
+          },
+          "trip_join": {
+            "n": 154,
+            "of": 154
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 46,
+          "informed_resolved": {
+            "n": 250,
+            "of": 250
+          }
+        }
+      }
+    }
+  ]
+}

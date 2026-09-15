@@ -1,0 +1,50 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "naolib",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:02:24Z",
+        "age_hours": 157.1,
+        "timetable_ends_on": "2026-12-08",
+        "days_left": 84,
+        "counts": {
+          "lines": 96,
+          "stops": 3633,
+          "trips": 172259,
+          "stop_times": 4305096
+        },
+        "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 1,
+          "samples_night": 0,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "trip_join": null,
+          "stop_updates_timed": null,
+          "cancelled": null,
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

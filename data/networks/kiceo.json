@@ -1,0 +1,115 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "kiceo",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T06:12:26Z",
+        "age_hours": 122.9,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 290,
+        "counts": {
+          "lines": 201,
+          "stops": 2602,
+          "trips": 2575,
+          "stop_times": 64909
+        },
+        "pan_dataset_slug": "reseau-urbain-kiceo",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "trip_join": {
+            "n": 0,
+            "of": 0
+          },
+          "stop_updates_timed": {
+            "n": 0,
+            "of": 0
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 0
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "with_position": {
+            "n": 0,
+            "of": 0
+          },
+          "with_trip_id": {
+            "n": 0,
+            "of": 0
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 0
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 0
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 5,
+          "informed_resolved": {
+            "n": 143,
+            "of": 143
+          }
+        }
+      }
+    }
+  ]
+}

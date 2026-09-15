@@ -1,0 +1,81 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "agglobus-bourges",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T05:08:50Z",
+        "age_hours": 76.0,
+        "timetable_ends_on": "2027-09-11",
+        "days_left": 361,
+        "counts": {
+          "lines": 101,
+          "stops": 1265,
+          "trips": 4011,
+          "stop_times": 118705
+        },
+        "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 67,
+          "trip_join": {
+            "n": 67,
+            "of": 67
+          },
+          "stop_updates_timed": {
+            "n": 2255,
+            "of": 2255
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 67
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 9,
+          "informed_resolved": {
+            "n": 33,
+            "of": 33
+          }
+        }
+      }
+    }
+  ]
+}

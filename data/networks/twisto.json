@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "twisto",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T18:08:02Z",
+        "age_hours": 15.0,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 107,
+        "counts": {
+          "lines": 67,
+          "stops": 1417,
+          "trips": 6957,
+          "stop_times": 221731
+        },
+        "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

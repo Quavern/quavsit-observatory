@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "palmbus",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T20:08:44Z",
+        "age_hours": 85.0,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 110,
+        "counts": {
+          "lines": 47,
+          "stops": 1525,
+          "trips": 33146,
+          "stop_times": 976654
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 45,
+          "no_header_timestamp": 0,
+          "entities": 183,
+          "trip_join": {
+            "n": 183,
+            "of": 183
+          },
+          "stop_updates_timed": {
+            "n": 2598,
+            "of": 2692
+          },
+          "cancelled": {
+            "n": 4,
+            "of": 183
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 45,
+          "no_header_timestamp": 0,
+          "entities": 81,
+          "with_position": {
+            "n": 81,
+            "of": 81
+          },
+          "with_trip_id": {
+            "n": 81,
+            "of": 81
+          },
+          "with_route_id": {
+            "n": 81,
+            "of": 81
+          },
+          "trip_join": {
+            "n": 81,
+            "of": 81
+          }
+        }
+      }
+    }
+  ]
+}

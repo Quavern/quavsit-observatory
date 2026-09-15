@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "yceo",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T18:10:34Z",
+        "age_hours": 14.9,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 290,
+        "counts": {
+          "lines": 139,
+          "stops": 2305,
+          "trips": 4130,
+          "stop_times": 118124
+        },
+        "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

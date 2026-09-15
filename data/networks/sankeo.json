@@ -1,0 +1,59 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "sankeo",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T09:10:22Z",
+        "age_hours": 23.9,
+        "timetable_ends_on": "2026-09-27",
+        "days_left": 12,
+        "counts": {
+          "lines": 38,
+          "stops": 1693,
+          "trips": 7350,
+          "stop_times": 207449
+        },
+        "pan_dataset_slug": "gtfs-sankeo",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "eur.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 48,
+          "no_header_timestamp": 0,
+          "entities": 127,
+          "trip_join": {
+            "n": 127,
+            "of": 127
+          },
+          "stop_updates_timed": {
+            "n": 2912,
+            "of": 3069
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 127
+          },
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

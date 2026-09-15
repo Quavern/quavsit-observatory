@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "tuc",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:07:58Z",
+        "age_hours": 157.0,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 350,
+        "counts": {
+          "lines": 40,
+          "stops": 543,
+          "trips": 1244,
+          "stop_times": 19449
+        },
+        "pan_dataset_slug": "donnees-gtfs-reseau-tuc-communaute-dagglomeration-de-cambrai",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "mobius",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:25:17Z",
+        "age_hours": 156.7,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 350,
+        "counts": {
+          "lines": 67,
+          "stops": 2117,
+          "trips": 12172,
+          "stop_times": 144467
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-reseau-mobius",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 76,
+          "no_header_timestamp": 0,
+          "entities": 59,
+          "trip_join": {
+            "n": 59,
+            "of": 59
+          },
+          "stop_updates_timed": {
+            "n": 1304,
+            "of": 1540
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 59
+          },
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

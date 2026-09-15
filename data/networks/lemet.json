@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "lemet",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T21:09:00Z",
+        "age_hours": 12.0,
+        "timetable_ends_on": "2026-10-14",
+        "days_left": 29,
+        "counts": {
+          "lines": 78,
+          "stops": 1667,
+          "trips": 17492,
+          "stop_times": 421314
+        },
+        "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 248,
+          "trip_join": {
+            "n": 248,
+            "of": 248
+          },
+          "stop_updates_timed": {
+            "n": 3536,
+            "of": 3536
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 248
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 108,
+          "with_position": {
+            "n": 108,
+            "of": 108
+          },
+          "with_trip_id": {
+            "n": 108,
+            "of": 108
+          },
+          "with_route_id": {
+            "n": 108,
+            "of": 108
+          },
+          "trip_join": {
+            "n": 108,
+            "of": 108
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "solea",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:08:33Z",
+        "age_hours": 157.0,
+        "timetable_ends_on": "2027-06-25",
+        "days_left": 283,
+        "counts": {
+          "lines": 46,
+          "stops": 1479,
+          "trips": 18007,
+          "stop_times": 374987
+        },
+        "pan_dataset_slug": "fr-200052264-t0014-0000-1",
+        "last_error": null
+      },
+      "realtime": {}
+    }
+  ]
+}

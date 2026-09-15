@@ -1,0 +1,59 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "breizhgo-car35",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T15:09:24Z",
+        "age_hours": 17.9,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 290,
+        "counts": {
+          "lines": 27,
+          "stops": 705,
+          "trips": 1775,
+          "stop_times": 22502
+        },
+        "pan_dataset_slug": "breizhgo-car",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "www.korrigo.bzh",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 237,
+          "no_header_timestamp": 0,
+          "entities": 3,
+          "trip_join": {
+            "n": 3,
+            "of": 3
+          },
+          "stop_updates_timed": {
+            "n": 11,
+            "of": 11
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 3
+          },
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

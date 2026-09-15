@@ -1,0 +1,59 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "sitac-chalons",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T02:09:27Z",
+        "age_hours": 6.9,
+        "timetable_ends_on": "2026-10-17",
+        "days_left": 32,
+        "counts": {
+          "lines": 31,
+          "stops": 668,
+          "trips": 1640,
+          "stop_times": 39473
+        },
+        "pan_dataset_slug": "fr-200052264-t0005-0000-1",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 33,
+          "no_header_timestamp": 0,
+          "entities": 25,
+          "trip_join": {
+            "n": 25,
+            "of": 25
+          },
+          "stop_updates_timed": {
+            "n": 504,
+            "of": 504
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 25
+          },
+          "no_trip_id": 0
+        }
+      }
+    }
+  ]
+}

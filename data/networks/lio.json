@@ -1,0 +1,93 @@
+{
+  "schema": "quavsit-observatory/1",
+  "network": "lio",
+  "days": [
+    {
+      "day": "2026-09-15",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T22:08:31Z",
+        "age_hours": 11.0,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 350,
+        "counts": {
+          "lines": 310,
+          "stops": 12169,
+          "trips": 7823,
+          "stop_times": 128805
+        },
+        "pan_dataset_slug": "reseau-lio-occitanie",
+        "last_error": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "lio.2cloud.app",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 101,
+          "trip_join": {
+            "n": 101,
+            "of": 101
+          },
+          "stop_updates_timed": {
+            "n": 2063,
+            "of": 2099
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 101
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "lio.2cloud.app",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 22,
+          "no_header_timestamp": 0,
+          "entities": 100,
+          "with_position": {
+            "n": 94,
+            "of": 100
+          },
+          "with_trip_id": {
+            "n": 94,
+            "of": 94
+          },
+          "with_route_id": {
+            "n": 94,
+            "of": 94
+          },
+          "trip_join": {
+            "n": 94,
+            "of": 94
+          }
+        }
+      }
+    }
+  ]
+}
