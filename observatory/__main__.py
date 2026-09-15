@@ -20,9 +20,9 @@ def main() -> None:
     sub = parser.add_subparsers(dest="command", required=True)
     sample = sub.add_parser("sample", help="fetch every declared feed once and store its counts")
     sample.add_argument("--only", help="comma-separated network slugs")
-    publish = sub.add_parser("publish", help="write a day's files into the repository, commit and push")
+    publish = sub.add_parser("publish", help="write a day's files and export data.tar.gz for the repository to pull")
     publish.add_argument("--day", default="yesterday")
-    publish.add_argument("--no-push", action="store_true")
+    publish.add_argument("--no-export", action="store_true")
     args = parser.parse_args()
 
     db_path = os.environ.get("QUAVSIT_OBSERVATORY_DB", "/var/lib/quavsit/observatory.db")
@@ -38,8 +38,9 @@ def main() -> None:
         today = utc_now().date()
         day = {"today": today, "yesterday": today - timedelta(days=1)}.get(args.day) or date.fromisoformat(args.day)
         engine = Engine()
-        repo = Path(os.environ.get("QUAVSIT_OBSERVATORY_REPO", "/var/lib/quavsit/observatory-repo"))
-        result = run_publish(db_path, engine.transit_db, engine.networks_dir, repo, day, push=not args.no_push)
+        repo = Path(os.environ.get("QUAVSIT_OBSERVATORY_DATA", "/var/lib/quavsit/observatory-data"))
+        target = None if args.no_export else Path(os.environ.get("QUAVSIT_OBSERVATORY_EXPORT", "/var/www/dl/observatory"))
+        result = run_publish(db_path, engine.transit_db, engine.networks_dir, repo, day, export_to=target)
     print(json.dumps(result))
 
 

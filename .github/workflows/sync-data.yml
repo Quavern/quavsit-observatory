@@ -1,0 +1,57 @@
+# SPDX-License-Identifier: LicenseRef-QOSL-1.0
+# Copyright (c) 2026 Quavern
+# This file is subject to the Quavern Open Source License, version 1.0.
+# A copy is available at https://oss.quavern.com/licences/qosl/1.0/
+
+# The Quavsit host exports data.tar.gz after each publish; this job pulls it, checks its
+# SHA-256, commits data/ when it changed, and rebuilds the pages. The host holds no
+# credential for GitHub.
+name: Pull the published data
+
+on:
+  schedule:
+    - cron: "10 1,3,6,9,12,15,18,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify
+        run: |
+          set -eu
+          curl -fsSL --retry 3 -o data.tar.gz "https://dl.quavern.net/observatory/data.tar.gz?t=$(date +%s)"
+          curl -fsSL --retry 3 -o data.sha256 "https://dl.quavern.net/observatory/data.sha256?t=$(date +%s)"
+          sha256sum -c data.sha256
+          tar -tzf data.tar.gz | grep -vqE '^data/' && { echo "unexpected path in archive"; exit 1; } || true
+          rm -rf data && tar -xzf data.tar.gz --no-same-owner && rm data.tar.gz data.sha256
+          mkdir -p data/days data/networks && touch data/days/.gitkeep data/networks/.gitkeep
+      - id: commit
+        name: Commit when the data changed
+        run: |
+          set -eu
+          git add data
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          day=$(python3 -c 'import json; d=json.load(open("data/latest.json")); print(d["day"] + ("" if d["complete"] else " (so far)"))')
+          git -c user.name="Quavsit Observatory" -c user.email="hello@quavern.com" commit -q -m "data: $day"
+          git push -q origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  pages:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

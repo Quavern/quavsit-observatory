@@ -17,7 +17,10 @@ import json
 import re
 import sqlite3
 import statistics
+import hashlib
+import os
 import subprocess
+import tarfile
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -372,23 +375,33 @@ def write_files(repo: Path, document: dict) -> list[Path]:
     return written
 
 
-def git(repo: Path, *args: str, check: bool = True) -> str:
-    return subprocess.run(["git", "-C", str(repo), *args], check=check, capture_output=True, text=True).stdout
+def export(repo: Path, target: Path) -> dict:
+    """Pack data/ as data.tar.gz with its SHA-256 next to it, swapped in atomically.
+
+    The repository pulls this archive (``.github/workflows/sync-data.yml``); the host holds
+    no credential for GitHub.
+    """
+    target.mkdir(parents=True, exist_ok=True)
+    staging = target / ".data.tar.gz.partial"
+    with tarfile.open(staging, "w:gz") as archive:
+        for path in sorted((repo / "data").rglob("*")):
+            if path.is_file() and not path.name.startswith("."):
+                info = archive.gettarinfo(str(path), arcname=str(path.relative_to(repo)))
+                info.uid = info.gid = 0
+                info.uname = info.gname = ""
+                info.mtime = 0
+                with path.open("rb") as handle:
+                    archive.addfile(info, handle)
+    digest = hashlib.sha256(staging.read_bytes()).hexdigest()
+    (target / ".data.sha256.partial").write_text(f"{digest}  data.tar.gz\n", encoding="utf-8")
+    os.chmod(staging, 0o644)
+    os.chmod(target / ".data.sha256.partial", 0o644)
+    os.replace(staging, target / "data.tar.gz")
+    os.replace(target / ".data.sha256.partial", target / "data.sha256")
+    return {"sha256": digest}
 
 
-def commit_and_push(repo: Path, day: str, push: bool = True) -> str:
-    git(repo, "add", "data")
-    if not git(repo, "status", "--porcelain", "--", "data").strip():
-        return "unchanged"
-    already = git(repo, "log", "--format=%s", "-n", "200", "--", f"data/days/{day}.json", check=False)
-    message = f"data: {day} (republished)" if f"data: {day}" in already else f"data: {day}"
-    git(repo, "-c", "user.name=Quavsit Observatory", "-c", "user.email=hello@quavern.com", "commit", "--quiet", "-m", message)
-    if push:
-        git(repo, "push", "--quiet", "origin", "HEAD:main")
-    return message
-
-
-def publish(db_path: str, transit_db: str, networks_dir: Path, repo: Path, day: date, *, push: bool = True) -> dict:
+def publish(db_path: str, transit_db: str, networks_dir: Path, repo: Path, day: date, *, export_to: Path | None = None) -> dict:
     now = utc_now()
     descriptors = load_descriptors(networks_dir)
     db = sqlite3.connect(db_path, timeout=30)
@@ -397,12 +410,12 @@ def publish(db_path: str, transit_db: str, networks_dir: Path, repo: Path, day: 
     problems = validate_day(document)
     if problems:
         raise SystemExit("refusing to publish: " + "; ".join(problems[:20]))
-    if push:
-        git(repo, "pull", "--rebase", "--quiet", "origin", "main")
     write_files(repo, document)
-    result = commit_and_push(repo, document["day"], push=push)
+    result = {"day": document["day"], "complete": document["complete"], "networks": len(document["networks"]), "samples": document["samples_taken"]}
+    if export_to is not None:
+        result.update(export(repo, export_to))
     cutoff = iso(now - timedelta(days=RAW_RETENTION_DAYS))
     db.execute("DELETE FROM feed_samples WHERE fetched_at < ?", (cutoff,))
     db.execute("DELETE FROM samples WHERE started_at < ?", (cutoff,))
     db.commit()
-    return {"day": document["day"], "networks": len(document["networks"]), "samples": document["samples_taken"], "git": result}
+    return result

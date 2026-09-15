@@ -19,6 +19,6 @@ Environment=QUAVSIT_OBSERVATORY_DB=/var/lib/quavsit/observatory.db
 Environment=SQLITE_TMPDIR=/var/lib/quavsit
 NoNewPrivileges=true
 PrivateTmp=true
-Environment=QUAVSIT_OBSERVATORY_REPO=/var/lib/quavsit/observatory-repo
-Environment="GIT_SSH_COMMAND=ssh -i /etc/quavsit/observatory-deploy.key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=/etc/quavsit/github_known_hosts"
+Environment=QUAVSIT_OBSERVATORY_DATA=/var/lib/quavsit/observatory-data
+Environment=QUAVSIT_OBSERVATORY_EXPORT=/var/www/dl/observatory
 ExecStart=/opt/marl/venv/bin/python -m observatory publish --day %i
