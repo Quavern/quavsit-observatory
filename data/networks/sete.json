@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T07:08:17Z",
-        "age_hours": 74.0,
+        "age_hours": 76.8,
         "timetable_ends_on": "2027-04-04",
         "days_left": 201,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "sete.ceccli.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 6,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
-          "entities": 132,
+          "entities": 108,
           "trip_join": {
-            "n": 132,
-            "of": 132
+            "n": 216,
+            "of": 216
           },
           "stop_updates_timed": {
-            "n": 2063,
-            "of": 2063
+            "n": 3387,
+            "of": 3387
           },
           "cancelled": {
             "n": 0,
-            "of": 132
+            "of": 216
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "sete.ceccli.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,24 +67,24 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 6,
+          "header_age_seconds": 13,
           "no_header_timestamp": 0,
-          "entities": 45,
+          "entities": 46,
           "with_position": {
-            "n": 45,
-            "of": 45
+            "n": 93,
+            "of": 93
           },
           "with_trip_id": {
-            "n": 34,
-            "of": 45
+            "n": 65,
+            "of": 93
           },
           "with_route_id": {
-            "n": 34,
-            "of": 45
+            "n": 65,
+            "of": 93
           },
           "trip_join": {
-            "n": 34,
-            "of": 34
+            "n": 65,
+            "of": 65
           }
         }
       }

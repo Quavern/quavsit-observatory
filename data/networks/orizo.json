@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:41Z",
-        "age_hours": 156.8,
+        "age_hours": 159.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 7,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 221,
+          "entities": 216,
           "trip_join": {
-            "n": 221,
-            "of": 221
+            "n": 433,
+            "of": 433
           },
           "stop_updates_timed": {
-            "n": 4587,
-            "of": 4587
+            "n": 8834,
+            "of": 8834
           },
           "cancelled": {
             "n": 0,
-            "of": 221
+            "of": 433
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,22 +69,22 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 77,
+          "entities": 75,
           "with_position": {
-            "n": 77,
-            "of": 77
+            "n": 151,
+            "of": 151
           },
           "with_trip_id": {
-            "n": 77,
-            "of": 77
+            "n": 151,
+            "of": 151
           },
           "with_route_id": {
-            "n": 77,
-            "of": 77
+            "n": 151,
+            "of": 151
           },
           "trip_join": {
-            "n": 77,
-            "of": 77
+            "n": 151,
+            "of": 151
           }
         }
       }

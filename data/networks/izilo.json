@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:29Z",
-        "age_hours": 157.0,
+        "age_hours": 159.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-rdla-lorient.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 3,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 152,
+          "entities": 158,
           "trip_join": {
-            "n": 151,
-            "of": 152
+            "n": 316,
+            "of": 317
           },
           "stop_updates_timed": {
-            "n": 1671,
-            "of": 1719
+            "n": 3390,
+            "of": 3485
           },
           "cancelled": {
             "n": 0,
-            "of": 152
+            "of": 317
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,10 +69,10 @@
           "samples_night": 0,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 22,
+          "entities": 23,
           "informed_resolved": {
-            "n": 34,
-            "of": 35
+            "n": 82,
+            "of": 84
           }
         }
       }

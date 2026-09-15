@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T22:07:22Z",
-        "age_hours": 83.0,
+        "age_hours": 85.8,
         "timetable_ends_on": "2028-12-31",
         "days_left": 838,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "alesy.plateforme-2cloud.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 24,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
-          "entities": 270,
+          "entities": 235,
           "trip_join": {
-            "n": 270,
-            "of": 270
+            "n": 470,
+            "of": 470
           },
           "stop_updates_timed": {
-            "n": 5359,
-            "of": 5361
+            "n": 9621,
+            "of": 9625
           },
           "cancelled": {
             "n": 0,
-            "of": 270
+            "of": 470
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "alesy.plateforme-2cloud.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,24 +67,24 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 10,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 17,
+          "entities": 22,
           "with_position": {
-            "n": 17,
-            "of": 17
+            "n": 44,
+            "of": 44
           },
           "with_trip_id": {
-            "n": 17,
-            "of": 17
+            "n": 44,
+            "of": 44
           },
           "with_route_id": {
-            "n": 17,
-            "of": 17
+            "n": 44,
+            "of": 44
           },
           "trip_join": {
-            "n": 17,
-            "of": 17
+            "n": 44,
+            "of": 44
           }
         }
       }

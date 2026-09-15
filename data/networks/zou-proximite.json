@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T10:10:28Z",
-        "age_hours": 22.9,
+        "age_hours": 25.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 16,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 2171,
+          "entities": 2177,
           "trip_join": {
-            "n": 2171,
-            "of": 2171
+            "n": 4354,
+            "of": 4354
           },
           "stop_updates_timed": {
-            "n": 63990,
-            "of": 63990
+            "n": 128264,
+            "of": 128264
           },
           "cancelled": {
             "n": 0,
-            "of": 2171
+            "of": 4354
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,12 +67,12 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 53,
+          "header_age_seconds": 195,
           "no_header_timestamp": 0,
           "entities": 21,
           "informed_resolved": {
-            "n": 74,
-            "of": 104
+            "n": 155,
+            "of": 216
           }
         }
       }

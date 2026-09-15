@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T07:09:40Z",
-        "age_hours": 25.9,
+        "age_hours": 28.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 347,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 4,
+          "entities": 5,
           "trip_join": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "stop_updates_timed": {
-            "n": 19,
-            "of": 19
+            "n": 52,
+            "of": 52
           },
           "cancelled": {
             "n": 0,
-            "of": 2
+            "of": 5
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,22 +69,22 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 4,
+          "entities": 5,
           "with_position": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "with_trip_id": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "with_route_id": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "trip_join": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           }
         }
       }

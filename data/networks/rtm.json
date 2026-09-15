@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T09:09:11Z",
-        "age_hours": 24.0,
+        "age_hours": 26.8,
         "timetable_ends_on": "2026-11-12",
         "days_left": 58,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "alerts": {
           "host": "api-mobilite.rbgl.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,12 +36,12 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 192,
+          "header_age_seconds": 230,
           "no_header_timestamp": 0,
           "entities": 77,
           "informed_resolved": {
-            "n": 496,
-            "of": 703
+            "n": 988,
+            "of": 1403
           }
         }
       }

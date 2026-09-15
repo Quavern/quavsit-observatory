@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 84.0,
+        "age_hours": 86.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -36,27 +36,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 59,
+          "header_age_seconds": 50,
           "no_header_timestamp": 0,
-          "entities": 14,
+          "entities": 22,
           "trip_join": {
-            "n": 14,
-            "of": 14
+            "n": 44,
+            "of": 44
           },
           "stop_updates_timed": {
-            "n": 163,
-            "of": 163
+            "n": 489,
+            "of": 489
           },
           "cancelled": {
             "n": 2,
-            "of": 14
+            "of": 44
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -67,12 +67,12 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 11,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 1097,
+          "entities": 1098,
           "informed_resolved": {
-            "n": 2981,
-            "of": 2981
+            "n": 5964,
+            "of": 5964
           }
         }
       }

@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:33Z",
-        "age_hours": 156.9,
+        "age_hours": 159.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 15,
+          "entities": 14,
           "trip_join": {
-            "n": 8,
-            "of": 8
+            "n": 15,
+            "of": 15
           },
           "stop_updates_timed": {
-            "n": 118,
-            "of": 118
+            "n": 189,
+            "of": 189
           },
           "cancelled": {
             "n": 0,
-            "of": 8
+            "of": 15
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,22 +69,22 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 15,
+          "entities": 14,
           "with_position": {
-            "n": 7,
-            "of": 7
+            "n": 14,
+            "of": 14
           },
           "with_trip_id": {
-            "n": 7,
-            "of": 7
+            "n": 14,
+            "of": 14
           },
           "with_route_id": {
-            "n": 7,
-            "of": 7
+            "n": 14,
+            "of": 14
           },
           "trip_join": {
-            "n": 7,
-            "of": 7
+            "n": 14,
+            "of": 14
           }
         }
       }

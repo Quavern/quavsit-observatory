@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T08:10:07Z",
-        "age_hours": 0.9,
+        "age_hours": 3.8,
         "timetable_ends_on": "2026-10-07",
         "days_left": 22,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": 1444,
+          "entities": 1439,
           "trip_join": {
-            "n": 1195,
-            "of": 1387
+            "n": 2377,
+            "of": 2763
           },
           "stop_updates_timed": {
-            "n": 23177,
-            "of": 23426
+            "n": 45792,
+            "of": 46423
           },
           "cancelled": {
-            "n": 195,
-            "of": 1387
+            "n": 392,
+            "of": 2763
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,10 +69,10 @@
           "samples_night": 0,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": 1444,
+          "entities": 1439,
           "informed_resolved": {
-            "n": 37,
-            "of": 48
+            "n": 75,
+            "of": 97
           }
         }
       }

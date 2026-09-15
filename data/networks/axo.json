@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:17Z",
-        "age_hours": 17.9,
+        "age_hours": 20.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 45,
+          "entities": 43,
           "trip_join": {
-            "n": 45,
-            "of": 45
+            "n": 87,
+            "of": 87
           },
           "stop_updates_timed": {
-            "n": 1024,
-            "of": 1024
+            "n": 2060,
+            "of": 2060
           },
           "cancelled": {
-            "n": 0,
-            "of": 45
+            "n": 1,
+            "of": 87
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,22 +69,22 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 21,
+          "entities": 20,
           "with_position": {
-            "n": 21,
-            "of": 21
+            "n": 41,
+            "of": 41
           },
           "with_trip_id": {
-            "n": 21,
-            "of": 21
+            "n": 41,
+            "of": 41
           },
           "with_route_id": {
-            "n": 21,
-            "of": 21
+            "n": 41,
+            "of": 41
           },
           "trip_join": {
-            "n": 21,
-            "of": 21
+            "n": 41,
+            "of": 41
           }
         }
       }

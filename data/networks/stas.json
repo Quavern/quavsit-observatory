@@ -5,7 +5,7 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "never_ingested",
         "refreshed_at": null,
@@ -22,11 +22,11 @@
       "realtime": {
         "trip_updates": {
           "host": "bus-prod.saint-etienne-metropole.fr",
-          "samples": 1,
+          "samples": 2,
           "ok": 0,
           "failures": {
             "timeout": 0,
-            "connection": 1,
+            "connection": 2,
             "http_4xx": 0,
             "http_5xx": 0,
             "decode_error": 0,

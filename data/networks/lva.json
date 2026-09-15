@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:21:31Z",
-        "age_hours": 156.7,
+        "age_hours": 159.6,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-vienne-mobi.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 23,
+          "entities": 24,
           "trip_join": {
-            "n": 13,
-            "of": 13
+            "n": 27,
+            "of": 27
           },
           "stop_updates_timed": {
-            "n": 199,
-            "of": 199
+            "n": 357,
+            "of": 357
           },
           "cancelled": {
             "n": 0,
-            "of": 13
+            "of": 27
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-vienne-mobi.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,28 +69,28 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 23,
+          "entities": 24,
           "with_position": {
-            "n": 10,
-            "of": 10
+            "n": 22,
+            "of": 22
           },
           "with_trip_id": {
-            "n": 10,
-            "of": 10
+            "n": 22,
+            "of": 22
           },
           "with_route_id": {
-            "n": 10,
-            "of": 10
+            "n": 22,
+            "of": 22
           },
           "trip_join": {
-            "n": 10,
-            "of": 10
+            "n": 22,
+            "of": 22
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -103,10 +103,10 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 13,
+          "entities": 12,
           "informed_resolved": {
-            "n": 16,
-            "of": 16
+            "n": 31,
+            "of": 31
           }
         }
       }

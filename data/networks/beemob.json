@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 2,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T18:07:53Z",
-        "age_hours": 111.0,
+        "age_hours": 113.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -24,8 +24,8 @@
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -38,25 +38,25 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 86,
+          "entities": 79,
           "trip_join": {
-            "n": 86,
-            "of": 86
+            "n": 158,
+            "of": 158
           },
           "stop_updates_timed": {
-            "n": 2473,
-            "of": 2488
+            "n": 4605,
+            "of": 4636
           },
           "cancelled": {
             "n": 0,
-            "of": 86
+            "of": 158
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -69,22 +69,22 @@
           "samples_night": 0,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 36,
+          "entities": 33,
           "with_position": {
-            "n": 36,
-            "of": 36
+            "n": 67,
+            "of": 67
           },
           "with_trip_id": {
-            "n": 36,
-            "of": 36
+            "n": 67,
+            "of": 67
           },
           "with_route_id": {
-            "n": 36,
-            "of": 36
+            "n": 67,
+            "of": 67
           },
           "trip_join": {
-            "n": 36,
-            "of": 36
+            "n": 67,
+            "of": 67
           }
         }
       }
