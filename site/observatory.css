@@ -772,6 +772,31 @@ pre {
   font-variant-numeric: tabular-nums;
 }
 
+/* Every region's ledger shares one set of columns, so a figure lines up down the page. */
+.ledger--index {
+  table-layout: fixed;
+}
+
+.ledger--index .col-network {
+  width: 22%;
+}
+
+.ledger--index .col-timetable {
+  width: 19%;
+}
+
+.ledger--index .col-loaded {
+  width: 11%;
+}
+
+.ledger--index .col-feed {
+  width: 17.5%;
+}
+
+.ledger--index .col-alerts {
+  width: 13%;
+}
+
 .ledger th,
 .ledger td {
   padding: var(--space-2) var(--space-3) var(--space-2) 0;
@@ -804,6 +829,7 @@ pre {
 
 .ledger td {
   color: var(--color-ink-soft);
+  overflow-wrap: anywhere;
 }
 
 .ledger td.live {

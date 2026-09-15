@@ -389,7 +389,8 @@ function indexPage(lang, latest) {
       return `        <section class="region" aria-label="${escapeHtml(t(lang, c.ledgerCaption(region)))}">
           <h2>${escapeHtml(region)}</h2>
           <div class="table-scroll">
-            <table class="ledger">
+            <table class="ledger ledger--index">
+              <colgroup><col class="col-network"><col class="col-timetable"><col class="col-loaded"><col class="col-feed"><col class="col-feed"><col class="col-alerts"></colgroup>
               <thead><tr>${c.columns.map((col) => `<th scope="col">${escapeHtml(col)}</th>`).join("")}</tr></thead>
               <tbody>
 ${rows}
