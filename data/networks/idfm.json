@@ -9,7 +9,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T17:08:42Z",
-        "age_hours": 0.8,
+        "age_hours": 5.1,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -20,6 +20,9 @@
         },
         "pan_dataset_slug": null,
         "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null,
         "timetable_ends_on_reason": "not_gtfs"
       },
       "realtime": {}

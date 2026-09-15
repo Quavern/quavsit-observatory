@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:09:10Z",
-        "age_hours": 6.8,
+        "age_hours": 11.1,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -20,6 +20,9 @@
         },
         "pan_dataset_slug": null,
         "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null,
         "timetable_ends_on_reason": "not_gtfs"
       },
       "realtime": {
@@ -36,7 +39,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 49,
           "no_header_timestamp": 0,
           "entities": 1525,
@@ -67,7 +70,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 56,
           "no_header_timestamp": 0,
           "entities": 512,

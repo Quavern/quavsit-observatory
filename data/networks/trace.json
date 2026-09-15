@@ -9,7 +9,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T09:07:44Z",
-        "age_hours": 128.8,
+        "age_hours": 133.1,
         "timetable_ends_on": "2026-11-15",
         "days_left": 61,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 28643
         },
         "pan_dataset_slug": "fr-200052264-t0004-0000-1",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {}
     }

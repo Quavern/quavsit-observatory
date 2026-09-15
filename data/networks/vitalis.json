@@ -9,7 +9,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T08:09:43Z",
-        "age_hours": 33.8,
+        "age_hours": 38.1,
         "timetable_ends_on": "2026-11-22",
         "days_left": 68,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 113427
         },
         "pan_dataset_slug": "mobilite-offre-de-transport-du-reseau-bus-gtfs-gtfs-rt",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {}
     }

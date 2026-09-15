@@ -5,21 +5,24 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T10:10:28Z",
-        "age_hours": 31.7,
+        "refreshed_at": "2026-09-15T22:09:29Z",
+        "age_hours": 0.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
           "lines": 124,
           "stops": 6189,
-          "trips": 3324,
-          "stop_times": 103696
+          "trips": 3327,
+          "stop_times": 103789
         },
         "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
-        "last_error": null
+        "last_error": null,
+        "checked_at": "2026-09-15T22:09:48Z",
+        "check_age_hours": 0.1,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 24,
           "no_header_timestamp": 0,
           "entities": 2185,
@@ -66,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 23,

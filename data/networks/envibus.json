@@ -7,17 +7,22 @@
       "complete": false,
       "samples_taken": 0,
       "static": {
-        "state": "never_ingested",
-        "refreshed_at": null,
-        "age_hours": null,
-        "timetable_ends_on": null,
-        "days_left": null,
-        "counts": null,
+        "state": "ok",
+        "refreshed_at": "2026-09-15T22:07:02Z",
+        "age_hours": 0.1,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 33,
+        "counts": {
+          "lines": 26,
+          "stops": 736,
+          "trips": 4792,
+          "stop_times": 118970
+        },
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-bus-du-reseau-des-transports-publics-envibus",
-        "last_error": {
-          "reason": "timeout",
-          "host": "open-share.agglo-casa.fr"
-        }
+        "last_error": null,
+        "checked_at": "2026-09-15T22:07:07Z",
+        "check_age_hours": 0.1,
+        "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {}
     }

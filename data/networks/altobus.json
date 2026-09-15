@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:07:35Z",
-        "age_hours": 23.8,
+        "age_hours": 28.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 55905
         },
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
-        "last_error": null
+        "last_error": null,
+        "checked_at": "2026-09-15T22:05:01Z",
+        "check_age_hours": 0.1,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 412,

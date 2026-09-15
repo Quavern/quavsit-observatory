@@ -9,7 +9,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T01:07:23Z",
-        "age_hours": 16.8,
+        "age_hours": 21.1,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 138301
         },
         "pan_dataset_slug": "offre-du-reseau-de-transport-interurbain-fluo-grand-est",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {}
     }

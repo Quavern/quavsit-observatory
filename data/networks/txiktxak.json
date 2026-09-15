@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 86.7,
+        "age_hours": 91.1,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 204276
         },
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 416,
@@ -66,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 7,

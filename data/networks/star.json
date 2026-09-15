@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:40Z",
-        "age_hours": 26.8,
+        "age_hours": 31.1,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 1823871
         },
         "pan_dataset_slug": "versions-des-horaires-theoriques-des-lignes-de-bus-et-de-metro-du-reseau-star-dans-les-formats-gtfs-et-netex-ainsi-que-les-urls-dacces-au-gtfs-rt-1",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 402,
@@ -66,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 174,
@@ -100,7 +103,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 42,

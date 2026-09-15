@@ -5,21 +5,24 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-10T06:12:26Z",
-        "age_hours": 131.7,
+        "refreshed_at": "2026-09-15T18:09:40Z",
+        "age_hours": 4.1,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
-          "lines": 201,
-          "stops": 2602,
-          "trips": 2575,
-          "stop_times": 64909
+          "lines": 200,
+          "stops": 2599,
+          "trips": 2573,
+          "stop_times": 64908
         },
         "pan_dataset_slug": "reseau-urbain-kiceo",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 4,
@@ -66,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -100,7 +103,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 5,

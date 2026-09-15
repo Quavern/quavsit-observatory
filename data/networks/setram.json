@@ -5,11 +5,11 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:28Z",
-        "age_hours": 165.5,
+        "age_hours": 169.8,
         "timetable_ends_on": "2026-11-28",
         "days_left": 74,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 214207
         },
         "pan_dataset_slug": "gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole",
-        "last_error": null
+        "last_error": null,
+        "checked_at": "2026-09-15T22:09:28Z",
+        "check_age_hours": 0.1,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 229,
@@ -66,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 87,
@@ -100,7 +103,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,

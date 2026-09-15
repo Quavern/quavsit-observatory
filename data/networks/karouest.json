@@ -9,7 +9,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:19Z",
-        "age_hours": 165.7,
+        "age_hours": 170.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -19,7 +19,10 @@
           "stop_times": 129431
         },
         "pan_dataset_slug": "reseau-karouest",
-        "last_error": null
+        "last_error": null,
+        "checked_at": "2026-09-15T22:04:54Z",
+        "check_age_hours": 0.2,
+        "source": "operator"
       },
       "realtime": {}
     }

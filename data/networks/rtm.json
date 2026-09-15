@@ -5,21 +5,24 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T09:09:11Z",
-        "age_hours": 32.8,
-        "timetable_ends_on": "2026-11-12",
-        "days_left": 58,
+        "refreshed_at": "2026-09-15T21:07:39Z",
+        "age_hours": 1.1,
+        "timetable_ends_on": "2026-11-13",
+        "days_left": 59,
         "counts": {
           "lines": 125,
           "stops": 2754,
-          "trips": 44911,
-          "stop_times": 1012742
+          "trips": 43298,
+          "stop_times": 980955
         },
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "alerts": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 169,
           "no_header_timestamp": 0,
           "entities": 80,

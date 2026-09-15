@@ -8,18 +8,21 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-10T18:09:58Z",
-        "age_hours": 119.8,
+        "refreshed_at": "2026-09-15T18:09:48Z",
+        "age_hours": 4.1,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
           "lines": 27,
-          "stops": 1859,
-          "trips": 7170,
-          "stop_times": 212170
+          "stops": 1861,
+          "trips": 12684,
+          "stop_times": 375241
         },
         "pan_dataset_slug": "offre-de-transports-sibra-a-annecy-gtfs",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {}
     }

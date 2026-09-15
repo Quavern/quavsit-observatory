@@ -5,13 +5,13 @@
     {
       "day": "2026-09-15",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T09:10:22Z",
-        "age_hours": 32.7,
-        "timetable_ends_on": "2026-09-27",
-        "days_left": 12,
+        "refreshed_at": "2026-09-15T21:09:01Z",
+        "age_hours": 1.1,
+        "timetable_ends_on": "2026-09-28",
+        "days_left": 13,
         "counts": {
           "lines": 38,
           "stops": 1693,
@@ -19,7 +19,10 @@
           "stop_times": 207449
         },
         "pan_dataset_slug": "gtfs-sankeo",
-        "last_error": null
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "trip_updates": {
@@ -35,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 129,
