@@ -1,0 +1,37 @@
+name: Correction
+description: A figure on the Observatory is wrong.
+title: "Correction: <network> <day> <metric>"
+labels: [correction]
+body:
+  - type: input
+    id: network
+    attributes:
+      label: Network
+      description: The slug in the page address, for example tam.
+    validations:
+      required: true
+  - type: input
+    id: day
+    attributes:
+      label: Day
+      description: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Metric
+      description: For example trip_updates.trip_join.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: What you measured, how and when. Do not paste API keys or personal data.

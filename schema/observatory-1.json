@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oss.quavern.com/quavsit-observatory/schema/observatory-1.json",
+  "title": "Quavsit Observatory day file, version 1",
+  "type": "object",
+  "required": ["schema", "day", "complete", "generated_at", "engine", "samples_scheduled", "samples_taken", "networks"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "quavsit-observatory/1" },
+    "day": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "complete": { "type": "boolean" },
+    "generated_at": { "type": "string" },
+    "engine": {
+      "type": "object",
+      "required": ["code_sha256", "service_hours"],
+      "properties": {
+        "code_sha256": { "type": ["string", "null"] },
+        "service_hours": { "type": "string" }
+      }
+    },
+    "samples_scheduled": { "type": "integer", "minimum": 0 },
+    "samples_taken": { "type": "integer", "minimum": 0 },
+    "networks": { "type": "array", "items": { "$ref": "#/$defs/network" } }
+  },
+  "$defs": {
+    "rate": {
+      "type": ["object", "null"],
+      "required": ["n", "of"],
+      "additionalProperties": false,
+      "properties": { "n": { "type": "integer", "minimum": 0 }, "of": { "type": "integer", "minimum": 0 } }
+    },
+    "count": { "type": ["integer", "null"], "minimum": 0 },
+    "feed": {
+      "type": ["object", "null"],
+      "required": ["host", "samples", "ok", "failures", "rate_limited", "samples_night", "header_age_seconds", "no_header_timestamp", "entities"],
+      "properties": {
+        "host": { "type": "string" },
+        "samples": { "type": "integer", "minimum": 0 },
+        "ok": { "type": "integer", "minimum": 0 },
+        "failures": {
+          "type": "object",
+          "required": ["timeout", "connection", "http_4xx", "http_5xx", "decode_error", "budget"],
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "rate_limited": { "type": "integer", "minimum": 0 },
+        "samples_night": { "type": "integer", "minimum": 0 },
+        "header_age_seconds": { "$ref": "#/$defs/count" },
+        "no_header_timestamp": { "type": "integer", "minimum": 0 },
+        "entities": { "$ref": "#/$defs/count" },
+        "trip_join": { "$ref": "#/$defs/rate" },
+        "no_trip_id": { "type": "integer", "minimum": 0 },
+        "stop_updates_timed": { "$ref": "#/$defs/rate" },
+        "cancelled": { "$ref": "#/$defs/rate" },
+        "with_position": { "$ref": "#/$defs/rate" },
+        "with_trip_id": { "$ref": "#/$defs/rate" },
+        "with_route_id": { "$ref": "#/$defs/rate" },
+        "informed_resolved": { "$ref": "#/$defs/rate" }
+      }
+    },
+    "network": {
+      "type": "object",
+      "required": ["network", "name", "region", "timezone", "samples_taken", "static", "realtime", "engine_observed"],
+      "properties": {
+        "network": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "city": { "type": ["string", "null"] },
+        "region": { "type": ["string", "null"] },
+        "timezone": { "type": "string" },
+        "attribution": { "type": ["string", "null"] },
+        "samples_taken": { "type": "integer", "minimum": 0 },
+        "static": {
+          "type": "object",
+          "required": ["state", "refreshed_at", "age_hours", "timetable_ends_on", "days_left", "counts", "pan_dataset_slug", "last_error"],
+          "properties": {
+            "state": { "enum": ["ok", "error", "never_ingested"] },
+            "refreshed_at": { "type": ["string", "null"] },
+            "age_hours": { "type": ["number", "null"] },
+            "timetable_ends_on": { "type": ["string", "null"] },
+            "timetable_ends_on_reason": { "const": "not_gtfs" },
+            "days_left": { "type": ["integer", "null"] },
+            "counts": { "type": ["object", "null"] },
+            "pan_dataset_slug": { "type": ["string", "null"] },
+            "last_error": {
+              "type": ["object", "null"],
+              "required": ["reason", "host"],
+              "additionalProperties": false,
+              "properties": {
+                "reason": { "enum": ["timeout", "connection", "http_4xx", "http_5xx", "archive_invalid", "error"] },
+                "host": { "type": ["string", "null"] }
+              }
+            }
+          }
+        },
+        "realtime": {
+          "type": "object",
+          "propertyNames": { "enum": ["trip_updates", "vehicle_positions", "alerts"] },
+          "additionalProperties": { "$ref": "#/$defs/feed" }
+        },
+        "engine_observed": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "last_ok_at", "last_error_at", "state"],
+            "properties": { "state": { "enum": ["ok", "down", "unknown"] } }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,332 @@
+@font-face {
+  font-family: "Lineal";
+  src: url("./assets/fonts/LinealVF.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atkinson";
+  src: url("./assets/fonts/AtkinsonHyperlegibleNext-Latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Light is the master field and ships unchanged. Dark is the same drawing seen
+   after hours: the field stays in the rail-ink hue family (72), the paper steps
+   go up from it, and estuary depth keeps its reserved data/map role. Four
+   tokens never invert and are never redeclared in a dark block:
+   --color-accent-ink, --color-accent-rule, --color-focus-rest, and the base of
+   --color-overlay. */
+
+:root {
+  color-scheme: light dark;
+
+  --font-display: "Lineal", "Arial Black", sans-serif;
+  --font-body: "Atkinson", Arial, sans-serif;
+  --font-code: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --color-paper: oklch(96.5% 0.012 82);
+  --color-paper-raised: oklch(92% 0.014 82);
+  --color-plane: oklch(87% 0.016 82);
+  /* The ground a disabled control sits on: the far end of the paper ladder in
+     both themes, so it is never redeclared. */
+  --color-sunken: var(--color-plane);
+  --color-ink: oklch(18.5% 0.013 72);
+  --color-ink-soft: oklch(34% 0.012 72);
+  /* The drawn line, as distinct from text. One value on limestone, which is why
+     the drawing reads as printed. */
+  --color-rule: var(--color-ink);
+  --color-contact: oklch(72% 0.16 76);
+  --color-accent: var(--color-contact);
+  /* Decoration only — hover underlines and the amber edges. On limestone it is
+     contact; after hours contact rises above the text floor, so decoration
+     steps back. */
+  --color-accent-quiet: var(--color-contact);
+  /* Drawn on amber, which is a light surface in both themes: never inverted. */
+  --color-accent-ink: oklch(18.5% 0.013 72);
+  --color-accent-rule: oklch(18.5% 0.013 72);
+  /* Focus is chosen by ground, never by theme: --color-focus for the page,
+     --color-focus-on-dark for the depth plane and the reversed band. */
+  --color-focus: oklch(46% 0.14 66);
+  --color-focus-on-dark: var(--color-contact);
+  /* Estuary depth: the data/map plane, never a foreground and never an accent.
+     Dark in both themes, so after hours it moves up to stay a distinct plane
+     and gains a drawn edge, because the fill is no longer its own boundary. */
+  --color-depth: oklch(24% 0.045 235);
+  --color-depth-text: oklch(96.5% 0.012 82);
+  --color-depth-text-soft: oklch(87% 0.016 82);
+  --color-depth-edge: var(--color-depth);
+  /* A reversed band — footer, curl sample, fenced code. A band cannot invert:
+     after hours it becomes the lifted plate. */
+  --color-reverse-field: var(--color-ink);
+  --color-reverse-text: var(--color-paper);
+  --color-reverse-rule: var(--color-reverse-text);
+  /* The solid emphasis control — primary button, download CTA, selected tab. At
+     button scale the inversion is right, which is why it is named apart from
+     the band. */
+  --color-solid: var(--color-ink);
+  --color-solid-ink: var(--color-paper);
+  --color-solid-hover: var(--color-depth);
+  --color-link-hover: var(--color-depth);
+  /* A scrim and a cast shadow are physical, not tonal: both stay darker than
+     their ground in every theme. */
+  --color-overlay: color-mix(in srgb, oklch(18.5% 0.013 72) 54%, transparent);
+  --color-shadow: oklch(18.5% 0.013 72);
+  --color-focus-rest: transparent;
+  --color-error: oklch(45% 0.15 29);
+  --color-success: oklch(42% 0.1 145);
+
+  /* Paper grain plate. The rect inside it is a default-black feTurbulence fill
+     already at opacity .12, so this multiplier is a sub-LSB dither on either
+     field: the same number in both, and redeclared in neither dark branch. */
+  --noise-opacity: 0.025;
+
+  --rule-hairline: 1px;
+  --rule-strong: 2px;
+  --border-thin: var(--rule-hairline);
+  --border-heavy: var(--rule-strong);
+  --radius-cut: 0.2rem;
+  --radius-control: 0.35rem;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+  --space-1: var(--space-2xs);
+  --space-2: var(--space-xs);
+  --space-3: var(--space-sm);
+  --space-4: var(--space-md);
+  --space-5: var(--space-lg);
+  --space-6: var(--space-xl);
+  --space-7: var(--space-2xl);
+  --space-8: var(--space-3xl);
+  --space-9: var(--space-4xl);
+  --space-10: var(--space-5xl);
+
+  --content-max: 78rem;
+  --reading-max: 65ch;
+  --rail-width: 4.5rem;
+  --control-height: 2.75rem;
+  --z-raised: 2;
+  --z-sticky: 30;
+  --z-scrim: 40;
+  --z-drawer: 41;
+  --z-modal: 50;
+
+  --step--1: clamp(0.78rem, 0.74rem + 0.13vw, 0.88rem);
+  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.12rem + 0.55vw, 1.65rem);
+  --step-2: clamp(1.65rem, 1.37rem + 1.15vw, 2.5rem);
+  --step-3: clamp(2.15rem, 1.66rem + 2.1vw, 3.75rem);
+  --step-4: clamp(3.1rem, 2.15rem + 4.4vw, 6.25rem);
+  --step-5: clamp(4.2rem, 2.8rem + 7vw, 9rem);
+  --text-label: var(--step--1);
+  --text-body: var(--step-0);
+  --text-lead: var(--step-1);
+  --text-title: var(--step-2);
+  --text-heading: var(--step-3);
+  --text-display: var(--step-4);
+  --text-hero: var(--step-5);
+
+  --line-tight: 0.94;
+  --line-heading: 1.02;
+  --line-body: 1.58;
+  --tracking-label: 0.09em;
+
+  --ease-out: cubic-bezier(0.18, 0.8, 0.24, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 120ms;
+  --dur-settle: 900ms;
+}
+
+/* After hours by system preference, unless the reader has pinned light. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --color-paper: oklch(15.5% 0.012 72);
+    --color-paper-raised: oklch(22.5% 0.013 72);
+    --color-plane: oklch(28% 0.014 72);
+    --color-ink: oklch(93% 0.010 82);
+    --color-ink-soft: oklch(77% 0.010 82);
+    --color-rule: oklch(57% 0.012 72);
+    --color-contact: oklch(76% 0.15 76);
+    --color-accent-quiet: oklch(62% 0.12 76);
+    --color-focus: oklch(61% 0.12 66);
+    --color-depth: oklch(34% 0.05 235);
+    --color-depth-text: oklch(93% 0.010 82);
+    --color-depth-text-soft: oklch(84% 0.014 82);
+    --color-depth-edge: var(--color-rule);
+    --color-reverse-field: var(--color-plane);
+    --color-reverse-text: var(--color-ink);
+    --color-reverse-rule: var(--color-rule);
+    --color-solid-hover: oklch(89% 0.012 82);
+    --color-link-hover: var(--color-solid-hover);
+    --color-overlay: color-mix(in srgb, oklch(6% 0.01 72) 72%, transparent);
+    --color-shadow: oklch(6% 0.01 72);
+    --color-error: oklch(72% 0.14 29);
+    --color-success: oklch(70% 0.12 145);
+  }
+}
+
+/* After hours by explicit choice, which wins on a light system. This block and
+   the one above are declaration-identical by design; plain CSS cannot share
+   them, so diff them in CI rather than trusting review. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-paper: oklch(15.5% 0.012 72);
+  --color-paper-raised: oklch(22.5% 0.013 72);
+  --color-plane: oklch(28% 0.014 72);
+  --color-ink: oklch(93% 0.010 82);
+  --color-ink-soft: oklch(77% 0.010 82);
+  --color-rule: oklch(57% 0.012 72);
+  --color-contact: oklch(76% 0.15 76);
+  --color-accent-quiet: oklch(62% 0.12 76);
+  --color-focus: oklch(61% 0.12 66);
+  --color-depth: oklch(34% 0.05 235);
+  --color-depth-text: oklch(93% 0.010 82);
+  --color-depth-text-soft: oklch(84% 0.014 82);
+  --color-depth-edge: var(--color-rule);
+  --color-reverse-field: var(--color-plane);
+  --color-reverse-text: var(--color-ink);
+  --color-reverse-rule: var(--color-rule);
+  --color-solid-hover: oklch(89% 0.012 82);
+  --color-link-hover: var(--color-solid-hover);
+  --color-overlay: color-mix(in srgb, oklch(6% 0.01 72) 72%, transparent);
+  --color-shadow: oklch(6% 0.01 72);
+  --color-error: oklch(72% 0.14 29);
+  --color-success: oklch(70% 0.12 145);
+}
+
+/* Daylight by explicit choice. The palette already sits on bare :root, so only
+   the UA chrome needs pinning back on a dark system. */
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* Specimens, scanners and exports do not follow the reader's theme. Put
+   data-theme-pin="light" on anything whose job is to show the palette rather
+   than be drawn in it: the logo stages and their captions, the brand-page
+   swatch chips whose printed values must stay true, and the MFA QR tile, which
+   a scanner needs as dark modules on a light field. data-theme-pin="dark" is
+   the same mechanism for the one specimen that must show the after-hours
+   field: the brand page's dark swatch grid. Every token is redeclared because
+   custom properties inherit, and each block also sets `color`, because the
+   colour property inherits separately and resolves at the root. The dark pin
+   deliberately survives @media print — a printed brand sheet must still show
+   the dark palette, and a declaration on the pinned element always beats the
+   inherited :root one the print block sets. */
+[data-theme-pin="light"] {
+  color-scheme: light;
+  color: var(--color-ink);
+
+  --color-paper: oklch(96.5% 0.012 82);
+  --color-paper-raised: oklch(92% 0.014 82);
+  --color-plane: oklch(87% 0.016 82);
+  --color-sunken: var(--color-plane);
+  --color-ink: oklch(18.5% 0.013 72);
+  --color-ink-soft: oklch(34% 0.012 72);
+  --color-rule: var(--color-ink);
+  --color-contact: oklch(72% 0.16 76);
+  --color-accent: var(--color-contact);
+  --color-accent-quiet: var(--color-contact);
+  --color-accent-ink: oklch(18.5% 0.013 72);
+  --color-accent-rule: oklch(18.5% 0.013 72);
+  --color-focus: oklch(46% 0.14 66);
+  --color-focus-on-dark: var(--color-contact);
+  --color-depth: oklch(24% 0.045 235);
+  --color-depth-text: oklch(96.5% 0.012 82);
+  --color-depth-text-soft: oklch(87% 0.016 82);
+  --color-depth-edge: var(--color-depth);
+  --color-reverse-field: var(--color-ink);
+  --color-reverse-text: var(--color-paper);
+  --color-reverse-rule: var(--color-reverse-text);
+  --color-solid: var(--color-ink);
+  --color-solid-ink: var(--color-paper);
+  --color-solid-hover: var(--color-depth);
+  --color-link-hover: var(--color-depth);
+  --color-overlay: color-mix(in srgb, oklch(18.5% 0.013 72) 54%, transparent);
+  --color-shadow: oklch(18.5% 0.013 72);
+  --color-focus-rest: transparent;
+  --color-error: oklch(45% 0.15 29);
+  --color-success: oklch(42% 0.1 145);
+  --noise-opacity: 0.025;
+}
+
+[data-theme-pin="dark"] {
+  color-scheme: dark;
+  color: var(--color-ink);
+
+  --color-paper: oklch(15.5% 0.012 72);
+  --color-paper-raised: oklch(22.5% 0.013 72);
+  --color-plane: oklch(28% 0.014 72);
+  --color-sunken: var(--color-plane);
+  --color-ink: oklch(93% 0.010 82);
+  --color-ink-soft: oklch(77% 0.010 82);
+  --color-rule: oklch(57% 0.012 72);
+  --color-contact: oklch(76% 0.15 76);
+  --color-accent: var(--color-contact);
+  --color-accent-quiet: oklch(62% 0.12 76);
+  --color-focus: oklch(61% 0.12 66);
+  --color-focus-on-dark: var(--color-contact);
+  --color-depth: oklch(34% 0.05 235);
+  --color-depth-text: oklch(93% 0.010 82);
+  --color-depth-text-soft: oklch(84% 0.014 82);
+  --color-depth-edge: var(--color-rule);
+  --color-reverse-field: var(--color-plane);
+  --color-reverse-text: var(--color-ink);
+  --color-reverse-rule: var(--color-rule);
+  --color-solid: var(--color-ink);
+  --color-solid-ink: var(--color-paper);
+  --color-solid-hover: oklch(89% 0.012 82);
+  --color-link-hover: var(--color-solid-hover);
+  --color-overlay: color-mix(in srgb, oklch(6% 0.01 72) 72%, transparent);
+  --color-shadow: oklch(6% 0.01 72);
+  --color-error: oklch(72% 0.14 29);
+  --color-success: oklch(70% 0.12 145);
+}
+
+/* Printing is not a theme. This block restores exactly the tokens the two dark
+   branches declare, and must stay last in this file: both of those branches
+   carry two compound selectors of their own, so a bare :root would lose to
+   them on specificity rather than on order. */
+@media print {
+  :root:not([data-theme]),
+  :root[data-theme] {
+    color-scheme: light;
+
+    --color-paper: oklch(96.5% 0.012 82);
+    --color-paper-raised: oklch(92% 0.014 82);
+    --color-plane: oklch(87% 0.016 82);
+    --color-ink: oklch(18.5% 0.013 72);
+    --color-ink-soft: oklch(34% 0.012 72);
+    --color-rule: var(--color-ink);
+    --color-contact: oklch(72% 0.16 76);
+    --color-accent-quiet: var(--color-contact);
+    --color-focus: oklch(46% 0.14 66);
+    --color-depth: oklch(24% 0.045 235);
+    --color-depth-text: oklch(96.5% 0.012 82);
+    --color-depth-text-soft: oklch(87% 0.016 82);
+    --color-depth-edge: var(--color-depth);
+    --color-reverse-field: var(--color-ink);
+    --color-reverse-text: var(--color-paper);
+    --color-reverse-rule: var(--color-reverse-text);
+    --color-solid-hover: var(--color-depth);
+    --color-link-hover: var(--color-depth);
+    --color-overlay: color-mix(in srgb, oklch(18.5% 0.013 72) 54%, transparent);
+    --color-shadow: oklch(18.5% 0.013 72);
+    --color-error: oklch(45% 0.15 29);
+    --color-success: oklch(42% 0.1 145);
+  }
+}

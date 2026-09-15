@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-140 -140 1420 1420"
+     role="img"
+     aria-labelledby="title desc"
+     shape-rendering="geometricPrecision">
+  <title id="title">Quavern symbol in rail ink</title>
+  <desc id="desc">A constructed Q with a concentric ring, a square-ended 45 degree tail, and one amber contact square.</desc>
+  <metadata>Outer diameter 1000; counter 720; band and tail 140; clear space 140. Rail ink #16120c; contact amber #dd9400.</metadata>
+  <g style="fill:#16120c;fill:oklch(18.5% 0.013 72)">
+    <path fill-rule="evenodd"
+          d="M500 0A500 500 0 1 1 500 1000A500 500 0 1 1 500 0ZM500 140A360 360 0 1 0 500 860A360 360 0 1 0 500 140Z"/>
+    <path d="M590.503 689.497 689.497 590.503 1139.497 1040.503 1040.503 1139.497Z"/>
+  </g>
+  <path style="fill:#dd9400;fill:oklch(72% 0.16 76)"
+        d="M769 769H839V839H769Z"/>
+</svg>

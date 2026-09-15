@@ -1,0 +1,9 @@
+[Unit]
+Description=Quavsit Observatory samples, eight a day (refresh shards run at :07)
+
+[Timer]
+OnCalendar=*-*-* 02,05,08,11,14,17,20,23:40:00 UTC
+Persistent=false
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,54 @@
+# SPDX-License-Identifier: LicenseRef-QOSL-1.0
+# Copyright (c) 2026 Quavern
+# This file is subject to the Quavern Open Source License, version 1.0.
+# A copy is available at https://oss.quavern.com/licences/qosl/1.0/
+
+name: Test, build and publish the Observatory
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-dev.txt
+      - name: Counting rules, aggregation and schema
+        run: python -m pytest -q
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pages
+        run: |
+          if [ ! -f data/latest.json ]; then echo "No published day yet; nothing to build."; mkdir -p _site; echo '<!doctype html><title>Quavsit Observatory</title><p>The first day is being recorded.</p>' > _site/index.html; else node site/build.mjs; fi
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://oss.quavern.com/quavsit-observatory/
+    steps:
+      - uses: actions/deploy-pages@v4

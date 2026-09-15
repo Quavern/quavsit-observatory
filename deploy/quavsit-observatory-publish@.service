@@ -1,0 +1,24 @@
+# %i is "today" (the day so far) or "yesterday" (the finished day).
+[Unit]
+Description=Quavsit Observatory: publish %i
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=marl
+Group=marl
+Nice=10
+MemoryMax=256M
+TimeoutStartSec=15min
+WorkingDirectory=/opt/quavsit-observatory
+Environment=PYTHONPATH=/opt/quavsit-observatory:/opt/marl/api
+Environment=QUAVERN_APP_PROFILE=quavsit
+Environment=QUAVSIT_TRANSIT_DB=/var/lib/quavsit/transit.db
+Environment=QUAVSIT_OBSERVATORY_DB=/var/lib/quavsit/observatory.db
+Environment=SQLITE_TMPDIR=/var/lib/quavsit
+NoNewPrivileges=true
+PrivateTmp=true
+Environment=QUAVSIT_OBSERVATORY_REPO=/var/lib/quavsit/observatory-repo
+Environment="GIT_SSH_COMMAND=ssh -i /etc/quavsit/observatory-deploy.key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=/etc/quavsit/github_known_hosts"
+ExecStart=/opt/marl/venv/bin/python -m observatory publish --day %i

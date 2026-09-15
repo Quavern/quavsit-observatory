@@ -1,0 +1,861 @@
+/* SPDX-License-Identifier: LicenseRef-QOSL-1.0
+ * Copyright (c) 2026 Quavern
+ * This file is subject to the Quavern Open Source License, version 1.0.
+ * A copy is available at https://oss.quavern.com/licences/qosl/1.0/
+ */
+
+/* Hallmark · macrostructure: Index-First (shared with oss.quavern.com) · tone: austere/technical · anchor hue: contact amber (76)
+ * theme: custom — Quavern DESIGN.md (light / geometric-grotesk / chromatic-amber) · nav: N1a · footer: Ft4 dense colophon (sans)
+ * enrichment: none (typography only) · reveal: none
+ *
+ * The Quavsit Observatory: the oss.quavern.com shell, then ledgers. One table
+ * per region, rows in name order, figures in tabular numerals as "n / of". The
+ * amber contact marks a feed measured working that day and nothing else: no
+ * red, no traffic lights, no grades.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: clip;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: clip;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+  font-kerning: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: var(--border-thin);
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: var(--border-heavy) solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+ol,
+dl,
+dd,
+pre {
+  margin: 0;
+}
+
+code,
+pre {
+  font-family: var(--font-code);
+  font-size: 0.9em;
+}
+
+.skip-link {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: var(--z-modal);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-solid);
+  color: var(--color-solid-ink);
+  font-weight: 800;
+  translate: 0 -200%;
+}
+
+.skip-link:focus {
+  translate: 0 0;
+}
+
+.oss-shell {
+  width: min(100% - 2 * var(--space-5), 58rem);
+  margin-inline: auto;
+}
+
+/* Header: the lockup names the house; language and theme sit at the end. */
+.oss-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-4);
+  min-height: 5rem;
+  padding-block: var(--space-3);
+  border-bottom: var(--border-thin) solid var(--color-rule);
+}
+
+.oss-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--control-height);
+  text-decoration: none;
+}
+
+.oss-brand img {
+  display: block;
+  width: auto;
+  height: 1.6rem;
+}
+
+.oss-brand-name {
+  padding-left: var(--space-3);
+  border-left: var(--border-thin) solid var(--color-rule);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.oss-tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.oss-language {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
+  padding-inline: var(--space-4);
+  border: var(--border-thin) solid var(--color-rule);
+  border-radius: var(--radius-control);
+  font-size: var(--text-label);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* The Quavern AUTO / LIGHT / DARK control, built by assets/theme-control.js
+   and hidden until that script makes it work. */
+.theme-toggle {
+  display: flex;
+  min-height: var(--control-height);
+  border: var(--border-thin) solid var(--color-rule);
+  background: var(--color-paper);
+}
+
+.theme-toggle:not([data-theme-toggle]) {
+  visibility: hidden;
+}
+
+.theme-toggle__legend {
+  display: none;
+}
+
+.theme-toggle__option {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.theme-toggle__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.theme-toggle__label {
+  display: inline-flex;
+  min-height: var(--control-height);
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  padding-inline: var(--space-3);
+  color: var(--color-ink);
+  cursor: pointer;
+  font-size: var(--text-label);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.theme-toggle__option + .theme-toggle__option .theme-toggle__label {
+  border-inline-start: var(--border-thin) solid var(--color-rule);
+}
+
+.theme-toggle__input:checked + .theme-toggle__label {
+  background: var(--color-solid);
+  color: var(--color-solid-ink);
+}
+
+.theme-toggle__input:checked + .theme-toggle__label::before {
+  position: absolute;
+  inset-block-start: var(--space-1);
+  inset-inline-start: var(--space-1);
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--color-contact);
+  content: "";
+}
+
+.theme-toggle__input:focus-visible + .theme-toggle__label {
+  outline: var(--border-heavy) solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+@media (forced-colors: active) {
+  .theme-toggle__input:checked + .theme-toggle__label {
+    forced-color-adjust: none;
+    background: Highlight;
+    color: HighlightText;
+  }
+}
+
+/* Opening: a label for what follows, not a hero. */
+.oss-intro {
+  display: grid;
+  gap: var(--space-4);
+  padding-block: var(--space-8) var(--space-6);
+}
+
+.oss-intro h1 {
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-heading);
+  font-weight: 900;
+  line-height: var(--line-heading);
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.oss-intro p {
+  max-width: 48ch;
+  color: var(--color-ink-soft);
+  font-size: var(--text-lead);
+  line-height: 1.42;
+  text-wrap: pretty;
+}
+
+.oss-intro p a {
+  color: var(--color-ink);
+}
+
+/* Sections: a rule, the section's name, one line saying what it holds. */
+.oss-section {
+  padding-block: var(--space-6) var(--space-7);
+  border-top: var(--border-thin) solid var(--color-rule);
+}
+
+.section-head {
+  display: grid;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.section-head h2 {
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  font-weight: 800;
+  line-height: var(--line-heading);
+  overflow-wrap: anywhere;
+}
+
+.section-head p {
+  max-width: 52ch;
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+/* Repositories: a drawn rail, one square contact per entry. The contact is
+   amber only when the repository is public, because that is the live state. */
+.repos {
+  padding: 0;
+  list-style: none;
+  border-left: var(--border-thin) solid var(--color-rule);
+}
+
+.repo {
+  position: relative;
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4) 0 var(--space-5) var(--space-5);
+}
+
+.repo + .repo {
+  border-top: var(--border-thin) solid var(--color-plane);
+}
+
+.repo::before {
+  position: absolute;
+  top: calc(var(--space-4) + 0.55rem);
+  left: calc(-0.3125rem - var(--border-thin) / 2);
+  width: 0.625rem;
+  height: 0.625rem;
+  border: var(--border-thin) solid var(--color-ink);
+  background: var(--color-paper);
+  content: "";
+}
+
+.repo--public::before {
+  border-color: var(--color-ink);
+  background: var(--color-contact);
+}
+
+.repo-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-4);
+}
+
+.repo-name {
+  min-width: 0;
+  font-size: var(--text-lead);
+  font-weight: 800;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.repo-path {
+  min-width: 0;
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+  overflow-wrap: anywhere;
+}
+
+.repo-summary {
+  max-width: 60ch;
+  text-wrap: pretty;
+}
+
+.repo-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-5);
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+  font-weight: 700;
+  letter-spacing: var(--tracking-label);
+  font-variant-numeric: tabular-nums;
+}
+
+.repo-state {
+  color: var(--color-ink);
+  font-weight: 800;
+}
+
+/* Licence: four sentences and the status, then the full text. */
+.licence-summary {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 44rem;
+  padding: var(--space-5);
+  border: var(--border-thin) solid var(--color-rule);
+  background: var(--color-paper-raised);
+}
+
+.licence-summary h3 {
+  font-size: var(--text-lead);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.licence-version {
+  color: var(--color-ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.licence-summary ul {
+  display: grid;
+  gap: var(--space-2);
+  padding: 0;
+  list-style: none;
+}
+
+.licence-summary li {
+  position: relative;
+  padding-left: 1.4rem;
+  text-wrap: pretty;
+}
+
+.licence-summary li::before {
+  position: absolute;
+  top: 0.68em;
+  left: 0.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--color-ink);
+  content: "";
+}
+
+.licence-status {
+  padding-top: var(--space-3);
+  border-top: var(--border-thin) solid var(--color-rule);
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+.licence-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-5);
+  font-size: var(--text-label);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+}
+
+.licence-links a,
+.licence-back a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
+  white-space: nowrap;
+}
+
+/* Rules: term and consequence on one datum; stacked when narrow. */
+.rules {
+  display: grid;
+}
+
+.rule {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: var(--space-2) var(--space-6);
+  padding-block: var(--space-4);
+  border-top: var(--border-thin) solid var(--color-plane);
+}
+
+.rule:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.rule dt {
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.rule dd {
+  max-width: 60ch;
+  text-wrap: pretty;
+}
+
+/* Upstream: a plain table; it scrolls inside its own box if it must. */
+.table-scroll {
+  overflow-x: auto;
+}
+
+.upstream {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.upstream th,
+.upstream td {
+  padding: var(--space-3) var(--space-4) var(--space-3) 0;
+  border-top: var(--border-thin) solid var(--color-plane);
+  text-align: left;
+  vertical-align: baseline;
+}
+
+.upstream tr:first-child th,
+.upstream tr:first-child td {
+  border-top: 0;
+}
+
+.upstream th {
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.upstream td {
+  color: var(--color-ink-soft);
+}
+
+.upstream .licence-cell {
+  padding-right: 0;
+  color: var(--color-ink);
+  font-size: var(--text-label);
+  font-weight: 700;
+  letter-spacing: var(--tracking-label);
+  white-space: nowrap;
+}
+
+/* The licence page: the text at reading measure, numbered articles as they
+   are written. */
+.licence-back {
+  padding-top: var(--space-5);
+  font-size: var(--text-label);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+}
+
+.licence {
+  padding-block: var(--space-5) var(--space-8);
+}
+
+.licence h1 {
+  max-width: 20ch;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-heading);
+  font-weight: 900;
+  line-height: var(--line-heading);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.licence > .licence-links {
+  margin-top: var(--space-3);
+}
+
+.licence-body {
+  max-width: var(--reading-max);
+  margin-top: var(--space-6);
+}
+
+.licence-body > * + * {
+  margin-top: var(--space-4);
+}
+
+.licence-body h2 {
+  margin-top: var(--space-7);
+  padding-top: var(--space-4);
+  border-top: var(--border-thin) solid var(--color-rule);
+  font-size: var(--text-lead);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.licence-body h2 + * {
+  margin-top: var(--space-3);
+}
+
+.licence-body p {
+  text-wrap: pretty;
+}
+
+.licence-body pre {
+  overflow-x: auto;
+  padding: var(--space-4);
+  border: var(--border-thin) solid var(--color-rule);
+  background: var(--color-paper-raised);
+  line-height: 1.5;
+}
+
+.licence-break {
+  margin-block: var(--space-7) 0;
+  border: 0;
+  border-top: var(--border-heavy) solid var(--color-rule);
+}
+
+/* Colophon: where this page comes from, then the house line and links. */
+.oss-colophon {
+  display: grid;
+  gap: var(--space-5);
+  padding-block: var(--space-6) var(--space-7);
+  border-top: var(--border-thin) solid var(--color-rule);
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+}
+
+.oss-colophon-text {
+  max-width: 72ch;
+  line-height: 1.55;
+  text-wrap: pretty;
+}
+
+.oss-colophon-text a,
+.oss-colophon strong {
+  color: var(--color-ink);
+}
+
+.oss-colophon-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-6);
+}
+
+.oss-colophon-foot nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-5);
+}
+
+.oss-colophon-foot nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
+  color: var(--color-ink);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    text-decoration-color: var(--color-accent-quiet);
+    text-decoration-thickness: var(--border-heavy);
+  }
+
+  .oss-brand:hover .oss-brand-name {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent-quiet);
+    text-decoration-thickness: var(--border-heavy);
+  }
+
+  .oss-language:hover {
+    background: var(--color-paper-raised);
+  }
+}
+
+@media (max-width: 42rem) {
+  .oss-shell {
+    width: min(100% - 2 * var(--space-4), 58rem);
+  }
+
+  .oss-tools {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .oss-intro {
+    padding-block: var(--space-6) var(--space-5);
+  }
+
+  .rule {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .licence-summary {
+    padding: var(--space-4);
+  }
+
+  /* Upstream rows stack: name and licence on one line, the use below. */
+  .upstream,
+  .upstream tbody {
+    display: block;
+  }
+
+  .upstream tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: var(--space-4);
+    padding-block: var(--space-3);
+    border-top: var(--border-thin) solid var(--color-plane);
+  }
+
+  .upstream tr:first-child {
+    border-top: 0;
+  }
+
+  .upstream th,
+  .upstream td {
+    padding: 0;
+    border-top: 0;
+  }
+
+  .upstream th {
+    grid-column: 1;
+    grid-row: 1;
+    white-space: normal;
+  }
+
+  .upstream .licence-cell {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .upstream td:not(.licence-cell) {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: var(--space-1);
+  }
+}
+
+@media print {
+  .oss-tools,
+  .oss-colophon-foot nav {
+    display: none;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* The trial line sits under the header, in ink, on the raised field. */
+.trial-note,
+.partial-note {
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border: var(--border-thin) solid var(--color-rule);
+  background: var(--color-paper-raised);
+  font-size: var(--text-label);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.oss-intro p.partial-note {
+  margin-top: 0;
+  max-width: 48ch;
+  color: var(--color-ink);
+  font-size: var(--text-label);
+  line-height: 1.5;
+}
+
+.intro-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-5);
+  font-size: var(--text-label);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+}
+
+.oss-intro p.intro-links {
+  color: var(--color-ink);
+}
+
+.intro-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
+  white-space: nowrap;
+}
+
+.network-intro {
+  padding-block: var(--space-5) var(--space-6);
+}
+
+.attribution {
+  font-size: var(--text-body);
+}
+
+/* Regions: a rule, the region's name, its ledger. */
+.region {
+  padding-block: var(--space-5) var(--space-6);
+  border-top: var(--border-thin) solid var(--color-rule);
+}
+
+.region h2 {
+  margin-bottom: var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  font-weight: 800;
+  line-height: var(--line-heading);
+}
+
+.ledger {
+  width: 100%;
+  min-width: 46rem;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.ledger th,
+.ledger td {
+  padding: var(--space-2) var(--space-3) var(--space-2) 0;
+  border-top: var(--border-thin) solid var(--color-plane);
+  text-align: left;
+  vertical-align: baseline;
+  font-size: var(--text-label);
+  line-height: 1.4;
+}
+
+.ledger thead th {
+  border-top: 0;
+  color: var(--color-ink-soft);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+  white-space: nowrap;
+}
+
+.ledger tbody th {
+  font-size: var(--text-body);
+  font-weight: 800;
+}
+
+.ledger .city {
+  display: block;
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+  font-weight: 400;
+}
+
+.ledger td {
+  color: var(--color-ink-soft);
+}
+
+.ledger td.live {
+  color: var(--color-ink);
+}
+
+.ledger .contact {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: var(--space-2);
+  background: var(--color-contact);
+  vertical-align: 0.05em;
+}
+
+/* Facts: a term with its definition beside the measured value. */
+.facts {
+  display: grid;
+}
+
+.fact {
+  display: grid;
+  grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+  gap: var(--space-1) var(--space-6);
+  padding-block: var(--space-3);
+  border-top: var(--border-thin) solid var(--color-plane);
+}
+
+.fact:first-child {
+  border-top: 0;
+}
+
+.fact dt {
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.fact .definition {
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+  font-weight: 400;
+}
+
+.fact dd {
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 42rem) {
+  .fact {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

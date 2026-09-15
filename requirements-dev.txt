@@ -1,0 +1,4 @@
+gtfs-realtime-bindings>=1.0,<2
+protobuf>=5,<8
+pytest>=8
+jsonschema>=4.20

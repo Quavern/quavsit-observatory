@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Write to Quavern
+    url: mailto:hello@quavern.com
+    about: For a correction you prefer not to make public.

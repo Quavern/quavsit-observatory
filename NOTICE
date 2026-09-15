@@ -1,0 +1,15 @@
+Quavsit Observatory
+Copyright (c) 2026 Quavern
+
+Files without their own header are Covered Files under the Quavern Open Source
+License, version 1.0 (LicenseRef-QOSL-1.0) when they are code, and under CC BY 4.0
+when they are measurements or methodology; see LICENSE.md.
+
+Measurements describe GTFS-Realtime feeds and GTFS timetables published by French
+transport authorities and operators, most of them listed on transport.data.gouv.fr,
+under their own licences. Each network's attribution is in the day files.
+
+Third-party material:
+  site/assets/fonts/LinealVF.woff2 — Copyright (c) 2010-2023 Frank Adebiaye, SIL OFL 1.1
+  site/assets/fonts/AtkinsonHyperlegibleNext-Latin.woff2 — The Atkinson Hyperlegible Next Project Authors, SIL OFL 1.1
+Not licensed: site/assets/logo/ and the Quavern name.

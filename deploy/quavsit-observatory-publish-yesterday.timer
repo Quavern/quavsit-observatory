@@ -1,0 +1,10 @@
+[Unit]
+Description=Quavsit Observatory: publish the finished day
+
+[Timer]
+OnCalendar=*-*-* 00:25:00 UTC
+Unit=quavsit-observatory-publish@yesterday.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target

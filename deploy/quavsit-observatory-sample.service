@@ -1,0 +1,22 @@
+# No EnvironmentFile on purpose: the Observatory needs no key and reads no secret.
+[Unit]
+Description=Quavsit Observatory: sample every declared GTFS-Realtime feed once
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=marl
+Group=marl
+Nice=10
+MemoryMax=256M
+TimeoutStartSec=15min
+WorkingDirectory=/opt/quavsit-observatory
+Environment=PYTHONPATH=/opt/quavsit-observatory:/opt/marl/api
+Environment=QUAVERN_APP_PROFILE=quavsit
+Environment=QUAVSIT_TRANSIT_DB=/var/lib/quavsit/transit.db
+Environment=QUAVSIT_OBSERVATORY_DB=/var/lib/quavsit/observatory.db
+Environment=SQLITE_TMPDIR=/var/lib/quavsit
+NoNewPrivileges=true
+PrivateTmp=true
+ExecStart=/opt/marl/venv/bin/python -m observatory sample
