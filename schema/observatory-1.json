@@ -80,6 +80,9 @@
             "days_left": { "type": ["integer", "null"] },
             "counts": { "type": ["object", "null"] },
             "pan_dataset_slug": { "type": ["string", "null"] },
+            "checked_at": { "type": ["string", "null"] },
+            "check_age_hours": { "type": ["number", "null"] },
+            "source": { "enum": ["operator", "transport_data_gouv_fr_copy", null] },
             "last_error": {
               "type": ["object", "null"],
               "required": ["reason", "host"],

@@ -43,7 +43,9 @@ Every rate is two numbers, `n` of `of`. A rate whose `of` is 0 means there was n
 
 - `timetable_ends_on`: the last day the published timetable covers, from its calendar and its added service dates. `days_left` counts from the day of the record.
 - `state`: `ok`, `error` (the last refresh failed and older data is still served) or `never_ingested`.
-- `age_hours`: how long ago Quavsit last loaded the timetable.
+- `refreshed_at` and `age_hours`: when Quavsit last loaded a changed timetable. A timetable that did not change keeps that date.
+- `checked_at` and `check_age_hours`: when Quavsit last checked the source and found it current (Quavsit checks each timetable at least once a day).
+- `source`: `operator`, or `transport_data_gouv_fr_copy` when the operator's server does not answer Quavsit's host and the timetable was taken from the copy transport.data.gouv.fr keeps of that same file.
 - Counts of lines, stops, trips and stop times as loaded.
 
 ## Reading a low figure

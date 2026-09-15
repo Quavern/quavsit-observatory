@@ -43,7 +43,9 @@ Chaque taux est un couple de nombres, `n` sur `of`. Un taux dont `of` vaut 0 sig
 
 - `timetable_ends_on` : le dernier jour couvert par la grille publiée, d’après son calendrier et ses dates de service ajoutées. `days_left` compte à partir du jour du relevé.
 - `state` : `ok`, `error` (la dernière actualisation a échoué et des données plus anciennes sont servies) ou `never_ingested`.
-- `age_hours` : depuis combien de temps Quavsit a chargé la grille.
+- `refreshed_at` et `age_hours` : quand Quavsit a chargé pour la dernière fois une grille modifiée. Une grille qui n’a pas changé garde cette date.
+- `checked_at` et `check_age_hours` : quand Quavsit a vérifié la source pour la dernière fois et l’a trouvée à jour (Quavsit vérifie chaque grille au moins une fois par jour).
+- `source` : `operator`, ou `transport_data_gouv_fr_copy` quand le serveur de l’opérateur ne répond pas à l’hébergement de Quavsit et que la grille a été prise dans la copie que transport.data.gouv.fr conserve de ce même fichier.
 - Les nombres de lignes, d’arrêts, de courses et de passages chargés.
 
 ## Lire un chiffre bas

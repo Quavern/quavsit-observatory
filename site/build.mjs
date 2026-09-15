@@ -39,7 +39,7 @@ const copy = {
     code: "Code",
     lowJoin: "A low join rate can come from the feed, from the timetable in use, or from Quavsit's matching.",
     notScore: "No figure here is a score or a ranking.",
-    columns: ["Network", "Timetable", "Loaded", "Trip updates", "Vehicles", "Alerts"],
+    columns: ["Network", "Timetable", "Checked", "Trip updates", "Vehicles", "Alerts"],
     ledgerCaption: (region) => `Networks in ${region}`,
     runsTo: (date) => `runs to ${date}`,
     endsIn: (days) => (days === 0 ? "ends today" : `ends in ${days} day${days === 1 ? "" : "s"}`),
@@ -49,6 +49,7 @@ const copy = {
     refreshFailing: "refresh failing",
     hoursAgo: (h) => `${h} h ago`,
     daysAgo: (d) => `${d} days ago`,
+    changedAgo: (text) => `changed ${text}`,
     noneDeclared: "none declared",
     notMeasured: "not measured",
     noAnswer: "no valid answer",
@@ -62,13 +63,16 @@ const copy = {
     facts: "Timetable",
     factLabels: {
       state: "State",
-      refreshed: "Loaded by Quavsit",
+      refreshed: "Last change loaded",
+      checked: "Last checked",
+      source: "Downloaded from",
       ends: "Last day covered",
       counts: "Loaded",
       dataset: "Dataset",
       lastError: "Last refresh error"
     },
     states: { ok: "loaded", error: "last refresh failed, older data served", never_ingested: "never loaded" },
+    sources: { operator: "the operator's server", transport_data_gouv_fr_copy: "transport.data.gouv.fr's copy (the operator's server does not answer Quavsit)" },
     countsText: (c) => `${c.lines ?? "—"} lines, ${c.stops ?? "—"} stops, ${c.trips ?? "—"} trips, ${c.stop_times ?? "—"} stop times`,
     kinds: { trip_updates: "Trip updates", vehicle_positions: "Vehicle positions", alerts: "Alerts" },
     members: {
@@ -125,7 +129,7 @@ const copy = {
     code: "Code",
     lowJoin: "Un taux de correspondance bas peut venir du flux, de la grille horaire utilisée ou de l’appariement de Quavsit.",
     notScore: "Aucun chiffre ici n’est une note ni un classement.",
-    columns: ["Réseau", "Grille horaire", "Chargée", "Courses", "Véhicules", "Alertes"],
+    columns: ["Réseau", "Grille horaire", "Vérifiée", "Courses", "Véhicules", "Alertes"],
     ledgerCaption: (region) => `Réseaux : ${region}`,
     runsTo: (date) => `jusqu’au ${date}`,
     endsIn: (days) => (days === 0 ? "s’arrête aujourd’hui" : `s’arrête dans ${days} jour${days === 1 ? "" : "s"}`),
@@ -135,6 +139,7 @@ const copy = {
     refreshFailing: "actualisation en échec",
     hoursAgo: (h) => `il y a ${h} h`,
     daysAgo: (d) => `il y a ${d} jours`,
+    changedAgo: (text) => `modifiée ${text}`,
     noneDeclared: "aucun déclaré",
     notMeasured: "non mesuré",
     noAnswer: "pas de réponse valide",
@@ -148,13 +153,16 @@ const copy = {
     facts: "Grille horaire",
     factLabels: {
       state: "État",
-      refreshed: "Chargée par Quavsit",
+      refreshed: "Dernière modification chargée",
+      checked: "Dernière vérification",
+      source: "Téléchargée depuis",
       ends: "Dernier jour couvert",
       counts: "Chargé",
       dataset: "Jeu de données",
       lastError: "Dernière erreur d’actualisation"
     },
     states: { ok: "chargée", error: "dernière actualisation en échec, données plus anciennes servies", never_ingested: "jamais chargée" },
+    sources: { operator: "le serveur de l’opérateur", transport_data_gouv_fr_copy: "la copie de transport.data.gouv.fr (le serveur de l’opérateur ne répond pas à Quavsit)" },
     countsText: (c) => `${c.lines ?? "—"} lignes, ${c.stops ?? "—"} arrêts, ${c.trips ?? "—"} courses, ${c.stop_times ?? "—"} passages`,
     kinds: { trip_updates: "Mises à jour de courses", vehicle_positions: "Positions de véhicules", alerts: "Alertes" },
     members: {
@@ -339,12 +347,15 @@ function timetableCell(lang, stat) {
   return c.runsTo(longDate(lang, stat.timetable_ends_on));
 }
 
+const ago = (lang, hours) => (hours < 48 ? copy[lang].hoursAgo(Math.round(hours)) : copy[lang].daysAgo(Math.floor(hours / 24)));
+
 function loadedCell(lang, stat) {
   const c = copy[lang];
   if (stat.state === "never_ingested") return "—";
   if (stat.state === "error") return c.refreshFailing;
+  if (stat.check_age_hours !== null && stat.check_age_hours !== undefined) return ago(lang, stat.check_age_hours);
   if (stat.age_hours === null) return "—";
-  return stat.age_hours < 48 ? c.hoursAgo(Math.round(stat.age_hours)) : c.daysAgo(Math.floor(stat.age_hours / 24));
+  return c.changedAgo(ago(lang, stat.age_hours));
 }
 
 function feedCell(lang, network, kind, descriptorKinds) {
@@ -439,7 +450,9 @@ function networkPage(lang, latest, network, history) {
   const stat = network.static;
   const facts = [
     [c.factLabels.state, c.states[stat.state]],
-    [c.factLabels.refreshed, stat.refreshed_at ? `${stamp(lang, stat.refreshed_at)} (${loadedCell(lang, stat)})` : "—"],
+    [c.factLabels.refreshed, stat.refreshed_at ? `${stamp(lang, stat.refreshed_at)} (${ago(lang, stat.age_hours)})` : "—"],
+    [c.factLabels.checked, stat.checked_at ? `${stamp(lang, stat.checked_at)} (${ago(lang, stat.check_age_hours)})` : "—"],
+    [c.factLabels.source, stat.source ? c.sources[stat.source] : "—"],
     [c.factLabels.ends, stat.timetable_ends_on ? (stat.days_left <= 30 ? `${longDate(lang, stat.timetable_ends_on)} (${timetableCell(lang, stat)})` : longDate(lang, stat.timetable_ends_on)) : timetableCell(lang, stat)],
     [c.factLabels.counts, stat.counts ? c.countsText(Object.fromEntries(Object.entries(stat.counts).map(([k, v]) => [k, v === null ? null : num(lang, v)]))) : "—"],
     [c.factLabels.dataset, stat.pan_dataset_slug ? `<a href="https://transport.data.gouv.fr/datasets/${encodeURIComponent(stat.pan_dataset_slug)}">transport.data.gouv.fr</a>` : "—"],

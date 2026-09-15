@@ -99,6 +99,9 @@ def static_facts(transit: sqlite3.Connection, descriptor: dict, day: date, now: 
         "counts": None,
         "pan_dataset_slug": (descriptor.get("static") or {}).get("pan_dataset_slug"),
         "last_error": error_reason(error),
+        "checked_at": None,
+        "check_age_hours": None,
+        "source": None,
     }
     if refreshed_at:
         moment = _parse(refreshed_at)
@@ -106,6 +109,13 @@ def static_facts(transit: sqlite3.Connection, descriptor: dict, day: date, now: 
         facts["age_hours"] = round((now - moment).total_seconds() / 3600, 1)
     if stats_json:
         stats = json.loads(stats_json)
+        if stats.get("checked_at"):
+            checked = _parse(stats["checked_at"])
+            facts["checked_at"] = iso(checked)
+            facts["check_age_hours"] = round((now - checked).total_seconds() / 3600, 1)
+        facts["source"] = {"operator": "operator", "transport.data.gouv.fr resource history": "transport_data_gouv_fr_copy"}.get(
+            stats.get("archive_source")
+        )
         counts = {
             "lines": stats.get("rows_lines"),
             "stops": stats.get("rows_stops"),
