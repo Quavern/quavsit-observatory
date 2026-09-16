@@ -61,11 +61,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:25Z",
-        "age_hours": 177.6,
+        "age_hours": 180.6,
         "timetable_ends_on": "2027-09-10",
         "days_left": 359,
         "counts": {
@@ -76,15 +76,15 @@
         },
         "pan_dataset_slug": "reseau-de-transport-du-grand-dole",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T08:08:57Z",
+        "check_age_hours": 0.8,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -97,18 +97,18 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 44,
+          "entities": 23,
           "trip_join": {
-            "n": 44,
-            "of": 44
+            "n": 90,
+            "of": 90
           },
           "stop_updates_timed": {
-            "n": 865,
-            "of": 871
+            "n": 1944,
+            "of": 1987
           },
           "cancelled": {
             "n": 0,
-            "of": 44
+            "of": 90
           },
           "no_trip_id": 0
         }

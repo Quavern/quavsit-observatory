@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-15T07:07:55Z",
-        "age_hours": 22.8,
+        "refreshed_at": "2026-09-16T07:08:10Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 32,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T07:08:17Z",
+        "check_age_hours": 1.8,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -129,27 +129,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 13,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 63,
+          "entities": 30,
           "trip_join": {
-            "n": 63,
-            "of": 63
+            "n": 122,
+            "of": 122
           },
           "stop_updates_timed": {
-            "n": 1028,
-            "of": 1028
+            "n": 2468,
+            "of": 2468
           },
           "cancelled": {
             "n": 0,
-            "of": 63
+            "of": 122
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -162,22 +162,22 @@
           "samples_night": 1,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
-          "entities": 46,
+          "entities": 17,
           "with_position": {
-            "n": 46,
-            "of": 46
+            "n": 78,
+            "of": 78
           },
           "with_trip_id": {
-            "n": 46,
-            "of": 46
+            "n": 78,
+            "of": 78
           },
           "with_route_id": {
-            "n": 46,
-            "of": 46
+            "n": 78,
+            "of": 78
           },
           "trip_join": {
-            "n": 46,
-            "of": 46
+            "n": 78,
+            "of": 78
           }
         }
       }

@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T21:09:21Z",
-        "age_hours": 32.8,
+        "age_hours": 35.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -139,8 +139,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.okina.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,27 +151,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 258,
+          "entities": 59,
           "trip_join": {
-            "n": 134,
-            "of": 134
+            "n": 192,
+            "of": 192
           },
           "stop_updates_timed": {
-            "n": 3083,
-            "of": 3121
+            "n": 4415,
+            "of": 4476
           },
           "cancelled": {
             "n": 0,
-            "of": 134
+            "of": 192
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.okina.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -182,30 +182,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 9,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 167,
+          "entities": 24,
           "with_position": {
-            "n": 167,
-            "of": 167
+            "n": 208,
+            "of": 208
           },
           "with_trip_id": {
-            "n": 167,
-            "of": 167
+            "n": 208,
+            "of": 208
           },
           "with_route_id": {
-            "n": 167,
-            "of": 167
+            "n": 208,
+            "of": 208
           },
           "trip_join": {
-            "n": 167,
-            "of": 167
+            "n": 208,
+            "of": 208
           }
         },
         "alerts": {
           "host": "jvmalin.api.instant-system.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -216,12 +216,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 70,
+          "header_age_seconds": 45,
           "no_header_timestamp": 0,
           "entities": 10,
           "informed_resolved": {
             "n": 0,
-            "of": 16
+            "of": 48
           }
         }
       }

@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:08:06Z",
-        "age_hours": 10.8,
+        "age_hours": 13.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -139,8 +139,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -153,25 +153,25 @@
           "samples_night": 1,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 502,
+          "entities": 140,
           "trip_join": {
-            "n": 347,
-            "of": 502
+            "n": 458,
+            "of": 764
           },
           "stop_updates_timed": {
-            "n": 5987,
-            "of": 5999
+            "n": 8932,
+            "of": 8960
           },
           "cancelled": {
-            "n": 9,
-            "of": 502
+            "n": 15,
+            "of": 764
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -182,30 +182,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 283,
+          "entities": 45,
           "with_position": {
-            "n": 282,
-            "of": 283
+            "n": 365,
+            "of": 366
           },
           "with_trip_id": {
-            "n": 266,
-            "of": 282
+            "n": 347,
+            "of": 365
           },
           "with_route_id": {
-            "n": 266,
-            "of": 282
+            "n": 347,
+            "of": 365
           },
           "trip_join": {
-            "n": 266,
-            "of": 266
+            "n": 347,
+            "of": 347
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -216,12 +216,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 38,
+          "entities": 37,
           "informed_resolved": {
-            "n": 55,
-            "of": 83
+            "n": 167,
+            "of": 239
           }
         }
       }

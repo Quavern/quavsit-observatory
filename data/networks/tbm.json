@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T14:08:08Z",
-        "age_hours": 15.8,
+        "age_hours": 18.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 289,
         "counts": {
@@ -139,8 +139,8 @@
       "realtime": {
         "trip_updates": {
           "host": "bdx.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,27 +151,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 2,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 1699,
+          "entities": 2074,
           "trip_join": {
-            "n": 1689,
-            "of": 1699
+            "n": 5839,
+            "of": 5887
           },
           "stop_updates_timed": {
-            "n": 55247,
-            "of": 55487
+            "n": 201034,
+            "of": 203208
           },
           "cancelled": {
-            "n": 77,
-            "of": 1699
+            "n": 249,
+            "of": 5887
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "bdx.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -182,30 +182,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 2,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 553,
+          "entities": 441,
           "with_position": {
-            "n": 553,
-            "of": 553
+            "n": 1416,
+            "of": 1416
           },
           "with_trip_id": {
-            "n": 553,
-            "of": 553
+            "n": 1416,
+            "of": 1416
           },
           "with_route_id": {
-            "n": 552,
-            "of": 553
+            "n": 1411,
+            "of": 1416
           },
           "trip_join": {
-            "n": 551,
-            "of": 553
+            "n": 1410,
+            "of": 1416
           }
         },
         "alerts": {
           "host": "bdx.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -220,8 +220,8 @@
           "no_header_timestamp": 0,
           "entities": 104,
           "informed_resolved": {
-            "n": 167,
-            "of": 167
+            "n": 518,
+            "of": 518
           }
         }
       }

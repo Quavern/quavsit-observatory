@@ -89,11 +89,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:09:25Z",
-        "age_hours": 7.8,
+        "age_hours": 10.8,
         "timetable_ends_on": "2026-12-26",
         "days_left": 101,
         "counts": {
@@ -105,14 +105,14 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:27Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 10.8,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -125,25 +125,25 @@
           "samples_night": 1,
           "header_age_seconds": 31,
           "no_header_timestamp": 0,
-          "entities": 73,
+          "entities": 56,
           "trip_join": {
-            "n": 72,
-            "of": 73
+            "n": 184,
+            "of": 185
           },
           "stop_updates_timed": {
-            "n": 2015,
-            "of": 2015
+            "n": 5187,
+            "of": 5187
           },
           "cancelled": {
             "n": 0,
-            "of": 73
+            "of": 185
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -156,22 +156,22 @@
           "samples_night": 1,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 38,
+          "entities": 29,
           "with_position": {
-            "n": 38,
-            "of": 38
+            "n": 96,
+            "of": 96
           },
           "with_trip_id": {
-            "n": 38,
-            "of": 38
+            "n": 96,
+            "of": 96
           },
           "with_route_id": {
             "n": 0,
-            "of": 38
+            "of": 96
           },
           "trip_join": {
             "n": 0,
-            "of": 38
+            "of": 96
           }
         }
       }

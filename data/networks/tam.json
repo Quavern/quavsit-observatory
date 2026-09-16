@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T06:09:45Z",
-        "age_hours": 23.8,
+        "age_hours": 26.8,
         "timetable_ends_on": "2026-10-16",
         "days_left": 30,
         "counts": {
@@ -139,8 +139,8 @@
       "realtime": {
         "trip_updates": {
           "host": "data.montpellier3m.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -153,25 +153,25 @@
           "samples_night": 1,
           "header_age_seconds": 49,
           "no_header_timestamp": 0,
-          "entities": 460,
+          "entities": 395,
           "trip_join": {
-            "n": 452,
-            "of": 460
+            "n": 1202,
+            "of": 1236
           },
           "stop_updates_timed": {
-            "n": 8699,
-            "of": 8841
+            "n": 23098,
+            "of": 23461
           },
           "cancelled": {
-            "n": 13,
-            "of": 460
+            "n": 54,
+            "of": 1236
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "data.montpellier3m.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -182,30 +182,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 49,
+          "header_age_seconds": 36,
           "no_header_timestamp": 0,
-          "entities": 159,
+          "entities": 139,
           "with_position": {
-            "n": 159,
-            "of": 159
+            "n": 419,
+            "of": 419
           },
           "with_trip_id": {
-            "n": 159,
-            "of": 159
+            "n": 419,
+            "of": 419
           },
           "with_route_id": {
-            "n": 159,
-            "of": 159
+            "n": 419,
+            "of": 419
           },
           "trip_join": {
-            "n": 157,
-            "of": 159
+            "n": 412,
+            "of": 419
           }
         },
         "alerts": {
           "host": "data.montpellier3m.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -216,7 +216,7 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 49,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {

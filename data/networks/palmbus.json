@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 105.8,
+        "age_hours": 108.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 109,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T08:10:38Z",
+        "check_age_hours": 0.7,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -131,25 +131,25 @@
           "samples_night": 1,
           "header_age_seconds": 37,
           "no_header_timestamp": 0,
-          "entities": 192,
+          "entities": 188,
           "trip_join": {
-            "n": 192,
-            "of": 192
+            "n": 560,
+            "of": 560
           },
           "stop_updates_timed": {
-            "n": 1356,
-            "of": 1356
+            "n": 4487,
+            "of": 4496
           },
           "cancelled": {
             "n": 0,
-            "of": 192
+            "of": 560
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -160,24 +160,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 24,
           "no_header_timestamp": 0,
           "entities": 83,
           "with_position": {
-            "n": 83,
-            "of": 83
+            "n": 248,
+            "of": 248
           },
           "with_trip_id": {
-            "n": 83,
-            "of": 83
+            "n": 248,
+            "of": 248
           },
           "with_route_id": {
-            "n": 83,
-            "of": 83
+            "n": 248,
+            "of": 248
           },
           "trip_join": {
-            "n": 83,
-            "of": 83
+            "n": 248,
+            "of": 248
           }
         }
       }

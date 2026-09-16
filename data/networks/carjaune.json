@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T22:08:27Z",
-        "age_hours": 31.8,
+        "age_hours": 34.8,
         "timetable_ends_on": "2027-08-02",
         "days_left": 320,
         "counts": {
@@ -139,8 +139,8 @@
       "realtime": {
         "trip_updates": {
           "host": "pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,27 +151,27 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 12,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 323,
+          "entities": 397,
           "trip_join": {
-            "n": 158,
-            "of": 158
+            "n": 276,
+            "of": 276
           },
           "stop_updates_timed": {
-            "n": 2577,
-            "of": 2587
+            "n": 4605,
+            "of": 4625
           },
           "cancelled": {
             "n": 0,
-            "of": 158
+            "of": 276
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -182,30 +182,30 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 12,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 323,
+          "entities": 397,
           "with_position": {
-            "n": 158,
-            "of": 158
+            "n": 276,
+            "of": 276
           },
           "with_trip_id": {
-            "n": 158,
-            "of": 158
+            "n": 276,
+            "of": 276
           },
           "with_route_id": {
-            "n": 158,
-            "of": 158
+            "n": 276,
+            "of": 276
           },
           "trip_join": {
-            "n": 158,
-            "of": 158
+            "n": 276,
+            "of": 276
           }
         },
         "alerts": {
           "host": "pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -216,12 +216,12 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 12,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 323,
+          "entities": 397,
           "informed_resolved": {
-            "n": 10,
-            "of": 10
+            "n": 20,
+            "of": 20
           }
         }
       }

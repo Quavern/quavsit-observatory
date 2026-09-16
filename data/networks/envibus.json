@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:07:02Z",
-        "age_hours": 7.8,
+        "age_hours": 10.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 32,
         "counts": {
@@ -45,7 +45,7 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-bus-du-reseau-des-transports-publics-envibus",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:07Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 10.8,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {}

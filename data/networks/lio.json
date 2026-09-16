@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 4,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T22:08:31Z",
-        "age_hours": 31.8,
+        "age_hours": 34.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -117,8 +117,8 @@
       "realtime": {
         "trip_updates": {
           "host": "lio.2cloud.app",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -131,25 +131,25 @@
           "samples_night": 1,
           "header_age_seconds": 17,
           "no_header_timestamp": 0,
-          "entities": 466,
+          "entities": 119,
           "trip_join": {
-            "n": 460,
-            "of": 462
+            "n": 680,
+            "of": 682
           },
           "stop_updates_timed": {
-            "n": 9157,
-            "of": 9285
+            "n": 14113,
+            "of": 14301
           },
           "cancelled": {
             "n": 0,
-            "of": 462
+            "of": 682
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "lio.2cloud.app",
-          "samples": 1,
-          "ok": 1,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -160,24 +160,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 0,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 456,
+          "entities": 116,
           "with_position": {
-            "n": 423,
-            "of": 456
+            "n": 626,
+            "of": 673
           },
           "with_trip_id": {
-            "n": 423,
-            "of": 423
+            "n": 626,
+            "of": 626
           },
           "with_route_id": {
-            "n": 423,
-            "of": 423
+            "n": 626,
+            "of": 626
           },
           "trip_join": {
-            "n": 421,
-            "of": 423
+            "n": 624,
+            "of": 626
           }
         }
       }
