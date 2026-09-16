@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:22:11Z",
-        "age_hours": 186.5,
+        "age_hours": 192.5,
         "timetable_ends_on": "2027-08-28",
         "days_left": 346,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "horaires-rlv-mobilites",
         "last_error": null,
         "checked_at": "2026-09-16T09:08:31Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 31,
           "trip_join": {
-            "n": 153,
-            "of": 153
+            "n": 184,
+            "of": 184
           },
           "stop_updates_timed": {
-            "n": 4259,
-            "of": 4259
+            "n": 5151,
+            "of": 5156
           },
           "cancelled": {
             "n": 0,
-            "of": 153
+            "of": 184
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 2,
+          "samples_night": 2,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 7,
+          "entities": 6,
           "with_position": {
-            "n": 33,
-            "of": 33
+            "n": 38,
+            "of": 38
           },
           "with_trip_id": {
-            "n": 33,
-            "of": 33
+            "n": 38,
+            "of": 38
           },
           "with_route_id": {
-            "n": 33,
-            "of": 33
+            "n": 38,
+            "of": 38
           },
           "trip_join": {
-            "n": 33,
-            "of": 33
+            "n": 38,
+            "of": 38
           }
         }
       }

@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 186.6,
+        "age_hours": 192.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -98,15 +98,15 @@
         },
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
-        "checked_at": "2026-09-16T08:10:38Z",
-        "check_age_hours": 6.7,
+        "checked_at": "2026-09-16T20:07:18Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -116,28 +116,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 21,
+          "samples_night": 2,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
-          "entities": 51,
+          "entities": 50,
           "trip_join": {
-            "n": 265,
-            "of": 267
+            "n": 295,
+            "of": 297
           },
           "stop_updates_timed": {
-            "n": 4809,
-            "of": 5336
+            "n": 5276,
+            "of": 5857
           },
           "cancelled": {
             "n": 0,
-            "of": 267
+            "of": 297
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -147,13 +147,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 6,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 7,
           "informed_resolved": {
-            "n": 45,
-            "of": 45
+            "n": 52,
+            "of": 52
           }
         }
       }

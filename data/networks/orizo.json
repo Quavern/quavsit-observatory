@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:41Z",
-        "age_hours": 186.6,
+        "age_hours": 192.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 32,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "reseau-orizo-grand-avignon",
         "last_error": null,
-        "checked_at": "2026-09-16T08:10:37Z",
-        "check_age_hours": 6.7,
+        "checked_at": "2026-09-16T20:07:17Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 224,
+          "entities": 223,
           "trip_join": {
-            "n": 1197,
-            "of": 1197
+            "n": 1376,
+            "of": 1376
           },
           "stop_updates_timed": {
-            "n": 24691,
-            "of": 24691
+            "n": 28417,
+            "of": 28417
           },
           "cancelled": {
             "n": 1,
-            "of": 1197
+            "of": 1376
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 82,
+          "entities": 80,
           "with_position": {
-            "n": 428,
-            "of": 428
+            "n": 506,
+            "of": 506
           },
           "with_trip_id": {
-            "n": 428,
-            "of": 428
+            "n": 506,
+            "of": 506
           },
           "with_route_id": {
-            "n": 428,
-            "of": 428
+            "n": 506,
+            "of": 506
           },
           "trip_join": {
-            "n": 428,
-            "of": 428
+            "n": 506,
+            "of": 506
           }
         }
       }

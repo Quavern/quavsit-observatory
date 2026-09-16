@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T09:08:32Z",
-        "age_hours": 5.8,
+        "age_hours": 11.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -45,7 +45,7 @@
         "pan_dataset_slug": "agen-gtfs-urbain",
         "last_error": null,
         "checked_at": "2026-09-16T09:08:35Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {}

@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-15T06:09:45Z",
-        "age_hours": 32.8,
+        "refreshed_at": "2026-09-16T18:07:34Z",
+        "age_hours": 2.8,
         "timetable_ends_on": "2026-10-16",
         "days_left": 30,
         "counts": {
@@ -132,15 +132,15 @@
         },
         "pan_dataset_slug": "offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T18:07:40Z",
+        "check_age_hours": 2.8,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "data.montpellier3m.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -150,28 +150,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 49,
+          "samples_night": 2,
+          "header_age_seconds": 60,
           "no_header_timestamp": 0,
-          "entities": 395,
+          "entities": 390,
           "trip_join": {
-            "n": 2033,
-            "of": 2068
+            "n": 2319,
+            "of": 2360
           },
           "stop_updates_timed": {
-            "n": 38894,
-            "of": 39325
+            "n": 44524,
+            "of": 45079
           },
           "cancelled": {
-            "n": 71,
-            "of": 2068
+            "n": 73,
+            "of": 2360
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "data.montpellier3m.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -181,31 +181,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 35,
+          "samples_night": 2,
+          "header_age_seconds": 28,
           "no_header_timestamp": 0,
-          "entities": 139,
+          "entities": 134,
           "with_position": {
-            "n": 716,
-            "of": 716
+            "n": 841,
+            "of": 841
           },
           "with_trip_id": {
-            "n": 716,
-            "of": 716
+            "n": 841,
+            "of": 841
           },
           "with_route_id": {
-            "n": 716,
-            "of": 716
+            "n": 841,
+            "of": 841
           },
           "trip_join": {
-            "n": 708,
-            "of": 716
+            "n": 828,
+            "of": 841
           }
         },
         "alerts": {
           "host": "data.montpellier3m.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -215,8 +215,8 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 27,
+          "samples_night": 2,
+          "header_age_seconds": 31,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {

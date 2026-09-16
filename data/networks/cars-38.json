@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 113.8,
+        "age_hours": 119.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -99,14 +99,14 @@
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
         "checked_at": "2026-09-16T09:07:38Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -116,28 +116,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 45,
           "no_header_timestamp": 0,
-          "entities": 30,
+          "entities": 31,
           "trip_join": {
-            "n": 508,
-            "of": 508
+            "n": 541,
+            "of": 541
           },
           "stop_updates_timed": {
-            "n": 3145,
-            "of": 3145
+            "n": 3478,
+            "of": 3478
           },
           "cancelled": {
             "n": 8,
-            "of": 508
+            "of": 541
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -147,13 +147,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 60,
+          "samples_night": 2,
+          "header_age_seconds": 62,
           "no_header_timestamp": 0,
           "entities": 1206,
           "informed_resolved": {
-            "n": 15208,
-            "of": 15208
+            "n": 18253,
+            "of": 18253
           }
         }
       }

@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T05:08:50Z",
-        "age_hours": 105.8,
+        "age_hours": 111.8,
         "timetable_ends_on": "2027-09-11",
         "days_left": 360,
         "counts": {
@@ -98,15 +98,15 @@
         },
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
-        "checked_at": "2026-09-16T05:09:04Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-16T17:07:33Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -116,28 +116,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
-          "entities": 65,
+          "entities": 66,
           "trip_join": {
-            "n": 332,
-            "of": 332
+            "n": 399,
+            "of": 399
           },
           "stop_updates_timed": {
-            "n": 10925,
-            "of": 10925
+            "n": 13071,
+            "of": 13071
           },
           "cancelled": {
             "n": 0,
-            "of": 332
+            "of": 399
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -147,13 +147,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 2,
+          "samples_night": 2,
+          "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 9,
           "informed_resolved": {
-            "n": 166,
-            "of": 166
+            "n": 199,
+            "of": 199
           }
         }
       }

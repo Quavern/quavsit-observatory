@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:11Z",
-        "age_hours": 186.8,
+        "age_hours": 192.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "offre-de-transports-reseau-dk-bus-de-la-communaute-urbaine-de-dunkerque-gtfs",
         "last_error": null,
         "checked_at": "2026-09-16T14:08:24Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 409,
+          "entities": 405,
           "trip_join": {
-            "n": 1536,
-            "of": 1536
+            "n": 1792,
+            "of": 1792
           },
           "stop_updates_timed": {
-            "n": 34220,
-            "of": 34220
+            "n": 39832,
+            "of": 39832
           },
           "cancelled": {
             "n": 0,
-            "of": 1536
+            "of": 1792
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 409,
+          "entities": 405,
           "with_position": {
-            "n": 477,
-            "of": 477
+            "n": 547,
+            "of": 547
           },
           "with_trip_id": {
-            "n": 321,
-            "of": 477
+            "n": 358,
+            "of": 547
           },
           "with_route_id": {
-            "n": 477,
-            "of": 477
+            "n": 547,
+            "of": 547
           },
           "trip_join": {
-            "n": 321,
-            "of": 321
+            "n": 358,
+            "of": 358
           }
         }
       }

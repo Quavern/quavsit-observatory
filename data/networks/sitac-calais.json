@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:06Z",
-        "age_hours": 186.5,
+        "age_hours": 192.5,
         "timetable_ends_on": "2027-06-27",
         "days_left": 284,
         "counts": {
@@ -133,14 +133,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac",
         "last_error": null,
         "checked_at": "2026-09-16T09:08:31Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -150,28 +150,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 70,
+          "entities": 69,
           "trip_join": {
-            "n": 186,
-            "of": 186
+            "n": 218,
+            "of": 218
           },
           "stop_updates_timed": {
-            "n": 3386,
-            "of": 3401
+            "n": 3857,
+            "of": 3874
           },
           "cancelled": {
             "n": 0,
-            "of": 186
+            "of": 218
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -181,31 +181,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 70,
+          "entities": 69,
           "with_position": {
-            "n": 177,
-            "of": 177
+            "n": 207,
+            "of": 207
           },
           "with_trip_id": {
-            "n": 177,
-            "of": 177
+            "n": 207,
+            "of": 207
           },
           "with_route_id": {
-            "n": 177,
-            "of": 177
+            "n": 207,
+            "of": 207
           },
           "trip_join": {
-            "n": 177,
-            "of": 177
+            "n": 207,
+            "of": 207
           }
         },
         "alerts": {
           "host": "zenbus.net",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -215,10 +215,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 70,
+          "entities": 69,
           "informed_resolved": {
             "n": 0,
             "of": 0

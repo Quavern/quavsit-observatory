@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 51.8,
+        "age_hours": 57.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 289,
         "counts": {
@@ -99,14 +99,14 @@
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
         "checked_at": "2026-09-16T11:08:15Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -116,28 +116,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
-          "entities": 73,
+          "entities": 68,
           "trip_join": {
-            "n": 391,
-            "of": 391
+            "n": 420,
+            "of": 420
           },
           "stop_updates_timed": {
-            "n": 7729,
-            "of": 7868
+            "n": 8314,
+            "of": 8478
           },
           "cancelled": {
             "n": 0,
-            "of": 391
+            "of": 420
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -147,13 +147,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 2,
           "informed_resolved": {
-            "n": 20,
-            "of": 20
+            "n": 21,
+            "of": 21
           }
         }
       }

@@ -61,11 +61,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:44Z",
-        "age_hours": 186.8,
+        "age_hours": 192.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -77,14 +77,14 @@
         "pan_dataset_slug": "syndicat-mixte-des-transports-en-commun-de-lagglomeration-clermontoise-smtc-ac-reseau-t2c-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-16T14:08:30Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -94,21 +94,21 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 1078,
+          "entities": 946,
           "trip_join": {
-            "n": 281,
-            "of": 5002
+            "n": 299,
+            "of": 5184
           },
           "stop_updates_timed": {
-            "n": 153388,
-            "of": 155964
+            "n": 159121,
+            "of": 161805
           },
           "cancelled": {
             "n": 3,
-            "of": 5002
+            "of": 5184
           },
           "no_trip_id": 0
         }

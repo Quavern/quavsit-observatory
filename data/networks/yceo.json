@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:07:09Z",
-        "age_hours": 16.8,
+        "age_hours": 22.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 289,
         "counts": {
@@ -45,7 +45,7 @@
         "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:15Z",
-        "check_age_hours": 16.8,
+        "check_age_hours": 22.8,
         "source": "operator"
       },
       "realtime": {}

@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 114.8,
+        "age_hours": 120.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 109,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
         "last_error": null,
-        "checked_at": "2026-09-16T08:10:38Z",
-        "check_age_hours": 6.7,
+        "checked_at": "2026-09-16T20:07:17Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 30,
+          "samples_night": 2,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 183,
+          "entities": 181,
           "trip_join": {
-            "n": 915,
-            "of": 916
+            "n": 1023,
+            "of": 1025
           },
           "stop_updates_timed": {
-            "n": 8491,
-            "of": 8500
+            "n": 9911,
+            "of": 9923
           },
           "cancelled": {
-            "n": 2,
-            "of": 916
+            "n": 6,
+            "of": 1025
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 25,
+          "samples_night": 2,
+          "header_age_seconds": 24,
           "no_header_timestamp": 0,
-          "entities": 83,
+          "entities": 82,
           "with_position": {
-            "n": 409,
-            "of": 409
+            "n": 474,
+            "of": 474
           },
           "with_trip_id": {
-            "n": 409,
-            "of": 409
+            "n": 474,
+            "of": 474
           },
           "with_route_id": {
-            "n": 409,
-            "of": 409
+            "n": 474,
+            "of": 474
           },
           "trip_join": {
-            "n": 408,
-            "of": 409
+            "n": 473,
+            "of": 474
           }
         }
       }

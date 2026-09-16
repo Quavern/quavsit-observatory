@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T03:08:26Z",
-        "age_hours": 11.8,
+        "age_hours": 17.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
         "last_error": null,
         "checked_at": "2026-09-16T03:08:29Z",
-        "check_age_hours": 11.8,
+        "check_age_hours": 17.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 45,
+          "entities": 44,
           "trip_join": {
-            "n": 280,
-            "of": 280
+            "n": 318,
+            "of": 318
           },
           "stop_updates_timed": {
-            "n": 5962,
-            "of": 5962
+            "n": 6891,
+            "of": 6891
           },
           "cancelled": {
             "n": 4,
-            "of": 280
+            "of": 318
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 24,
           "with_position": {
-            "n": 131,
-            "of": 131
+            "n": 153,
+            "of": 153
           },
           "with_trip_id": {
-            "n": 131,
-            "of": 131
+            "n": 153,
+            "of": 153
           },
           "with_route_id": {
-            "n": 131,
-            "of": 131
+            "n": 153,
+            "of": 153
           },
           "trip_join": {
-            "n": 131,
-            "of": 131
+            "n": 153,
+            "of": 153
           }
         }
       }

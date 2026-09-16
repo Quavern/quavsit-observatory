@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:08:27Z",
-        "age_hours": 19.8,
+        "age_hours": 25.8,
         "timetable_ends_on": "2027-03-14",
         "days_left": 179,
         "counts": {
@@ -44,9 +44,9 @@
         },
         "pan_dataset_slug": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T19:09:25Z",
+        "check_age_hours": 1.8,
+        "source": "operator"
       },
       "realtime": {}
     }

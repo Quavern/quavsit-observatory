@@ -89,11 +89,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:11:57Z",
-        "age_hours": 16.7,
+        "age_hours": 22.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 109,
         "counts": {
@@ -105,14 +105,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
         "checked_at": "2026-09-15T22:12:00Z",
-        "check_age_hours": 16.7,
+        "check_age_hours": 22.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -122,10 +122,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 17,
+          "samples_night": 2,
+          "header_age_seconds": 15,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 24,
           "trip_join": {
             "n": 137,
             "of": 138
@@ -142,8 +142,8 @@
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -153,10 +153,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 11,
+          "samples_night": 2,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 14,
+          "entities": 13,
           "with_position": {
             "n": 72,
             "of": 72

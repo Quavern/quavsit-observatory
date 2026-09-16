@@ -61,11 +61,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-15T04:09:31Z",
-        "age_hours": 34.8,
+        "refreshed_at": "2026-09-16T16:09:04Z",
+        "age_hours": 4.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 109,
         "counts": {
@@ -76,15 +76,15 @@
         },
         "pan_dataset_slug": "gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T16:17:31Z",
+        "check_age_hours": 4.6,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -94,21 +94,21 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 39,
+          "samples_night": 2,
+          "header_age_seconds": 34,
           "no_header_timestamp": 0,
-          "entities": 1671,
+          "entities": 1450,
           "trip_join": {
-            "n": 7646,
-            "of": 7646
+            "n": 7909,
+            "of": 7909
           },
           "stop_updates_timed": {
-            "n": 227117,
-            "of": 227117
+            "n": 234077,
+            "of": 234077
           },
           "cancelled": {
             "n": 0,
-            "of": 7646
+            "of": 7909
           },
           "no_trip_id": 0
         }

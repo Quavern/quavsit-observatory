@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T07:08:17Z",
-        "age_hours": 103.8,
+        "age_hours": 109.8,
         "timetable_ends_on": "2027-04-04",
         "days_left": 200,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "reseau-bus-sete-agglopole-mobilite",
         "last_error": null,
-        "checked_at": "2026-09-16T07:08:50Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-16T19:09:28Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "sete.ceccli.com",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 7,
+          "samples_night": 2,
+          "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 119,
+          "entities": 118,
           "trip_join": {
-            "n": 585,
-            "of": 585
+            "n": 646,
+            "of": 646
           },
           "stop_updates_timed": {
-            "n": 9051,
-            "of": 9051
+            "n": 10134,
+            "of": 10134
           },
           "cancelled": {
             "n": 0,
-            "of": 585
+            "of": 646
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "sete.ceccli.com",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 7,
+          "samples_night": 2,
+          "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 51,
+          "entities": 52,
           "with_position": {
-            "n": 249,
-            "of": 249
+            "n": 302,
+            "of": 302
           },
           "with_trip_id": {
-            "n": 157,
-            "of": 249
+            "n": 187,
+            "of": 302
           },
           "with_route_id": {
-            "n": 157,
-            "of": 249
+            "n": 187,
+            "of": 302
           },
           "trip_join": {
-            "n": 156,
-            "of": 157
+            "n": 186,
+            "of": 187
           }
         }
       }

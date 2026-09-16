@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:09:55Z",
-        "age_hours": 27.8,
+        "age_hours": 33.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 347,
         "counts": {
@@ -105,8 +105,8 @@
       "realtime": {
         "trip_updates": {
           "host": "api.mrn.cityway.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -116,8 +116,8 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 28,
+          "samples_night": 2,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
           "entities": 0,
           "trip_join": {
@@ -136,18 +136,18 @@
         },
         "vehicle_positions": {
           "host": "api.mrn.cityway.fr",
-          "samples": 5,
+          "samples": 6,
           "ok": 0,
           "failures": {
             "timeout": 0,
             "connection": 0,
-            "http_4xx": 5,
+            "http_4xx": 6,
             "http_5xx": 0,
             "decode_error": 0,
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": null,
           "no_header_timestamp": 0,
           "entities": null,

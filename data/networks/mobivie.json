@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T07:09:54Z",
-        "age_hours": 151.8,
+        "age_hours": 157.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 347,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "mobivie-reseau-urbain-vichy-communaute",
         "last_error": null,
-        "checked_at": "2026-09-16T07:08:48Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-16T19:09:25Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -128,28 +128,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 42,
           "trip_join": {
-            "n": 210,
-            "of": 210
+            "n": 217,
+            "of": 217
           },
           "stop_updates_timed": {
-            "n": 4794,
-            "of": 4830
+            "n": 4952,
+            "of": 4991
           },
           "cancelled": {
             "n": 0,
-            "of": 210
+            "of": 217
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -159,25 +159,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 7,
+          "samples_night": 2,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 11,
+          "entities": 10,
           "with_position": {
-            "n": 57,
-            "of": 57
+            "n": 63,
+            "of": 63
           },
           "with_trip_id": {
-            "n": 57,
-            "of": 57
+            "n": 63,
+            "of": 63
           },
           "with_route_id": {
-            "n": 57,
-            "of": 57
+            "n": 63,
+            "of": 63
           },
           "trip_join": {
-            "n": 57,
-            "of": 57
+            "n": 63,
+            "of": 63
           }
         }
       }
