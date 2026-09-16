@@ -3,6 +3,9 @@
 Description=Quavsit Observatory: publish %i
 Wants=network-online.target
 After=network-online.target
+# The samples and the published files live on the transit disk: refuse to start
+# rather than write into an empty directory.
+RequiresMountsFor=/var/lib/quavsit
 
 [Service]
 Type=oneshot
