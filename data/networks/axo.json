@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T03:08:26Z",
-        "age_hours": 5.8,
+        "age_hours": 11.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
         "last_error": null,
         "checked_at": "2026-09-16T03:08:29Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -129,27 +129,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 2,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 45,
           "trip_join": {
-            "n": 166,
-            "of": 166
+            "n": 280,
+            "of": 280
           },
           "stop_updates_timed": {
-            "n": 3553,
-            "of": 3553
+            "n": 5962,
+            "of": 5962
           },
           "cancelled": {
-            "n": 0,
-            "of": 166
+            "n": 4,
+            "of": 280
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -164,20 +164,20 @@
           "no_header_timestamp": 0,
           "entities": 25,
           "with_position": {
-            "n": 81,
-            "of": 81
+            "n": 131,
+            "of": 131
           },
           "with_trip_id": {
-            "n": 81,
-            "of": 81
+            "n": 131,
+            "of": 131
           },
           "with_route_id": {
-            "n": 81,
-            "of": 81
+            "n": 131,
+            "of": 131
           },
           "trip_join": {
-            "n": 81,
-            "of": 81
+            "n": 131,
+            "of": 131
           }
         }
       }

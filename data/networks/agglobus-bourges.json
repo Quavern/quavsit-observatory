@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T05:08:50Z",
-        "age_hours": 99.8,
+        "age_hours": 105.8,
         "timetable_ends_on": "2027-09-11",
         "days_left": 360,
         "counts": {
@@ -99,14 +99,14 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-16T05:09:04Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -121,23 +121,23 @@
           "no_header_timestamp": 0,
           "entities": 65,
           "trip_join": {
-            "n": 198,
-            "of": 198
+            "n": 332,
+            "of": 332
           },
           "stop_updates_timed": {
-            "n": 6509,
-            "of": 6509
+            "n": 10925,
+            "of": 10925
           },
           "cancelled": {
             "n": 0,
-            "of": 198
+            "of": 332
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -152,8 +152,8 @@
           "no_header_timestamp": 0,
           "entities": 9,
           "informed_resolved": {
-            "n": 100,
-            "of": 100
+            "n": 166,
+            "of": 166
           }
         }
       }

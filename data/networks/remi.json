@@ -117,11 +117,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T21:09:21Z",
-        "age_hours": 35.8,
+        "refreshed_at": "2026-09-16T09:08:01Z",
+        "age_hours": 5.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -132,15 +132,15 @@
         },
         "pan_dataset_slug": "remi-offre-theorique-mobilite-reseau-interurbain-regional",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T09:08:31Z",
+        "check_age_hours": 5.8,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.okina.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -153,25 +153,25 @@
           "samples_night": 1,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 59,
+          "entities": 68,
           "trip_join": {
-            "n": 192,
-            "of": 192
+            "n": 342,
+            "of": 342
           },
           "stop_updates_timed": {
-            "n": 4415,
-            "of": 4476
+            "n": 8546,
+            "of": 8650
           },
           "cancelled": {
             "n": 0,
-            "of": 192
+            "of": 342
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.okina.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -184,28 +184,28 @@
           "samples_night": 1,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 24,
+          "entities": 36,
           "with_position": {
-            "n": 208,
-            "of": 208
+            "n": 349,
+            "of": 349
           },
           "with_trip_id": {
-            "n": 208,
-            "of": 208
+            "n": 349,
+            "of": 349
           },
           "with_route_id": {
-            "n": 208,
-            "of": 208
+            "n": 349,
+            "of": 349
           },
           "trip_join": {
-            "n": 208,
-            "of": 208
+            "n": 349,
+            "of": 349
           }
         },
         "alerts": {
           "host": "jvmalin.api.instant-system.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -221,7 +221,7 @@
           "entities": 10,
           "informed_resolved": {
             "n": 0,
-            "of": 48
+            "of": 80
           }
         }
       }

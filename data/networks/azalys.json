@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T07:08:10Z",
-        "age_hours": 1.8,
+        "age_hours": 7.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 32,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
         "checked_at": "2026-09-16T07:08:17Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -131,25 +131,25 @@
           "samples_night": 1,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 30,
+          "entities": 29,
           "trip_join": {
-            "n": 122,
-            "of": 122
+            "n": 177,
+            "of": 177
           },
           "stop_updates_timed": {
-            "n": 2468,
-            "of": 2468
+            "n": 3746,
+            "of": 3746
           },
           "cancelled": {
             "n": 0,
-            "of": 122
+            "of": 177
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.mecatran.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -162,22 +162,22 @@
           "samples_night": 1,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
-          "entities": 17,
+          "entities": 15,
           "with_position": {
-            "n": 78,
-            "of": 78
+            "n": 108,
+            "of": 108
           },
           "with_trip_id": {
-            "n": 78,
-            "of": 78
+            "n": 107,
+            "of": 108
           },
           "with_route_id": {
-            "n": 78,
-            "of": 78
+            "n": 107,
+            "of": 108
           },
           "trip_join": {
-            "n": 78,
-            "of": 78
+            "n": 107,
+            "of": 107
           }
         }
       }

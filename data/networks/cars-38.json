@@ -83,11 +83,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 107.8,
+        "age_hours": 113.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -98,15 +98,15 @@
         },
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T09:07:38Z",
+        "check_age_hours": 5.8,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -119,25 +119,25 @@
           "samples_night": 1,
           "header_age_seconds": 45,
           "no_header_timestamp": 0,
-          "entities": 19,
+          "entities": 30,
           "trip_join": {
-            "n": 416,
-            "of": 416
+            "n": 508,
+            "of": 508
           },
           "stop_updates_timed": {
-            "n": 2134,
-            "of": 2134
+            "n": 3145,
+            "of": 3145
           },
           "cancelled": {
             "n": 8,
-            "of": 416
+            "of": 508
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -148,12 +148,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 55,
+          "header_age_seconds": 60,
           "no_header_timestamp": 0,
-          "entities": 1205,
+          "entities": 1206,
           "informed_resolved": {
-            "n": 9117,
-            "of": 9117
+            "n": 15208,
+            "of": 15208
           }
         }
       }

@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:15Z",
-        "age_hours": 180.5,
+        "age_hours": 186.5,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -44,9 +44,9 @@
         },
         "pan_dataset_slug": "versions-des-horaires-theoriques-des-lignes-du-reseau-de-bus-au-format-gtfs",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T09:08:32Z",
+        "check_age_hours": 5.8,
+        "source": "operator"
       },
       "realtime": {}
     }

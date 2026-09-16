@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:30:44Z",
-        "age_hours": 180.4,
+        "age_hours": 186.4,
         "timetable_ends_on": "2026-10-18",
         "days_left": 32,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "horaires-montelibus",
         "last_error": null,
-        "checked_at": "2026-09-15T23:09:13Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-16T11:08:17Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 2,
+          "samples": 5,
+          "ok": 4,
           "failures": {
             "timeout": 1,
             "connection": 0,
@@ -129,27 +129,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 4,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 100,
+          "entities": 76,
           "trip_join": {
-            "n": 186,
-            "of": 200
+            "n": 293,
+            "of": 310
           },
           "stop_updates_timed": {
-            "n": 3917,
-            "of": 4042
+            "n": 6083,
+            "of": 6361
           },
           "cancelled": {
             "n": 0,
-            "of": 200
+            "of": 310
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 2,
+          "samples": 5,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -162,22 +162,22 @@
           "samples_night": 1,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 23,
+          "entities": 19,
           "with_position": {
-            "n": 46,
-            "of": 46
+            "n": 76,
+            "of": 76
           },
           "with_trip_id": {
-            "n": 46,
-            "of": 46
+            "n": 76,
+            "of": 76
           },
           "with_route_id": {
-            "n": 46,
-            "of": 46
+            "n": 76,
+            "of": 76
           },
           "trip_join": {
-            "n": 44,
-            "of": 46
+            "n": 73,
+            "of": 76
           }
         }
       }

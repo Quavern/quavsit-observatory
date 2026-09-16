@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:12:15Z",
-        "age_hours": 21.7,
+        "age_hours": 27.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -117,8 +117,8 @@
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -131,25 +131,25 @@
           "samples_night": 1,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
-          "entities": 186,
+          "entities": 195,
           "trip_join": {
-            "n": 671,
-            "of": 683
+            "n": 1112,
+            "of": 1135
           },
           "stop_updates_timed": {
-            "n": 10532,
-            "of": 10532
+            "n": 17501,
+            "of": 17501
           },
           "cancelled": {
             "n": 1,
-            "of": 683
+            "of": 1135
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -162,22 +162,22 @@
           "samples_night": 1,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
-          "entities": 75,
+          "entities": 89,
           "with_position": {
-            "n": 285,
-            "of": 285
+            "n": 485,
+            "of": 485
           },
           "with_trip_id": {
-            "n": 285,
-            "of": 285
+            "n": 485,
+            "of": 485
           },
           "with_route_id": {
-            "n": 285,
-            "of": 285
+            "n": 485,
+            "of": 485
           },
           "trip_join": {
-            "n": 281,
-            "of": 285
+            "n": 476,
+            "of": 485
           }
         }
       }

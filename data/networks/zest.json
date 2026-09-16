@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:27Z",
-        "age_hours": 132.7,
+        "age_hours": 138.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 291,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "horaires-reseau-zest",
         "last_error": null,
         "checked_at": "2026-09-16T08:10:39Z",
-        "check_age_hours": 0.7,
+        "check_age_hours": 6.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -129,27 +129,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 69,
           "trip_join": {
-            "n": 208,
-            "of": 208
+            "n": 338,
+            "of": 338
           },
           "stop_updates_timed": {
-            "n": 5362,
-            "of": 5543
+            "n": 8597,
+            "of": 8900
           },
           "cancelled": {
             "n": 0,
-            "of": 208
+            "of": 338
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -160,24 +160,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 23,
+          "entities": 22,
           "with_position": {
-            "n": 65,
-            "of": 65
+            "n": 107,
+            "of": 107
           },
           "with_trip_id": {
-            "n": 65,
-            "of": 65
+            "n": 107,
+            "of": 107
           },
           "with_route_id": {
-            "n": 65,
-            "of": 65
+            "n": 107,
+            "of": 107
           },
           "trip_join": {
-            "n": 65,
-            "of": 65
+            "n": 107,
+            "of": 107
           }
         }
       }

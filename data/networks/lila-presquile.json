@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:32Z",
-        "age_hours": 41.8,
+        "age_hours": 47.8,
         "timetable_ends_on": "2026-12-18",
         "days_left": 93,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "reseau-urbain-scolaire-lila-presquile",
         "last_error": null,
         "checked_at": "2026-09-16T03:08:38Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -131,25 +131,25 @@
           "samples_night": 1,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 21,
+          "entities": 30,
           "trip_join": {
-            "n": 131,
-            "of": 131
+            "n": 201,
+            "of": 201
           },
           "stop_updates_timed": {
-            "n": 1686,
-            "of": 1686
+            "n": 2819,
+            "of": 2819
           },
           "cancelled": {
             "n": 0,
-            "of": 131
+            "of": 201
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -160,24 +160,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 5,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 14,
+          "entities": 15,
           "with_position": {
-            "n": 96,
-            "of": 96
+            "n": 144,
+            "of": 144
           },
           "with_trip_id": {
-            "n": 96,
-            "of": 96
+            "n": 144,
+            "of": 144
           },
           "with_route_id": {
-            "n": 96,
-            "of": 96
+            "n": 144,
+            "of": 144
           },
           "trip_join": {
-            "n": 96,
-            "of": 96
+            "n": 144,
+            "of": 144
           }
         }
       }

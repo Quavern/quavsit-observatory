@@ -61,11 +61,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:38Z",
-        "age_hours": 180.8,
+        "age_hours": 186.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -76,15 +76,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-du-reseau-moova-communaute-dagglomeration-de-vesoul-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-16T01:08:36Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-16T13:08:51Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -99,16 +99,16 @@
           "no_header_timestamp": 0,
           "entities": 26,
           "trip_join": {
-            "n": 82,
-            "of": 85
+            "n": 138,
+            "of": 143
           },
           "stop_updates_timed": {
-            "n": 1577,
-            "of": 1577
+            "n": 2655,
+            "of": 2655
           },
           "cancelled": {
             "n": 0,
-            "of": 85
+            "of": 143
           },
           "no_trip_id": 0
         }

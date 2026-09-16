@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:31Z",
-        "age_hours": 180.6,
+        "age_hours": 186.6,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -111,14 +111,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reels-du-reseau-de-transports-lagglo-en-bus-communaute-dagglomeration-gap-tallard-durance",
         "last_error": null,
         "checked_at": "2026-09-16T06:07:59Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs-rt.infra-hubup.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -133,23 +133,23 @@
           "no_header_timestamp": 0,
           "entities": 22,
           "trip_join": {
-            "n": 62,
-            "of": 62
+            "n": 104,
+            "of": 104
           },
           "stop_updates_timed": {
-            "n": 1156,
-            "of": 1156
+            "n": 1956,
+            "of": 1956
           },
           "cancelled": {
             "n": 0,
-            "of": 62
+            "of": 104
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs-rt.infra-hubup.fr",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -164,20 +164,20 @@
           "no_header_timestamp": 0,
           "entities": 22,
           "with_position": {
-            "n": 31,
-            "of": 31
+            "n": 52,
+            "of": 52
           },
           "with_trip_id": {
-            "n": 31,
-            "of": 31
+            "n": 52,
+            "of": 52
           },
           "with_route_id": {
-            "n": 31,
-            "of": 31
+            "n": 52,
+            "of": 52
           },
           "trip_join": {
-            "n": 31,
-            "of": 31
+            "n": 52,
+            "of": 52
           }
         }
       }

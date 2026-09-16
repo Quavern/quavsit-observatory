@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T17:09:29Z",
-        "age_hours": 15.8,
+        "age_hours": 21.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 346,
         "counts": {
@@ -117,8 +117,8 @@
       "realtime": {
         "trip_updates": {
           "host": "app.pysae.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -129,27 +129,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 4,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 42,
           "trip_join": {
-            "n": 74,
-            "of": 74
+            "n": 116,
+            "of": 116
           },
           "stop_updates_timed": {
-            "n": 2198,
-            "of": 2209
+            "n": 3525,
+            "of": 3560
           },
           "cancelled": {
             "n": 0,
-            "of": 74
+            "of": 116
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.pysae.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -164,20 +164,20 @@
           "no_header_timestamp": 0,
           "entities": 42,
           "with_position": {
-            "n": 74,
-            "of": 74
+            "n": 116,
+            "of": 116
           },
           "with_trip_id": {
-            "n": 74,
-            "of": 74
+            "n": 116,
+            "of": 116
           },
           "with_route_id": {
-            "n": 74,
-            "of": 74
+            "n": 116,
+            "of": 116
           },
           "trip_join": {
-            "n": 74,
-            "of": 74
+            "n": 116,
+            "of": 116
           }
         }
       }

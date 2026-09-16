@@ -52,11 +52,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:04:26Z",
-        "age_hours": 10.8,
+        "age_hours": 16.8,
         "timetable_ends_on": "2026-12-20",
         "days_left": 95,
         "counts": {
@@ -68,17 +68,17 @@
         "pan_dataset_slug": "horaires-du-reseau-stas",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:45Z",
-        "check_age_hours": 10.8,
+        "check_age_hours": 16.8,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "bus-prod.saint-etienne-metropole.fr",
-          "samples": 3,
+          "samples": 5,
           "ok": 0,
           "failures": {
             "timeout": 0,
-            "connection": 3,
+            "connection": 5,
             "http_4xx": 0,
             "http_5xx": 0,
             "decode_error": 0,

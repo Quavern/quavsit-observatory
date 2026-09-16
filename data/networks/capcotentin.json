@@ -95,11 +95,11 @@
     {
       "day": "2026-09-16",
       "complete": false,
-      "samples_taken": 4,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:06:25Z",
-        "age_hours": 180.8,
+        "age_hours": 186.8,
         "timetable_ends_on": "2027-06-27",
         "days_left": 284,
         "counts": {
@@ -110,15 +110,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin",
         "last_error": null,
-        "checked_at": "2026-09-16T01:07:31Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-16T13:08:50Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.pysae.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -133,23 +133,23 @@
           "no_header_timestamp": 0,
           "entities": 94,
           "trip_join": {
-            "n": 146,
-            "of": 152
+            "n": 241,
+            "of": 249
           },
           "stop_updates_timed": {
-            "n": 4253,
-            "of": 4316
+            "n": 7004,
+            "of": 7115
           },
           "cancelled": {
             "n": 0,
-            "of": 152
+            "of": 249
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.pysae.com",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -164,20 +164,20 @@
           "no_header_timestamp": 0,
           "entities": 94,
           "with_position": {
-            "n": 152,
-            "of": 152
+            "n": 249,
+            "of": 249
           },
           "with_trip_id": {
-            "n": 152,
-            "of": 152
+            "n": 249,
+            "of": 249
           },
           "with_route_id": {
-            "n": 152,
-            "of": 152
+            "n": 249,
+            "of": 249
           },
           "trip_join": {
-            "n": 146,
-            "of": 152
+            "n": 241,
+            "of": 249
           }
         }
       }

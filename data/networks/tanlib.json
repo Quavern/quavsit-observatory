@@ -33,7 +33,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T04:09:03Z",
-        "age_hours": 148.8,
+        "age_hours": 154.8,
         "timetable_ends_on": "2027-07-03",
         "days_left": 290,
         "counts": {
@@ -45,7 +45,7 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-nio-nva-m-1",
         "last_error": null,
         "checked_at": "2026-09-16T04:08:43Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {}
