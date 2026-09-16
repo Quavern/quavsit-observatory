@@ -4,14 +4,38 @@
   "days": [
     {
       "day": "2026-09-15",
+      "complete": true,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T09:07:44Z",
+        "age_hours": 135.3,
+        "timetable_ends_on": "2026-11-15",
+        "days_left": 61,
+        "counts": {
+          "lines": 10,
+          "stops": 467,
+          "trips": 1465,
+          "stop_times": 28643
+        },
+        "pan_dataset_slug": "fr-200052264-t0004-0000-1",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-16",
       "complete": false,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T09:07:44Z",
-        "age_hours": 133.1,
+        "age_hours": 140.8,
         "timetable_ends_on": "2026-11-15",
-        "days_left": 61,
+        "days_left": 60,
         "counts": {
           "lines": 10,
           "stops": 467,

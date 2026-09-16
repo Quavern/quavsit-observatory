@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T08:10:07Z",
-        "age_hours": 14.1,
+        "age_hours": 16.2,
         "timetable_ends_on": "2026-10-07",
         "days_left": 22,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1439,
@@ -69,13 +69,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1439,
           "informed_resolved": {
             "n": 151,
             "of": 195
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T08:10:07Z",
+        "age_hours": 21.8,
+        "timetable_ends_on": "2026-10-07",
+        "days_left": 21,
+        "counts": {
+          "lines": 126,
+          "stops": 5725,
+          "trips": 34345,
+          "stop_times": 754170
+        },
+        "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.tisseo.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 2,
+          "no_header_timestamp": 0,
+          "entities": 1796,
+          "trip_join": {
+            "n": 1538,
+            "of": 1739
+          },
+          "stop_updates_timed": {
+            "n": 30585,
+            "of": 30847
+          },
+          "cancelled": {
+            "n": 229,
+            "of": 1739
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "api.tisseo.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 2,
+          "no_header_timestamp": 0,
+          "entities": 1796,
+          "informed_resolved": {
+            "n": 37,
+            "of": 48
           }
         }
       }

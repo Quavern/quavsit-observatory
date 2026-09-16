@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:30Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -21,7 +21,7 @@
         "pan_dataset_slug": "simouv-horaires-theoriques-format-gtfs-et-temps-reel-format-siri-transvilles-valenciennes",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:54Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 0,
             "of": 397
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:13:30Z",
+        "age_hours": 177.7,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 106,
+        "counts": {
+          "lines": 88,
+          "stops": 1958,
+          "trips": 14819,
+          "stop_times": 363868
+        },
+        "pan_dataset_slug": "simouv-horaires-theoriques-format-gtfs-et-temps-reel-format-siri-transvilles-valenciennes",
+        "last_error": null,
+        "checked_at": "2026-09-16T05:09:07Z",
+        "check_age_hours": 0.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 52,
+          "no_header_timestamp": 0,
+          "entities": 222,
+          "trip_join": {
+            "n": 0,
+            "of": 130
+          },
+          "stop_updates_timed": {
+            "n": 1507,
+            "of": 1507
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 130
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 52,
+          "no_header_timestamp": 0,
+          "entities": 222,
+          "with_position": {
+            "n": 92,
+            "of": 92
+          },
+          "with_trip_id": {
+            "n": 92,
+            "of": 92
+          },
+          "with_route_id": {
+            "n": 92,
+            "of": 92
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 92
           }
         }
       }

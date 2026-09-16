@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T05:08:50Z",
-        "age_hours": 89.1,
+        "age_hours": 91.3,
         "timetable_ends_on": "2027-09-11",
         "days_left": 361,
         "counts": {
@@ -21,7 +21,7 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:52Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -69,13 +69,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 9,
           "informed_resolved": {
             "n": 132,
             "of": 132
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T05:08:50Z",
+        "age_hours": 96.8,
+        "timetable_ends_on": "2027-09-11",
+        "days_left": 360,
+        "counts": {
+          "lines": 101,
+          "stops": 1265,
+          "trips": 4011,
+          "stop_times": 118705
+        },
+        "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
+        "last_error": null,
+        "checked_at": "2026-09-16T05:09:04Z",
+        "check_age_hours": 0.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 26,
+          "no_header_timestamp": 0,
+          "entities": 74,
+          "trip_join": {
+            "n": 74,
+            "of": 74
+          },
+          "stop_updates_timed": {
+            "n": 2345,
+            "of": 2345
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 74
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "informed_resolved": {
+            "n": 34,
+            "of": 34
           }
         }
       }

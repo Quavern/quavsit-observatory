@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-09T07:10:52Z",
-        "age_hours": 159.1,
+        "age_hours": 161.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -21,7 +21,7 @@
         "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:08Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 30,
           "no_header_timestamp": 0,
           "entities": 926,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 213,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 838,
             "of": 838
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-09T07:10:52Z",
+        "age_hours": 166.7,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 106,
+        "counts": {
+          "lines": 112,
+          "stops": 4545,
+          "trips": 18849,
+          "stop_times": 458857
+        },
+        "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
+        "last_error": null,
+        "checked_at": "2026-09-15T22:07:08Z",
+        "check_age_hours": 7.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 21,
+          "no_header_timestamp": 0,
+          "entities": 976,
+          "trip_join": {
+            "n": 976,
+            "of": 976
+          },
+          "stop_updates_timed": {
+            "n": 16672,
+            "of": 16672
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 976
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 4,
+          "no_header_timestamp": 0,
+          "entities": 209,
+          "with_position": {
+            "n": 209,
+            "of": 209
+          },
+          "with_trip_id": {
+            "n": 209,
+            "of": 209
+          },
+          "with_route_id": {
+            "n": 209,
+            "of": 209
+          },
+          "trip_join": {
+            "n": 209,
+            "of": 209
           }
         }
       }

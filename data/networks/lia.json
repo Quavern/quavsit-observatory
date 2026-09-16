@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:18Z",
-        "age_hours": 18.1,
+        "age_hours": 20.3,
         "timetable_ends_on": "2026-10-31",
         "days_left": 46,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 46,
           "no_header_timestamp": 0,
           "entities": 334,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 98,
@@ -103,8 +103,120 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T04:09:18Z",
+        "age_hours": 25.8,
+        "timetable_ends_on": "2026-10-31",
+        "days_left": 45,
+        "counts": {
+          "lines": 63,
+          "stops": 1095,
+          "trips": 10934,
+          "stop_times": 263901
+        },
+        "pan_dataset_slug": "reseau-de-transport-en-commun-lia-gtfs-siri",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 19,
+          "no_header_timestamp": 0,
+          "entities": 366,
+          "trip_join": {
+            "n": 366,
+            "of": 366
+          },
+          "stop_updates_timed": {
+            "n": 7644,
+            "of": 7962
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 366
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 18,
+          "no_header_timestamp": 0,
+          "entities": 108,
+          "with_position": {
+            "n": 108,
+            "of": 108
+          },
+          "with_trip_id": {
+            "n": 108,
+            "of": 108
+          },
+          "with_route_id": {
+            "n": 108,
+            "of": 108
+          },
+          "trip_join": {
+            "n": 108,
+            "of": 108
+          }
+        },
+        "alerts": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {

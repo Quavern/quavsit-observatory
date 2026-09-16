@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:25Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-09-10",
         "days_left": 360,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 20,
@@ -53,6 +53,62 @@
           "cancelled": {
             "n": 0,
             "of": 86
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:19:25Z",
+        "age_hours": 177.6,
+        "timetable_ends_on": "2027-09-10",
+        "days_left": 359,
+        "counts": {
+          "lines": 16,
+          "stops": 412,
+          "trips": 654,
+          "stop_times": 15186
+        },
+        "pan_dataset_slug": "reseau-de-transport-du-grand-dole",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 44,
+          "trip_join": {
+            "n": 44,
+            "of": 44
+          },
+          "stop_updates_timed": {
+            "n": 865,
+            "of": 871
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 44
           },
           "no_trip_id": 0
         }

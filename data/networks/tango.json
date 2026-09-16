@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:12:15Z",
-        "age_hours": 11.0,
+        "age_hours": 13.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 197,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 83,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 355,
             "of": 361
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T11:12:15Z",
+        "age_hours": 18.7,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 106,
+        "counts": {
+          "lines": 88,
+          "stops": 1134,
+          "trips": 28968,
+          "stop_times": 555831
+        },
+        "pan_dataset_slug": "offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "gtfs.bus-tracker.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 32,
+          "no_header_timestamp": 0,
+          "entities": 321,
+          "trip_join": {
+            "n": 315,
+            "of": 321
+          },
+          "stop_updates_timed": {
+            "n": 4373,
+            "of": 4373
+          },
+          "cancelled": {
+            "n": 1,
+            "of": 321
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "gtfs.bus-tracker.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 32,
+          "no_header_timestamp": 0,
+          "entities": 137,
+          "with_position": {
+            "n": 137,
+            "of": 137
+          },
+          "with_trip_id": {
+            "n": 137,
+            "of": 137
+          },
+          "with_route_id": {
+            "n": 137,
+            "of": 137
+          },
+          "trip_join": {
+            "n": 134,
+            "of": 137
           }
         }
       }

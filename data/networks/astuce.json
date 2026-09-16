@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:09:55Z",
-        "age_hours": 11.1,
+        "age_hours": 13.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -64,6 +64,84 @@
             "timeout": 0,
             "connection": 0,
             "http_4xx": 4,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 2,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "with_position": null,
+          "with_trip_id": null,
+          "with_route_id": null,
+          "trip_join": null
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T11:09:55Z",
+        "age_hours": 18.8,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 347,
+        "counts": {
+          "lines": 111,
+          "stops": 3700,
+          "trips": 13301,
+          "stop_times": 344441
+        },
+        "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.mrn.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 31,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "trip_join": {
+            "n": 0,
+            "of": 0
+          },
+          "stop_updates_timed": {
+            "n": 0,
+            "of": 0
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 0
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.mrn.cityway.fr",
+          "samples": 1,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 1,
             "http_5xx": 0,
             "decode_error": 0,
             "budget": 0

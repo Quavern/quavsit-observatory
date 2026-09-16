@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:04Z",
-        "age_hours": 18.1,
+        "age_hours": 20.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 220,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 194,
@@ -103,13 +103,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 17,
           "informed_resolved": {
             "n": 93,
             "of": 93
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T04:09:04Z",
+        "age_hours": 25.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 289,
+        "counts": {
+          "lines": 103,
+          "stops": 1772,
+          "trips": 8478,
+          "stop_times": 292484
+        },
+        "pan_dataset_slug": "angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 19,
+          "no_header_timestamp": 0,
+          "entities": 371,
+          "trip_join": {
+            "n": 371,
+            "of": 371
+          },
+          "stop_updates_timed": {
+            "n": 6924,
+            "of": 6924
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 371
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 23,
+          "no_header_timestamp": 0,
+          "entities": 250,
+          "with_position": {
+            "n": 250,
+            "of": 250
+          },
+          "with_trip_id": {
+            "n": 250,
+            "of": 250
+          },
+          "with_route_id": {
+            "n": 250,
+            "of": 250
+          },
+          "trip_join": {
+            "n": 250,
+            "of": 250
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 17,
+          "informed_resolved": {
+            "n": 23,
+            "of": 23
           }
         }
       }

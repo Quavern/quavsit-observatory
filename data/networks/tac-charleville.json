@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:50Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-07-11",
         "days_left": 299,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 25,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -53,6 +53,62 @@
           "cancelled": {
             "n": 0,
             "of": 264
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:09:50Z",
+        "age_hours": 177.8,
+        "timetable_ends_on": "2027-07-11",
+        "days_left": 298,
+        "counts": {
+          "lines": 26,
+          "stops": 891,
+          "trips": 766,
+          "stop_times": 16566
+        },
+        "pan_dataset_slug": "fr-200052264-t0002-0000-1",
+        "last_error": null,
+        "checked_at": "2026-09-16T03:10:32Z",
+        "check_age_hours": 2.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 34,
+          "no_header_timestamp": 0,
+          "entities": 91,
+          "trip_join": {
+            "n": 91,
+            "of": 91
+          },
+          "stop_updates_timed": {
+            "n": 1674,
+            "of": 1674
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 91
           },
           "no_trip_id": 0
         }

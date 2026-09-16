@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T21:09:01Z",
-        "age_hours": 1.1,
+        "age_hours": 3.3,
         "timetable_ends_on": "2026-09-28",
         "days_left": 13,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 129,
@@ -53,6 +53,62 @@
           "cancelled": {
             "n": 0,
             "of": 532
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T21:09:01Z",
+        "age_hours": 8.8,
+        "timetable_ends_on": "2026-09-28",
+        "days_left": 12,
+        "counts": {
+          "lines": 38,
+          "stops": 1693,
+          "trips": 7350,
+          "stop_times": 207449
+        },
+        "pan_dataset_slug": "gtfs-sankeo",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "eur.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 38,
+          "no_header_timestamp": 0,
+          "entities": 195,
+          "trip_join": {
+            "n": 195,
+            "of": 195
+          },
+          "stop_updates_timed": {
+            "n": 3793,
+            "of": 3889
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 195
           },
           "no_trip_id": 0
         }

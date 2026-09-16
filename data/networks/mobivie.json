@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T07:09:54Z",
-        "age_hours": 135.1,
+        "age_hours": 137.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 39,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 11,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 39,
             "of": 39
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T07:09:54Z",
+        "age_hours": 142.8,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 347,
+        "counts": {
+          "lines": 9,
+          "stops": 270,
+          "trips": 684,
+          "stop_times": 15904
+        },
+        "pan_dataset_slug": "mobivie-reseau-urbain-vichy-communaute",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 44,
+          "trip_join": {
+            "n": 44,
+            "of": 44
+          },
+          "stop_updates_timed": {
+            "n": 1020,
+            "of": 1039
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 44
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 1,
+          "no_header_timestamp": 0,
+          "entities": 14,
+          "with_position": {
+            "n": 14,
+            "of": 14
+          },
+          "with_trip_id": {
+            "n": 14,
+            "of": 14
+          },
+          "with_route_id": {
+            "n": 14,
+            "of": 14
+          },
+          "trip_join": {
+            "n": 14,
+            "of": 14
           }
         }
       }

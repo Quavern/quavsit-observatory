@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:23Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -21,7 +21,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:24Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 93,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 36,
@@ -103,13 +103,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,
           "informed_resolved": {
             "n": 44,
             "of": 44
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:10:23Z",
+        "age_hours": 177.7,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 109,
+        "counts": {
+          "lines": 56,
+          "stops": 1122,
+          "trips": 1951,
+          "stop_times": 55099
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale",
+        "last_error": null,
+        "checked_at": "2026-09-16T04:08:42Z",
+        "check_age_hours": 1.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-qub-quimper.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 166,
+          "trip_join": {
+            "n": 164,
+            "of": 166
+          },
+          "stop_updates_timed": {
+            "n": 4884,
+            "of": 5015
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 166
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-qub-quimper.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 60,
+          "with_position": {
+            "n": 60,
+            "of": 60
+          },
+          "with_trip_id": {
+            "n": 60,
+            "of": 60
+          },
+          "with_route_id": {
+            "n": 60,
+            "of": 60
+          },
+          "trip_join": {
+            "n": 60,
+            "of": 60
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 6,
+          "informed_resolved": {
+            "n": 11,
+            "of": 11
           }
         }
       }

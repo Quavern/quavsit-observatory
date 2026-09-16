@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:40Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 402,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 174,
@@ -103,13 +103,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 42,
           "informed_resolved": {
             "n": 777,
             "of": 777
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T03:08:39Z",
+        "age_hours": 2.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 32,
+        "counts": {
+          "lines": 153,
+          "stops": 1802,
+          "trips": 89253,
+          "stop_times": 2043218
+        },
+        "pan_dataset_slug": "versions-des-horaires-theoriques-des-lignes-de-bus-et-de-metro-du-reseau-star-dans-les-formats-gtfs-et-netex-ainsi-que-les-urls-dacces-au-gtfs-rt-1",
+        "last_error": null,
+        "checked_at": "2026-09-16T03:10:31Z",
+        "check_age_hours": 2.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 15,
+          "no_header_timestamp": 0,
+          "entities": 736,
+          "trip_join": {
+            "n": 735,
+            "of": 736
+          },
+          "stop_updates_timed": {
+            "n": 15407,
+            "of": 15919
+          },
+          "cancelled": {
+            "n": 6,
+            "of": 736
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 15,
+          "no_header_timestamp": 0,
+          "entities": 291,
+          "with_position": {
+            "n": 291,
+            "of": 291
+          },
+          "with_trip_id": {
+            "n": 289,
+            "of": 291
+          },
+          "with_route_id": {
+            "n": 289,
+            "of": 291
+          },
+          "trip_join": {
+            "n": 289,
+            "of": 289
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 9,
+          "no_header_timestamp": 0,
+          "entities": 38,
+          "informed_resolved": {
+            "n": 139,
+            "of": 139
           }
         }
       }

@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:49Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 56,
           "no_header_timestamp": 0,
           "entities": 37,
@@ -53,6 +53,62 @@
           "cancelled": {
             "n": 0,
             "of": 159
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:18:49Z",
+        "age_hours": 177.6,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 347,
+        "counts": {
+          "lines": 51,
+          "stops": 1459,
+          "trips": 4149,
+          "stop_times": 91189
+        },
+        "pan_dataset_slug": "offre-de-transport-du-reseau-temob-syndicat-mixte-des-transports-urbains-thionville-fensch",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 68,
+          "trip_join": {
+            "n": 68,
+            "of": 68
+          },
+          "stop_updates_timed": {
+            "n": 1635,
+            "of": 1635
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 68
           },
           "no_trip_id": 0
         }

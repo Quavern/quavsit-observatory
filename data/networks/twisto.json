@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:08:02Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -21,7 +21,31 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T18:08:02Z",
+        "age_hours": 35.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 106,
+        "counts": {
+          "lines": 67,
+          "stops": 1417,
+          "trips": 6957,
+          "stop_times": 221731
+        },
+        "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
+        "last_error": null,
+        "checked_at": "2026-09-15T22:05:01Z",
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {}

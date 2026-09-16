@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T18:09:40Z",
-        "age_hours": 4.1,
+        "age_hours": 6.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 4,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -103,13 +103,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
             "n": 572,
             "of": 572
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T18:09:40Z",
+        "age_hours": 11.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 289,
+        "counts": {
+          "lines": 200,
+          "stops": 2599,
+          "trips": 2573,
+          "stop_times": 64908
+        },
+        "pan_dataset_slug": "reseau-urbain-kiceo",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 115,
+          "trip_join": {
+            "n": 115,
+            "of": 115
+          },
+          "stop_updates_timed": {
+            "n": 2745,
+            "of": 2745
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 115
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 65,
+          "with_position": {
+            "n": 65,
+            "of": 65
+          },
+          "with_trip_id": {
+            "n": 65,
+            "of": 65
+          },
+          "with_route_id": {
+            "n": 65,
+            "of": 65
+          },
+          "trip_join": {
+            "n": 65,
+            "of": 65
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 3,
+          "informed_resolved": {
+            "n": 8,
+            "of": 8
           }
         }
       }

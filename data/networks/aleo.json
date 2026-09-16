@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:12Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 43,
             "of": 43
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T03:08:23Z",
+        "age_hours": 2.8,
+        "timetable_ends_on": "2027-07-04",
+        "days_left": 291,
+        "counts": {
+          "lines": 11,
+          "stops": 468,
+          "trips": 1255,
+          "stop_times": 38408
+        },
+        "pan_dataset_slug": "donnees-du-reseau-de-transport-aleo",
+        "last_error": null,
+        "checked_at": "2026-09-16T03:08:25Z",
+        "check_age_hours": 2.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 36,
+          "trip_join": {
+            "n": 18,
+            "of": 18
+          },
+          "stop_updates_timed": {
+            "n": 551,
+            "of": 552
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 18
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 36,
+          "with_position": {
+            "n": 18,
+            "of": 18
+          },
+          "with_trip_id": {
+            "n": 18,
+            "of": 18
+          },
+          "with_route_id": {
+            "n": 18,
+            "of": 18
+          },
+          "trip_join": {
+            "n": 18,
+            "of": 18
           }
         }
       }

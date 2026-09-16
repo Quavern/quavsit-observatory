@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T22:07:22Z",
-        "age_hours": 96.1,
+        "age_hours": 98.3,
         "timetable_ends_on": "2028-12-31",
         "days_left": 838,
         "counts": {
@@ -21,7 +21,7 @@
         "pan_dataset_slug": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:21Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 222,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 22,
@@ -88,6 +88,96 @@
           "trip_join": {
             "n": 130,
             "of": 130
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T22:07:22Z",
+        "age_hours": 103.8,
+        "timetable_ends_on": "2028-12-31",
+        "days_left": 837,
+        "counts": {
+          "lines": 121,
+          "stops": 2581,
+          "trips": 1570,
+          "stop_times": 26458
+        },
+        "pan_dataset_slug": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-15T22:07:21Z",
+        "check_age_hours": 7.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "alesy.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 5,
+          "no_header_timestamp": 0,
+          "entities": 456,
+          "trip_join": {
+            "n": 456,
+            "of": 456
+          },
+          "stop_updates_timed": {
+            "n": 8546,
+            "of": 8550
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 456
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "alesy.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 55,
+          "with_position": {
+            "n": 53,
+            "of": 55
+          },
+          "with_trip_id": {
+            "n": 53,
+            "of": 53
+          },
+          "with_route_id": {
+            "n": 53,
+            "of": 53
+          },
+          "trip_join": {
+            "n": 53,
+            "of": 53
           }
         }
       }

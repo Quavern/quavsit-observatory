@@ -4,14 +4,38 @@
   "days": [
     {
       "day": "2026-09-15",
+      "complete": true,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-09T21:09:59Z",
+        "age_hours": 147.3,
+        "timetable_ends_on": "2027-04-30",
+        "days_left": 227,
+        "counts": {
+          "lines": 119,
+          "stops": 1520,
+          "trips": 4509,
+          "stop_times": 81446
+        },
+        "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lro-nva-m-1",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-16",
       "complete": false,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-09T21:09:59Z",
-        "age_hours": 145.1,
+        "age_hours": 152.8,
         "timetable_ends_on": "2027-04-30",
-        "days_left": 227,
+        "days_left": 226,
         "counts": {
           "lines": 119,
           "stops": 1520,

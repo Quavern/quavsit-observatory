@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T21:07:39Z",
-        "age_hours": 1.1,
+        "age_hours": 3.3,
         "timetable_ends_on": "2026-11-13",
         "days_left": 59,
         "counts": {
@@ -38,13 +38,60 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 169,
           "no_header_timestamp": 0,
           "entities": 80,
           "informed_resolved": {
             "n": 1980,
             "of": 2832
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T21:07:39Z",
+        "age_hours": 8.8,
+        "timetable_ends_on": "2026-11-13",
+        "days_left": 58,
+        "counts": {
+          "lines": 125,
+          "stops": 2754,
+          "trips": 43298,
+          "stop_times": 980955
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "alerts": {
+          "host": "api-mobilite.rbgl.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 215,
+          "no_header_timestamp": 0,
+          "entities": 79,
+          "informed_resolved": {
+            "n": 491,
+            "of": 694
           }
         }
       }

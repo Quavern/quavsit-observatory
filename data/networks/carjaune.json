@@ -4,12 +4,12 @@
   "days": [
     {
       "day": "2026-09-15",
-      "complete": false,
-      "samples_taken": 5,
+      "complete": true,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T22:08:27Z",
-        "age_hours": 24.1,
+        "age_hours": 26.3,
         "timetable_ends_on": "2027-08-02",
         "days_left": 321,
         "counts": {
@@ -38,7 +38,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -69,7 +69,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -103,13 +103,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
           "informed_resolved": {
             "n": 19,
             "of": 19
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-16",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T22:08:27Z",
+        "age_hours": 31.8,
+        "timetable_ends_on": "2027-08-02",
+        "days_left": 320,
+        "counts": {
+          "lines": 16,
+          "stops": 468,
+          "trips": 2286,
+          "stop_times": 36858
+        },
+        "pan_dataset_slug": "horaires-theoriques-au-format-gtfs-et-horaires-temps-reel-au-format-gtfs-rt-du-reseau-car-jaune-a-la-reunion",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "pysae.com",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 323,
+          "trip_join": {
+            "n": 158,
+            "of": 158
+          },
+          "stop_updates_timed": {
+            "n": 2577,
+            "of": 2587
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 158
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "pysae.com",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 323,
+          "with_position": {
+            "n": 158,
+            "of": 158
+          },
+          "with_trip_id": {
+            "n": 158,
+            "of": 158
+          },
+          "with_route_id": {
+            "n": 158,
+            "of": 158
+          },
+          "trip_join": {
+            "n": 158,
+            "of": 158
+          }
+        },
+        "alerts": {
+          "host": "pysae.com",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 12,
+          "no_header_timestamp": 0,
+          "entities": 323,
+          "informed_resolved": {
+            "n": 10,
+            "of": 10
           }
         }
       }

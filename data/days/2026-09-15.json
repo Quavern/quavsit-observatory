@@ -1,14 +1,14 @@
 {
   "schema": "quavsit-observatory/1",
   "day": "2026-09-15",
-  "complete": false,
-  "generated_at": "2026-09-15T22:13:59Z",
+  "complete": true,
+  "generated_at": "2026-09-16T00:25:02Z",
   "engine": {
-    "code_sha256": "d344f30d5192,49bcedc9639b",
+    "code_sha256": "d344f30d5192,49bcedc9639b,02c92b8db3d3",
     "service_hours": "06:00-22:00 local"
   },
   "samples_scheduled": 8,
-  "samples_taken": 5,
+  "samples_taken": 6,
   "networks": [
     {
       "network": "aleo",
@@ -17,11 +17,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "ALEO — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:12Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -50,7 +50,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -81,7 +81,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -112,11 +112,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Région Auvergne-Rhône-Alpes / Cars Région Isère — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 97.1,
+        "age_hours": 99.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -145,7 +145,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 45,
           "no_header_timestamp": 0,
           "entities": 31,
@@ -176,7 +176,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
           "entities": 1181,
@@ -195,11 +195,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "J'ybus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:21:10Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-07-03",
         "days_left": 291,
         "counts": {
@@ -228,7 +228,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 6,
@@ -259,7 +259,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -290,11 +290,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Vienne Condrieu Agglomération / L'va — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:21:31Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -323,7 +323,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 25,
@@ -354,7 +354,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 25,
@@ -388,7 +388,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 12,
@@ -407,11 +407,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Montluçon Communauté / Maelis — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:11:57Z",
-        "age_hours": 0.0,
+        "age_hours": 2.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -423,7 +423,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
         "checked_at": "2026-09-15T22:12:00Z",
-        "check_age_hours": 0.0,
+        "check_age_hours": 2.2,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -440,7 +440,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -468,7 +468,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 12,
@@ -496,11 +496,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "VICHY COMMUNAUTE / Mobivie — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T07:09:54Z",
-        "age_hours": 135.1,
+        "age_hours": 137.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -529,7 +529,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 39,
@@ -560,7 +560,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 11,
@@ -591,11 +591,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Montélibus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:30:44Z",
-        "age_hours": 169.7,
+        "age_hours": 171.9,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -606,8 +606,8 @@
         },
         "pan_dataset_slug": "horaires-montelibus",
         "last_error": null,
-        "checked_at": "2026-09-15T22:12:00Z",
-        "check_age_hours": 0.0,
+        "checked_at": "2026-09-15T23:09:13Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -624,7 +624,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 42,
@@ -655,7 +655,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 12,
@@ -686,11 +686,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Ondéa - COMPAGNIE DE TRANSPORT DU LAC DU BOURGET-CTLB — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:47Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -719,7 +719,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 29,
           "no_header_timestamp": 0,
           "entities": 25,
@@ -750,7 +750,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 11,
@@ -769,11 +769,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Keolis RIOM / RLV Mobilités — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:22:11Z",
-        "age_hours": 169.9,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-08-28",
         "days_left": 347,
         "counts": {
@@ -802,7 +802,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 28,
@@ -833,7 +833,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -864,11 +864,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'agglomération Porte de l'Isère / Ruban — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T17:09:29Z",
-        "age_hours": 5.1,
+        "age_hours": 7.3,
         "timetable_ends_on": "2027-08-28",
         "days_left": 347,
         "counts": {
@@ -897,7 +897,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 39,
@@ -928,7 +928,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 39,
@@ -959,11 +959,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Grand Bourg Agglomération / Rubis — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:09:25Z",
-        "age_hours": 0.1,
+        "age_hours": 2.3,
         "timetable_ends_on": "2026-12-26",
         "days_left": 102,
         "counts": {
@@ -975,7 +975,7 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:27Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -992,7 +992,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 57,
@@ -1020,7 +1020,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 29,
@@ -1052,7 +1052,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T18:09:48Z",
-        "age_hours": 4.1,
+        "age_hours": 6.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -1077,11 +1077,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Saint-Etienne Métropole / STAS — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:04:26Z",
-        "age_hours": 0.2,
+        "age_hours": 2.3,
         "timetable_ends_on": "2026-12-20",
         "days_left": 96,
         "counts": {
@@ -1093,7 +1093,7 @@
         "pan_dataset_slug": "horaires-du-reseau-stas",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:45Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -1110,7 +1110,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": null,
           "no_header_timestamp": 0,
           "entities": null,
@@ -1129,11 +1129,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Grand Chambéry / Synchro Bus — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -1162,7 +1162,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 213,
@@ -1193,7 +1193,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -1212,11 +1212,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Clermont Auvergne Métropole / T2C — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:44Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1245,7 +1245,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 665,
@@ -1273,11 +1273,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'Agglomération Annemasse - les Voirons Agglomération / TAC Mobilités — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -1306,7 +1306,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 22,
           "no_header_timestamp": 0,
           "entities": 54,
@@ -1337,7 +1337,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 8,
@@ -1360,7 +1360,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T13:07:38Z",
-        "age_hours": 33.1,
+        "age_hours": 35.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1385,11 +1385,11 @@
       "region": "Bourgogne-Franche-Comté",
       "timezone": "Europe/Paris",
       "attribution": "DiviaMobilités — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:42Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1401,7 +1401,7 @@
         "pan_dataset_slug": "gtfs-diviamobilites",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:53Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -1418,7 +1418,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 324,
@@ -1449,7 +1449,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 112,
@@ -1484,7 +1484,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:09:22Z",
-        "age_hours": 3.1,
+        "age_hours": 5.3,
         "timetable_ends_on": "2026-10-25",
         "days_left": 40,
         "counts": {
@@ -1509,11 +1509,11 @@
       "region": "Bourgogne-Franche-Comté",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'Agglomération du Grand Dole / Grandole Mobilités — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:25Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-09-10",
         "days_left": 360,
         "counts": {
@@ -1542,7 +1542,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 20,
@@ -1574,7 +1574,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:26Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -1603,7 +1603,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:24:50Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1615,7 +1615,7 @@
         "pan_dataset_slug": "reseau-de-transport-interurbain-mobigo-en-bourgogne-franche-comte",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:23Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -1628,11 +1628,11 @@
       "region": "Bourgogne-Franche-Comté",
       "timezone": "Europe/Paris",
       "attribution": "Réseau moova - Communauté d'Agglomération de Vesoul — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:38Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -1661,7 +1661,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 24,
@@ -1693,7 +1693,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:25:22Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1705,7 +1705,7 @@
         "pan_dataset_slug": "arrets-circuits-et-horaires-du-reseau-optymo-de-belfort",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:23Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -1722,7 +1722,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:15Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -1751,7 +1751,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:34Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-06-11",
         "days_left": 269,
         "counts": {
@@ -1780,7 +1780,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:17:36Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-11-01",
         "days_left": 47,
         "counts": {
@@ -1805,11 +1805,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Brest métropole / Bibus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T23:09:38Z",
-        "age_hours": 119.1,
+        "age_hours": 121.3,
         "timetable_ends_on": "2026-12-20",
         "days_left": 96,
         "counts": {
@@ -1820,8 +1820,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:55Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:12Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -1838,7 +1838,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 58,
           "no_header_timestamp": 0,
           "entities": 905,
@@ -1869,7 +1869,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 40,
           "no_header_timestamp": 0,
           "entities": 125,
@@ -1903,7 +1903,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 36,
@@ -1922,11 +1922,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Région Bretagne / BreizhGo Car 35 — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:24Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -1955,7 +1955,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13599,
           "no_header_timestamp": 0,
           "entities": 3,
@@ -1983,11 +1983,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Auray Quiberon Terre Atlantique / Glazgo — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:24Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -2016,7 +2016,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -2047,7 +2047,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -2081,7 +2081,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -2100,11 +2100,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Lorient Agglomération / Izilo — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:29Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -2133,7 +2133,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 158,
@@ -2164,7 +2164,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -2183,11 +2183,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Transdev GMVA Mobilités • Kicéo — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T18:09:40Z",
-        "age_hours": 4.1,
+        "age_hours": 6.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -2216,7 +2216,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 4,
@@ -2247,7 +2247,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -2281,7 +2281,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -2304,7 +2304,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:27Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -2329,11 +2329,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Quimper Bretagne Occidentale / QUB — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:23Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -2345,7 +2345,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:24Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -2362,7 +2362,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 93,
@@ -2393,7 +2393,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 36,
@@ -2427,7 +2427,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,
@@ -2450,7 +2450,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:17:45Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -2475,11 +2475,11 @@
       "region": "Bretagne",
       "timezone": "Europe/Paris",
       "attribution": "Rennes Métropole / Keolis Rennes (STAR) — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:40Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -2508,7 +2508,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 402,
@@ -2539,7 +2539,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 174,
@@ -2573,7 +2573,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 42,
@@ -2587,7 +2587,7 @@
         {
           "source": "star:ods:tco-bus-circulation-passages-tr",
           "last_ok_at": "2026-09-15T20:10:22+00:00",
-          "last_error_at": "2026-09-15T22:13:15+00:00",
+          "last_error_at": "2026-09-15T23:23:16+00:00",
           "state": "down"
         },
         {
@@ -2605,7 +2605,7 @@
         {
           "source": "star:ods:tco-busmetro-trafic-alertes-tr",
           "last_ok_at": "2026-09-15T20:10:22+00:00",
-          "last_error_at": "2026-09-15T22:13:15+00:00",
+          "last_error_at": "2026-09-15T23:23:16+00:00",
           "state": "down"
         },
         {
@@ -2617,13 +2617,13 @@
         {
           "source": "star:ods:tco-metro-lignes-etat-tr",
           "last_ok_at": "2026-09-15T20:10:23+00:00",
-          "last_error_at": "2026-09-15T22:13:17+00:00",
+          "last_error_at": "2026-09-15T23:23:17+00:00",
           "state": "down"
         },
         {
           "source": "star:ods:tco-metro-stations-etat-tr",
           "last_ok_at": "2026-09-15T20:10:23+00:00",
-          "last_error_at": "2026-09-15T22:13:18+00:00",
+          "last_error_at": "2026-09-15T23:23:18+00:00",
           "state": "down"
         },
         {
@@ -2651,7 +2651,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:22Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -2663,7 +2663,7 @@
         "pan_dataset_slug": "gtfs-du-reseau-de-transports-publics-de-saint-brieuc-armor-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:46Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -2676,11 +2676,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "JVMALIN / Agglobus — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T05:08:50Z",
-        "age_hours": 89.1,
+        "age_hours": 91.3,
         "timetable_ends_on": "2027-09-11",
         "days_left": 361,
         "counts": {
@@ -2692,7 +2692,7 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:52Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -2709,7 +2709,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -2740,7 +2740,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 9,
@@ -2759,11 +2759,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "JVMALIN / Azalys — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T07:07:55Z",
-        "age_hours": 15.1,
+        "age_hours": 17.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -2792,7 +2792,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 31,
@@ -2823,7 +2823,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 16,
@@ -2854,11 +2854,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "Tours Métropole Val de Loire / Fil Bleu — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T17:08:55Z",
-        "age_hours": 101.1,
+        "age_hours": 103.3,
         "timetable_ends_on": "2027-01-01",
         "days_left": 108,
         "counts": {
@@ -2870,7 +2870,7 @@
         "pan_dataset_slug": "fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:54Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -2887,7 +2887,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1706,
           "no_header_timestamp": 0,
           "entities": 114,
@@ -2918,11 +2918,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "Filibus - Chartres Métropole Transports — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:34Z",
-        "age_hours": 169.8,
+        "age_hours": 171.9,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -2933,8 +2933,8 @@
         },
         "pan_dataset_slug": "filibus-urbain",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:56Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:13Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -2951,7 +2951,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 93,
@@ -2982,7 +2982,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 93,
@@ -3017,7 +3017,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:33Z",
-        "age_hours": 170.0,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -3029,7 +3029,7 @@
         "pan_dataset_slug": "reseau-de-bus-urbain-horizon",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:08Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -3042,11 +3042,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "Transdev Vierzon Mobilités • Le Vib / Le Vib' — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:24:11Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-07-31",
         "days_left": 319,
         "counts": {
@@ -3058,7 +3058,7 @@
         "pan_dataset_slug": "reseau-urbain-le-vib",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:22Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -3075,7 +3075,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -3106,7 +3106,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -3140,7 +3140,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -3159,11 +3159,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "JVMALIN / Rémi — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T21:09:21Z",
-        "age_hours": 25.1,
+        "age_hours": 27.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -3192,7 +3192,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 110,
@@ -3223,7 +3223,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 60,
@@ -3257,7 +3257,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 33,
           "no_header_timestamp": 0,
           "entities": 10,
@@ -3276,11 +3276,11 @@
       "region": "Centre-Val de Loire",
       "timezone": "Europe/Paris",
       "attribution": "Orléans Métropole / TAO — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:31Z",
-        "age_hours": 18.1,
+        "age_hours": 20.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -3309,7 +3309,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 46,
           "no_header_timestamp": 0,
           "entities": 1029,
@@ -3341,7 +3341,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:38Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -3366,11 +3366,11 @@
       "region": "Corse",
       "timezone": "Europe/Paris",
       "attribution": "Collectivité de Corse / Via Strada — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:41Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2030-12-31",
         "days_left": 1568,
         "counts": {
@@ -3382,7 +3382,7 @@
         "pan_dataset_slug": "gtfs-transport-via-strada",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:55Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -3399,7 +3399,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -3427,11 +3427,11 @@
       "region": "France",
       "timezone": "Europe/Paris",
       "attribution": "SNCF — Open Database License (ODbL) (api.sncf.com, transport.data.gouv.fr GTFS + GTFS-RT + SIRI ET Lite)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:09:10Z",
-        "age_hours": 11.1,
+        "age_hours": 13.3,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -3461,7 +3461,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 49,
           "no_header_timestamp": 0,
           "entities": 1525,
@@ -3492,7 +3492,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 56,
           "no_header_timestamp": 0,
           "entities": 512,
@@ -3528,7 +3528,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:08:27Z",
-        "age_hours": 3.1,
+        "age_hours": 5.3,
         "timetable_ends_on": "2027-03-14",
         "days_left": 180,
         "counts": {
@@ -3557,7 +3557,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T01:07:23Z",
-        "age_hours": 21.1,
+        "age_hours": 23.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -3582,11 +3582,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / Grand Reims Mobilités — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T19:09:16Z",
-        "age_hours": 75.1,
+        "age_hours": 77.3,
         "timetable_ends_on": "2026-11-01",
         "days_left": 47,
         "counts": {
@@ -3615,7 +3615,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 37,
           "no_header_timestamp": 0,
           "entities": 311,
@@ -3643,11 +3643,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / Imagine — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:17Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2027-12-31",
         "days_left": 472,
         "counts": {
@@ -3659,7 +3659,7 @@
         "pan_dataset_slug": "fr-200052264-t0009-0000-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:54Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -3676,7 +3676,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 42,
           "no_header_timestamp": 0,
           "entities": 68,
@@ -3704,11 +3704,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Eurométropole de Metz / Le Met' — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T21:09:00Z",
-        "age_hours": 25.1,
+        "age_hours": 27.3,
         "timetable_ends_on": "2026-10-14",
         "days_left": 29,
         "counts": {
@@ -3737,7 +3737,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 252,
@@ -3768,7 +3768,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 111,
@@ -3799,11 +3799,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / SITAC Châlons — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T02:09:27Z",
-        "age_hours": 20.1,
+        "age_hours": 22.3,
         "timetable_ends_on": "2026-10-17",
         "days_left": 32,
         "counts": {
@@ -3832,7 +3832,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
           "entities": 30,
@@ -3864,7 +3864,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:33Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-06-25",
         "days_left": 283,
         "counts": {
@@ -3889,11 +3889,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / Stan — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:26Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-30",
         "days_left": 106,
         "counts": {
@@ -3905,7 +3905,7 @@
         "pan_dataset_slug": "fr-200052264-t0034-0000-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:25Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -3922,7 +3922,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 27,
           "no_header_timestamp": 0,
           "entities": 235,
@@ -3950,11 +3950,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / TAC — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:50Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-07-11",
         "days_left": 299,
         "counts": {
@@ -3983,7 +3983,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 25,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -4015,7 +4015,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:17Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -4027,7 +4027,7 @@
         "pan_dataset_slug": "donnees-tcat-troyes-champagne-metropole-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:45Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -4040,11 +4040,11 @@
       "region": "Grand Est",
       "timezone": "Europe/Paris",
       "attribution": "Fluo Grand Est / TeMo'b — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:49Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -4073,7 +4073,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 56,
           "no_header_timestamp": 0,
           "entities": 37,
@@ -4105,7 +4105,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T09:07:44Z",
-        "age_hours": 133.1,
+        "age_hours": 135.3,
         "timetable_ends_on": "2026-11-15",
         "days_left": 61,
         "counts": {
@@ -4134,7 +4134,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:06Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -4146,7 +4146,7 @@
         "pan_dataset_slug": "agence-agglobus",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:24Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -4159,11 +4159,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Ametis — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:08:23Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2026-11-19",
         "days_left": 65,
         "counts": {
@@ -4175,7 +4175,7 @@
         "pan_dataset_slug": "ametis",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -4192,7 +4192,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 88,
@@ -4223,7 +4223,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 78,
@@ -4258,7 +4258,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:19Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -4283,11 +4283,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Oise Mobilité - Syndicat mixte des transports collectifs de l'Oise / AXO — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:17Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -4316,7 +4316,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 43,
@@ -4347,7 +4347,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -4378,11 +4378,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Oise Mobilité - Syndicat mixte des transports collectifs de l'Oise / Corolis — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:28Z",
-        "age_hours": 169.8,
+        "age_hours": 171.9,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -4393,8 +4393,8 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:56Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:13Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -4411,7 +4411,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 48,
@@ -4442,7 +4442,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -4473,11 +4473,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Communauté Urbaine de Dunkerque / Réseau Dk Bus / DK'Bus — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:11Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -4506,7 +4506,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 404,
@@ -4537,7 +4537,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 404,
@@ -4568,11 +4568,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Métropole Européenne de Lille / Ilévia — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T08:08:44Z",
-        "age_hours": 14.1,
+        "age_hours": 16.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -4601,7 +4601,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 357,
@@ -4629,11 +4629,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'agglomération du Boulonnais / Marinéo — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:28Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-07-03",
         "days_left": 291,
         "counts": {
@@ -4662,7 +4662,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 24,
           "no_header_timestamp": 0,
           "entities": 74,
@@ -4693,7 +4693,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 11,
@@ -4712,11 +4712,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat Intercommunal des Transports urbains de l’Agglomération du Calaisis / SITAC — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:06Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-06-27",
         "days_left": 285,
         "counts": {
@@ -4745,7 +4745,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -4776,7 +4776,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -4810,7 +4810,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -4829,11 +4829,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "TADAO — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:12:01Z",
-        "age_hours": 0.0,
+        "age_hours": 2.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -4845,7 +4845,7 @@
         "pan_dataset_slug": "gtfs-tadao",
         "last_error": null,
         "checked_at": "2026-09-15T22:12:32Z",
-        "check_age_hours": 0.0,
+        "check_age_hours": 2.2,
         "source": "operator"
       },
       "realtime": {
@@ -4862,7 +4862,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 17,
           "no_header_timestamp": 0,
           "entities": 175,
@@ -4890,11 +4890,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Oise Mobilité - Syndicat mixte des transports collectifs de l'Oise / TIC — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-11-11",
         "days_left": 57,
         "counts": {
@@ -4923,7 +4923,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 37,
@@ -4954,7 +4954,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -4985,11 +4985,11 @@
       "region": "Hauts-de-France",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat Intercommunal de Mobilité et d'Organisation Urbaine du Valenciennois / Transvilles — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:30Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5001,7 +5001,7 @@
         "pan_dataset_slug": "simouv-horaires-theoriques-format-gtfs-et-temps-reel-format-siri-transvilles-valenciennes",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:54Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -5018,7 +5018,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -5049,7 +5049,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -5084,7 +5084,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:58Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -5113,7 +5113,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:56Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -5125,7 +5125,7 @@
         "pan_dataset_slug": "eveole-douai-reseau-bus-du-syndicat-mixte-des-transports-du-douaisis-smtd",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:53Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5138,11 +5138,11 @@
       "region": "La Réunion",
       "timezone": "Indian/Reunion",
       "attribution": "ALTERNEO — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:42Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-02-28",
         "days_left": 166,
         "counts": {
@@ -5154,7 +5154,7 @@
         "pan_dataset_slug": "donnees-du-reseau-alterneo",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:22Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -5171,7 +5171,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 29,
           "no_header_timestamp": 0,
           "entities": 72,
@@ -5202,7 +5202,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 45,
@@ -5236,7 +5236,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -5255,11 +5255,11 @@
       "region": "La Réunion",
       "timezone": "Indian/Reunion",
       "attribution": "Région Réunion / Car Jaune — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T22:08:27Z",
-        "age_hours": 24.1,
+        "age_hours": 26.3,
         "timetable_ends_on": "2027-08-02",
         "days_left": 321,
         "counts": {
@@ -5288,7 +5288,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -5319,7 +5319,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -5353,7 +5353,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 200,
@@ -5372,11 +5372,11 @@
       "region": "La Réunion",
       "timezone": "Indian/Reunion",
       "attribution": "Réseau CARSUD — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:06:30Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -5405,7 +5405,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 63,
@@ -5436,7 +5436,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 63,
@@ -5471,7 +5471,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:35Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5483,7 +5483,7 @@
         "pan_dataset_slug": "horaire-du-reseau-citalis",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:53Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5500,7 +5500,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:12:54Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5512,7 +5512,7 @@
         "pan_dataset_slug": "jeu-de-donnee-spl-estival-2025",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:53Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5529,7 +5529,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:19Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5541,7 +5541,7 @@
         "pan_dataset_slug": "reseau-karouest",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:54Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5554,11 +5554,11 @@
       "region": "Martinique",
       "timezone": "America/Martinique",
       "attribution": "Martinique Transport / Réseau urbain CACEM (Martinique) — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:59Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5570,14 +5570,14 @@
         "pan_dataset_slug": "gtfs-urbain-de-la-zone-centre",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:22Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ext.saemartinique.ovh",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -5588,20 +5588,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 6,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 159,
           "trip_join": {
-            "n": 589,
-            "of": 637
+            "n": 631,
+            "of": 684
           },
           "stop_updates_timed": {
-            "n": 426,
-            "of": 426
+            "n": 457,
+            "of": 457
           },
           "cancelled": {
-            "n": 589,
-            "of": 637
+            "n": 631,
+            "of": 684
           },
           "no_trip_id": 0
         }
@@ -5619,7 +5619,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:58Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5631,7 +5631,7 @@
         "pan_dataset_slug": "gtfs-urbain-de-la-zone-sud",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:45Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5648,7 +5648,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T01:07:16Z",
-        "age_hours": 21.1,
+        "age_hours": 23.3,
         "timetable_ends_on": "2026-10-21",
         "days_left": 36,
         "counts": {
@@ -5673,11 +5673,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Communauté urbaine d'Alençon / Altobus (agrégat Atoumod) — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:07:35Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -5689,7 +5689,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -5706,7 +5706,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 412,
@@ -5734,11 +5734,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Métropole Rouen Normandie / Astuce — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:09:55Z",
-        "age_hours": 11.1,
+        "age_hours": 13.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -5767,7 +5767,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -5798,7 +5798,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": null,
           "no_header_timestamp": 0,
           "entities": null,
@@ -5821,7 +5821,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:07:45Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2027-03-31",
         "days_left": 197,
         "counts": {
@@ -5833,7 +5833,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -5846,11 +5846,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'agglomération Le Cotentin / Cap Cotentin — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:06:25Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-06-27",
         "days_left": 285,
         "counts": {
@@ -5879,7 +5879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 96,
@@ -5910,7 +5910,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 96,
@@ -5941,11 +5941,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat mixte Atoumod / DeepMob — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:24:10Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-05-31",
         "days_left": 258,
         "counts": {
@@ -5957,7 +5957,7 @@
         "pan_dataset_slug": "deepmob-dieppe-maritime",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:22Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -5974,7 +5974,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 46,
@@ -6005,7 +6005,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 9,
@@ -6036,11 +6036,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Réseau de transport en commun Le Havre Seine Métropole LiA — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:18Z",
-        "age_hours": 18.1,
+        "age_hours": 20.3,
         "timetable_ends_on": "2026-10-31",
         "days_left": 46,
         "counts": {
@@ -6069,7 +6069,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 46,
           "no_header_timestamp": 0,
           "entities": 334,
@@ -6100,7 +6100,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 98,
@@ -6134,7 +6134,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 1,
@@ -6153,11 +6153,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Saint-Lô Agglo / SLAM (agrégat Atoumod) — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:07:52Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2028-06-30",
         "days_left": 654,
         "counts": {
@@ -6169,7 +6169,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -6186,7 +6186,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 412,
@@ -6214,11 +6214,11 @@
       "region": "Normandie",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat mixte Atoumod / Transurbain — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:36Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -6230,7 +6230,7 @@
         "pan_dataset_slug": "transurbain-evreux-portes-de-normandie",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:28Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -6247,7 +6247,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 71,
           "no_header_timestamp": 0,
           "entities": 46,
@@ -6278,7 +6278,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
           "entities": 19,
@@ -6312,7 +6312,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 100430,
           "no_header_timestamp": 0,
           "entities": 1,
@@ -6335,7 +6335,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:08:02Z",
-        "age_hours": 28.1,
+        "age_hours": 30.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -6347,7 +6347,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -6364,7 +6364,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T20:09:15Z",
-        "age_hours": 26.1,
+        "age_hours": 28.3,
         "timetable_ends_on": "2027-09-11",
         "days_left": 361,
         "counts": {
@@ -6393,7 +6393,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:19Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -6422,7 +6422,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:35Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-06-28",
         "days_left": 286,
         "counts": {
@@ -6447,11 +6447,11 @@
       "region": "Nouvelle-Aquitaine",
       "timezone": "Europe/Paris",
       "attribution": "STGA - réseau Möbius — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:25:17Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -6463,7 +6463,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-reseau-mobius",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:23Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -6480,7 +6480,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 52,
           "no_header_timestamp": 0,
           "entities": 60,
@@ -6512,7 +6512,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:39Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -6541,7 +6541,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T04:09:03Z",
-        "age_hours": 138.1,
+        "age_hours": 140.3,
         "timetable_ends_on": "2027-07-03",
         "days_left": 291,
         "counts": {
@@ -6553,7 +6553,7 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-nio-nva-m-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:45Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -6566,11 +6566,11 @@
       "region": "Nouvelle-Aquitaine",
       "timezone": "Europe/Paris",
       "attribution": "Bordeaux Métropole / TBM — Licence Ouverte (XtraData, GTFS, GTFS-RT, SIRI Lite)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T14:08:08Z",
-        "age_hours": 8.1,
+        "age_hours": 10.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -6599,7 +6599,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 2208,
@@ -6630,7 +6630,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 410,
@@ -6664,7 +6664,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 103,
@@ -6677,7 +6677,7 @@
       "engine_observed": [
         {
           "source": "tbm:mecatran:general-message",
-          "last_ok_at": "2026-09-15T22:11:46+00:00",
+          "last_ok_at": "2026-09-16T00:23:54+00:00",
           "last_error_at": null,
           "state": "ok"
         },
@@ -6689,13 +6689,13 @@
         },
         {
           "source": "tbm:xtradata:sv_cours_a",
-          "last_ok_at": "2026-09-15T22:08:27+00:00",
+          "last_ok_at": "2026-09-15T23:08:43+00:00",
           "last_error_at": null,
           "state": "ok"
         },
         {
           "source": "tbm:xtradata:sv_horai_a",
-          "last_ok_at": "2026-09-15T22:11:46+00:00",
+          "last_ok_at": "2026-09-16T00:23:54+00:00",
           "last_error_at": null,
           "state": "ok"
         },
@@ -6707,7 +6707,7 @@
         },
         {
           "source": "tbm:xtradata:sv_messa_a",
-          "last_ok_at": "2026-09-15T22:11:46+00:00",
+          "last_ok_at": "2026-09-16T00:23:54+00:00",
           "last_error_at": null,
           "state": "ok"
         },
@@ -6730,7 +6730,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:54Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -6759,7 +6759,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:17Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -6784,11 +6784,11 @@
       "region": "Nouvelle-Aquitaine",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat des Mobilités Pays Basque-Adour / Txik Txak — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 91.1,
+        "age_hours": 93.2,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -6817,7 +6817,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 416,
@@ -6848,7 +6848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 7,
@@ -6871,7 +6871,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T08:09:43Z",
-        "age_hours": 38.1,
+        "age_hours": 40.3,
         "timetable_ends_on": "2026-11-22",
         "days_left": 68,
         "counts": {
@@ -6900,7 +6900,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-09T21:09:59Z",
-        "age_hours": 145.1,
+        "age_hours": 147.3,
         "timetable_ends_on": "2027-04-30",
         "days_left": 227,
         "counts": {
@@ -6929,7 +6929,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:30:46Z",
-        "age_hours": 169.7,
+        "age_hours": 171.9,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -6940,8 +6940,8 @@
         },
         "pan_dataset_slug": "transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-15T22:12:00Z",
-        "check_age_hours": 0.0,
+        "checked_at": "2026-09-15T23:09:14Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {},
@@ -6954,11 +6954,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Syndicat Mixte du Bassin d'Alès - Réseau Ales'Y — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T22:07:22Z",
-        "age_hours": 96.1,
+        "age_hours": 98.3,
         "timetable_ends_on": "2028-12-31",
         "days_left": 838,
         "counts": {
@@ -6970,7 +6970,7 @@
         "pan_dataset_slug": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:21Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -6987,7 +6987,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 222,
@@ -7018,7 +7018,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 22,
@@ -7049,11 +7049,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Zenbus / Alliance — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:09Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-01-02",
         "days_left": 109,
         "counts": {
@@ -7082,7 +7082,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -7113,7 +7113,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -7147,7 +7147,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -7166,11 +7166,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T18:07:53Z",
-        "age_hours": 124.1,
+        "age_hours": 126.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -7182,7 +7182,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
         "checked_at": "2026-09-15T22:05:01Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -7199,7 +7199,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 79,
@@ -7230,7 +7230,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 33,
@@ -7261,11 +7261,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'Agglomération Hérault Méditerranée / Cap'Bus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:33Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -7294,7 +7294,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -7325,7 +7325,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -7356,11 +7356,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Le Grand Narbonne Communauté d'Agglomération / Citibus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:23Z",
-        "age_hours": 169.8,
+        "age_hours": 171.9,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -7371,8 +7371,8 @@
         },
         "pan_dataset_slug": "offre-de-transport-communaute-dagglomeration-le-grand-narbonne",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:56Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:12Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -7389,7 +7389,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -7420,7 +7420,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -7454,7 +7454,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,
@@ -7477,7 +7477,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:42Z",
-        "age_hours": 169.8,
+        "age_hours": 171.9,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -7488,8 +7488,8 @@
         },
         "pan_dataset_slug": "offre-de-transport-du-reseau-libellus-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:56Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:13Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {},
@@ -7506,7 +7506,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:21:29Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-07-03",
         "days_left": 291,
         "counts": {
@@ -7531,11 +7531,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Région Occitanie / Pyrénées Méditerranée / liO Occitanie — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T22:08:31Z",
-        "age_hours": 24.1,
+        "age_hours": 26.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -7564,7 +7564,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 178,
@@ -7595,7 +7595,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 170,
@@ -7626,11 +7626,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Zenbus / Max Mende Mobilités — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T07:09:40Z",
-        "age_hours": 39.1,
+        "age_hours": 41.3,
         "timetable_ends_on": "2027-08-28",
         "days_left": 347,
         "counts": {
@@ -7659,7 +7659,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -7690,7 +7690,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 5,
@@ -7725,7 +7725,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:22Z",
-        "age_hours": 122.1,
+        "age_hours": 124.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -7750,11 +7750,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Sankéo — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T21:09:01Z",
-        "age_hours": 1.1,
+        "age_hours": 3.3,
         "timetable_ends_on": "2026-09-28",
         "days_left": 13,
         "counts": {
@@ -7783,7 +7783,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 129,
@@ -7811,11 +7811,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Sète Agglopole Méditerranée / Sète Agglopôle Mobilité — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T07:08:17Z",
-        "age_hours": 87.1,
+        "age_hours": 89.3,
         "timetable_ends_on": "2027-04-04",
         "days_left": 201,
         "counts": {
@@ -7844,7 +7844,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 108,
@@ -7875,7 +7875,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 48,
@@ -7906,11 +7906,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Montpellier Méditerranée Métropole / TaM — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T06:09:45Z",
-        "age_hours": 16.1,
+        "age_hours": 18.3,
         "timetable_ends_on": "2026-10-16",
         "days_left": 31,
         "counts": {
@@ -7939,7 +7939,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 60,
           "no_header_timestamp": 0,
           "entities": 381,
@@ -7970,7 +7970,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 30,
           "no_header_timestamp": 0,
           "entities": 130,
@@ -8004,7 +8004,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -8023,11 +8023,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Tango — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:12:15Z",
-        "age_hours": 11.0,
+        "age_hours": 13.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -8056,7 +8056,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 197,
@@ -8087,7 +8087,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 83,
@@ -8118,11 +8118,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Tisséo Collectivités — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T08:10:07Z",
-        "age_hours": 14.1,
+        "age_hours": 16.2,
         "timetable_ends_on": "2026-10-07",
         "days_left": 22,
         "counts": {
@@ -8151,7 +8151,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1439,
@@ -8182,7 +8182,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1439,
@@ -8201,13 +8201,13 @@
         },
         {
           "source": "tisseo:v2:messages",
-          "last_ok_at": "2026-09-15T22:10:07+00:00",
+          "last_ok_at": "2026-09-16T00:22:19+00:00",
           "last_error_at": null,
           "state": "ok"
         },
         {
           "source": "tisseo:v2:stops_schedules",
-          "last_ok_at": "2026-09-15T22:11:30+00:00",
+          "last_ok_at": "2026-09-16T00:22:19+00:00",
           "last_error_at": "2026-09-15T21:53:54+00:00",
           "state": "ok"
         }
@@ -8224,7 +8224,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:54Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-10-16",
         "days_left": 31,
         "counts": {
@@ -8249,11 +8249,11 @@
       "region": "Occitanie",
       "timezone": "Europe/Paris",
       "attribution": "Transp'Or - Pays de l'Or Agglomération — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:52Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2030-01-31",
         "days_left": 1234,
         "counts": {
@@ -8282,7 +8282,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 9,
@@ -8313,7 +8313,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 8,
@@ -8348,7 +8348,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:21Z",
-        "age_hours": 170.1,
+        "age_hours": 172.2,
         "timetable_ends_on": "2027-08-29",
         "days_left": 348,
         "counts": {
@@ -8360,7 +8360,7 @@
         "pan_dataset_slug": "gtfs-de-la-societe-de-transport-urbain-du-grand-montauban-semtm",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:24Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -8377,7 +8377,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:01Z",
-        "age_hours": 170.0,
+        "age_hours": 172.2,
         "timetable_ends_on": "2026-10-31",
         "days_left": 46,
         "counts": {
@@ -8389,7 +8389,7 @@
         "pan_dataset_slug": "donnees-gtfs-du-reseau-de-transports-public-du-grand-cahors",
         "last_error": null,
         "checked_at": "2026-09-15T22:04:53Z",
-        "check_age_hours": 0.2,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -8402,11 +8402,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "Région des Pays de la Loire / Aléop — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:08:06Z",
-        "age_hours": 3.1,
+        "age_hours": 5.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -8435,7 +8435,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 210,
@@ -8466,7 +8466,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 68,
@@ -8500,7 +8500,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 37,
@@ -8519,11 +8519,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "Transports Publics du Choletais / Choletbus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 35.1,
+        "age_hours": 37.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -8534,8 +8534,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:55Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:12Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -8552,7 +8552,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 64,
@@ -8583,7 +8583,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 2,
@@ -8602,11 +8602,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "La Roche-sur-Yon Agglomération / Impulsyon — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:37Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-06-27",
         "days_left": 285,
         "counts": {
@@ -8635,7 +8635,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 4,
@@ -8654,11 +8654,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "Angers Loire Métropole / Irigo — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T04:09:04Z",
-        "age_hours": 18.1,
+        "age_hours": 20.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -8687,7 +8687,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 220,
@@ -8718,7 +8718,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 194,
@@ -8752,7 +8752,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 17,
@@ -8771,11 +8771,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "Transdev CapAtlantique Mobilités • Lila Presqu'île / Lila Presqu'île — Open Database License (ODbL)",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:32Z",
-        "age_hours": 31.1,
+        "age_hours": 33.3,
         "timetable_ends_on": "2026-12-18",
         "days_left": 94,
         "counts": {
@@ -8804,7 +8804,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -8835,7 +8835,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -8866,24 +8866,24 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "Nantes Métropole / Naolib — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-08T20:02:24Z",
-        "age_hours": 170.2,
-        "timetable_ends_on": "2026-12-08",
-        "days_left": 84,
+        "refreshed_at": "2026-09-16T00:07:29Z",
+        "age_hours": 0.3,
+        "timetable_ends_on": "2026-12-15",
+        "days_left": 91,
         "counts": {
           "lines": 96,
-          "stops": 3633,
-          "trips": 172259,
-          "stop_times": 4305096
+          "stops": 3636,
+          "trips": 180977,
+          "stop_times": 4437824
         },
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T00:20:29Z",
+        "check_age_hours": 0.1,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
@@ -8899,7 +8899,7 @@
             "budget": 0
           },
           "rate_limited": 3,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 551,
@@ -8927,11 +8927,11 @@
       "region": "Pays de la Loire",
       "timezone": "Europe/Paris",
       "attribution": "SETRAM — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:28Z",
-        "age_hours": 169.8,
+        "age_hours": 172.0,
         "timetable_ends_on": "2026-11-28",
         "days_left": 74,
         "counts": {
@@ -8943,7 +8943,7 @@
         "pan_dataset_slug": "gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:28Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -8960,7 +8960,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 229,
@@ -8991,7 +8991,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 87,
@@ -9025,7 +9025,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,
@@ -9048,7 +9048,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:54Z",
-        "age_hours": 170.0,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -9060,7 +9060,7 @@
         "pan_dataset_slug": "offre-de-transport-du-reseau-de-laval-agglomeration-gtfs",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:09Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -9077,7 +9077,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:07:09Z",
-        "age_hours": 0.1,
+        "age_hours": 2.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 290,
         "counts": {
@@ -9089,7 +9089,7 @@
         "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:15Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {},
@@ -9106,7 +9106,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T19:07:14Z",
-        "age_hours": 27.1,
+        "age_hours": 29.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -9131,11 +9131,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "ENVIA — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:29Z",
-        "age_hours": 169.8,
+        "age_hours": 171.9,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -9146,8 +9146,8 @@
         },
         "pan_dataset_slug": "donnees-statiques-et-temps-reels-reseau-envia",
         "last_error": null,
-        "checked_at": "2026-09-15T22:09:56Z",
-        "check_age_hours": 0.1,
+        "checked_at": "2026-09-15T23:09:13Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -9164,7 +9164,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 84,
@@ -9195,7 +9195,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 17,
           "no_header_timestamp": 0,
           "entities": 21,
@@ -9230,7 +9230,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:07:02Z",
-        "age_hours": 0.1,
+        "age_hours": 2.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -9242,7 +9242,7 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-bus-du-reseau-des-transports-publics-envibus",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:07Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {},
@@ -9255,11 +9255,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Communauté d'Agglomération Gap-Tallard-Durance / L'Agglo en Bus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:31Z",
-        "age_hours": 170.0,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -9271,7 +9271,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reels-du-reseau-de-transports-lagglo-en-bus-communaute-dagglomeration-gap-tallard-durance",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:08Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -9288,7 +9288,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -9319,7 +9319,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -9350,11 +9350,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Estérel Côte d'Azur Agglomération / Le Bus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:23Z",
-        "age_hours": 170.1,
+        "age_hours": 172.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -9383,7 +9383,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 373,
@@ -9414,7 +9414,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 373,
@@ -9445,11 +9445,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Métropole Nice Côte d'Azur / Lignes d'Azur — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-09T07:10:52Z",
-        "age_hours": 159.1,
+        "age_hours": 161.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -9461,7 +9461,7 @@
         "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:08Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -9478,7 +9478,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 30,
           "no_header_timestamp": 0,
           "entities": 926,
@@ -9509,7 +9509,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 213,
@@ -9540,11 +9540,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Grand Avignon / Orizo — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:41Z",
-        "age_hours": 169.9,
+        "age_hours": 172.1,
         "timetable_ends_on": "2026-10-18",
         "days_left": 33,
         "counts": {
@@ -9573,7 +9573,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 216,
@@ -9604,7 +9604,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 78,
@@ -9635,11 +9635,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Palmbus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 98.1,
+        "age_hours": 100.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 110,
         "counts": {
@@ -9668,7 +9668,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 39,
           "no_header_timestamp": 0,
           "entities": 180,
@@ -9699,7 +9699,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 31,
           "no_header_timestamp": 0,
           "entities": 79,
@@ -9730,11 +9730,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Métropole d'Aix-Marseille-Provence / RTM — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T21:07:39Z",
-        "age_hours": 1.1,
+        "age_hours": 3.3,
         "timetable_ends_on": "2026-11-13",
         "days_left": 59,
         "counts": {
@@ -9763,7 +9763,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 169,
           "no_header_timestamp": 0,
           "entities": 80,
@@ -9782,11 +9782,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Métropole Toulon Provence Méditerranée / Réseau Mistral — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:09:31Z",
-        "age_hours": 3.1,
+        "age_hours": 5.3,
         "timetable_ends_on": "2026-11-30",
         "days_left": 76,
         "counts": {
@@ -9815,7 +9815,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 72,
           "no_header_timestamp": 0,
           "entities": 493,
@@ -9846,7 +9846,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 77,
           "no_header_timestamp": 0,
           "entities": 192,
@@ -9880,7 +9880,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 9,
@@ -9899,11 +9899,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Dracénie Provence Verdon agglomération / TEDbus — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:52Z",
-        "age_hours": 170.0,
+        "age_hours": 172.1,
         "timetable_ends_on": "2027-08-31",
         "days_left": 350,
         "counts": {
@@ -9915,7 +9915,7 @@
         "pan_dataset_slug": "reseau-tedbus-lignes-regulieres-dracenie-provence-verdon-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-15T22:07:09Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -9932,7 +9932,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -9963,7 +9963,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -9997,7 +9997,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 18,
@@ -10016,11 +10016,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Keolis Menton Riviera / Zest — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:27Z",
-        "age_hours": 122.1,
+        "age_hours": 124.2,
         "timetable_ends_on": "2027-07-04",
         "days_left": 292,
         "counts": {
@@ -10049,7 +10049,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 66,
@@ -10080,7 +10080,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 20,
@@ -10111,11 +10111,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "timezone": "Europe/Paris",
       "attribution": "Région Provence-Alpes-Côte-d'Azur / ZOU ! Proximité — Licence Ouverte 2.0",
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:09:29Z",
-        "age_hours": 0.1,
+        "age_hours": 2.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 107,
         "counts": {
@@ -10127,7 +10127,7 @@
         "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:48Z",
-        "check_age_hours": 0.1,
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -10144,7 +10144,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 24,
           "no_header_timestamp": 0,
           "entities": 2185,
@@ -10175,7 +10175,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -10198,7 +10198,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T17:08:42Z",
-        "age_hours": 5.1,
+        "age_hours": 7.3,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -10218,13 +10218,13 @@
       "engine_observed": [
         {
           "source": "idfm:navitia",
-          "last_ok_at": "2026-09-15T20:25:50+00:00",
+          "last_ok_at": "2026-09-15T23:03:02+00:00",
           "last_error_at": "2026-09-08T23:59:48+00:00",
           "state": "ok"
         },
         {
           "source": "idfm:siri:general-message",
-          "last_ok_at": "2026-09-15T20:25:50+00:00",
+          "last_ok_at": "2026-09-15T23:03:10+00:00",
           "last_error_at": "2026-09-15T18:36:12+00:00",
           "state": "ok"
         },
