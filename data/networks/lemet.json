@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T09:07:41Z",
-        "age_hours": 20.8,
+        "age_hours": 23.8,
         "timetable_ends_on": "2026-10-15",
         "days_left": 28,
         "counts": {
@@ -201,14 +201,14 @@
         "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
         "last_error": null,
         "checked_at": "2026-09-16T09:08:00Z",
-        "check_age_hours": 20.8,
+        "check_age_hours": 23.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -219,27 +219,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 16,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
-          "entities": 359,
+          "entities": 304,
           "trip_join": {
-            "n": 359,
-            "of": 359
+            "n": 607,
+            "of": 609
           },
           "stop_updates_timed": {
-            "n": 5236,
-            "of": 5236
+            "n": 8639,
+            "of": 8639
           },
           "cancelled": {
             "n": 2,
-            "of": 359
+            "of": 609
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -250,24 +250,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 16,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
-          "entities": 179,
+          "entities": 143,
           "with_position": {
-            "n": 179,
-            "of": 179
+            "n": 287,
+            "of": 287
           },
           "with_trip_id": {
-            "n": 179,
-            "of": 179
+            "n": 287,
+            "of": 287
           },
           "with_route_id": {
-            "n": 179,
-            "of": 179
+            "n": 287,
+            "of": 287
           },
           "trip_join": {
-            "n": 179,
-            "of": 179
+            "n": 284,
+            "of": 287
           }
         }
       }

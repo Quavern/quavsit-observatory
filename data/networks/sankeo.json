@@ -117,11 +117,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T21:10:36Z",
-        "age_hours": 8.7,
+        "age_hours": 11.7,
         "timetable_ends_on": "2026-09-29",
         "days_left": 12,
         "counts": {
@@ -133,14 +133,14 @@
         "pan_dataset_slug": "gtfs-sankeo",
         "last_error": null,
         "checked_at": "2026-09-16T21:10:46Z",
-        "check_age_hours": 8.7,
+        "check_age_hours": 11.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "eur.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -153,18 +153,18 @@
           "samples_night": 1,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
-          "entities": 195,
+          "entities": 159,
           "trip_join": {
-            "n": 195,
-            "of": 195
+            "n": 319,
+            "of": 319
           },
           "stop_updates_timed": {
-            "n": 3759,
-            "of": 3840
+            "n": 6140,
+            "of": 6268
           },
           "cancelled": {
             "n": 0,
-            "of": 195
+            "of": 319
           },
           "no_trip_id": 0
         }

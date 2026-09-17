@@ -229,11 +229,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T10:08:53Z",
-        "age_hours": 19.8,
+        "age_hours": 22.8,
         "timetable_ends_on": "2027-08-02",
         "days_left": 319,
         "counts": {
@@ -245,16 +245,16 @@
         "pan_dataset_slug": "horaires-theoriques-au-format-gtfs-et-horaires-temps-reel-au-format-gtfs-rt-du-reseau-car-jaune-a-la-reunion",
         "last_error": null,
         "checked_at": "2026-09-16T10:08:56Z",
-        "check_age_hours": 19.8,
+        "check_age_hours": 22.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "pysae.com",
-          "samples": 2,
+          "samples": 3,
           "ok": 2,
           "failures": {
-            "timeout": 0,
+            "timeout": 1,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
@@ -282,8 +282,8 @@
         },
         "vehicle_positions": {
           "host": "pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -294,30 +294,30 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 3,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 451,
+          "entities": 444,
           "with_position": {
-            "n": 167,
-            "of": 167
+            "n": 229,
+            "of": 229
           },
           "with_trip_id": {
-            "n": 167,
-            "of": 167
+            "n": 229,
+            "of": 229
           },
           "with_route_id": {
-            "n": 167,
-            "of": 167
+            "n": 229,
+            "of": 229
           },
           "trip_join": {
-            "n": 167,
-            "of": 167
+            "n": 229,
+            "of": 229
           }
         },
         "alerts": {
           "host": "pysae.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 3,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -330,10 +330,10 @@
           "samples_night": 0,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 451,
+          "entities": 444,
           "informed_resolved": {
-            "n": 24,
-            "of": 24
+            "n": 36,
+            "of": 36
           }
         }
       }

@@ -161,11 +161,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T20:07:19Z",
-        "age_hours": 9.8,
+        "age_hours": 12.8,
         "timetable_ends_on": "2026-10-19",
         "days_left": 32,
         "counts": {
@@ -177,14 +177,14 @@
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
         "checked_at": "2026-09-16T20:08:41Z",
-        "check_age_hours": 9.8,
+        "check_age_hours": 12.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -197,25 +197,25 @@
           "samples_night": 1,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 1501,
+          "entities": 1456,
           "trip_join": {
-            "n": 1399,
-            "of": 1444
+            "n": 2594,
+            "of": 2798
           },
           "stop_updates_timed": {
-            "n": 29761,
-            "of": 29902
+            "n": 52958,
+            "of": 53362
           },
           "cancelled": {
-            "n": 114,
-            "of": 1444
+            "n": 314,
+            "of": 2798
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -228,10 +228,10 @@
           "samples_night": 1,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 1501,
+          "entities": 1456,
           "informed_resolved": {
-            "n": 38,
-            "of": 49
+            "n": 76,
+            "of": 99
           }
         }
       }

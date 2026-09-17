@@ -123,11 +123,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T17:08:55Z",
-        "age_hours": 132.8,
+        "age_hours": 135.8,
         "timetable_ends_on": "2027-01-01",
         "days_left": 106,
         "counts": {
@@ -139,14 +139,14 @@
         "pan_dataset_slug": "fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-17T05:10:09Z",
-        "check_age_hours": 0.7,
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "vehicle_positions": {
           "host": "data.filbleu.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -157,24 +157,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 143784,
+          "header_age_seconds": 149181,
           "no_header_timestamp": 0,
           "entities": 116,
           "with_position": {
-            "n": 116,
-            "of": 116
+            "n": 232,
+            "of": 232
           },
           "with_trip_id": {
-            "n": 116,
-            "of": 116
+            "n": 232,
+            "of": 232
           },
           "with_route_id": {
             "n": 0,
-            "of": 116
+            "of": 232
           },
           "trip_join": {
-            "n": 116,
-            "of": 116
+            "n": 232,
+            "of": 232
           }
         }
       }

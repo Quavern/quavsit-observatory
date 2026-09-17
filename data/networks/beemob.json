@@ -185,30 +185,30 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-10T18:07:53Z",
-        "age_hours": 155.8,
-        "timetable_ends_on": "2026-10-18",
-        "days_left": 31,
+        "refreshed_at": "2026-09-17T06:09:11Z",
+        "age_hours": 2.8,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 45,
         "counts": {
           "lines": 29,
           "stops": 611,
-          "trips": 2585,
-          "stop_times": 65720
+          "trips": 2583,
+          "stop_times": 65716
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
-        "checked_at": "2026-09-16T18:07:31Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-17T06:09:15Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -221,25 +221,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 84,
+          "entities": 87,
           "trip_join": {
-            "n": 52,
-            "of": 84
+            "n": 143,
+            "of": 175
           },
           "stop_updates_timed": {
-            "n": 2537,
-            "of": 2557
+            "n": 5101,
+            "of": 5168
           },
           "cancelled": {
             "n": 0,
-            "of": 84
+            "of": 175
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -252,22 +252,22 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 32,
           "with_position": {
-            "n": 25,
-            "of": 25
+            "n": 64,
+            "of": 64
           },
           "with_trip_id": {
-            "n": 25,
-            "of": 25
+            "n": 64,
+            "of": 64
           },
           "with_route_id": {
-            "n": 25,
-            "of": 25
+            "n": 64,
+            "of": 64
           },
           "trip_join": {
-            "n": 17,
-            "of": 25
+            "n": 56,
+            "of": 64
           }
         }
       }

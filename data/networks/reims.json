@@ -117,11 +117,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T19:09:16Z",
-        "age_hours": 106.8,
+        "age_hours": 109.8,
         "timetable_ends_on": "2026-11-01",
         "days_left": 45,
         "counts": {
@@ -132,15 +132,15 @@
         },
         "pan_dataset_slug": "offre-de-transport-du-reseau-grand-reims-mobilites-communaute-urbaine-du-grand-reims",
         "last_error": null,
-        "checked_at": "2026-09-16T19:09:26Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-17T07:08:06Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,20 +151,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 26,
+          "header_age_seconds": 34,
           "no_header_timestamp": 0,
-          "entities": 329,
+          "entities": 310,
           "trip_join": {
-            "n": 329,
-            "of": 329
+            "n": 620,
+            "of": 620
           },
           "stop_updates_timed": {
-            "n": 6089,
-            "of": 6089
+            "n": 11796,
+            "of": 11796
           },
           "cancelled": {
             "n": 0,
-            "of": 329
+            "of": 620
           },
           "no_trip_id": 0
         }
