@@ -33,14 +33,17 @@ const copy = {
       `A daily record for ${networks} networks: when each timetable ends, whether its real-time feeds answer, and how much of their data matches the timetable. Latest day: ${day}.`,
     trial: (date) =>
       `Trial period since ${date}. The counting method may still change; when it does, the affected days are published again.`,
-    partial: (taken, scheduled) => `This day is still being recorded: ${taken} of ${scheduled} samples so far.`,
+    partial: (taken, scheduled, generated) =>
+      `This day was still being recorded when these pages were generated (${generated}): ${taken} of ${scheduled} samples.`,
     method: "How it is measured",
-    data: "Data files",
+    data: "Latest day (JSON)",
+    allData: "All data files",
     code: "Code",
     lowJoin: "A low join rate can come from the feed, from the timetable in use, or from Quavsit's matching.",
     notScore: "No figure here is a score or a ranking.",
     columns: ["Network", "Timetable", "Checked", "Trip updates", "Vehicles", "Alerts"],
     ledgerCaption: (region) => `Networks in ${region}`,
+    regions: "Regions",
     runsTo: (date) => `runs to ${date}`,
     endsIn: (days) => (days === 0 ? "ends today" : `ends in ${days} day${days === 1 ? "" : "s"}`),
     ended: (date) => `ended ${date}`,
@@ -59,7 +62,13 @@ const copy = {
     withLine: (n, of) => `${n} / ${of} with a line`,
     alertsCount: (n, shown) => `${shown} alert${n === 1 ? "" : "s"}`,
     measuredWorking: "measured working this day",
+    legend: "Feed measured working this day",
+    scrollHint: "The tables scroll sideways; the network name stays in view.",
     networkBack: "All networks",
+    latestDay: (date) => `Latest day: ${date}`,
+    networkDescription: (name, city) =>
+      `${name}${city ? ` (${city})` : ""}: the timetable and the real-time feeds as the Quavsit Observatory measured them, with the last 30 days.`,
+    lessThanAnHour: "less than 1 h ago",
     facts: "Timetable",
     factLabels: {
       state: "State",
@@ -99,11 +108,19 @@ const copy = {
     sourceStates: { ok: "reached", down: "last attempt failed", unknown: "no record" },
     lastOk: "last success",
     lastError: "last error",
+    failureNames: { timeout: "timeout", connection: "connection", http_4xx: "HTTP 4xx", http_5xx: "HTTP 5xx", decode_error: "not a feed", budget: "budget" },
+    errorReasons: { timeout: "timeout", connection: "connection", http_4xx: "HTTP 4xx", http_5xx: "HTTP 5xx", archive_invalid: "invalid archive", error: "other error" },
+    realtime: "Real-time feeds",
+    noRealtime: "This network declares no real-time feed, so only its timetable is measured.",
     history: "Last 30 days",
+    historyCaption: (name) => `Last 30 days for ${name}`,
     historyDay: "Day",
+    partialDay: "* still being recorded when these pages were generated",
     attribution: (text) => `Feeds published by ${text}. The measurements concern data published under that licence.`,
     corrections: "Report an error",
-    correctionsMail: "or write to hello@quavern.com",
+    correctionsMail: `or write to <a href="mailto:hello@quavern.com">hello@quavern.com</a>`,
+    notFound: "This page does not exist.",
+    notFoundBody: "The link may be incomplete, or the page has moved.",
     colophon: (sha, generated) =>
       `Measured by the Quavsit engine (code ${sha || "—"}), generated ${generated}. Measurements under CC BY 4.0, credit "Quavsit Observatory"; code under the Quavern Open Source License 1.0.`,
     legal: "Legal notice",
@@ -123,14 +140,17 @@ const copy = {
       `Un relevé quotidien pour ${networks} réseaux : quand s’arrête chaque grille horaire, si ses flux temps réel répondent, et quelle part de leurs données correspond aux horaires. Dernier jour : ${day}.`,
     trial: (date) =>
       `Période de rodage depuis le ${date}. La méthode de comptage peut encore changer ; quand elle change, les jours concernés sont publiés à nouveau.`,
-    partial: (taken, scheduled) => `Ce jour est encore en cours de relevé : ${taken} relevés sur ${scheduled} pour l’instant.`,
+    partial: (taken, scheduled, generated) =>
+      `Ce jour était encore en cours de relevé quand ces pages ont été générées (${generated}) : ${taken} relevés sur ${scheduled}.`,
     method: "Comment c’est mesuré",
-    data: "Fichiers de données",
+    data: "Dernier jour (JSON)",
+    allData: "Tous les fichiers de données",
     code: "Code",
     lowJoin: "Un taux de correspondance bas peut venir du flux, de la grille horaire utilisée ou de l’appariement de Quavsit.",
     notScore: "Aucun chiffre ici n’est une note ni un classement.",
     columns: ["Réseau", "Grille horaire", "Vérifiée", "Courses", "Véhicules", "Alertes"],
     ledgerCaption: (region) => `Réseaux : ${region}`,
+    regions: "Régions",
     runsTo: (date) => `jusqu’au ${date}`,
     endsIn: (days) => (days === 0 ? "s’arrête aujourd’hui" : `s’arrête dans ${days} jour${days === 1 ? "" : "s"}`),
     ended: (date) => `arrêtée le ${date}`,
@@ -149,7 +169,13 @@ const copy = {
     withLine: (n, of) => `${n} / ${of} avec une ligne`,
     alertsCount: (n, shown) => `${shown} alerte${n > 1 ? "s" : ""}`,
     measuredWorking: "mesuré en fonctionnement ce jour",
+    legend: "Flux mesuré en fonctionnement ce jour",
+    scrollHint: "Les tableaux défilent horizontalement ; le nom du réseau reste visible.",
     networkBack: "Tous les réseaux",
+    latestDay: (date) => `Dernier jour : ${date}`,
+    networkDescription: (name, city) =>
+      `${name}${city ? ` (${city})` : ""} : la grille horaire et les flux temps réel tels que les a mesurés l’Observatoire Quavsit, avec les 30 derniers jours.`,
+    lessThanAnHour: "il y a moins d’une heure",
     facts: "Grille horaire",
     factLabels: {
       state: "État",
@@ -189,11 +215,19 @@ const copy = {
     sourceStates: { ok: "atteinte", down: "dernière tentative en échec", unknown: "aucun relevé" },
     lastOk: "dernier succès",
     lastError: "dernière erreur",
+    failureNames: { timeout: "délai dépassé", connection: "connexion", http_4xx: "HTTP 4xx", http_5xx: "HTTP 5xx", decode_error: "pas un flux", budget: "budget" },
+    errorReasons: { timeout: "délai dépassé", connection: "connexion", http_4xx: "HTTP 4xx", http_5xx: "HTTP 5xx", archive_invalid: "archive invalide", error: "autre erreur" },
+    realtime: "Flux temps réel",
+    noRealtime: "Ce réseau ne déclare aucun flux temps réel : seule sa grille horaire est mesurée.",
     history: "30 derniers jours",
+    historyCaption: (name) => `30 derniers jours pour ${name}`,
     historyDay: "Jour",
+    partialDay: "* encore en cours de relevé quand ces pages ont été générées",
     attribution: (text) => `Flux publiés par ${text}. Les mesures portent sur des données publiées sous cette licence.`,
     corrections: "Signaler une erreur",
-    correctionsMail: "ou écrire à hello@quavern.com",
+    correctionsMail: `ou écrire à <a href="mailto:hello@quavern.com">hello@quavern.com</a>`,
+    notFound: "Cette page n’existe pas.",
+    notFoundBody: "Le lien est peut-être incomplet, ou la page a été déplacée.",
     colophon: (sha, generated) =>
       `Mesuré par le moteur Quavsit (code ${sha || "—"}), généré le ${generated}. Mesures sous CC BY 4.0, citer « Observatoire Quavsit » ; code sous Licence open source Quavern 1.0.`,
     legal: "Mentions légales",
@@ -204,6 +238,7 @@ const copy = {
 };
 
 const KINDS = ["trip_updates", "vehicle_positions", "alerts"];
+const JOIN_MEMBERS = ["trip_join", "informed_resolved"];
 const RATE_MEMBERS = {
   trip_updates: ["trip_join", "stop_updates_timed", "cancelled"],
   vehicle_positions: ["with_position", "with_trip_id", "with_route_id", "trip_join"],
@@ -215,11 +250,19 @@ const escapeHtml = (value) =>
 const frenchSpacing = (text) =>
   String(text).replace(/ :/g, " :").replace(/ ([;!?»])/g, " $1").replace(/« /g, "« ");
 const t = (lang, text) => (lang === "fr" ? frenchSpacing(text) : text);
+// Names and credits come from the network descriptors with typewriter
+// apostrophes; French pages set them as the rest of the French copy.
+const named = (lang, text) => (lang === "fr" ? frenchSpacing(String(text ?? "").replace(/'/g, "’")) : String(text ?? ""));
+const anchor = (text) =>
+  String(text).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const colon = (lang) => (lang === "fr" ? "\u00a0: " : ": ");
 const num = (lang, value) => (value === null || value === undefined ? "—" : new Intl.NumberFormat(copy[lang].locale).format(value));
 const longDate = (lang, iso) =>
   iso
     ? new Intl.DateTimeFormat(copy[lang].locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso.slice(0, 10)}T00:00:00Z`))
     : "—";
+const shortDate = (lang, iso) =>
+  new Intl.DateTimeFormat(copy[lang].locale, { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso.slice(0, 10)}T00:00:00Z`));
 const stamp = (lang, iso) =>
   iso
     ? new Intl.DateTimeFormat(copy[lang].locale, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC", timeZoneName: "short" }).format(new Date(iso))
@@ -266,7 +309,7 @@ function renderMarkdown(markdown) {
   return { title, html: blocks.join("\n") };
 }
 
-function shell({ lang, title, description, path, otherPath, main, latest }) {
+function shell({ lang, title, description, path, otherPath, main, latest, correction = "" }) {
   const c = copy[lang];
   const other = lang === "fr" ? "en" : "fr";
   return `<!doctype html>
@@ -301,10 +344,7 @@ function shell({ lang, title, description, path, otherPath, main, latest }) {
     <div class="oss-shell">
       <header class="oss-header">
         <a class="oss-brand" href="${home(lang)}">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="${base}/assets/logo/quavern-primary-reverse.svg">
-            <img src="${base}/assets/logo/quavern-primary-ink.svg" alt="Quavern" width="107" height="26">
-          </picture>
+          <img class="oss-wordmark" src="${base}/assets/logo/quavern-primary-ink.svg" alt="Quavern" width="107" height="26">
           <span class="oss-brand-name">${c.siteName}</span>
         </a>
         <div class="oss-tools">
@@ -319,15 +359,15 @@ function shell({ lang, title, description, path, otherPath, main, latest }) {
 ${main}
       </main>
       <footer class="oss-colophon">
-        <p class="oss-colophon-text">${t(lang, c.lowJoin)} ${t(lang, c.notScore)} <a href="${repoUrl}/issues/new?template=correction.yml">${c.corrections}</a> ${t(lang, c.correctionsMail)}.</p>
+        <p class="oss-colophon-text">${t(lang, c.lowJoin)} ${t(lang, c.notScore)} <a href="${repoUrl}/issues/new?template=correction.yml${correction}">${c.corrections}</a> ${t(lang, c.correctionsMail)}.</p>
         <p class="oss-colophon-text">${t(lang, c.colophon(latest.engine?.code_sha256, stamp(lang, latest.generated_at)))}</p>
         <div class="oss-colophon-foot">
           <p><strong>Quavern</strong> — ${lang === "fr" ? "Bâti sous le bruit." : "Built below the noise."}</p>
           <nav aria-label="Quavern">
             <a href="${origin}${lang === "fr" ? "/fr/" : "/"}">${c.oss}</a>
             <a href="${repoUrl}">GitHub</a>
-            <a href="https://quavern.com/mentions-legales.html">${c.legal}</a>
-            <a href="https://quavern.com/privacy.html">${c.privacy}</a>
+            <a href="https://quavern.com/mentions-legales.html?lang=${lang}">${c.legal}</a>
+            <a href="https://quavern.com/privacy.html?lang=${lang}">${c.privacy}</a>
           </nav>
         </div>
       </footer>
@@ -347,7 +387,8 @@ function timetableCell(lang, stat) {
   return c.runsTo(longDate(lang, stat.timetable_ends_on));
 }
 
-const ago = (lang, hours) => (hours < 48 ? copy[lang].hoursAgo(Math.round(hours)) : copy[lang].daysAgo(Math.floor(hours / 24)));
+const ago = (lang, hours) =>
+  hours < 0.5 ? copy[lang].lessThanAnHour : hours < 48 ? copy[lang].hoursAgo(Math.round(hours)) : copy[lang].daysAgo(Math.floor(hours / 24));
 
 function loadedCell(lang, stat) {
   const c = copy[lang];
@@ -387,20 +428,21 @@ function indexPage(lang, latest) {
           const kinds = Object.keys(network.realtime || {});
           const cells = KINDS.map((kind) => {
             const cell = feedCell(lang, network, kind, kinds);
-            return `<td${cell.live ? ' class="live"' : ""}>${cell.live ? `<span class="contact" aria-hidden="true"></span><span class="visually-hidden">${c.measuredWorking}: </span>` : ""}${escapeHtml(t(lang, cell.text))}</td>`;
+            return `<td${cell.live ? ' class="live"' : ""}>${cell.live ? `<span class="contact" aria-hidden="true"></span><span class="visually-hidden">${c.measuredWorking}${colon(lang)}</span>` : ""}${escapeHtml(t(lang, cell.text))}</td>`;
           }).join("");
           return `              <tr>
-                <th scope="row"><a href="${networkPath(lang, network.network)}">${escapeHtml(network.name)}</a><span class="city">${escapeHtml(network.city || "")}</span></th>
+                <th scope="row"><a href="${networkPath(lang, network.network)}">${escapeHtml(named(lang, network.name))}</a><span class="city">${escapeHtml(named(lang, network.city))}</span></th>
                 <td>${escapeHtml(t(lang, timetableCell(lang, network.static)))}</td>
                 <td>${escapeHtml(t(lang, loadedCell(lang, network.static)))}</td>
                 ${cells}
               </tr>`;
         })
         .join("\n");
-      return `        <section class="region" aria-label="${escapeHtml(t(lang, c.ledgerCaption(region)))}">
-          <h2>${escapeHtml(region)}</h2>
-          <div class="table-scroll">
+      return `        <section class="region">
+          <h2 id="region-${anchor(region)}">${escapeHtml(named(lang, region))}</h2>
+          <div class="table-scroll" role="region" tabindex="0" aria-labelledby="ledger-${anchor(region)}">
             <table class="ledger ledger--index">
+              <caption id="ledger-${anchor(region)}" class="visually-hidden">${escapeHtml(t(lang, c.ledgerCaption(named(lang, region))))}</caption>
               <colgroup><col class="col-network"><col class="col-timetable"><col class="col-loaded"><col class="col-feed"><col class="col-feed"><col class="col-alerts"></colgroup>
               <thead><tr>${c.columns.map((col) => `<th scope="col">${escapeHtml(col)}</th>`).join("")}</tr></thead>
               <tbody>
@@ -411,7 +453,10 @@ ${rows}
         </section>`;
     })
     .join("\n");
-  const partial = latest.complete === false ? `<p class="partial-note">${t(lang, c.partial(latest.samples_taken, latest.samples_scheduled))}</p>` : "";
+  const partial =
+    latest.complete === false
+      ? `<p class="partial-note">${t(lang, c.partial(latest.samples_taken, latest.samples_scheduled, stamp(lang, latest.generated_at)))}</p>`
+      : "";
   return shell({
     lang,
     title: c.siteName,
@@ -423,8 +468,12 @@ ${rows}
           <h1 id="intro-title">${escapeHtml(t(lang, c.title))}</h1>
           <p>${escapeHtml(t(lang, c.lede(longDate(lang, latest.day), latest.networks.length)))}</p>
           ${partial}
-          <p class="intro-links"><a href="${methodPath(lang)}">${t(lang, c.method)}</a><a href="${base}/data/latest.json">${c.data}</a><a href="${repoUrl}">${c.code}</a></p>
+          <p class="intro-links"><a href="${methodPath(lang)}">${t(lang, c.method)}</a><a href="${base}/data/latest.json">${c.data}</a><a href="${repoUrl}/tree/main/data">${c.allData}</a><a href="${repoUrl}">${c.code}</a></p>
         </section>
+        <nav class="region-index" aria-label="${c.regions}"><p>${c.regions}</p><ul>${[...byRegion.keys()]
+          .map((region) => `<li><a href="#region-${anchor(region)}">${escapeHtml(named(lang, region))}</a></li>`)
+          .join("")}</ul></nav>
+        <p class="ledger-key"><span><span class="contact" aria-hidden="true"></span>${t(lang, c.legend)}</span><span class="scroll-hint">${t(lang, c.scrollHint)}</span></p>
 ${sections}`
   });
 }
@@ -436,8 +485,15 @@ function memberRows(lang, kind, block) {
     .map((member) => {
       const [label, definition] = c.members[member];
       let value = block[member];
-      if (member === "failures") value = Object.entries(value).filter(([, v]) => v).map(([k, v]) => `${k} ${v}`).join(", ") || "0";
-      else if (RATE_MEMBERS[kind].includes(member)) value = value === null ? copy[lang].noTimetable : rateText(lang, value);
+      if (member === "failures")
+        value = Object.entries(value).filter(([, v]) => v).map(([k, v]) => `${c.failureNames[k] ?? k} ${num(lang, v)}`).join(", ") || num(lang, 0);
+      else if (RATE_MEMBERS[kind].includes(member)) {
+        // A rate is null when no answer was valid (nothing to count), or, for
+        // the joins only, when the network has no timetable to join against.
+        if (!block.ok) value = c.notMeasured;
+        else if (value === null) value = JOIN_MEMBERS.includes(member) ? c.noTimetable : "—";
+        else value = rateText(lang, value);
+      }
       else if (typeof value === "number") value = num(lang, value);
       else if (value === null || value === undefined) value = "—";
       return `<div class="fact"><dt>${escapeHtml(t(lang, label))}<span class="definition">${escapeHtml(t(lang, definition))}</span></dt><dd>${escapeHtml(value)}</dd></div>`;
@@ -456,7 +512,7 @@ function networkPage(lang, latest, network, history) {
     [c.factLabels.ends, stat.timetable_ends_on ? (stat.days_left <= 30 ? `${longDate(lang, stat.timetable_ends_on)} (${timetableCell(lang, stat)})` : longDate(lang, stat.timetable_ends_on)) : timetableCell(lang, stat)],
     [c.factLabels.counts, stat.counts ? c.countsText(Object.fromEntries(Object.entries(stat.counts).map(([k, v]) => [k, v === null ? null : num(lang, v)]))) : "—"],
     [c.factLabels.dataset, stat.pan_dataset_slug ? `<a href="https://transport.data.gouv.fr/datasets/${encodeURIComponent(stat.pan_dataset_slug)}">transport.data.gouv.fr</a>` : "—"],
-    [c.factLabels.lastError, stat.last_error ? `${stat.last_error.reason}${stat.last_error.host ? ` · ${stat.last_error.host}` : ""}` : "—"]
+    [c.factLabels.lastError, stat.last_error ? `${c.errorReasons[stat.last_error.reason] ?? stat.last_error.reason}${stat.last_error.host ? ` · ${stat.last_error.host}` : ""}` : "—"]
   ]
     .map(([label, value]) => `<div class="fact"><dt>${escapeHtml(t(lang, label))}</dt><dd>${String(value).startsWith("<a ") ? value : escapeHtml(t(lang, value))}</dd></div>`)
     .join("\n");
@@ -467,15 +523,17 @@ function networkPage(lang, latest, network, history) {
       const body = block ? `<dl class="facts">${memberRows(lang, kind, block)}</dl>` : `<p>${c.notMeasured}</p>`;
       return `<section class="oss-section" aria-labelledby="kind-${kind}"><div class="section-head"><h2 id="kind-${kind}">${c.kinds[kind]}</h2></div>${body}</section>`;
     })
-    .join("\n");
+    .join("\n") ||
+    `<section class="oss-section" aria-labelledby="kind-none"><div class="section-head"><h2 id="kind-none">${c.realtime}</h2><p>${t(lang, c.noRealtime)}</p></div></section>`;
   const observed = network.engine_observed?.length
     ? `<section class="oss-section" aria-labelledby="engine-observed"><div class="section-head"><h2 id="engine-observed">${t(lang, c.engineObserved)}</h2><p>${t(lang, c.engineObservedNote)}</p></div><dl class="facts">${network.engine_observed
         .map((source) => `<div class="fact"><dt><code>${escapeHtml(source.source)}</code></dt><dd>${escapeHtml(t(lang, c.sourceStates[source.state]))} · ${c.lastOk} ${stamp(lang, source.last_ok_at)} · ${c.lastError} ${stamp(lang, source.last_error_at)}</dd></div>`)
         .join("\n")}</dl></section>`
     : "";
   const days = (history?.days || []).slice(-30).reverse();
+  const partialDays = days.some((entry) => entry.complete === false);
   const historyTable = days.length
-    ? `<section class="oss-section" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">${c.history}</h2></div><div class="table-scroll"><table class="ledger"><thead><tr><th scope="col">${c.historyDay}</th><th scope="col">${c.columns[1]}</th>${kinds.map((kind) => `<th scope="col">${c.kinds[kind]}</th>`).join("")}</tr></thead><tbody>${days
+    ? `<section class="oss-section" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">${c.history}</h2></div><div class="table-scroll" role="region" tabindex="0" aria-labelledby="history-caption"><table class="ledger ledger--history"><caption id="history-caption" class="visually-hidden">${escapeHtml(c.historyCaption(named(lang, network.name)))}</caption><thead><tr><th scope="col">${c.historyDay}</th><th scope="col">${c.columns[1]}</th>${kinds.map((kind) => `<th scope="col">${c.columns[3 + KINDS.indexOf(kind)]}</th>`).join("")}</tr></thead><tbody>${days
         .map((entry) => {
           const cells = kinds
             .map((kind) => {
@@ -483,22 +541,23 @@ function networkPage(lang, latest, network, history) {
               return `<td>${escapeHtml(t(lang, cell.text))}</td>`;
             })
             .join("");
-          return `<tr><th scope="row">${longDate(lang, entry.day)}${entry.complete === false ? " *" : ""}</th><td>${escapeHtml(t(lang, timetableCell(lang, entry.static)))}</td>${cells}</tr>`;
+          return `<tr><th scope="row"><time datetime="${entry.day}">${shortDate(lang, entry.day)}</time>${entry.complete === false ? " *" : ""}</th><td>${escapeHtml(t(lang, timetableCell(lang, entry.static)))}</td>${cells}</tr>`;
         })
-        .join("")}</tbody></table></div></section>`
+        .join("")}</tbody></table></div>${partialDays ? `<p class="history-note">${t(lang, c.partialDay)}</p>` : ""}</section>`
     : "";
   return shell({
     lang,
-    title: `${network.name} — ${c.siteName}`,
-    description: t(lang, c.lede(longDate(lang, latest.day), latest.networks.length)),
+    title: `${named(lang, network.name)} — ${c.siteName}`,
+    description: t(lang, c.networkDescription(named(lang, network.name), named(lang, network.city))),
     path: networkPath(lang, network.network),
     otherPath: networkPath(lang === "fr" ? "en" : "fr", network.network),
     latest,
+    correction: `&amp;network=${encodeURIComponent(network.network)}&amp;day=${latest.day}`,
     main: `        <p class="licence-back"><a href="${home(lang)}">${c.networkBack}</a></p>
         <section class="oss-intro network-intro" aria-labelledby="network-title">
-          <h1 id="network-title">${escapeHtml(network.name)}</h1>
-          <p>${escapeHtml([network.city, network.region].filter(Boolean).join(" · "))} · ${longDate(lang, latest.day)}</p>
-          ${network.attribution ? `<p class="attribution">${escapeHtml(t(lang, c.attribution(network.attribution)))}</p>` : ""}
+          <h1 id="network-title">${escapeHtml(named(lang, network.name))}</h1>
+          <p>${escapeHtml(named(lang, [network.city, network.region].filter(Boolean).join(" · ")))} · ${t(lang, c.latestDay(longDate(lang, latest.day)))}</p>
+          ${network.attribution ? `<p class="attribution">${escapeHtml(t(lang, c.attribution(named(lang, network.attribution))))}</p>` : ""}
           <p class="intro-links"><a href="${base}/data/networks/${network.network}.json">JSON</a><a href="${base}/data/networks/${network.network}.csv">CSV</a><a href="${methodPath(lang)}">${t(lang, c.method)}</a></p>
         </section>
         <section class="oss-section" aria-labelledby="facts-title"><div class="section-head"><h2 id="facts-title">${c.facts}</h2></div><dl class="facts">${facts}</dl></section>
@@ -526,6 +585,28 @@ ${lang === "fr" ? frenchSpacing(doc.html) : doc.html}
           </div>
         </article>`
   });
+}
+
+// GitHub Pages serves this for any missing address under the project path, in
+// either language, so it says so in both.
+function notFoundPage(latest) {
+  const en = copy.en;
+  const fr = copy.fr;
+  return shell({
+    lang: "en",
+    title: `404 — ${en.siteName}`,
+    description: en.notFound,
+    path: `${base}/404.html`,
+    otherPath: home("fr"),
+    latest,
+    main: `        <section class="oss-intro" aria-labelledby="intro-title">
+          <h1 id="intro-title">${en.notFound}</h1>
+          <p>${en.notFoundBody} <a href="${home("en")}">${en.networkBack}</a></p>
+          <p lang="fr">${t("fr", `${fr.notFound} ${fr.notFoundBody}`)} <a href="${home("fr")}">${fr.networkBack}</a></p>
+        </section>`
+  })
+    .replace(/\n    <link rel="canonical"[^\n]*\n    <link rel="alternate"[^\n]*\n    <link rel="alternate"[^\n]*/, "")
+    .replace(/\n    <meta property="og:url"[^\n]*/, "");
 }
 
 async function write(path, text) {
@@ -578,5 +659,13 @@ for (const lang of ["en", "fr"]) {
 for (const [slug, history] of Object.entries(histories)) {
   await writeFile(resolve(out, "data/networks", `${slug}.csv`), csvFor(history));
 }
+await write(`${base}/404.html`, notFoundPage(latest));
+const pages = ["en", "fr"].flatMap((lang) => [home(lang), methodPath(lang), ...latest.networks.map((network) => networkPath(lang, network.network))]);
+await writeFile(
+  resolve(out, "sitemap.xml"),
+  `<?xml version="1.0" encoding="utf-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages
+    .map((page) => `  <url><loc>${origin}${page}</loc></url>`)
+    .join("\n")}\n</urlset>\n`
+);
 await writeFile(resolve(out, ".nojekyll"), "");
 process.stdout.write(`Built Quavsit Observatory for ${latest.day}: ${latest.networks.length} networks → ${out}\n`);

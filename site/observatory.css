@@ -71,6 +71,9 @@ pre {
   top: var(--space-3);
   left: var(--space-3);
   z-index: var(--z-modal);
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
   padding: var(--space-2) var(--space-4);
   background: var(--color-solid);
   color: var(--color-solid-ink);
@@ -111,6 +114,20 @@ pre {
   display: block;
   width: auto;
   height: 1.6rem;
+}
+
+/* The wordmark is baked two-colour artwork and cannot follow a token: after
+   hours it becomes the reverse cut, which carries the same viewBox. A
+   <picture> source would follow the system only, and lose the mark when a
+   reader pins the other theme. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .oss-wordmark {
+    content: url("./assets/logo/quavern-primary-reverse.svg");
+  }
+}
+
+:root[data-theme="dark"] .oss-wordmark {
+  content: url("./assets/logo/quavern-primary-reverse.svg");
 }
 
 .oss-brand-name {
@@ -630,6 +647,7 @@ pre {
 
   .oss-tools {
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -687,7 +705,29 @@ pre {
   }
 }
 
+/* At 320 px the French control (AUTO / CLAIR / SOMBRE) is wider than the
+   line: tighten the controls before anything is cut off. */
+@media (max-width: 24rem) {
+  .oss-tools {
+    gap: var(--space-2);
+  }
+
+  .oss-language {
+    padding-inline: var(--space-3);
+  }
+
+  .theme-toggle__label {
+    padding-inline: var(--space-2);
+    letter-spacing: 0.04em;
+  }
+}
+
 @media print {
+  :root:not([data-theme]) .oss-wordmark,
+  :root[data-theme] .oss-wordmark {
+    content: url("./assets/logo/quavern-primary-ink.svg");
+  }
+
   .oss-tools,
   .oss-colophon-foot nav {
     display: none;
@@ -733,7 +773,10 @@ pre {
 }
 
 .oss-intro p.intro-links {
+  max-width: none;
   color: var(--color-ink);
+  font-size: var(--text-label);
+  line-height: var(--line-body);
 }
 
 .intro-links a {
@@ -767,14 +810,78 @@ pre {
 
 .ledger {
   width: 100%;
-  min-width: 46rem;
   border-collapse: collapse;
   font-variant-numeric: tabular-nums;
 }
 
 /* Every region's ledger shares one set of columns, so a figure lines up down the page. */
 .ledger--index {
+  min-width: 46rem;
   table-layout: fixed;
+}
+
+/* A ledger wider than the screen scrolls inside its own box; it takes
+   keyboard focus so it can be scrolled without a pointer. */
+.table-scroll:focus-visible {
+  outline-offset: 2px;
+}
+
+/* The regions in page order, so a network can be reached without scrolling
+   through the ones before it. */
+.region-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--space-4);
+  padding-block: 0 var(--space-4);
+  font-size: var(--text-label);
+}
+
+.region-index p {
+  color: var(--color-ink-soft);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+}
+
+.region-index ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.region-index a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-height);
+}
+
+.region h2 {
+  scroll-margin-top: var(--space-4);
+}
+
+/* The key to the amber contact, and on narrow screens the note that the
+   ledgers scroll sideways. */
+.ledger-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-5);
+  padding-block: 0 var(--space-5);
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
+}
+
+@media (min-width: 49rem) {
+  .scroll-hint {
+    display: none;
+  }
+}
+
+.history-note {
+  margin-top: var(--space-3);
+  color: var(--color-ink-soft);
+  font-size: var(--text-label);
 }
 
 .ledger--index .col-network {
@@ -812,12 +919,21 @@ pre {
   color: var(--color-ink-soft);
   font-weight: 800;
   letter-spacing: var(--tracking-label);
+}
+
+.ledger--index thead th {
   white-space: nowrap;
 }
 
 .ledger tbody th {
   font-size: var(--text-body);
   font-weight: 800;
+}
+
+/* A history row is named by its date, set at the size of the figures beside it. */
+.ledger--history tbody th {
+  font-size: var(--text-label);
+  white-space: nowrap;
 }
 
 .ledger .city {
@@ -836,13 +952,33 @@ pre {
   color: var(--color-ink);
 }
 
-.ledger .contact {
+/* The contact carries an ink frame, which does not invert: amber alone is
+   too faint against limestone to be read as a mark. */
+.contact {
   display: inline-block;
   width: 0.5rem;
   height: 0.5rem;
   margin-right: var(--space-2);
+  border: var(--border-thin) solid var(--color-accent-rule);
   background: var(--color-contact);
   vertical-align: 0.05em;
+}
+
+/* When a ledger scrolls sideways, the network stays in view. Its edge is an
+   inset hairline, not a border: a collapsed border stays behind when the
+   cell sticks. */
+@media (max-width: 49rem) {
+  .ledger--index th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: var(--z-raised);
+    background: var(--color-paper);
+    box-shadow: inset calc(-1 * var(--border-thin)) 0 0 var(--color-plane);
+  }
+
+  .ledger--index th:first-child + :is(td, th) {
+    padding-left: var(--space-3);
+  }
 }
 
 /* Facts: a term with its definition beside the measured value. */
