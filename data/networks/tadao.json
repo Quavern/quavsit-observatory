@@ -117,11 +117,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T23:10:57Z",
-        "age_hours": 9.7,
+        "age_hours": 15.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 108,
         "counts": {
@@ -133,14 +133,14 @@
         "pan_dataset_slug": "gtfs-tadao",
         "last_error": null,
         "checked_at": "2026-09-16T23:11:26Z",
-        "check_age_hours": 9.7,
+        "check_age_hours": 15.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,20 +151,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 37,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 300,
+          "entities": 251,
           "trip_join": {
-            "n": 566,
-            "of": 566
+            "n": 1057,
+            "of": 1057
           },
           "stop_updates_timed": {
-            "n": 2288,
-            "of": 2288
+            "n": 4710,
+            "of": 4710
           },
           "cancelled": {
             "n": 0,
-            "of": 566
+            "of": 1057
           },
           "no_trip_id": 0
         }

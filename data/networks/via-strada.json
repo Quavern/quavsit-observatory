@@ -117,11 +117,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:41Z",
-        "age_hours": 204.7,
+        "age_hours": 210.7,
         "timetable_ends_on": "2030-12-31",
         "days_left": 1566,
         "counts": {
@@ -133,14 +133,14 @@
         "pan_dataset_slug": "gtfs-transport-via-strada",
         "last_error": null,
         "checked_at": "2026-09-17T05:10:24Z",
-        "check_age_hours": 3.7,
+        "check_age_hours": 9.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ctc.plateforme-2cloud.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -151,20 +151,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 17,
+          "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 90,
           "trip_join": {
-            "n": 8,
-            "of": 173
+            "n": 16,
+            "of": 351
           },
           "stop_updates_timed": {
-            "n": 1620,
-            "of": 1758
+            "n": 3002,
+            "of": 3179
           },
           "cancelled": {
             "n": 0,
-            "of": 173
+            "of": 351
           },
           "no_trip_id": 0
         }

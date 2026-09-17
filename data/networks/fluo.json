@@ -56,20 +56,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-16T01:07:33Z",
-        "age_hours": 31.8,
+        "refreshed_at": "2026-09-17T13:09:17Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 346,
         "counts": {
           "lines": 2161,
-          "stops": 19062,
-          "trips": 11839,
-          "stop_times": 138393
+          "stops": 19066,
+          "trips": 11837,
+          "stop_times": 138395
         },
         "pan_dataset_slug": "offre-du-reseau-de-transport-interurbain-fluo-grand-est",
         "last_error": null,
-        "checked_at": "2026-09-16T01:08:36Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-17T13:10:19Z",
+        "check_age_hours": 1.7,
         "source": "operator"
       },
       "realtime": {}

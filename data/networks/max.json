@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T07:08:46Z",
-        "age_hours": 25.8,
+        "age_hours": 31.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 345,
         "counts": {
@@ -201,14 +201,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-16T07:08:47Z",
-        "check_age_hours": 25.8,
+        "check_age_hours": 31.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -221,25 +221,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 7,
+          "entities": 8,
           "trip_join": {
-            "n": 7,
-            "of": 7
+            "n": 15,
+            "of": 15
           },
           "stop_updates_timed": {
-            "n": 58,
-            "of": 58
+            "n": 155,
+            "of": 155
           },
           "cancelled": {
             "n": 0,
-            "of": 7
+            "of": 15
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -252,22 +252,22 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 7,
+          "entities": 8,
           "with_position": {
-            "n": 7,
-            "of": 7
+            "n": 15,
+            "of": 15
           },
           "with_trip_id": {
-            "n": 7,
-            "of": 7
+            "n": 15,
+            "of": 15
           },
           "with_route_id": {
-            "n": 7,
-            "of": 7
+            "n": 15,
+            "of": 15
           },
           "trip_join": {
-            "n": 7,
-            "of": 7
+            "n": 15,
+            "of": 15
           }
         }
       }

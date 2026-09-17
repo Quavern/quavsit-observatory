@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:08:23Z",
-        "age_hours": 62.8,
+        "age_hours": 68.8,
         "timetable_ends_on": "2026-11-19",
         "days_left": 63,
         "counts": {
@@ -201,14 +201,14 @@
         "pan_dataset_slug": "ametis",
         "last_error": null,
         "checked_at": "2026-09-17T06:09:11Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -219,27 +219,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 15,
           "no_header_timestamp": 0,
-          "entities": 72,
+          "entities": 78,
           "trip_join": {
-            "n": 144,
-            "of": 144
+            "n": 311,
+            "of": 311
           },
           "stop_updates_timed": {
-            "n": 4982,
-            "of": 4982
+            "n": 10615,
+            "of": 10615
           },
           "cancelled": {
-            "n": 0,
-            "of": 144
+            "n": 3,
+            "of": 311
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -250,24 +250,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 10,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 89,
+          "entities": 90,
           "with_position": {
-            "n": 178,
-            "of": 178
+            "n": 358,
+            "of": 358
           },
           "with_trip_id": {
-            "n": 158,
-            "of": 178
+            "n": 321,
+            "of": 358
           },
           "with_route_id": {
-            "n": 158,
-            "of": 178
+            "n": 321,
+            "of": 358
           },
           "trip_join": {
-            "n": 158,
-            "of": 158
+            "n": 321,
+            "of": 321
           }
         }
       }

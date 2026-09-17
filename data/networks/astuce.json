@@ -161,11 +161,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T23:08:26Z",
-        "age_hours": 9.8,
+        "age_hours": 15.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 346,
         "counts": {
@@ -177,14 +177,14 @@
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
         "checked_at": "2026-09-16T23:08:43Z",
-        "check_age_hours": 9.8,
+        "check_age_hours": 15.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.mrn.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -195,7 +195,7 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 13,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 0,
           "trip_join": {
@@ -214,12 +214,12 @@
         },
         "vehicle_positions": {
           "host": "api.mrn.cityway.fr",
-          "samples": 2,
+          "samples": 4,
           "ok": 0,
           "failures": {
             "timeout": 0,
             "connection": 0,
-            "http_4xx": 2,
+            "http_4xx": 4,
             "http_5xx": 0,
             "decode_error": 0,
             "budget": 0

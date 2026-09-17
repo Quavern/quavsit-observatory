@@ -56,8 +56,8 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-16T01:07:26Z",
-        "age_hours": 31.8,
+        "refreshed_at": "2026-09-17T13:09:11Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2026-10-21",
         "days_left": 34,
         "counts": {
@@ -68,8 +68,8 @@
         },
         "pan_dataset_slug": "gtfs-3",
         "last_error": null,
-        "checked_at": "2026-09-16T01:07:31Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-17T13:09:15Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}

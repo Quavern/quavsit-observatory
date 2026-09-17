@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:06:30Z",
-        "age_hours": 204.8,
+        "age_hours": 210.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 348,
         "counts": {
@@ -200,15 +200,15 @@
         },
         "pan_dataset_slug": "referentiel-topologique-reseau-carsud",
         "last_error": null,
-        "checked_at": "2026-09-17T01:07:15Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-17T13:09:15Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -223,23 +223,23 @@
           "no_header_timestamp": 0,
           "entities": 65,
           "trip_join": {
-            "n": 104,
-            "of": 104
+            "n": 164,
+            "of": 164
           },
           "stop_updates_timed": {
-            "n": 2945,
-            "of": 2969
+            "n": 4427,
+            "of": 4453
           },
           "cancelled": {
             "n": 0,
-            "of": 104
+            "of": 164
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 3,
-          "ok": 3,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -254,20 +254,20 @@
           "no_header_timestamp": 0,
           "entities": 65,
           "with_position": {
-            "n": 95,
-            "of": 95
+            "n": 151,
+            "of": 151
           },
           "with_trip_id": {
-            "n": 95,
-            "of": 95
+            "n": 151,
+            "of": 151
           },
           "with_route_id": {
-            "n": 95,
-            "of": 95
+            "n": 151,
+            "of": 151
           },
           "trip_join": {
-            "n": 95,
-            "of": 95
+            "n": 151,
+            "of": 151
           }
         }
       }

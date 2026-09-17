@@ -161,11 +161,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 204.6,
+        "age_hours": 210.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 31,
         "counts": {
@@ -177,14 +177,14 @@
         "pan_dataset_slug": "arrets-et-horaires-theoriques-bus-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-17T08:08:23Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "mwe.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -195,27 +195,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 17,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 248,
           "trip_join": {
-            "n": 496,
-            "of": 496
+            "n": 1008,
+            "of": 1008
           },
           "stop_updates_timed": {
-            "n": 14256,
-            "of": 14754
+            "n": 28808,
+            "of": 29994
           },
           "cancelled": {
             "n": 0,
-            "of": 496
+            "of": 1008
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "mwe.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -228,10 +228,10 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 14,
+          "entities": 15,
           "informed_resolved": {
-            "n": 37,
-            "of": 39
+            "n": 77,
+            "of": 81
           }
         }
       }
