@@ -185,30 +185,30 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-16T07:08:10Z",
-        "age_hours": 31.8,
+        "refreshed_at": "2026-09-17T19:07:41Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 31,
         "counts": {
-          "lines": 72,
-          "stops": 1157,
-          "trips": 1782,
-          "stop_times": 38247
+          "lines": 73,
+          "stops": 1165,
+          "trips": 1783,
+          "stop_times": 38257
         },
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
-        "checked_at": "2026-09-16T07:08:17Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-17T19:07:45Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -218,28 +218,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 15,
+          "samples_night": 2,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 39,
+          "entities": 27,
           "trip_join": {
-            "n": 103,
-            "of": 157
+            "n": 111,
+            "of": 165
           },
           "stop_updates_timed": {
-            "n": 2572,
-            "of": 2572
+            "n": 2733,
+            "of": 2733
           },
           "cancelled": {
             "n": 0,
-            "of": 157
+            "of": 165
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -249,25 +249,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 15,
+          "samples_night": 2,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 26,
+          "entities": 14,
           "with_position": {
-            "n": 108,
-            "of": 108
+            "n": 115,
+            "of": 115
           },
           "with_trip_id": {
-            "n": 108,
-            "of": 108
+            "n": 115,
+            "of": 115
           },
           "with_route_id": {
-            "n": 108,
-            "of": 108
+            "n": 115,
+            "of": 115
           },
           "trip_join": {
-            "n": 54,
-            "of": 108
+            "n": 61,
+            "of": 115
           }
         }
       }

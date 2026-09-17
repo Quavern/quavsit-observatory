@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:12:15Z",
-        "age_hours": 51.7,
+        "age_hours": 57.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 105,
         "counts": {
@@ -201,14 +201,14 @@
         "pan_dataset_slug": "offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-17T11:07:43Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -218,28 +218,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 29,
+          "samples_night": 2,
+          "header_age_seconds": 30,
           "no_header_timestamp": 0,
-          "entities": 263,
+          "entities": 201,
           "trip_join": {
-            "n": 1021,
-            "of": 1042
+            "n": 1146,
+            "of": 1168
           },
           "stop_updates_timed": {
-            "n": 15320,
-            "of": 15320
+            "n": 17770,
+            "of": 17770
           },
           "cancelled": {
             "n": 0,
-            "of": 1042
+            "of": 1168
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -249,25 +249,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 29,
+          "samples_night": 2,
+          "header_age_seconds": 30,
           "no_header_timestamp": 0,
-          "entities": 115,
+          "entities": 92,
           "with_position": {
-            "n": 437,
-            "of": 437
+            "n": 506,
+            "of": 506
           },
           "with_trip_id": {
-            "n": 437,
-            "of": 437
+            "n": 506,
+            "of": 506
           },
           "with_route_id": {
-            "n": 437,
-            "of": 437
+            "n": 506,
+            "of": 506
           },
           "trip_join": {
-            "n": 428,
-            "of": 437
+            "n": 497,
+            "of": 506
           }
         }
       }

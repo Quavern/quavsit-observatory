@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:52Z",
-        "age_hours": 210.8,
+        "age_hours": 216.8,
         "timetable_ends_on": "2030-01-31",
         "days_left": 1232,
         "counts": {
@@ -200,15 +200,15 @@
         },
         "pan_dataset_slug": "offre-transport-en-commun-du-reseau-transpor-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-17T03:08:07Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-17T15:10:13Z",
+        "check_age_hours": 5.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -218,28 +218,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 11,
+          "samples_night": 2,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
-          "entities": 12,
+          "entities": 9,
           "trip_join": {
-            "n": 49,
-            "of": 49
+            "n": 56,
+            "of": 56
           },
           "stop_updates_timed": {
-            "n": 1557,
-            "of": 2379
+            "n": 1663,
+            "of": 2485
           },
           "cancelled": {
             "n": 0,
-            "of": 49
+            "of": 56
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -249,25 +249,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 14,
+          "samples_night": 2,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 8,
+          "entities": 7,
           "with_position": {
-            "n": 32,
-            "of": 35
+            "n": 37,
+            "of": 42
           },
           "with_trip_id": {
-            "n": 32,
-            "of": 32
+            "n": 37,
+            "of": 37
           },
           "with_route_id": {
-            "n": 32,
-            "of": 32
+            "n": 37,
+            "of": 37
           },
           "trip_join": {
-            "n": 32,
-            "of": 32
+            "n": 37,
+            "of": 37
           }
         }
       }

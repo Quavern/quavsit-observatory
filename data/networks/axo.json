@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-16T03:08:26Z",
-        "age_hours": 35.8,
+        "refreshed_at": "2026-09-17T15:07:28Z",
+        "age_hours": 5.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 105,
         "counts": {
@@ -200,15 +200,15 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
         "last_error": null,
-        "checked_at": "2026-09-16T03:08:29Z",
-        "check_age_hours": 35.8,
+        "checked_at": "2026-09-17T15:07:31Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -218,28 +218,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 68,
+          "entities": 46,
           "trip_join": {
-            "n": 277,
-            "of": 277
+            "n": 317,
+            "of": 317
           },
           "stop_updates_timed": {
-            "n": 5267,
-            "of": 5267
+            "n": 6243,
+            "of": 6243
           },
           "cancelled": {
-            "n": 2,
-            "of": 277
+            "n": 5,
+            "of": 317
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -249,25 +249,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 27,
+          "entities": 23,
           "with_position": {
-            "n": 112,
-            "of": 112
+            "n": 133,
+            "of": 133
           },
           "with_trip_id": {
-            "n": 112,
-            "of": 112
+            "n": 133,
+            "of": 133
           },
           "with_route_id": {
-            "n": 112,
-            "of": 112
+            "n": 133,
+            "of": 133
           },
           "trip_join": {
-            "n": 112,
-            "of": 112
+            "n": 133,
+            "of": 133
           }
         }
       }

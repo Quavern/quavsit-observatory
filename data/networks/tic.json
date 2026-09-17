@@ -185,11 +185,11 @@
     {
       "day": "2026-09-17",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 210.8,
+        "age_hours": 216.8,
         "timetable_ends_on": "2026-11-11",
         "days_left": 55,
         "counts": {
@@ -201,14 +201,14 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-tic-urbain-communaute-dagglomeration-de-la-region-de-compiegne-et-de-la-basse-automne",
         "last_error": null,
         "checked_at": "2026-09-17T13:11:00Z",
-        "check_age_hours": 1.7,
+        "check_age_hours": 7.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -218,28 +218,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 44,
+          "entities": 39,
           "trip_join": {
-            "n": 182,
-            "of": 182
+            "n": 210,
+            "of": 210
           },
           "stop_updates_timed": {
-            "n": 2959,
-            "of": 2959
+            "n": 3423,
+            "of": 3423
           },
           "cancelled": {
             "n": 1,
-            "of": 182
+            "of": 210
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -249,25 +249,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 15,
           "with_position": {
-            "n": 62,
-            "of": 62
+            "n": 75,
+            "of": 75
           },
           "with_trip_id": {
-            "n": 62,
-            "of": 62
+            "n": 75,
+            "of": 75
           },
           "with_route_id": {
-            "n": 62,
-            "of": 62
+            "n": 75,
+            "of": 75
           },
           "trip_join": {
-            "n": 62,
-            "of": 62
+            "n": 75,
+            "of": 75
           }
         }
       }
