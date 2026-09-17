@@ -60,12 +60,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T08:08:57Z",
-        "age_hours": 12.8,
+        "age_hours": 16.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 289,
         "counts": {
@@ -77,7 +77,7 @@
         "pan_dataset_slug": "ilevia-localisation-des-arrets-bus-metro-et-tram-gtfs",
         "last_error": null,
         "checked_at": "2026-09-16T08:10:37Z",
-        "check_age_hours": 12.7,
+        "check_age_hours": 16.2,
         "source": "operator"
       },
       "realtime": {
@@ -94,7 +94,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 372,
@@ -109,6 +109,62 @@
           "cancelled": {
             "n": 0,
             "of": 2476
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T08:08:57Z",
+        "age_hours": 21.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 288,
+        "counts": {
+          "lines": 157,
+          "stops": 4918,
+          "trips": 39173,
+          "stop_times": 1147075
+        },
+        "pan_dataset_slug": "ilevia-localisation-des-arrets-bus-metro-et-tram-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-16T08:10:37Z",
+        "check_age_hours": 21.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 562,
+          "trip_join": {
+            "n": 562,
+            "of": 562
+          },
+          "stop_updates_timed": {
+            "n": 5218,
+            "of": 5218
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 562
           },
           "no_trip_id": 0
         }

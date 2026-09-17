@@ -28,12 +28,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T09:07:44Z",
-        "age_hours": 155.8,
+        "age_hours": 159.3,
         "timetable_ends_on": "2026-11-15",
         "days_left": 60,
         "counts": {
@@ -44,8 +44,32 @@
         },
         "pan_dataset_slug": "fr-200052264-t0004-0000-1",
         "last_error": null,
-        "checked_at": "2026-09-16T09:08:36Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-16T21:10:48Z",
+        "check_age_hours": 3.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T09:07:44Z",
+        "age_hours": 164.8,
+        "timetable_ends_on": "2026-11-15",
+        "days_left": 59,
+        "counts": {
+          "lines": 10,
+          "stops": 467,
+          "trips": 1465,
+          "stop_times": 28643
+        },
+        "pan_dataset_slug": "fr-200052264-t0004-0000-1",
+        "last_error": null,
+        "checked_at": "2026-09-16T21:10:48Z",
+        "check_age_hours": 8.7,
         "source": "operator"
       },
       "realtime": {}

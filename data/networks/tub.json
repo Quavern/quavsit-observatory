@@ -28,12 +28,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T16:17:32Z",
-        "age_hours": 4.6,
+        "age_hours": 8.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -45,7 +45,31 @@
         "pan_dataset_slug": "gtfs-du-reseau-de-transports-publics-de-saint-brieuc-armor-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-16T16:17:36Z",
-        "check_age_hours": 4.6,
+        "check_age_hours": 8.1,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T16:17:32Z",
+        "age_hours": 13.6,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 105,
+        "counts": {
+          "lines": 91,
+          "stops": 2604,
+          "trips": 1663,
+          "stop_times": 50115
+        },
+        "pan_dataset_slug": "gtfs-du-reseau-de-transports-publics-de-saint-brieuc-armor-agglomeration",
+        "last_error": null,
+        "checked_at": "2026-09-16T16:17:36Z",
+        "check_age_hours": 13.6,
         "source": "operator"
       },
       "realtime": {}

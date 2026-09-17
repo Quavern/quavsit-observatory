@@ -88,12 +88,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T22:09:25Z",
-        "age_hours": 22.8,
+        "age_hours": 26.3,
         "timetable_ends_on": "2026-12-26",
         "days_left": 101,
         "counts": {
@@ -105,7 +105,7 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-15T22:09:27Z",
-        "check_age_hours": 22.8,
+        "check_age_hours": 26.3,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -122,7 +122,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 57,
@@ -153,7 +153,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 30,
@@ -172,6 +172,96 @@
           "trip_join": {
             "n": 0,
             "of": 174
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T22:09:25Z",
+        "age_hours": 31.8,
+        "timetable_ends_on": "2026-12-26",
+        "days_left": 100,
+        "counts": {
+          "lines": 119,
+          "stops": 1216,
+          "trips": 1528,
+          "stop_times": 35961
+        },
+        "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
+        "last_error": null,
+        "checked_at": "2026-09-15T22:09:27Z",
+        "check_age_hours": 31.8,
+        "source": "transport_data_gouv_fr_copy"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 10,
+          "no_header_timestamp": 0,
+          "entities": 76,
+          "trip_join": {
+            "n": 76,
+            "of": 76
+          },
+          "stop_updates_timed": {
+            "n": 2078,
+            "of": 2078
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 76
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 14,
+          "no_header_timestamp": 0,
+          "entities": 39,
+          "with_position": {
+            "n": 39,
+            "of": 39
+          },
+          "with_trip_id": {
+            "n": 39,
+            "of": 39
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 39
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 39
           }
         }
       }

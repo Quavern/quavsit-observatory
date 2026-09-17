@@ -116,12 +116,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:09:31Z",
-        "age_hours": 25.8,
+        "age_hours": 29.3,
         "timetable_ends_on": "2026-11-30",
         "days_left": 75,
         "counts": {
@@ -150,7 +150,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 71,
           "no_header_timestamp": 0,
           "entities": 485,
@@ -181,7 +181,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 76,
           "no_header_timestamp": 0,
           "entities": 194,
@@ -215,13 +215,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 10,
           "informed_resolved": {
             "n": 138,
             "of": 138
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T19:09:31Z",
+        "age_hours": 34.8,
+        "timetable_ends_on": "2026-11-30",
+        "days_left": 74,
+        "counts": {
+          "lines": 99,
+          "stops": 2016,
+          "trips": 11725,
+          "stop_times": 389149
+        },
+        "pan_dataset_slug": "reseau-de-transport-urbain-de-la-metropole-toulon-provence-mediterranee",
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-rdtpm-toulon.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 74,
+          "no_header_timestamp": 0,
+          "entities": 551,
+          "trip_join": {
+            "n": 547,
+            "of": 551
+          },
+          "stop_updates_timed": {
+            "n": 16301,
+            "of": 16395
+          },
+          "cancelled": {
+            "n": 7,
+            "of": 551
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-rdtpm-toulon.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 74,
+          "no_header_timestamp": 0,
+          "entities": 218,
+          "with_position": {
+            "n": 218,
+            "of": 218
+          },
+          "with_trip_id": {
+            "n": 215,
+            "of": 218
+          },
+          "with_route_id": {
+            "n": 215,
+            "of": 218
+          },
+          "trip_join": {
+            "n": 215,
+            "of": 215
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "informed_resolved": {
+            "n": 23,
+            "of": 23
           }
         }
       }

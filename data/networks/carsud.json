@@ -94,12 +94,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:06:30Z",
-        "age_hours": 192.8,
+        "age_hours": 196.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -111,7 +111,7 @@
         "pan_dataset_slug": "referentiel-topologique-reseau-carsud",
         "last_error": null,
         "checked_at": "2026-09-16T13:08:50Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 11.3,
         "source": "operator"
       },
       "realtime": {
@@ -128,7 +128,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 62,
@@ -159,7 +159,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 62,
@@ -178,6 +178,96 @@
           "trip_join": {
             "n": 191,
             "of": 191
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:06:30Z",
+        "age_hours": 201.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 348,
+        "counts": {
+          "lines": 43,
+          "stops": 2141,
+          "trips": 1352,
+          "stop_times": 54247
+        },
+        "pan_dataset_slug": "referentiel-topologique-reseau-carsud",
+        "last_error": null,
+        "checked_at": "2026-09-17T01:07:15Z",
+        "check_age_hours": 4.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "zenbus.net",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 65,
+          "trip_join": {
+            "n": 67,
+            "of": 67
+          },
+          "stop_updates_timed": {
+            "n": 1963,
+            "of": 1976
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 67
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "zenbus.net",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 65,
+          "with_position": {
+            "n": 63,
+            "of": 63
+          },
+          "with_trip_id": {
+            "n": 63,
+            "of": 63
+          },
+          "with_route_id": {
+            "n": 63,
+            "of": 63
+          },
+          "trip_join": {
+            "n": 63,
+            "of": 63
           }
         }
       }

@@ -94,12 +94,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T03:08:26Z",
-        "age_hours": 17.8,
+        "age_hours": 21.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 106,
         "counts": {
@@ -111,7 +111,7 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
         "last_error": null,
         "checked_at": "2026-09-16T03:08:29Z",
-        "check_age_hours": 17.8,
+        "check_age_hours": 21.3,
         "source": "operator"
       },
       "realtime": {
@@ -128,7 +128,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 44,
@@ -159,7 +159,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 24,
@@ -178,6 +178,96 @@
           "trip_join": {
             "n": 153,
             "of": 153
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T03:08:26Z",
+        "age_hours": 26.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 105,
+        "counts": {
+          "lines": 25,
+          "stops": 272,
+          "trips": 1337,
+          "stop_times": 35858
+        },
+        "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
+        "last_error": null,
+        "checked_at": "2026-09-16T03:08:29Z",
+        "check_age_hours": 26.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 99,
+          "trip_join": {
+            "n": 99,
+            "of": 99
+          },
+          "stop_updates_timed": {
+            "n": 1633,
+            "of": 1633
+          },
+          "cancelled": {
+            "n": 1,
+            "of": 99
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 36,
+          "with_position": {
+            "n": 36,
+            "of": 36
+          },
+          "with_trip_id": {
+            "n": 36,
+            "of": 36
+          },
+          "with_route_id": {
+            "n": 36,
+            "of": 36
+          },
+          "trip_join": {
+            "n": 36,
+            "of": 36
           }
         }
       }

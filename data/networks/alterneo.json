@@ -116,12 +116,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:42Z",
-        "age_hours": 192.5,
+        "age_hours": 196.0,
         "timetable_ends_on": "2027-02-28",
         "days_left": 165,
         "counts": {
@@ -132,8 +132,8 @@
         },
         "pan_dataset_slug": "donnees-du-reseau-alterneo",
         "last_error": null,
-        "checked_at": "2026-09-16T10:08:51Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-16T22:08:54Z",
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -150,7 +150,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 46,
           "no_header_timestamp": 0,
           "entities": 111,
@@ -181,7 +181,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 45,
           "no_header_timestamp": 0,
           "entities": 55,
@@ -215,8 +215,120 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 17,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:23:42Z",
+        "age_hours": 201.5,
+        "timetable_ends_on": "2027-02-28",
+        "days_left": 164,
+        "counts": {
+          "lines": 57,
+          "stops": 3640,
+          "trips": 10483,
+          "stop_times": 367750
+        },
+        "pan_dataset_slug": "donnees-du-reseau-alterneo",
+        "last_error": null,
+        "checked_at": "2026-09-16T22:08:54Z",
+        "check_age_hours": 7.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 20,
+          "no_header_timestamp": 0,
+          "entities": 115,
+          "trip_join": {
+            "n": 230,
+            "of": 230
+          },
+          "stop_updates_timed": {
+            "n": 4615,
+            "of": 4615
+          },
+          "cancelled": {
+            "n": 1,
+            "of": 230
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 21,
+          "no_header_timestamp": 0,
+          "entities": 56,
+          "with_position": {
+            "n": 113,
+            "of": 113
+          },
+          "with_trip_id": {
+            "n": 113,
+            "of": 113
+          },
+          "with_route_id": {
+            "n": 113,
+            "of": 113
+          },
+          "trip_join": {
+            "n": 113,
+            "of": 113
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 0,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {

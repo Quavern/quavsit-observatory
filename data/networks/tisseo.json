@@ -82,12 +82,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T20:07:19Z",
-        "age_hours": 0.8,
+        "age_hours": 4.3,
         "timetable_ends_on": "2026-10-19",
         "days_left": 33,
         "counts": {
@@ -99,7 +99,7 @@
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
         "checked_at": "2026-09-16T20:08:41Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
         "source": "operator"
       },
       "realtime": {
@@ -116,7 +116,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 1422,
@@ -147,13 +147,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 1422,
           "informed_resolved": {
             "n": 235,
             "of": 301
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T20:07:19Z",
+        "age_hours": 9.8,
+        "timetable_ends_on": "2026-10-19",
+        "days_left": 32,
+        "counts": {
+          "lines": 126,
+          "stops": 5725,
+          "trips": 31567,
+          "stop_times": 682077
+        },
+        "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
+        "last_error": null,
+        "checked_at": "2026-09-16T20:08:41Z",
+        "check_age_hours": 9.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.tisseo.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 1501,
+          "trip_join": {
+            "n": 1399,
+            "of": 1444
+          },
+          "stop_updates_timed": {
+            "n": 29761,
+            "of": 29902
+          },
+          "cancelled": {
+            "n": 114,
+            "of": 1444
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "api.tisseo.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 1501,
+          "informed_resolved": {
+            "n": 38,
+            "of": 49
           }
         }
       }

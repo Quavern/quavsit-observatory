@@ -116,12 +116,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T19:09:11Z",
-        "age_hours": 1.8,
+        "age_hours": 5.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 349,
         "counts": {
@@ -133,7 +133,7 @@
         "pan_dataset_slug": "arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1",
         "last_error": null,
         "checked_at": "2026-09-16T19:09:25Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
         "source": "operator"
       },
       "realtime": {
@@ -150,7 +150,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 263,
@@ -181,7 +181,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 98,
@@ -215,13 +215,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 38,
           "informed_resolved": {
             "n": 345,
             "of": 486
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T19:09:11Z",
+        "age_hours": 10.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 348,
+        "counts": {
+          "lines": 139,
+          "stops": 9783,
+          "trips": 4588,
+          "stop_times": 58780
+        },
+        "pan_dataset_slug": "arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1",
+        "last_error": null,
+        "checked_at": "2026-09-16T19:09:25Z",
+        "check_age_hours": 10.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 15,
+          "no_header_timestamp": 0,
+          "entities": 504,
+          "trip_join": {
+            "n": 350,
+            "of": 504
+          },
+          "stop_updates_timed": {
+            "n": 5971,
+            "of": 5976
+          },
+          "cancelled": {
+            "n": 2,
+            "of": 504
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 2,
+          "no_header_timestamp": 0,
+          "entities": 287,
+          "with_position": {
+            "n": 287,
+            "of": 287
+          },
+          "with_trip_id": {
+            "n": 262,
+            "of": 287
+          },
+          "with_route_id": {
+            "n": 262,
+            "of": 287
+          },
+          "trip_join": {
+            "n": 262,
+            "of": 262
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 38,
+          "informed_resolved": {
+            "n": 57,
+            "of": 80
           }
         }
       }

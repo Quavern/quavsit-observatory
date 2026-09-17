@@ -94,12 +94,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 120.8,
+        "age_hours": 124.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 109,
         "counts": {
@@ -111,7 +111,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
         "last_error": null,
         "checked_at": "2026-09-16T20:07:17Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
         "source": "operator"
       },
       "realtime": {
@@ -128,7 +128,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 33,
           "no_header_timestamp": 0,
           "entities": 181,
@@ -159,7 +159,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 24,
           "no_header_timestamp": 0,
           "entities": 82,
@@ -178,6 +178,96 @@
           "trip_join": {
             "n": 473,
             "of": 474
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T20:08:44Z",
+        "age_hours": 129.8,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 108,
+        "counts": {
+          "lines": 47,
+          "stops": 1525,
+          "trips": 33146,
+          "stop_times": 976654
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
+        "last_error": null,
+        "checked_at": "2026-09-16T20:07:17Z",
+        "check_age_hours": 9.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 41,
+          "no_header_timestamp": 0,
+          "entities": 196,
+          "trip_join": {
+            "n": 196,
+            "of": 196
+          },
+          "stop_updates_timed": {
+            "n": 1435,
+            "of": 1435
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 196
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 25,
+          "no_header_timestamp": 0,
+          "entities": 85,
+          "with_position": {
+            "n": 85,
+            "of": 85
+          },
+          "with_trip_id": {
+            "n": 85,
+            "of": 85
+          },
+          "with_route_id": {
+            "n": 85,
+            "of": 85
+          },
+          "trip_join": {
+            "n": 85,
+            "of": 85
           }
         }
       }

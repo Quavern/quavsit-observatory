@@ -51,14 +51,14 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-15T21:07:39Z",
-        "age_hours": 23.8,
-        "timetable_ends_on": "2026-11-13",
-        "days_left": 58,
+        "refreshed_at": "2026-09-16T21:09:13Z",
+        "age_hours": 3.3,
+        "timetable_ends_on": "2026-11-14",
+        "days_left": 59,
         "counts": {
           "lines": 125,
           "stops": 2754,
@@ -67,9 +67,9 @@
         },
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-16T21:10:35Z",
+        "check_age_hours": 3.2,
+        "source": "operator"
       },
       "realtime": {
         "alerts": {
@@ -85,13 +85,60 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 221,
           "no_header_timestamp": 0,
           "entities": 83,
           "informed_resolved": {
             "n": 2979,
             "of": 4210
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T21:09:13Z",
+        "age_hours": 8.8,
+        "timetable_ends_on": "2026-11-14",
+        "days_left": 58,
+        "counts": {
+          "lines": 125,
+          "stops": 2754,
+          "trips": 43298,
+          "stop_times": 980955
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null,
+        "checked_at": "2026-09-16T21:10:35Z",
+        "check_age_hours": 8.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "alerts": {
+          "host": "api-mobilite.rbgl.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 69,
+          "no_header_timestamp": 0,
+          "entities": 82,
+          "informed_resolved": {
+            "n": 497,
+            "of": 698
           }
         }
       }

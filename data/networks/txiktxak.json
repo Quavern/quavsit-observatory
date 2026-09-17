@@ -82,12 +82,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 113.7,
+        "age_hours": 117.2,
         "timetable_ends_on": "2027-07-04",
         "days_left": 291,
         "counts": {
@@ -99,7 +99,7 @@
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
         "last_error": null,
         "checked_at": "2026-09-16T15:07:33Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 9.3,
         "source": "operator"
       },
       "realtime": {
@@ -116,7 +116,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 671,
@@ -147,13 +147,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 8,
           "informed_resolved": {
             "n": 54,
             "of": 54
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-12T03:10:12Z",
+        "age_hours": 122.7,
+        "timetable_ends_on": "2027-07-04",
+        "days_left": 290,
+        "counts": {
+          "lines": 45,
+          "stops": 2775,
+          "trips": 6011,
+          "stop_times": 204276
+        },
+        "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
+        "last_error": null,
+        "checked_at": "2026-09-17T03:08:07Z",
+        "check_age_hours": 2.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 607,
+          "trip_join": {
+            "n": 607,
+            "of": 607
+          },
+          "stop_updates_timed": {
+            "n": 16910,
+            "of": 17801
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 607
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 7,
+          "informed_resolved": {
+            "n": 8,
+            "of": 8
           }
         }
       }

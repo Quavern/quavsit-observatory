@@ -60,12 +60,12 @@
     },
     {
       "day": "2026-09-16",
-      "complete": false,
-      "samples_taken": 8,
+      "complete": true,
+      "samples_taken": 9,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:25Z",
-        "age_hours": 192.6,
+        "age_hours": 196.1,
         "timetable_ends_on": "2027-09-10",
         "days_left": 359,
         "counts": {
@@ -77,7 +77,7 @@
         "pan_dataset_slug": "reseau-de-transport-du-grand-dole",
         "last_error": null,
         "checked_at": "2026-09-16T20:07:16Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
         "source": "operator"
       },
       "realtime": {
@@ -94,7 +94,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -109,6 +109,62 @@
           "cancelled": {
             "n": 0,
             "of": 141
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-17",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:19:25Z",
+        "age_hours": 201.6,
+        "timetable_ends_on": "2027-09-10",
+        "days_left": 358,
+        "counts": {
+          "lines": 16,
+          "stops": 412,
+          "trips": 654,
+          "stop_times": 15186
+        },
+        "pan_dataset_slug": "reseau-de-transport-du-grand-dole",
+        "last_error": null,
+        "checked_at": "2026-09-16T20:07:16Z",
+        "check_age_hours": 9.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 41,
+          "trip_join": {
+            "n": 41,
+            "of": 41
+          },
+          "stop_updates_timed": {
+            "n": 800,
+            "of": 813
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 41
           },
           "no_trip_id": 0
         }
