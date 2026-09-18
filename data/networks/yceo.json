@@ -52,12 +52,12 @@
     },
     {
       "day": "2026-09-17",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T06:11:18Z",
-        "age_hours": 14.7,
+        "age_hours": 18.2,
         "timetable_ends_on": "2027-07-02",
         "days_left": 288,
         "counts": {
@@ -69,7 +69,31 @@
         "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
         "last_error": null,
         "checked_at": "2026-09-17T06:11:23Z",
-        "check_age_hours": 14.7,
+        "check_age_hours": 18.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-18",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-17T06:11:18Z",
+        "age_hours": 20.7,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 287,
+        "counts": {
+          "lines": 139,
+          "stops": 2305,
+          "trips": 4130,
+          "stop_times": 118124
+        },
+        "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
+        "last_error": null,
+        "checked_at": "2026-09-17T06:11:23Z",
+        "check_age_hours": 20.7,
         "source": "operator"
       },
       "realtime": {}

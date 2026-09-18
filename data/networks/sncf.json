@@ -162,12 +162,12 @@
     },
     {
       "day": "2026-09-17",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T23:07:44Z",
-        "age_hours": 21.8,
+        "age_hours": 25.3,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -197,7 +197,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 47,
           "no_header_timestamp": 0,
           "entities": 1728,
@@ -228,7 +228,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 538,
@@ -236,6 +236,73 @@
             "n": 2172,
             "of": 2172
           }
+        }
+      }
+    },
+    {
+      "day": "2026-09-18",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T23:07:44Z",
+        "age_hours": 27.8,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": {
+          "lines": 978,
+          "stops": 10621,
+          "trips": 38235,
+          "stop_times": 331275
+        },
+        "pan_dataset_slug": null,
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null,
+        "timetable_ends_on_reason": "not_gtfs"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "trip_join": null,
+          "stop_updates_timed": null,
+          "cancelled": null,
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "informed_resolved": null
         }
       }
     }
