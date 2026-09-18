@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:28Z",
-        "age_hours": 234.4,
+        "age_hours": 237.4,
         "timetable_ends_on": "2026-12-31",
         "days_left": 104,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis",
         "last_error": null,
         "checked_at": "2026-09-18T11:10:01Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 3,
+          "samples": 5,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 49,
+          "entities": 48,
           "trip_join": {
-            "n": 155,
-            "of": 155
+            "n": 192,
+            "of": 192
           },
           "stop_updates_timed": {
-            "n": 2867,
-            "of": 2867
+            "n": 3550,
+            "of": 3550
           },
           "cancelled": {
-            "n": 1,
-            "of": 155
+            "n": 2,
+            "of": 192
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 3,
+          "samples": 5,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -344,20 +344,20 @@
           "no_header_timestamp": 0,
           "entities": 21,
           "with_position": {
-            "n": 66,
-            "of": 66
+            "n": 83,
+            "of": 83
           },
           "with_trip_id": {
-            "n": 66,
-            "of": 66
+            "n": 83,
+            "of": 83
           },
           "with_route_id": {
-            "n": 66,
-            "of": 66
+            "n": 83,
+            "of": 83
           },
           "trip_join": {
-            "n": 66,
-            "of": 66
+            "n": 83,
+            "of": 83
           }
         }
       }

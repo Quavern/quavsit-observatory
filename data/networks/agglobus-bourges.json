@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T05:08:50Z",
-        "age_hours": 153.8,
+        "age_hours": 156.8,
         "timetable_ends_on": "2027-09-11",
         "days_left": 358,
         "counts": {
@@ -254,15 +254,15 @@
         },
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
-        "checked_at": "2026-09-18T05:08:28Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-18T17:08:06Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -275,25 +275,25 @@
           "samples_night": 1,
           "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 67,
+          "entities": 65,
           "trip_join": {
-            "n": 267,
-            "of": 267
+            "n": 332,
+            "of": 332
           },
           "stop_updates_timed": {
-            "n": 8733,
-            "of": 8733
+            "n": 10815,
+            "of": 10815
           },
           "cancelled": {
             "n": 0,
-            "of": 267
+            "of": 332
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -308,8 +308,8 @@
           "no_header_timestamp": 0,
           "entities": 10,
           "informed_resolved": {
-            "n": 153,
-            "of": 153
+            "n": 191,
+            "of": 191
           }
         }
       }

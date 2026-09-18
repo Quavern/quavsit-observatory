@@ -341,11 +341,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:28Z",
-        "age_hours": 234.5,
+        "age_hours": 237.5,
         "timetable_ends_on": "2026-11-28",
         "days_left": 71,
         "counts": {
@@ -357,14 +357,14 @@
         "pan_dataset_slug": "gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole",
         "last_error": null,
         "checked_at": "2026-09-18T10:08:34Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "eur.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -377,25 +377,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 264,
+          "entities": 236,
           "trip_join": {
-            "n": 1067,
-            "of": 1067
+            "n": 1240,
+            "of": 1240
           },
           "stop_updates_timed": {
-            "n": 24381,
-            "of": 24956
+            "n": 28497,
+            "of": 29153
           },
           "cancelled": {
             "n": 7,
-            "of": 1067
+            "of": 1240
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -408,28 +408,28 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 95,
+          "entities": 88,
           "with_position": {
-            "n": 383,
-            "of": 383
+            "n": 471,
+            "of": 471
           },
           "with_trip_id": {
-            "n": 366,
-            "of": 383
+            "n": 450,
+            "of": 471
           },
           "with_route_id": {
-            "n": 366,
-            "of": 383
+            "n": 450,
+            "of": 471
           },
           "trip_join": {
-            "n": 366,
-            "of": 366
+            "n": 450,
+            "of": 450
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -444,8 +444,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 4,
-            "of": 4
+            "n": 5,
+            "of": 5
           }
         }
       }

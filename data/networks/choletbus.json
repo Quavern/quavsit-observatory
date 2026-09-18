@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 99.8,
+        "age_hours": 102.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 287,
         "counts": {
@@ -255,14 +255,14 @@
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
         "checked_at": "2026-09-18T11:09:59Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -273,27 +273,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 81,
+          "entities": 67,
           "trip_join": {
-            "n": 326,
-            "of": 326
+            "n": 353,
+            "of": 353
           },
           "stop_updates_timed": {
-            "n": 6247,
-            "of": 6269
+            "n": 6750,
+            "of": 6822
           },
           "cancelled": {
             "n": 0,
-            "of": 326
+            "of": 353
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -308,8 +308,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 4,
-            "of": 4
+            "n": 5,
+            "of": 5
           }
         }
       }

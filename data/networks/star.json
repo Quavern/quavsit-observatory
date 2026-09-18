@@ -341,30 +341,30 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-17T15:07:40Z",
-        "age_hours": 23.8,
+        "refreshed_at": "2026-09-18T15:08:59Z",
+        "age_hours": 2.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 30,
         "counts": {
           "lines": 153,
           "stops": 1802,
-          "trips": 89238,
-          "stop_times": 2042974
+          "trips": 89222,
+          "stop_times": 2042745
         },
         "pan_dataset_slug": "versions-des-horaires-theoriques-des-lignes-de-bus-et-de-metro-du-reseau-star-dans-les-formats-gtfs-et-netex-ainsi-que-les-urls-dacces-au-gtfs-rt-1",
         "last_error": null,
-        "checked_at": "2026-09-17T15:10:12Z",
-        "check_age_hours": 23.7,
+        "checked_at": "2026-09-18T15:11:20Z",
+        "check_age_hours": 2.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -375,27 +375,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 13,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 588,
+          "entities": 434,
           "trip_join": {
-            "n": 2275,
-            "of": 2323
+            "n": 2635,
+            "of": 2688
           },
           "stop_updates_timed": {
-            "n": 52981,
-            "of": 54548
+            "n": 62159,
+            "of": 63959
           },
           "cancelled": {
-            "n": 7,
-            "of": 2323
+            "n": 8,
+            "of": 2688
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -406,30 +406,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 9,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 232,
+          "entities": 177,
           "with_position": {
-            "n": 923,
-            "of": 923
+            "n": 1100,
+            "of": 1100
           },
           "with_trip_id": {
-            "n": 917,
-            "of": 923
+            "n": 1094,
+            "of": 1100
           },
           "with_route_id": {
-            "n": 917,
-            "of": 923
+            "n": 1094,
+            "of": 1100
           },
           "trip_join": {
-            "n": 916,
-            "of": 917
+            "n": 1093,
+            "of": 1094
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -442,10 +442,10 @@
           "samples_night": 1,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 47,
+          "entities": 48,
           "informed_resolved": {
-            "n": 1245,
-            "of": 1245
+            "n": 1692,
+            "of": 1692
           }
         }
       }

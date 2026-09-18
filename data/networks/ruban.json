@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-17T05:10:12Z",
-        "age_hours": 33.7,
+        "refreshed_at": "2026-09-18T17:08:16Z",
+        "age_hours": 0.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 344,
         "counts": {
@@ -290,15 +290,15 @@
         },
         "pan_dataset_slug": "reseau-ruban",
         "last_error": null,
-        "checked_at": "2026-09-17T05:10:24Z",
-        "check_age_hours": 33.7,
+        "checked_at": "2026-09-18T17:08:21Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 52,
+          "entities": 50,
           "trip_join": {
-            "n": 115,
-            "of": 115
+            "n": 133,
+            "of": 133
           },
           "stop_updates_timed": {
-            "n": 3234,
-            "of": 3270
+            "n": 3837,
+            "of": 3875
           },
           "cancelled": {
             "n": 0,
-            "of": 115
+            "of": 133
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -342,22 +342,22 @@
           "samples_night": 1,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 52,
+          "entities": 50,
           "with_position": {
-            "n": 115,
-            "of": 115
+            "n": 133,
+            "of": 133
           },
           "with_trip_id": {
-            "n": 115,
-            "of": 115
+            "n": 133,
+            "of": 133
           },
           "with_route_id": {
-            "n": 115,
-            "of": 115
+            "n": 133,
+            "of": 133
           },
           "trip_join": {
-            "n": 115,
-            "of": 115
+            "n": 133,
+            "of": 133
           }
         }
       }

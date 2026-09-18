@@ -80,20 +80,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-08T20:12:56Z",
-        "age_hours": 234.7,
+        "refreshed_at": "2026-09-18T17:08:07Z",
+        "age_hours": 0.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 107,
         "counts": {
           "lines": 41,
-          "stops": 1471,
-          "trips": 7216,
-          "stop_times": 147744
+          "stops": 1448,
+          "trips": 5767,
+          "stop_times": 103591
         },
         "pan_dataset_slug": "eveole-douai-reseau-bus-du-syndicat-mixte-des-transports-du-douaisis-smtd",
         "last_error": null,
-        "checked_at": "2026-09-18T05:08:29Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-18T17:08:13Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {}

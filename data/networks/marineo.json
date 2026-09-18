@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:28Z",
-        "age_hours": 234.8,
+        "age_hours": 237.8,
         "timetable_ends_on": "2027-07-03",
         "days_left": 288,
         "counts": {
@@ -255,14 +255,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transport-marineo",
         "last_error": null,
         "checked_at": "2026-09-18T14:07:42Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -273,27 +273,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 28,
+          "header_age_seconds": 25,
           "no_header_timestamp": 0,
-          "entities": 85,
+          "entities": 78,
           "trip_join": {
-            "n": 340,
-            "of": 343
+            "n": 366,
+            "of": 369
           },
           "stop_updates_timed": {
-            "n": 5959,
-            "of": 5959
+            "n": 6534,
+            "of": 6534
           },
           "cancelled": {
             "n": 0,
-            "of": 343
+            "of": 369
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -304,12 +304,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 11,
+          "entities": 12,
           "informed_resolved": {
-            "n": 98,
-            "of": 98
+            "n": 123,
+            "of": 123
           }
         }
       }

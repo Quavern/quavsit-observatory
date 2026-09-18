@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 161.8,
+        "age_hours": 164.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 347,
         "counts": {
@@ -255,14 +255,14 @@
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
         "checked_at": "2026-09-18T09:09:09Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -275,25 +275,25 @@
           "samples_night": 1,
           "header_age_seconds": 45,
           "no_header_timestamp": 0,
-          "entities": 94,
+          "entities": 37,
           "trip_join": {
-            "n": 570,
-            "of": 570
+            "n": 607,
+            "of": 607
           },
           "stop_updates_timed": {
-            "n": 3698,
-            "of": 3698
+            "n": 4064,
+            "of": 4064
           },
           "cancelled": {
             "n": 10,
-            "of": 570
+            "of": 607
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -308,8 +308,8 @@
           "no_header_timestamp": 0,
           "entities": 1141,
           "informed_resolved": {
-            "n": 11604,
-            "of": 11604
+            "n": 14509,
+            "of": 14509
           }
         }
       }

@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T06:09:11Z",
-        "age_hours": 32.8,
+        "age_hours": 35.8,
         "timetable_ends_on": "2026-11-01",
         "days_left": 44,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
         "checked_at": "2026-09-17T06:09:15Z",
-        "check_age_hours": 32.8,
+        "check_age_hours": 35.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 97,
+          "entities": 91,
           "trip_join": {
-            "n": 381,
-            "of": 381
+            "n": 436,
+            "of": 436
           },
           "stop_updates_timed": {
-            "n": 10402,
-            "of": 10720
+            "n": 11980,
+            "of": 12316
           },
           "cancelled": {
             "n": 0,
-            "of": 381
+            "of": 436
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -342,22 +342,22 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 36,
+          "entities": 35,
           "with_position": {
-            "n": 148,
-            "of": 148
+            "n": 174,
+            "of": 174
           },
           "with_trip_id": {
-            "n": 148,
-            "of": 148
+            "n": 174,
+            "of": 174
           },
           "with_route_id": {
-            "n": 148,
-            "of": 148
+            "n": 174,
+            "of": 174
           },
           "trip_join": {
-            "n": 148,
-            "of": 148
+            "n": 174,
+            "of": 174
           }
         }
       }
