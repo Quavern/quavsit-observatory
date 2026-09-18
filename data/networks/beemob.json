@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T06:09:11Z",
-        "age_hours": 20.8,
+        "age_hours": 26.8,
         "timetable_ends_on": "2026-11-01",
         "days_left": 44,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
         "checked_at": "2026-09-17T06:09:15Z",
-        "check_age_hours": 20.8,
+        "check_age_hours": 26.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -309,18 +309,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 98,
+          "trip_join": {
+            "n": 197,
+            "of": 197
+          },
+          "stop_updates_timed": {
+            "n": 5314,
+            "of": 5523
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 197
+          },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -331,13 +340,25 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": null,
-          "with_position": null,
-          "with_trip_id": null,
-          "with_route_id": null,
-          "trip_join": null
+          "entities": 39,
+          "with_position": {
+            "n": 79,
+            "of": 79
+          },
+          "with_trip_id": {
+            "n": 79,
+            "of": 79
+          },
+          "with_route_id": {
+            "n": 79,
+            "of": 79
+          },
+          "trip_join": {
+            "n": 79,
+            "of": 79
+          }
         }
       }
     }

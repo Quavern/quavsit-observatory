@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:21:10Z",
-        "age_hours": 222.6,
+        "age_hours": 228.6,
         "timetable_ends_on": "2027-07-03",
         "days_left": 288,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "offre-de-transports-jybus-a-rumilly",
         "last_error": null,
         "checked_at": "2026-09-17T21:08:28Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -309,18 +309,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 13,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 10,
+          "trip_join": {
+            "n": 20,
+            "of": 21
+          },
+          "stop_updates_timed": {
+            "n": 104,
+            "of": 104
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 21
+          },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -331,13 +340,25 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": null,
-          "with_position": null,
-          "with_trip_id": null,
-          "with_route_id": null,
-          "trip_join": null
+          "entities": 6,
+          "with_position": {
+            "n": 12,
+            "of": 12
+          },
+          "with_trip_id": {
+            "n": 12,
+            "of": 12
+          },
+          "with_route_id": {
+            "n": 12,
+            "of": 12
+          },
+          "trip_join": {
+            "n": 11,
+            "of": 12
+          }
         }
       }
     }
