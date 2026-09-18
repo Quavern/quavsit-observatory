@@ -123,6 +123,7 @@ const copy = {
     notFoundBody: "The link may be incomplete, or the page has moved.",
     colophon: (sha, generated) =>
       `Measured by the Quavsit engine (code ${sha || "—"}), generated ${generated}. Measurements under CC BY 4.0, credit "Quavsit Observatory"; code under the Quavern Open Source License 1.0.`,
+    help: "Help centre",
     legal: "Legal notice",
     privacy: "Privacy",
     oss: "Open source at Quavern",
@@ -230,6 +231,7 @@ const copy = {
     notFoundBody: "Le lien est peut-être incomplet, ou la page a été déplacée.",
     colophon: (sha, generated) =>
       `Mesuré par le moteur Quavsit (code ${sha || "—"}), généré le ${generated}. Mesures sous CC BY 4.0, citer « Observatoire Quavsit » ; code sous Licence open source Quavern 1.0.`,
+    help: "Centre d’aide",
     legal: "Mentions légales",
     privacy: "Confidentialité",
     oss: "L’open source chez Quavern",
@@ -366,6 +368,7 @@ ${main}
           <nav aria-label="Quavern">
             <a href="${origin}${lang === "fr" ? "/fr/" : "/"}">${c.oss}</a>
             <a href="${repoUrl}">GitHub</a>
+            <a href="https://support.quavern.com/${lang}/">${c.help}</a>
             <a href="https://quavern.com/mentions-legales.html?lang=${lang}">${c.legal}</a>
             <a href="https://quavern.com/privacy.html?lang=${lang}">${c.privacy}</a>
           </nav>
