@@ -269,11 +269,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T10:10:27Z",
-        "age_hours": 31.7,
+        "age_hours": 34.7,
         "timetable_ends_on": "2027-12-31",
         "days_left": 469,
         "counts": {
@@ -285,7 +285,7 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-17T10:10:30Z",
-        "check_age_hours": 31.7,
+        "check_age_hours": 34.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -302,7 +302,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -333,7 +333,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 10,
           "no_header_timestamp": 0,
           "entities": 33,

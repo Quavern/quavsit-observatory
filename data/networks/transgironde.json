@@ -80,20 +80,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T20:09:15Z",
-        "age_hours": 93.8,
-        "timetable_ends_on": "2027-09-11",
-        "days_left": 358,
+        "refreshed_at": "2026-09-18T20:10:48Z",
+        "age_hours": 0.7,
+        "timetable_ends_on": "2027-09-15",
+        "days_left": 362,
         "counts": {
           "lines": 93,
-          "stops": 5900,
+          "stops": 6045,
           "trips": 1897,
           "stop_times": 39171
         },
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-gir-nva-m-1",
         "last_error": null,
-        "checked_at": "2026-09-18T08:07:52Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-18T20:10:59Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {}

@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-17T19:07:45Z",
-        "age_hours": 22.8,
+        "refreshed_at": "2026-09-18T19:09:12Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 344,
         "counts": {
@@ -290,8 +290,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
         "last_error": null,
-        "checked_at": "2026-09-17T19:07:48Z",
-        "check_age_hours": 22.8,
+        "checked_at": "2026-09-18T19:09:14Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
@@ -308,7 +308,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,
@@ -339,7 +339,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,

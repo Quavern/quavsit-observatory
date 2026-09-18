@@ -81,7 +81,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T19:07:14Z",
-        "age_hours": 94.8,
+        "age_hours": 97.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 30,
         "counts": {
@@ -92,8 +92,8 @@
         },
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
         "last_error": null,
-        "checked_at": "2026-09-18T07:08:19Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-18T19:09:11Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}

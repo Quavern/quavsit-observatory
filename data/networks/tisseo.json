@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T20:09:06Z",
-        "age_hours": 21.8,
+        "age_hours": 24.8,
         "timetable_ends_on": "2026-10-19",
         "days_left": 31,
         "counts": {
@@ -255,7 +255,7 @@
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
         "checked_at": "2026-09-17T20:09:49Z",
-        "check_age_hours": 21.8,
+        "check_age_hours": 24.8,
         "source": "operator"
       },
       "realtime": {
@@ -272,7 +272,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1413,
@@ -303,7 +303,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 1413,

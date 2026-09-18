@@ -80,20 +80,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-08T20:19:27Z",
-        "age_hours": 237.6,
+        "refreshed_at": "2026-09-18T20:10:28Z",
+        "age_hours": 0.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 104,
         "counts": {
-          "lines": 67,
-          "stops": 1153,
-          "trips": 12240,
-          "stop_times": 287482
+          "lines": 73,
+          "stops": 1145,
+          "trips": 11421,
+          "stop_times": 247234
         },
         "pan_dataset_slug": "reseau-urbain-mat",
         "last_error": null,
-        "checked_at": "2026-09-18T08:07:50Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-18T20:10:46Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {}

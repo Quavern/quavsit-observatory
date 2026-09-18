@@ -341,11 +341,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T18:10:21Z",
-        "age_hours": 23.7,
+        "age_hours": 26.7,
         "timetable_ends_on": "2026-10-16",
         "days_left": 28,
         "counts": {
@@ -357,7 +357,7 @@
         "pan_dataset_slug": "offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain",
         "last_error": null,
         "checked_at": "2026-09-17T18:10:29Z",
-        "check_age_hours": 23.7,
+        "check_age_hours": 26.7,
         "source": "operator"
       },
       "realtime": {
@@ -374,7 +374,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 58,
           "no_header_timestamp": 0,
           "entities": 386,
@@ -405,7 +405,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
           "entities": 130,
@@ -439,7 +439,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 25,
           "no_header_timestamp": 0,
           "entities": 0,

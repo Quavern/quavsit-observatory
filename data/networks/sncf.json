@@ -242,11 +242,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T11:08:25Z",
-        "age_hours": 6.8,
+        "age_hours": 9.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -276,7 +276,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
           "entities": 1794,
@@ -307,7 +307,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 40,
           "no_header_timestamp": 0,
           "entities": 531,
