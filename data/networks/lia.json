@@ -341,11 +341,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T04:07:54Z",
-        "age_hours": 4.8,
+        "age_hours": 10.8,
         "timetable_ends_on": "2026-10-31",
         "days_left": 43,
         "counts": {
@@ -357,14 +357,14 @@
         "pan_dataset_slug": "reseau-de-transport-en-commun-lia-gtfs-siri",
         "last_error": null,
         "checked_at": "2026-09-18T04:08:06Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "opendata.transports-lia.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -377,25 +377,25 @@
           "samples_night": 1,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 352,
+          "entities": 364,
           "trip_join": {
-            "n": 704,
-            "of": 704
+            "n": 1464,
+            "of": 1464
           },
           "stop_updates_timed": {
-            "n": 14592,
-            "of": 15130
+            "n": 29062,
+            "of": 31272
           },
           "cancelled": {
             "n": 0,
-            "of": 704
+            "of": 1464
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "opendata.transports-lia.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -406,30 +406,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 106,
+          "entities": 105,
           "with_position": {
-            "n": 212,
-            "of": 212
+            "n": 421,
+            "of": 421
           },
           "with_trip_id": {
-            "n": 212,
-            "of": 212
+            "n": 421,
+            "of": 421
           },
           "with_route_id": {
-            "n": 212,
-            "of": 212
+            "n": 421,
+            "of": 421
           },
           "trip_join": {
-            "n": 212,
-            "of": 212
+            "n": 421,
+            "of": 421
           }
         },
         "alerts": {
           "host": "opendata.transports-lia.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -440,7 +440,7 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {

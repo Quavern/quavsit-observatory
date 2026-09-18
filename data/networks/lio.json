@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T22:08:41Z",
-        "age_hours": 10.8,
+        "age_hours": 16.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 347,
         "counts": {
@@ -291,14 +291,45 @@
         "pan_dataset_slug": "reseau-lio-occitanie",
         "last_error": null,
         "checked_at": "2026-09-17T22:09:11Z",
-        "check_age_hours": 10.8,
+        "check_age_hours": 16.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "lio.2cloud.app",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 8,
+          "no_header_timestamp": 0,
+          "entities": 263,
+          "trip_join": {
+            "n": 1076,
+            "of": 1081
+          },
+          "stop_updates_timed": {
+            "n": 22559,
+            "of": 22891
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 1081
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "lio.2cloud.app",
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,53 +342,22 @@
           "samples_night": 1,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
-          "entities": 280,
-          "trip_join": {
-            "n": 555,
-            "of": 558
-          },
-          "stop_updates_timed": {
-            "n": 11054,
-            "of": 11254
-          },
-          "cancelled": {
-            "n": 0,
-            "of": 558
-          },
-          "no_trip_id": 0
-        },
-        "vehicle_positions": {
-          "host": "lio.2cloud.app",
-          "samples": 2,
-          "ok": 2,
-          "failures": {
-            "timeout": 0,
-            "connection": 0,
-            "http_4xx": 0,
-            "http_5xx": 0,
-            "decode_error": 0,
-            "budget": 0
-          },
-          "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 16,
-          "no_header_timestamp": 0,
-          "entities": 274,
+          "entities": 259,
           "with_position": {
-            "n": 502,
-            "of": 548
+            "n": 1004,
+            "of": 1067
           },
           "with_trip_id": {
-            "n": 502,
-            "of": 502
+            "n": 1004,
+            "of": 1004
           },
           "with_route_id": {
-            "n": 502,
-            "of": 502
+            "n": 1004,
+            "of": 1004
           },
           "trip_join": {
-            "n": 499,
-            "of": 502
+            "n": 1000,
+            "of": 1004
           }
         }
       }

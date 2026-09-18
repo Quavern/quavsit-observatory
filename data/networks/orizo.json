@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:41Z",
-        "age_hours": 228.6,
+        "age_hours": 234.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 30,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "reseau-orizo-grand-avignon",
         "last_error": null,
         "checked_at": "2026-09-18T08:07:50Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 238,
+          "entities": 240,
           "trip_join": {
-            "n": 476,
-            "of": 476
+            "n": 965,
+            "of": 965
           },
           "stop_updates_timed": {
-            "n": 10187,
-            "of": 10187
+            "n": 20344,
+            "of": 20344
           },
           "cancelled": {
             "n": 0,
-            "of": 476
+            "of": 965
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.maas-fr.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -344,20 +344,20 @@
           "no_header_timestamp": 0,
           "entities": 86,
           "with_position": {
-            "n": 173,
-            "of": 173
+            "n": 342,
+            "of": 342
           },
           "with_trip_id": {
-            "n": 173,
-            "of": 173
+            "n": 342,
+            "of": 342
           },
           "with_route_id": {
-            "n": 173,
-            "of": 173
+            "n": 342,
+            "of": 342
           },
           "trip_join": {
-            "n": 173,
-            "of": 173
+            "n": 342,
+            "of": 342
           }
         }
       }

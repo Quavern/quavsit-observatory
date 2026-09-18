@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T07:09:54Z",
-        "age_hours": 193.8,
+        "age_hours": 199.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 345,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "mobivie-reseau-urbain-vichy-communaute",
         "last_error": null,
         "checked_at": "2026-09-18T07:08:51Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 44,
+          "entities": 43,
           "trip_join": {
-            "n": 88,
-            "of": 88
+            "n": 167,
+            "of": 167
           },
           "stop_updates_timed": {
-            "n": 2089,
-            "of": 2097
+            "n": 3818,
+            "of": 3832
           },
           "cancelled": {
             "n": 0,
-            "of": 88
+            "of": 167
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -340,24 +340,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 12,
+          "entities": 11,
           "with_position": {
-            "n": 24,
-            "of": 24
+            "n": 45,
+            "of": 45
           },
           "with_trip_id": {
-            "n": 24,
-            "of": 24
+            "n": 45,
+            "of": 45
           },
           "with_route_id": {
-            "n": 24,
-            "of": 24
+            "n": 45,
+            "of": 45
           },
           "trip_join": {
-            "n": 24,
-            "of": 24
+            "n": 45,
+            "of": 45
           }
         }
       }

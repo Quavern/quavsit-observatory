@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:28:28Z",
-        "age_hours": 228.4,
+        "age_hours": 234.4,
         "timetable_ends_on": "2026-12-31",
         "days_left": 104,
         "counts": {
@@ -290,74 +290,74 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis",
         "last_error": null,
-        "checked_at": "2026-09-17T23:07:31Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-18T11:10:01Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
-            "decode_error": 0,
+            "decode_error": 1,
             "budget": 0
           },
           "rate_limited": 0,
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 53,
+          "entities": 49,
           "trip_join": {
-            "n": 106,
-            "of": 106
+            "n": 155,
+            "of": 155
           },
           "stop_updates_timed": {
-            "n": 1942,
-            "of": 1942
+            "n": 2867,
+            "of": 2867
           },
           "cancelled": {
             "n": 1,
-            "of": 106
+            "of": 155
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
-            "decode_error": 0,
+            "decode_error": 1,
             "budget": 0
           },
           "rate_limited": 0,
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 22,
+          "entities": 21,
           "with_position": {
-            "n": 45,
-            "of": 45
+            "n": 66,
+            "of": 66
           },
           "with_trip_id": {
-            "n": 45,
-            "of": 45
+            "n": 66,
+            "of": 66
           },
           "with_route_id": {
-            "n": 45,
-            "of": 45
+            "n": 66,
+            "of": 66
           },
           "trip_join": {
-            "n": 45,
-            "of": 45
+            "n": 66,
+            "of": 66
           }
         }
       }

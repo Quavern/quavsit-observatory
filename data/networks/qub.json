@@ -341,11 +341,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:23Z",
-        "age_hours": 228.7,
+        "age_hours": 234.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 107,
         "counts": {
@@ -357,14 +357,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale",
         "last_error": null,
         "checked_at": "2026-09-18T04:08:06Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -377,25 +377,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 174,
+          "entities": 166,
           "trip_join": {
-            "n": 345,
-            "of": 349
+            "n": 673,
+            "of": 681
           },
           "stop_updates_timed": {
-            "n": 10186,
-            "of": 10809
+            "n": 20312,
+            "of": 21313
           },
           "cancelled": {
             "n": 0,
-            "of": 349
+            "of": 681
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -408,28 +408,28 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 59,
+          "entities": 60,
           "with_position": {
-            "n": 119,
-            "of": 119
+            "n": 239,
+            "of": 239
           },
           "with_trip_id": {
-            "n": 119,
-            "of": 119
+            "n": 239,
+            "of": 239
           },
           "with_route_id": {
-            "n": 119,
-            "of": 119
+            "n": 239,
+            "of": 239
           },
           "trip_join": {
-            "n": 117,
-            "of": 119
+            "n": 235,
+            "of": 239
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -444,8 +444,8 @@
           "no_header_timestamp": 0,
           "entities": 6,
           "informed_resolved": {
-            "n": 22,
-            "of": 22
+            "n": 44,
+            "of": 44
           }
         }
       }

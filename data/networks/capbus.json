@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:33Z",
-        "age_hours": 228.8,
+        "age_hours": 234.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 287,
         "counts": {
@@ -291,14 +291,14 @@
         "pan_dataset_slug": "gtfs-capbus",
         "last_error": null,
         "checked_at": "2026-09-18T03:07:43Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -313,23 +313,23 @@
           "no_header_timestamp": 0,
           "entities": 11,
           "trip_join": {
-            "n": 12,
-            "of": 12
+            "n": 23,
+            "of": 23
           },
           "stop_updates_timed": {
-            "n": 147,
-            "of": 147
+            "n": 271,
+            "of": 271
           },
           "cancelled": {
             "n": 0,
-            "of": 12
+            "of": 23
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -344,20 +344,20 @@
           "no_header_timestamp": 0,
           "entities": 11,
           "with_position": {
-            "n": 11,
-            "of": 11
+            "n": 22,
+            "of": 22
           },
           "with_trip_id": {
-            "n": 11,
-            "of": 11
+            "n": 22,
+            "of": 22
           },
           "with_route_id": {
-            "n": 11,
-            "of": 11
+            "n": 22,
+            "of": 22
           },
           "trip_join": {
-            "n": 11,
-            "of": 11
+            "n": 22,
+            "of": 22
           }
         }
       }

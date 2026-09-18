@@ -242,18 +242,18 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-16T23:07:44Z",
-        "age_hours": 33.8,
+        "refreshed_at": "2026-09-18T11:08:25Z",
+        "age_hours": 3.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
-          "lines": 978,
-          "stops": 10621,
-          "trips": 38235,
-          "stop_times": 331275
+          "lines": 1004,
+          "stops": 10623,
+          "trips": 38490,
+          "stop_times": 333398
         },
         "pan_dataset_slug": null,
         "last_error": null,
@@ -265,8 +265,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -277,27 +277,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 31,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 1678,
+          "entities": 1729,
           "trip_join": {
-            "n": 2868,
-            "of": 3356
+            "n": 5974,
+            "of": 6815
           },
           "stop_updates_timed": {
-            "n": 29190,
-            "of": 29190
+            "n": 59591,
+            "of": 59591
           },
           "cancelled": {
-            "n": 55,
-            "of": 3356
+            "n": 91,
+            "of": 6815
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -308,12 +308,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 37,
+          "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 530,
           "informed_resolved": {
-            "n": 957,
-            "of": 957
+            "n": 1915,
+            "of": 1915
           }
         }
       }

@@ -275,11 +275,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:11Z",
-        "age_hours": 228.8,
+        "age_hours": 234.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 104,
         "counts": {
@@ -290,15 +290,15 @@
         },
         "pan_dataset_slug": "offre-de-transports-reseau-dk-bus-de-la-communaute-urbaine-de-dunkerque-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-18T02:09:08Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-18T14:07:41Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -311,25 +311,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 367,
+          "entities": 405,
           "trip_join": {
-            "n": 547,
-            "of": 547
+            "n": 1191,
+            "of": 1191
           },
           "stop_updates_timed": {
-            "n": 12991,
-            "of": 12991
+            "n": 26824,
+            "of": 26824
           },
           "cancelled": {
             "n": 0,
-            "of": 547
+            "of": 1191
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -342,22 +342,22 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 367,
+          "entities": 405,
           "with_position": {
-            "n": 188,
-            "of": 188
+            "n": 385,
+            "of": 385
           },
           "with_trip_id": {
-            "n": 125,
-            "of": 188
+            "n": 263,
+            "of": 385
           },
           "with_route_id": {
-            "n": 188,
-            "of": 188
+            "n": 385,
+            "of": 385
           },
           "trip_join": {
-            "n": 125,
-            "of": 125
+            "n": 263,
+            "of": 263
           }
         }
       }

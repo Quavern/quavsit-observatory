@@ -239,11 +239,11 @@
     {
       "day": "2026-09-18",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T20:09:06Z",
-        "age_hours": 12.8,
+        "age_hours": 18.8,
         "timetable_ends_on": "2026-10-19",
         "days_left": 31,
         "counts": {
@@ -255,14 +255,14 @@
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
         "checked_at": "2026-09-17T20:09:49Z",
-        "check_age_hours": 12.8,
+        "check_age_hours": 18.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -277,23 +277,23 @@
           "no_header_timestamp": 0,
           "entities": 1598,
           "trip_join": {
-            "n": 2731,
-            "of": 3088
+            "n": 5511,
+            "of": 6226
           },
           "stop_updates_timed": {
-            "n": 54372,
-            "of": 54657
+            "n": 107851,
+            "of": 108419
           },
           "cancelled": {
-            "n": 404,
-            "of": 3088
+            "n": 855,
+            "of": 6226
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -308,8 +308,8 @@
           "no_header_timestamp": 0,
           "entities": 1598,
           "informed_resolved": {
-            "n": 68,
-            "of": 92
+            "n": 138,
+            "of": 186
           }
         }
       }
