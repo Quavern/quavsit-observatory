@@ -172,12 +172,12 @@
     },
     {
       "day": "2026-09-18",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T09:10:29Z",
-        "age_hours": 11.7,
+        "age_hours": 15.2,
         "timetable_ends_on": "2026-10-01",
         "days_left": 13,
         "counts": {
@@ -189,7 +189,7 @@
         "pan_dataset_slug": "gtfs-sankeo",
         "last_error": null,
         "checked_at": "2026-09-18T09:10:39Z",
-        "check_age_hours": 11.7,
+        "check_age_hours": 15.2,
         "source": "operator"
       },
       "realtime": {
@@ -206,7 +206,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
           "entities": 131,
@@ -222,6 +222,53 @@
             "n": 0,
             "of": 720
           },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-19",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T09:10:29Z",
+        "age_hours": 17.7,
+        "timetable_ends_on": "2026-10-01",
+        "days_left": 12,
+        "counts": {
+          "lines": 38,
+          "stops": 1693,
+          "trips": 7350,
+          "stop_times": 207449
+        },
+        "pan_dataset_slug": "gtfs-sankeo",
+        "last_error": null,
+        "checked_at": "2026-09-18T09:10:39Z",
+        "check_age_hours": 17.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "eur.mecatran.com",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "trip_join": null,
+          "stop_updates_timed": null,
+          "cancelled": null,
           "no_trip_id": 0
         }
       }

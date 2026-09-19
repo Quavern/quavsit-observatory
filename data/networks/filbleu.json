@@ -181,12 +181,12 @@
     },
     {
       "day": "2026-09-18",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T17:08:55Z",
-        "age_hours": 171.8,
+        "age_hours": 175.3,
         "timetable_ends_on": "2027-01-01",
         "days_left": 105,
         "counts": {
@@ -198,7 +198,7 @@
         "pan_dataset_slug": "fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-18T17:08:13Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 7.3,
         "source": "operator"
       },
       "realtime": {
@@ -215,7 +215,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 128,
           "no_header_timestamp": 0,
           "entities": 121,
@@ -235,6 +235,53 @@
             "n": 644,
             "of": 644
           }
+        }
+      }
+    },
+    {
+      "day": "2026-09-19",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T17:08:55Z",
+        "age_hours": 177.8,
+        "timetable_ends_on": "2027-01-01",
+        "days_left": 104,
+        "counts": {
+          "lines": 49,
+          "stops": 2269,
+          "trips": 18653,
+          "stop_times": 618113
+        },
+        "pan_dataset_slug": "fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt",
+        "last_error": null,
+        "checked_at": "2026-09-18T17:08:13Z",
+        "check_age_hours": 9.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "vehicle_positions": {
+          "host": "data.filbleu.fr",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "with_position": null,
+          "with_trip_id": null,
+          "with_route_id": null,
+          "trip_join": null
         }
       }
     }

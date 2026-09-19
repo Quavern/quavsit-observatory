@@ -145,12 +145,12 @@
     },
     {
       "day": "2026-09-18",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T09:09:11Z",
-        "age_hours": 11.8,
+        "age_hours": 15.3,
         "timetable_ends_on": "2026-11-16",
         "days_left": 59,
         "counts": {
@@ -162,7 +162,7 @@
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
         "last_error": null,
         "checked_at": "2026-09-18T09:10:28Z",
-        "check_age_hours": 11.7,
+        "check_age_hours": 15.2,
         "source": "operator"
       },
       "realtime": {
@@ -179,7 +179,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 153,
           "no_header_timestamp": 0,
           "entities": 88,
@@ -187,6 +187,50 @@
             "n": 2403,
             "of": 3543
           }
+        }
+      }
+    },
+    {
+      "day": "2026-09-19",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T09:09:11Z",
+        "age_hours": 17.8,
+        "timetable_ends_on": "2026-11-16",
+        "days_left": 58,
+        "counts": {
+          "lines": 125,
+          "stops": 2754,
+          "trips": 43298,
+          "stop_times": 980955
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null,
+        "checked_at": "2026-09-18T09:10:28Z",
+        "check_age_hours": 17.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "alerts": {
+          "host": "api-mobilite.rbgl.fr",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "informed_resolved": null
         }
       }
     }

@@ -172,12 +172,12 @@
     },
     {
       "day": "2026-09-18",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:59Z",
-        "age_hours": 240.5,
+        "age_hours": 244.0,
         "timetable_ends_on": "2026-12-31",
         "days_left": 104,
         "counts": {
@@ -188,15 +188,15 @@
         },
         "pan_dataset_slug": "gtfs-urbain-de-la-zone-centre",
         "last_error": null,
-        "checked_at": "2026-09-18T10:08:32Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-18T22:07:19Z",
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ext.saemartinique.ovh",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -207,21 +207,68 @@
           },
           "rate_limited": 0,
           "samples_night": 3,
-          "header_age_seconds": 4,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 160,
           "trip_join": {
-            "n": 596,
-            "of": 643
+            "n": 638,
+            "of": 690
           },
           "stop_updates_timed": {
-            "n": 440,
-            "of": 440
+            "n": 474,
+            "of": 474
           },
           "cancelled": {
-            "n": 596,
-            "of": 643
+            "n": 638,
+            "of": 690
           },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-19",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:23:59Z",
+        "age_hours": 246.5,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 103,
+        "counts": {
+          "lines": 60,
+          "stops": 2255,
+          "trips": 11146,
+          "stop_times": 268385
+        },
+        "pan_dataset_slug": "gtfs-urbain-de-la-zone-centre",
+        "last_error": null,
+        "checked_at": "2026-09-18T22:07:19Z",
+        "check_age_hours": 4.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ext.saemartinique.ovh",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "trip_join": null,
+          "stop_updates_timed": null,
+          "cancelled": null,
           "no_trip_id": 0
         }
       }

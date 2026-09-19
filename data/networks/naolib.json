@@ -172,12 +172,12 @@
     },
     {
       "day": "2026-09-18",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T00:08:46Z",
-        "age_hours": 20.8,
+        "age_hours": 24.3,
         "timetable_ends_on": "2026-12-17",
         "days_left": 90,
         "counts": {
@@ -189,7 +189,7 @@
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
         "checked_at": "2026-09-18T00:21:10Z",
-        "check_age_hours": 20.6,
+        "check_age_hours": 24.1,
         "source": "operator"
       },
       "realtime": {
@@ -206,7 +206,7 @@
             "budget": 0
           },
           "rate_limited": 2,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 773,
@@ -222,6 +222,53 @@
             "n": 0,
             "of": 2182
           },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-19",
+      "complete": false,
+      "samples_taken": 1,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T00:08:46Z",
+        "age_hours": 26.8,
+        "timetable_ends_on": "2026-12-17",
+        "days_left": 89,
+        "counts": {
+          "lines": 97,
+          "stops": 3651,
+          "trips": 176756,
+          "stop_times": 4352697
+        },
+        "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
+        "last_error": null,
+        "checked_at": "2026-09-18T00:21:10Z",
+        "check_age_hours": 26.6,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 0,
+          "ok": 0,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": null,
+          "no_header_timestamp": 0,
+          "entities": null,
+          "trip_join": null,
+          "stop_updates_timed": null,
+          "cancelled": null,
           "no_trip_id": 0
         }
       }
