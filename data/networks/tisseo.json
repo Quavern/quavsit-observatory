@@ -317,30 +317,30 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-17T20:09:06Z",
-        "age_hours": 30.8,
-        "timetable_ends_on": "2026-10-19",
-        "days_left": 30,
+        "refreshed_at": "2026-09-19T08:09:08Z",
+        "age_hours": 0.8,
+        "timetable_ends_on": "2026-10-22",
+        "days_left": 33,
         "counts": {
-          "lines": 126,
-          "stops": 5725,
-          "trips": 31567,
-          "stop_times": 682077
+          "lines": 124,
+          "stops": 5721,
+          "trips": 32968,
+          "stop_times": 713300
         },
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
-        "checked_at": "2026-09-17T20:09:49Z",
-        "check_age_hours": 30.8,
+        "checked_at": "2026-09-19T08:09:48Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -351,18 +351,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 1063,
+          "trip_join": {
+            "n": 1725,
+            "of": 2011
+          },
+          "stop_updates_timed": {
+            "n": 32274,
+            "of": 32468
+          },
+          "cancelled": {
+            "n": 372,
+            "of": 2011
+          },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -373,10 +382,13 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": null,
-          "informed_resolved": null
+          "entities": 1063,
+          "informed_resolved": {
+            "n": 74,
+            "of": 98
+          }
         }
       }
     }
