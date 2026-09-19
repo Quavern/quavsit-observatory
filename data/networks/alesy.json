@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T22:07:16Z",
-        "age_hours": 16.8,
+        "age_hours": 19.8,
         "timetable_ends_on": "2028-12-31",
         "days_left": 834,
         "counts": {
@@ -381,14 +381,14 @@
         "pan_dataset_slug": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
         "last_error": null,
         "checked_at": "2026-09-18T22:07:18Z",
-        "check_age_hours": 16.8,
+        "check_age_hours": 19.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "alesy.plateforme-2cloud.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -399,27 +399,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 15,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 222,
+          "entities": 154,
           "trip_join": {
-            "n": 870,
-            "of": 870
+            "n": 874,
+            "of": 874
           },
           "stop_updates_timed": {
-            "n": 15856,
-            "of": 15858
+            "n": 15954,
+            "of": 15956
           },
           "cancelled": {
             "n": 0,
-            "of": 870
+            "of": 874
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "alesy.plateforme-2cloud.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -430,24 +430,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 5,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 17,
           "with_position": {
-            "n": 61,
-            "of": 69
+            "n": 65,
+            "of": 73
           },
           "with_trip_id": {
-            "n": 61,
-            "of": 61
+            "n": 65,
+            "of": 65
           },
           "with_route_id": {
-            "n": 61,
-            "of": 61
+            "n": 65,
+            "of": 65
           },
           "trip_join": {
-            "n": 61,
-            "of": 61
+            "n": 65,
+            "of": 65
           }
         }
       }

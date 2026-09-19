@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:23Z",
-        "age_hours": 258.8,
+        "age_hours": 261.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 106,
         "counts": {
@@ -381,14 +381,14 @@
         "pan_dataset_slug": "reseau-transport-urbain-le-bus",
         "last_error": null,
         "checked_at": "2026-09-19T14:08:48Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -401,25 +401,25 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 201,
           "trip_join": {
-            "n": 568,
-            "of": 568
+            "n": 895,
+            "of": 895
           },
           "stop_updates_timed": {
-            "n": 13905,
-            "of": 13905
+            "n": 21941,
+            "of": 21941
           },
           "cancelled": {
             "n": 0,
-            "of": 568
+            "of": 895
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -432,22 +432,22 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 201,
           "with_position": {
-            "n": 71,
-            "of": 71
+            "n": 80,
+            "of": 80
           },
           "with_trip_id": {
-            "n": 71,
-            "of": 71
+            "n": 80,
+            "of": 80
           },
           "with_route_id": {
-            "n": 71,
-            "of": 71
+            "n": 80,
+            "of": 80
           },
           "trip_join": {
-            "n": 71,
-            "of": 71
+            "n": 80,
+            "of": 80
           }
         }
       }

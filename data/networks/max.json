@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T19:09:12Z",
-        "age_hours": 19.8,
+        "age_hours": 22.8,
         "timetable_ends_on": "2027-08-28",
         "days_left": 343,
         "counts": {
@@ -381,14 +381,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-18T19:09:14Z",
-        "check_age_hours": 19.8,
+        "check_age_hours": 22.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "zenbus.net",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -418,8 +418,8 @@
         },
         "vehicle_positions": {
           "host": "zenbus.net",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,

@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:32Z",
-        "age_hours": 119.8,
+        "age_hours": 122.8,
         "timetable_ends_on": "2026-12-18",
         "days_left": 90,
         "counts": {
@@ -380,15 +380,15 @@
         },
         "pan_dataset_slug": "reseau-urbain-scolaire-lila-presquile",
         "last_error": null,
-        "checked_at": "2026-09-19T03:07:52Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-19T15:08:23Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -399,27 +399,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 13,
           "trip_join": {
-            "n": 51,
-            "of": 51
+            "n": 57,
+            "of": 57
           },
           "stop_updates_timed": {
-            "n": 900,
-            "of": 900
+            "n": 984,
+            "of": 984
           },
           "cancelled": {
             "n": 0,
-            "of": 51
+            "of": 57
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -430,24 +430,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 6,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 9,
           "with_position": {
-            "n": 36,
-            "of": 36
+            "n": 41,
+            "of": 41
           },
           "with_trip_id": {
-            "n": 36,
-            "of": 36
+            "n": 41,
+            "of": 41
           },
           "with_route_id": {
-            "n": 36,
-            "of": 36
+            "n": 41,
+            "of": 41
           },
           "trip_join": {
-            "n": 36,
-            "of": 36
+            "n": 41,
+            "of": 41
           }
         }
       }
