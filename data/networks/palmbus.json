@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 189.8,
+        "age_hours": 192.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 106,
         "counts": {
@@ -380,8 +380,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
         "last_error": null,
-        "checked_at": "2026-09-19T08:09:07Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-19T20:09:06Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
@@ -398,7 +398,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 31,
           "no_header_timestamp": 0,
           "entities": 158,
@@ -429,7 +429,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
           "entities": 64,

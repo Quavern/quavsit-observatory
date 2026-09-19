@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T06:09:19Z",
-        "age_hours": 35.8,
+        "age_hours": 38.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 103,
         "counts": {
@@ -380,8 +380,8 @@
         },
         "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
         "last_error": null,
-        "checked_at": "2026-09-18T06:10:09Z",
-        "check_age_hours": 35.7,
+        "checked_at": "2026-09-19T18:09:59Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
@@ -398,7 +398,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 22,
           "no_header_timestamp": 0,
           "entities": 711,
@@ -429,7 +429,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
           "entities": 142,

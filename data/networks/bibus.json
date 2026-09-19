@@ -453,11 +453,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T23:07:20Z",
-        "age_hours": 18.8,
+        "age_hours": 21.8,
         "timetable_ends_on": "2026-12-20",
         "days_left": 92,
         "counts": {
@@ -469,7 +469,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole",
         "last_error": null,
         "checked_at": "2026-09-18T23:07:27Z",
-        "check_age_hours": 18.8,
+        "check_age_hours": 21.8,
         "source": "operator"
       },
       "realtime": {
@@ -486,7 +486,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 36,
           "no_header_timestamp": 0,
           "entities": 829,
@@ -517,7 +517,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 42,
           "no_header_timestamp": 0,
           "entities": 69,
@@ -551,7 +551,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 25,

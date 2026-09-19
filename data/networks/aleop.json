@@ -453,23 +453,23 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-18T07:08:19Z",
-        "age_hours": 34.8,
+        "refreshed_at": "2026-09-19T19:08:02Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 346,
         "counts": {
           "lines": 139,
           "stops": 9803,
-          "trips": 4757,
-          "stop_times": 63107
+          "trips": 4747,
+          "stop_times": 63087
         },
         "pan_dataset_slug": "arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1",
         "last_error": null,
-        "checked_at": "2026-09-18T07:08:35Z",
-        "check_age_hours": 34.8,
+        "checked_at": "2026-09-19T19:08:16Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
@@ -486,7 +486,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 110,
@@ -517,7 +517,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 29,
@@ -551,7 +551,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 37,

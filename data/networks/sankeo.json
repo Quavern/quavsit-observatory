@@ -229,11 +229,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T09:10:29Z",
-        "age_hours": 32.7,
+        "age_hours": 35.7,
         "timetable_ends_on": "2026-10-01",
         "days_left": 12,
         "counts": {
@@ -245,7 +245,7 @@
         "pan_dataset_slug": "gtfs-sankeo",
         "last_error": null,
         "checked_at": "2026-09-18T09:10:39Z",
-        "check_age_hours": 32.7,
+        "check_age_hours": 35.7,
         "source": "operator"
       },
       "realtime": {
@@ -262,7 +262,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 27,
           "no_header_timestamp": 0,
           "entities": 111,

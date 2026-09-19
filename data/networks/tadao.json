@@ -229,11 +229,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T11:12:07Z",
-        "age_hours": 30.7,
+        "age_hours": 33.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 106,
         "counts": {
@@ -245,7 +245,7 @@
         "pan_dataset_slug": "gtfs-tadao",
         "last_error": null,
         "checked_at": "2026-09-18T11:12:47Z",
-        "check_age_hours": 30.7,
+        "check_age_hours": 33.7,
         "source": "operator"
       },
       "realtime": {
@@ -262,7 +262,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 43,
           "no_header_timestamp": 0,
           "entities": 300,
