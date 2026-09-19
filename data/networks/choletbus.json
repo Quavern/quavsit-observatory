@@ -317,11 +317,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 117.8,
+        "age_hours": 123.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 286,
         "counts": {
@@ -332,15 +332,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
-        "checked_at": "2026-09-18T23:07:27Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-19T11:09:41Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -355,23 +355,23 @@
           "no_header_timestamp": 0,
           "entities": 46,
           "trip_join": {
-            "n": 93,
-            "of": 93
+            "n": 184,
+            "of": 184
           },
           "stop_updates_timed": {
-            "n": 2015,
-            "of": 2024
+            "n": 3960,
+            "of": 4054
           },
           "cancelled": {
             "n": 0,
-            "of": 93
+            "of": 184
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -386,8 +386,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 2,
-            "of": 2
+            "n": 4,
+            "of": 4
           }
         }
       }

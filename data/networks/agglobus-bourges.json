@@ -317,11 +317,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T05:08:42Z",
-        "age_hours": 3.8,
+        "age_hours": 9.8,
         "timetable_ends_on": "2027-09-18",
         "days_left": 364,
         "counts": {
@@ -333,14 +333,14 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-19T05:08:48Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -351,27 +351,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 26,
+          "header_age_seconds": 25,
           "no_header_timestamp": 0,
-          "entities": 54,
+          "entities": 56,
           "trip_join": {
-            "n": 89,
-            "of": 108
+            "n": 187,
+            "of": 225
           },
           "stop_updates_timed": {
-            "n": 3510,
-            "of": 3510
+            "n": 7227,
+            "of": 7227
           },
           "cancelled": {
             "n": 0,
-            "of": 108
+            "of": 225
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -386,8 +386,8 @@
           "no_header_timestamp": 0,
           "entities": 10,
           "informed_resolved": {
-            "n": 76,
-            "of": 76
+            "n": 152,
+            "of": 152
           }
         }
       }

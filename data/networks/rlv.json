@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:22:11Z",
-        "age_hours": 252.5,
+        "age_hours": 258.5,
         "timetable_ends_on": "2027-08-28",
         "days_left": 343,
         "counts": {
@@ -380,15 +380,15 @@
         },
         "pan_dataset_slug": "horaires-rlv-mobilites",
         "last_error": null,
-        "checked_at": "2026-09-18T21:09:30Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-19T09:08:58Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 1,
+          "samples": 4,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -399,27 +399,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 12,
+          "entities": 14,
           "trip_join": {
-            "n": 12,
-            "of": 12
+            "n": 47,
+            "of": 47
           },
           "stop_updates_timed": {
-            "n": 324,
-            "of": 324
+            "n": 1223,
+            "of": 1223
           },
           "cancelled": {
             "n": 0,
-            "of": 12
+            "of": 47
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 1,
+          "samples": 4,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -434,20 +434,20 @@
           "no_header_timestamp": 0,
           "entities": 4,
           "with_position": {
-            "n": 4,
-            "of": 4
+            "n": 12,
+            "of": 12
           },
           "with_trip_id": {
-            "n": 4,
-            "of": 4
+            "n": 12,
+            "of": 12
           },
           "with_route_id": {
-            "n": 4,
-            "of": 4
+            "n": 12,
+            "of": 12
           },
           "trip_join": {
-            "n": 4,
-            "of": 4
+            "n": 12,
+            "of": 12
           }
         }
       }

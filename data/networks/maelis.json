@@ -359,11 +359,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T11:12:03Z",
-        "age_hours": 21.7,
+        "age_hours": 27.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 106,
         "counts": {
@@ -375,14 +375,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
         "checked_at": "2026-09-18T11:12:06Z",
-        "check_age_hours": 21.7,
+        "check_age_hours": 27.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -397,23 +397,23 @@
           "no_header_timestamp": 0,
           "entities": 15,
           "trip_join": {
-            "n": 30,
-            "of": 30
+            "n": 60,
+            "of": 60
           },
           "stop_updates_timed": {
-            "n": 969,
-            "of": 969
+            "n": 1916,
+            "of": 1916
           },
           "cancelled": {
             "n": 0,
-            "of": 30
+            "of": 60
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -424,24 +424,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 5,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 7,
           "with_position": {
-            "n": 15,
-            "of": 15
+            "n": 30,
+            "of": 30
           },
           "with_trip_id": {
-            "n": 15,
-            "of": 15
+            "n": 30,
+            "of": 30
           },
           "with_route_id": {
             "n": 0,
-            "of": 15
+            "of": 30
           },
           "trip_join": {
-            "n": 15,
-            "of": 15
+            "n": 30,
+            "of": 30
           }
         }
       }

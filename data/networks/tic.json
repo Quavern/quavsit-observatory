@@ -365,11 +365,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 252.8,
+        "age_hours": 258.8,
         "timetable_ends_on": "2026-11-11",
         "days_left": 53,
         "counts": {
@@ -380,15 +380,15 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-tic-urbain-communaute-dagglomeration-de-la-region-de-compiegne-et-de-la-basse-automne",
         "last_error": null,
-        "checked_at": "2026-09-19T01:09:57Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-19T13:08:47Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -401,25 +401,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 41,
+          "entities": 38,
           "trip_join": {
-            "n": 83,
-            "of": 83
+            "n": 159,
+            "of": 159
           },
           "stop_updates_timed": {
-            "n": 1325,
-            "of": 1325
+            "n": 2578,
+            "of": 2578
           },
           "cancelled": {
             "n": 0,
-            "of": 83
+            "of": 159
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -434,20 +434,20 @@
           "no_header_timestamp": 0,
           "entities": 15,
           "with_position": {
-            "n": 30,
-            "of": 30
+            "n": 57,
+            "of": 57
           },
           "with_trip_id": {
-            "n": 30,
-            "of": 30
+            "n": 57,
+            "of": 57
           },
           "with_route_id": {
-            "n": 30,
-            "of": 30
+            "n": 57,
+            "of": 57
           },
           "trip_join": {
-            "n": 30,
-            "of": 30
+            "n": 57,
+            "of": 57
           }
         }
       }

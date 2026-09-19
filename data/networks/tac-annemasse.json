@@ -317,11 +317,11 @@
     {
       "day": "2026-09-19",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 252.6,
+        "age_hours": 258.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 346,
         "counts": {
@@ -333,14 +333,14 @@
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
         "checked_at": "2026-09-19T08:09:07Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -353,25 +353,25 @@
           "samples_night": 1,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
-          "entities": 36,
+          "entities": 38,
           "trip_join": {
-            "n": 72,
-            "of": 72
+            "n": 151,
+            "of": 151
           },
           "stop_updates_timed": {
-            "n": 1305,
-            "of": 1431
+            "n": 2660,
+            "of": 2924
           },
           "cancelled": {
             "n": 0,
-            "of": 72
+            "of": 151
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -382,12 +382,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 14,
-            "of": 14
+            "n": 30,
+            "of": 30
           }
         }
       }
