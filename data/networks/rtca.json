@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:22Z",
-        "age_hours": 225.7,
+        "age_hours": 228.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 105,
         "counts": {
@@ -140,8 +140,8 @@
         },
         "pan_dataset_slug": "reseau-rtca",
         "last_error": null,
-        "checked_at": "2026-09-19T20:09:07Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-20T08:07:58Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {}

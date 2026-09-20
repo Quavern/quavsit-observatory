@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T15:08:20Z",
-        "age_hours": 14.8,
+        "age_hours": 17.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 287,
         "counts": {
@@ -471,14 +471,14 @@
         "pan_dataset_slug": "donnees-du-reseau-de-transport-aleo",
         "last_error": null,
         "checked_at": "2026-09-19T15:08:22Z",
-        "check_age_hours": 14.8,
+        "check_age_hours": 17.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -508,8 +508,8 @@
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,

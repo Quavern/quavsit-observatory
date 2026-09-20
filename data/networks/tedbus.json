@@ -565,11 +565,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T18:07:40Z",
-        "age_hours": 83.8,
+        "age_hours": 86.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 345,
         "counts": {
@@ -580,15 +580,15 @@
         },
         "pan_dataset_slug": "reseau-tedbus-lignes-regulieres-dracenie-provence-verdon-agglomeration",
         "last_error": null,
-        "checked_at": "2026-09-19T18:10:00Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-20T06:10:48Z",
+        "check_age_hours": 2.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -599,9 +599,9 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 2,
+          "entities": 1,
           "trip_join": {
             "n": 1,
             "of": 1
@@ -618,8 +618,8 @@
         },
         "vehicle_positions": {
           "host": "pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -630,9 +630,9 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 2,
+          "entities": 1,
           "with_position": {
             "n": 1,
             "of": 1
@@ -652,8 +652,8 @@
         },
         "alerts": {
           "host": "pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -664,9 +664,9 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 2,
+          "entities": 1,
           "informed_resolved": {
             "n": 0,
             "of": 0

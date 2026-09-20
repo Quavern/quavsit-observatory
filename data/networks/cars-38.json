@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 200.8,
+        "age_hours": 203.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 345,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
         "checked_at": "2026-09-19T21:08:11Z",
-        "check_age_hours": 8.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 40,
+          "header_age_seconds": 41,
           "no_header_timestamp": 0,
-          "entities": 2,
+          "entities": 5,
           "trip_join": {
-            "n": 2,
-            "of": 2
+            "n": 11,
+            "of": 11
           },
           "stop_updates_timed": {
-            "n": 67,
-            "of": 67
+            "n": 174,
+            "of": 174
           },
           "cancelled": {
             "n": 0,
-            "of": 2
+            "of": 11
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -460,12 +460,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 115,
+          "header_age_seconds": 86,
           "no_header_timestamp": 0,
           "entities": 1082,
           "informed_resolved": {
-            "n": 2812,
-            "of": 2812
+            "n": 5624,
+            "of": 5624
           }
         }
       }

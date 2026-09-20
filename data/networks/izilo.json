@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T01:09:29Z",
-        "age_hours": 28.8,
+        "age_hours": 31.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-19T01:09:36Z",
-        "check_age_hours": 28.8,
+        "check_age_hours": 31.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-rdla-lorient.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 21,
+          "header_age_seconds": 24,
           "no_header_timestamp": 0,
-          "entities": 1,
+          "entities": 20,
           "trip_join": {
-            "n": 1,
-            "of": 1
+            "n": 41,
+            "of": 41
           },
           "stop_updates_timed": {
-            "n": 1,
-            "of": 1
+            "n": 641,
+            "of": 675
           },
           "cancelled": {
             "n": 0,
-            "of": 1
+            "of": 41
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -464,8 +464,8 @@
           "no_header_timestamp": 0,
           "entities": 24,
           "informed_resolved": {
-            "n": 59,
-            "of": 60
+            "n": 118,
+            "of": 120
           }
         }
       }

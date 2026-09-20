@@ -128,8 +128,8 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-18T18:09:40Z",
-        "age_hours": 35.8,
+        "refreshed_at": "2026-09-20T06:10:49Z",
+        "age_hours": 2.7,
         "timetable_ends_on": "2027-07-02",
         "days_left": 285,
         "counts": {
@@ -140,8 +140,8 @@
         },
         "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
         "last_error": null,
-        "checked_at": "2026-09-18T18:09:46Z",
-        "check_age_hours": 35.8,
+        "checked_at": "2026-09-20T06:10:54Z",
+        "check_age_hours": 2.7,
         "source": "operator"
       },
       "realtime": {}
