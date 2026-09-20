@@ -316,12 +316,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 191.8,
+        "age_hours": 195.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 346,
         "counts": {
@@ -332,8 +332,8 @@
         },
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
-        "checked_at": "2026-09-19T09:08:28Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-19T21:08:11Z",
+        "check_age_hours": 3.3,
         "source": "operator"
       },
       "realtime": {
@@ -350,7 +350,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 44,
           "no_header_timestamp": 0,
           "entities": 15,
@@ -381,13 +381,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 64,
           "no_header_timestamp": 0,
           "entities": 1085,
           "informed_resolved": {
             "n": 14072,
             "of": 14072
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-11T21:07:43Z",
+        "age_hours": 200.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 345,
+        "counts": {
+          "lines": 495,
+          "stops": 9392,
+          "trips": 3643,
+          "stop_times": 52511
+        },
+        "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
+        "last_error": null,
+        "checked_at": "2026-09-19T21:08:11Z",
+        "check_age_hours": 8.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.oura3.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 40,
+          "no_header_timestamp": 0,
+          "entities": 2,
+          "trip_join": {
+            "n": 2,
+            "of": 2
+          },
+          "stop_updates_timed": {
+            "n": 67,
+            "of": 67
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 2
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "api.oura3.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 115,
+          "no_header_timestamp": 0,
+          "entities": 1082,
+          "informed_resolved": {
+            "n": 2812,
+            "of": 2812
           }
         }
       }

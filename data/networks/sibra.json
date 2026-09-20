@@ -100,12 +100,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T18:09:48Z",
-        "age_hours": 98.8,
+        "age_hours": 102.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 29,
         "counts": {
@@ -117,7 +117,31 @@
         "pan_dataset_slug": "offre-de-transports-sibra-a-annecy-gtfs",
         "last_error": null,
         "checked_at": "2026-09-19T18:09:59Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 6.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T18:09:48Z",
+        "age_hours": 107.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 28,
+        "counts": {
+          "lines": 27,
+          "stops": 1861,
+          "trips": 12684,
+          "stop_times": 375241
+        },
+        "pan_dataset_slug": "offre-de-transports-sibra-a-annecy-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-19T18:09:59Z",
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {}

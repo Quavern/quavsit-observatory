@@ -452,12 +452,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:36Z",
-        "age_hours": 264.5,
+        "age_hours": 268.0,
         "timetable_ends_on": "2027-07-04",
         "days_left": 288,
         "counts": {
@@ -468,8 +468,8 @@
         },
         "pan_dataset_slug": "transurbain-evreux-portes-de-normandie",
         "last_error": null,
-        "checked_at": "2026-09-19T10:09:24Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-19T22:09:07Z",
+        "check_age_hours": 2.3,
         "source": "operator"
       },
       "realtime": {
@@ -486,7 +486,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 46,
@@ -517,7 +517,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 29,
           "no_header_timestamp": 0,
           "entities": 19,
@@ -551,13 +551,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 440633,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
             "n": 5,
             "of": 5
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:27:36Z",
+        "age_hours": 273.5,
+        "timetable_ends_on": "2027-07-04",
+        "days_left": 287,
+        "counts": {
+          "lines": 10,
+          "stops": 357,
+          "trips": 3674,
+          "stop_times": 70848
+        },
+        "pan_dataset_slug": "transurbain-evreux-portes-de-normandie",
+        "last_error": null,
+        "checked_at": "2026-09-19T22:09:07Z",
+        "check_age_hours": 7.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 77,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "trip_join": {
+            "n": 0,
+            "of": 0
+          },
+          "stop_updates_timed": {
+            "n": 0,
+            "of": 0
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 0
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "with_position": {
+            "n": 0,
+            "of": 0
+          },
+          "with_trip_id": {
+            "n": 0,
+            "of": 0
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 0
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 0
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 505427,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 1,
+            "of": 1
           }
         }
       }

@@ -316,12 +316,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:28Z",
-        "age_hours": 264.8,
+        "age_hours": 268.3,
         "timetable_ends_on": "2027-07-03",
         "days_left": 287,
         "counts": {
@@ -333,7 +333,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transport-marineo",
         "last_error": null,
         "checked_at": "2026-09-19T14:08:48Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 10.3,
         "source": "operator"
       },
       "realtime": {
@@ -350,7 +350,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 62,
@@ -381,13 +381,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 11,
           "informed_resolved": {
             "n": 120,
             "of": 120
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:08:28Z",
+        "age_hours": 273.8,
+        "timetable_ends_on": "2027-07-03",
+        "days_left": 286,
+        "counts": {
+          "lines": 49,
+          "stops": 664,
+          "trips": 2036,
+          "stop_times": 54120
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transport-marineo",
+        "last_error": null,
+        "checked_at": "2026-09-20T02:08:20Z",
+        "check_age_hours": 3.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 18,
+          "no_header_timestamp": 0,
+          "entities": 2,
+          "trip_join": {
+            "n": 2,
+            "of": 2
+          },
+          "stop_updates_timed": {
+            "n": 46,
+            "of": 46
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 2
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 9,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "informed_resolved": {
+            "n": 22,
+            "of": 22
           }
         }
       }

@@ -228,12 +228,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:07:35Z",
-        "age_hours": 122.8,
+        "age_hours": 126.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 103,
         "counts": {
@@ -245,7 +245,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-19T18:07:56Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 6.3,
         "source": "operator"
       },
       "realtime": {
@@ -262,7 +262,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 544,
@@ -277,6 +277,62 @@
           "cancelled": {
             "n": 0,
             "of": 2670
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T18:07:35Z",
+        "age_hours": 131.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 102,
+        "counts": {
+          "lines": 20,
+          "stops": 233,
+          "trips": 1996,
+          "stop_times": 55905
+        },
+        "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
+        "last_error": null,
+        "checked_at": "2026-09-19T18:07:56Z",
+        "check_age_hours": 11.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 141,
+          "trip_join": {
+            "n": 0,
+            "of": 141
+          },
+          "stop_updates_timed": {
+            "n": 2659,
+            "of": 2659
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 141
           },
           "no_trip_id": 0
         }

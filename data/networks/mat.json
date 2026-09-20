@@ -100,12 +100,12 @@
     },
     {
       "day": "2026-09-19",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T20:10:28Z",
-        "age_hours": 24.7,
+        "age_hours": 28.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 103,
         "counts": {
@@ -117,7 +117,31 @@
         "pan_dataset_slug": "reseau-urbain-mat",
         "last_error": null,
         "checked_at": "2026-09-18T20:10:46Z",
-        "check_age_hours": 24.7,
+        "check_age_hours": 28.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-20",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T20:10:28Z",
+        "age_hours": 33.7,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 102,
+        "counts": {
+          "lines": 73,
+          "stops": 1145,
+          "trips": 11421,
+          "stop_times": 247234
+        },
+        "pan_dataset_slug": "reseau-urbain-mat",
+        "last_error": null,
+        "checked_at": "2026-09-18T20:10:46Z",
+        "check_age_hours": 33.7,
         "source": "operator"
       },
       "realtime": {}
