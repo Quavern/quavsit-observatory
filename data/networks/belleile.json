@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T07:08:24Z",
-        "age_hours": 106.8,
+        "age_hours": 109.8,
         "timetable_ends_on": "2026-11-01",
         "days_left": 42,
         "counts": {
@@ -141,7 +141,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-transports-publics-en-bretagne-korrigo-gtfs",
         "last_error": null,
         "checked_at": "2026-09-16T07:08:37Z",
-        "check_age_hours": 106.8,
+        "check_age_hours": 109.8,
         "source": "operator"
       },
       "realtime": {}

@@ -285,11 +285,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:10:26Z",
-        "age_hours": 285.7,
+        "age_hours": 288.7,
         "timetable_ends_on": "2026-12-30",
         "days_left": 101,
         "counts": {
@@ -301,7 +301,7 @@
         "pan_dataset_slug": "fr-200052264-t0034-0000-1",
         "last_error": null,
         "checked_at": "2026-09-20T16:09:15Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {
@@ -318,7 +318,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 32,
           "no_header_timestamp": 0,
           "entities": 86,

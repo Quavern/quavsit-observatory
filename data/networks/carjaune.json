@@ -565,11 +565,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T10:08:38Z",
-        "age_hours": 31.8,
+        "age_hours": 34.8,
         "timetable_ends_on": "2027-08-02",
         "days_left": 316,
         "counts": {
@@ -581,7 +581,7 @@
         "pan_dataset_slug": "horaires-theoriques-au-format-gtfs-et-horaires-temps-reel-au-format-gtfs-rt-du-reseau-car-jaune-a-la-reunion",
         "last_error": null,
         "checked_at": "2026-09-19T10:08:41Z",
-        "check_age_hours": 31.8,
+        "check_age_hours": 34.8,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 231,
@@ -629,7 +629,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 231,
@@ -663,7 +663,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
+          "samples_night": 1,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 231,

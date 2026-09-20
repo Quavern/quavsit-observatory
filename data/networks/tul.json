@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:54Z",
-        "age_hours": 285.6,
+        "age_hours": 288.6,
         "timetable_ends_on": "2027-01-03",
         "days_left": 105,
         "counts": {
@@ -140,8 +140,8 @@
         },
         "pan_dataset_slug": "offre-de-transport-du-reseau-de-laval-agglomeration-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-20T06:10:49Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-20T18:10:51Z",
+        "check_age_hours": 2.7,
         "source": "operator"
       },
       "realtime": {}

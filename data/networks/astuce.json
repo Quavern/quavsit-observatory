@@ -419,11 +419,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T23:07:43Z",
-        "age_hours": 18.8,
+        "age_hours": 21.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 343,
         "counts": {
@@ -435,7 +435,7 @@
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
         "checked_at": "2026-09-19T23:08:38Z",
-        "check_age_hours": 18.8,
+        "check_age_hours": 21.8,
         "source": "operator"
       },
       "realtime": {
@@ -452,7 +452,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
           "entities": 122,
@@ -483,7 +483,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 33,
           "no_header_timestamp": 0,
           "entities": 54,

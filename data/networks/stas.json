@@ -240,11 +240,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T04:08:08Z",
-        "age_hours": 13.8,
+        "age_hours": 16.8,
         "timetable_ends_on": "2026-12-20",
         "days_left": 91,
         "counts": {
@@ -256,7 +256,7 @@
         "pan_dataset_slug": "horaires-du-reseau-stas",
         "last_error": null,
         "checked_at": "2026-09-20T04:08:48Z",
-        "check_age_hours": 13.8,
+        "check_age_hours": 16.8,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -273,7 +273,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": null,
           "no_header_timestamp": 0,
           "entities": null,

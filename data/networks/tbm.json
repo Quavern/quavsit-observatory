@@ -565,11 +565,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T14:08:46Z",
-        "age_hours": 3.8,
+        "age_hours": 6.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 285,
         "counts": {
@@ -581,7 +581,7 @@
         "pan_dataset_slug": "offres-de-services-bus-tram-et-scolaire-au-format-gtfs-netex-gtfs-rt-siri-lite",
         "last_error": null,
         "checked_at": "2026-09-20T14:12:50Z",
-        "check_age_hours": 3.7,
+        "check_age_hours": 6.7,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 685,
@@ -629,7 +629,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 15,
           "no_header_timestamp": 0,
           "entities": 175,
@@ -663,7 +663,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 108,

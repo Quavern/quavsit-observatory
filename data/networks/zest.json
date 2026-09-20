@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T08:07:52Z",
-        "age_hours": 57.8,
+        "age_hours": 60.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 287,
         "counts": {
@@ -470,8 +470,8 @@
         },
         "pan_dataset_slug": "horaires-reseau-zest",
         "last_error": null,
-        "checked_at": "2026-09-20T08:07:59Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-20T20:09:54Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
@@ -488,7 +488,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 28,
@@ -519,7 +519,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 13,

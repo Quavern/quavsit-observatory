@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T07:07:15Z",
-        "age_hours": 10.8,
+        "age_hours": 13.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 343,
         "counts": {
@@ -471,7 +471,7 @@
         "pan_dataset_slug": "mobivie-reseau-urbain-vichy-communaute",
         "last_error": null,
         "checked_at": "2026-09-20T07:07:17Z",
-        "check_age_hours": 10.8,
+        "check_age_hours": 13.8,
         "source": "operator"
       },
       "realtime": {
@@ -488,7 +488,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 8,
@@ -519,7 +519,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 2,

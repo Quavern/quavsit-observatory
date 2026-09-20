@@ -285,11 +285,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T16:09:16Z",
-        "age_hours": 1.8,
+        "age_hours": 4.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 105,
         "counts": {
@@ -301,7 +301,7 @@
         "pan_dataset_slug": "gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole",
         "last_error": null,
         "checked_at": "2026-09-20T16:16:00Z",
-        "check_age_hours": 1.7,
+        "check_age_hours": 4.7,
         "source": "operator"
       },
       "realtime": {
@@ -318,7 +318,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 364,

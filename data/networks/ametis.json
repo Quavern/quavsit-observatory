@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T18:08:23Z",
-        "age_hours": 143.8,
+        "age_hours": 146.8,
         "timetable_ends_on": "2026-11-19",
         "days_left": 60,
         "counts": {
@@ -470,8 +470,8 @@
         },
         "pan_dataset_slug": "ametis",
         "last_error": null,
-        "checked_at": "2026-09-20T06:08:45Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-20T18:08:35Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
@@ -488,7 +488,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 15,
@@ -519,7 +519,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 20,
           "no_header_timestamp": 0,
           "entities": 17,

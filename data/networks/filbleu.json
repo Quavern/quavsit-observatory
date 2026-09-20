@@ -300,11 +300,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 6,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T17:08:55Z",
-        "age_hours": 216.8,
+        "age_hours": 219.8,
         "timetable_ends_on": "2027-01-01",
         "days_left": 103,
         "counts": {
@@ -316,7 +316,7 @@
         "pan_dataset_slug": "fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-20T17:08:38Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
@@ -333,7 +333,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 33,
