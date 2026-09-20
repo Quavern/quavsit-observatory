@@ -565,11 +565,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T19:08:02Z",
-        "age_hours": 13.8,
+        "age_hours": 19.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 345,
         "counts": {
@@ -581,14 +581,14 @@
         "pan_dataset_slug": "arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1",
         "last_error": null,
         "checked_at": "2026-09-19T19:08:16Z",
-        "check_age_hours": 13.8,
+        "check_age_hours": 19.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -599,27 +599,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 52,
+          "entities": 70,
           "trip_join": {
-            "n": 15,
-            "of": 104
+            "n": 40,
+            "of": 268
           },
           "stop_updates_timed": {
-            "n": 970,
-            "of": 970
+            "n": 2496,
+            "of": 2496
           },
           "cancelled": {
-            "n": 2,
-            "of": 104
+            "n": 4,
+            "of": 268
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -630,30 +630,30 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 5,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 6,
+          "entities": 10,
           "with_position": {
-            "n": 12,
-            "of": 12
+            "n": 33,
+            "of": 33
           },
           "with_trip_id": {
-            "n": 12,
-            "of": 12
+            "n": 32,
+            "of": 33
           },
           "with_route_id": {
-            "n": 12,
-            "of": 12
+            "n": 32,
+            "of": 33
           },
           "trip_join": {
-            "n": 12,
-            "of": 12
+            "n": 32,
+            "of": 32
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -668,8 +668,8 @@
           "no_header_timestamp": 0,
           "entities": 36,
           "informed_resolved": {
-            "n": 108,
-            "of": 152
+            "n": 216,
+            "of": 304
           }
         }
       }

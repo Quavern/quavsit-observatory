@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 197.7,
+        "age_hours": 203.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 287,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
         "last_error": null,
         "checked_at": "2026-09-19T15:08:24Z",
-        "check_age_hours": 17.8,
+        "check_age_hours": 23.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 6,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 89,
+          "entities": 103,
           "trip_join": {
-            "n": 178,
-            "of": 178
+            "n": 387,
+            "of": 387
           },
           "stop_updates_timed": {
-            "n": 6674,
-            "of": 6887
+            "n": 14313,
+            "of": 14643
           },
           "cancelled": {
             "n": 0,
-            "of": 178
+            "of": 387
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -462,10 +462,10 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 7,
+          "entities": 6,
           "informed_resolved": {
-            "n": 18,
-            "of": 18
+            "n": 34,
+            "of": 34
           }
         }
       }

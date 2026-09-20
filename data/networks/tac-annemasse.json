@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 276.6,
+        "age_hours": 282.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 345,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
         "checked_at": "2026-09-20T08:07:58Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -433,23 +433,23 @@
           "no_header_timestamp": 0,
           "entities": 12,
           "trip_join": {
-            "n": 25,
-            "of": 25
+            "n": 50,
+            "of": 50
           },
           "stop_updates_timed": {
-            "n": 340,
-            "of": 394
+            "n": 673,
+            "of": 783
           },
           "cancelled": {
             "n": 0,
-            "of": 25
+            "of": 50
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -460,12 +460,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 2,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 14,
-            "of": 14
+            "n": 28,
+            "of": 28
           }
         }
       }

@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T07:08:36Z",
-        "age_hours": 49.8,
+        "age_hours": 55.8,
         "timetable_ends_on": "2026-10-25",
         "days_left": 35,
         "counts": {
@@ -141,7 +141,7 @@
         "pan_dataset_slug": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
         "last_error": null,
         "checked_at": "2026-09-20T07:07:12Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {}

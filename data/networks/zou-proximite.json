@@ -395,30 +395,30 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-18T22:09:27Z",
-        "age_hours": 34.8,
+        "refreshed_at": "2026-09-20T10:10:24Z",
+        "age_hours": 4.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
           "lines": 124,
           "stops": 6189,
-          "trips": 3322,
-          "stop_times": 103702
+          "trips": 3320,
+          "stop_times": 103614
         },
         "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
         "last_error": null,
-        "checked_at": "2026-09-18T22:09:45Z",
-        "check_age_hours": 34.8,
+        "checked_at": "2026-09-20T10:10:45Z",
+        "check_age_hours": 4.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 36,
+          "header_age_seconds": 20,
           "no_header_timestamp": 0,
-          "entities": 1116,
+          "entities": 984,
           "trip_join": {
-            "n": 2232,
-            "of": 2232
+            "n": 3944,
+            "of": 3944
           },
           "stop_updates_timed": {
-            "n": 74060,
-            "of": 74060
+            "n": 133991,
+            "of": 133991
           },
           "cancelled": {
             "n": 0,
-            "of": 2232
+            "of": 3944
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -460,12 +460,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 37,
+          "header_age_seconds": 41,
           "no_header_timestamp": 0,
           "entities": 25,
           "informed_resolved": {
-            "n": 177,
-            "of": 242
+            "n": 349,
+            "of": 479
           }
         }
       }

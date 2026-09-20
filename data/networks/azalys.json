@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T19:07:41Z",
-        "age_hours": 61.8,
+        "age_hours": 67.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 28,
         "counts": {
@@ -471,14 +471,14 @@
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
         "checked_at": "2026-09-20T07:07:12Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -489,27 +489,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 18,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 2,
           "trip_join": {
-            "n": 4,
-            "of": 4
+            "n": 9,
+            "of": 9
           },
           "stop_updates_timed": {
-            "n": 98,
-            "of": 100
+            "n": 235,
+            "of": 237
           },
           "cancelled": {
             "n": 0,
-            "of": 4
+            "of": 9
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -520,24 +520,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 13,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 1,
           "with_position": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "with_trip_id": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "with_route_id": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           },
           "trip_join": {
-            "n": 2,
-            "of": 2
+            "n": 5,
+            "of": 5
           }
         }
       }

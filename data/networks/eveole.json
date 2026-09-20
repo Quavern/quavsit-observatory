@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T17:08:07Z",
-        "age_hours": 39.8,
+        "age_hours": 45.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 105,
         "counts": {
@@ -141,7 +141,7 @@
         "pan_dataset_slug": "eveole-douai-reseau-bus-du-syndicat-mixte-des-transports-du-douaisis-smtd",
         "last_error": null,
         "checked_at": "2026-09-20T05:08:09Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {}

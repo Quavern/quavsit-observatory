@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T01:09:29Z",
-        "age_hours": 31.8,
+        "age_hours": 37.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
@@ -410,15 +410,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
         "last_error": null,
-        "checked_at": "2026-09-19T01:09:36Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-20T13:09:01Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-rdla-lorient.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 24,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 20,
+          "entities": 41,
           "trip_join": {
-            "n": 41,
-            "of": 41
+            "n": 126,
+            "of": 127
           },
           "stop_updates_timed": {
-            "n": 641,
-            "of": 675
+            "n": 1778,
+            "of": 1863
           },
           "cancelled": {
             "n": 0,
-            "of": 41
+            "of": 127
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -464,8 +464,8 @@
           "no_header_timestamp": 0,
           "entities": 24,
           "informed_resolved": {
-            "n": 118,
-            "of": 120
+            "n": 232,
+            "of": 236
           }
         }
       }

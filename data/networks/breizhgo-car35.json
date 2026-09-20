@@ -285,11 +285,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T03:08:47Z",
-        "age_hours": 5.8,
+        "age_hours": 11.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 285,
         "counts": {
@@ -301,14 +301,14 @@
         "pan_dataset_slug": "breizhgo-car",
         "last_error": null,
         "checked_at": "2026-09-20T03:08:54Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "www.korrigo.bzh",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -319,20 +319,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 78199,
+          "header_age_seconds": 43859,
           "no_header_timestamp": 0,
-          "entities": 2,
+          "entities": 1,
           "trip_join": {
-            "n": 4,
-            "of": 4
+            "n": 6,
+            "of": 6
           },
           "stop_updates_timed": {
-            "n": 36,
-            "of": 36
+            "n": 40,
+            "of": 40
           },
           "cancelled": {
             "n": 0,
-            "of": 4
+            "of": 6
           },
           "no_trip_id": 0
         }

@@ -128,8 +128,8 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-19T01:09:38Z",
-        "age_hours": 31.8,
+        "refreshed_at": "2026-09-20T13:09:03Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
@@ -140,8 +140,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
         "last_error": null,
-        "checked_at": "2026-09-19T01:09:57Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-20T13:09:21Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}
