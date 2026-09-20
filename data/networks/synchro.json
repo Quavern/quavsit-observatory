@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 282.6,
+        "age_hours": 285.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 28,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "arrets-et-horaires-theoriques-bus-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-20T08:07:58Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "mwe.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 20,
+          "header_age_seconds": 19,
           "no_header_timestamp": 0,
-          "entities": 38,
+          "entities": 35,
           "trip_join": {
-            "n": 136,
-            "of": 136
+            "n": 158,
+            "of": 158
           },
           "stop_updates_timed": {
-            "n": 3726,
-            "of": 4054
+            "n": 4316,
+            "of": 4705
           },
           "cancelled": {
             "n": 0,
-            "of": 136
+            "of": 158
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "mwe.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -464,8 +464,8 @@
           "no_header_timestamp": 0,
           "entities": 15,
           "informed_resolved": {
-            "n": 76,
-            "of": 80
+            "n": 95,
+            "of": 100
           }
         }
       }

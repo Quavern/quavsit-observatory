@@ -400,11 +400,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T11:08:58Z",
-        "age_hours": 27.8,
+        "age_hours": 30.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -423,8 +423,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -435,27 +435,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 24,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 920,
+          "entities": 947,
           "trip_join": {
-            "n": 3175,
-            "of": 3645
+            "n": 4325,
+            "of": 4942
           },
           "stop_updates_timed": {
-            "n": 33216,
-            "of": 33216
+            "n": 44648,
+            "of": 44648
           },
           "cancelled": {
-            "n": 31,
-            "of": 3645
+            "n": 42,
+            "of": 4942
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -466,12 +466,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 73,
+          "header_age_seconds": 69,
           "no_header_timestamp": 0,
-          "entities": 398,
+          "entities": 403,
           "informed_resolved": {
-            "n": 1685,
-            "of": 1689
+            "n": 2107,
+            "of": 2112
           }
         }
       }

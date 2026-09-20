@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 282.6,
+        "age_hours": 285.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 345,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
         "checked_at": "2026-09-20T08:07:58Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 14,
+          "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 12,
           "trip_join": {
-            "n": 50,
-            "of": 50
+            "n": 60,
+            "of": 60
           },
           "stop_updates_timed": {
-            "n": 673,
-            "of": 783
+            "n": 808,
+            "of": 943
           },
           "cancelled": {
             "n": 0,
-            "of": 50
+            "of": 60
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -460,12 +460,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 4,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 28,
-            "of": 28
+            "n": 35,
+            "of": 35
           }
         }
       }

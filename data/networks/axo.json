@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T03:08:44Z",
-        "age_hours": 11.8,
+        "age_hours": 14.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
@@ -471,14 +471,14 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise",
         "last_error": null,
         "checked_at": "2026-09-20T03:08:46Z",
-        "check_age_hours": 11.8,
+        "check_age_hours": 14.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -493,23 +493,23 @@
           "no_header_timestamp": 0,
           "entities": 14,
           "trip_join": {
-            "n": 44,
-            "of": 44
+            "n": 55,
+            "of": 55
           },
           "stop_updates_timed": {
-            "n": 1030,
-            "of": 1030
+            "n": 1270,
+            "of": 1270
           },
           "cancelled": {
             "n": 0,
-            "of": 44
+            "of": 55
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -524,20 +524,20 @@
           "no_header_timestamp": 0,
           "entities": 7,
           "with_position": {
-            "n": 21,
-            "of": 21
+            "n": 27,
+            "of": 27
           },
           "with_trip_id": {
-            "n": 21,
-            "of": 21
+            "n": 27,
+            "of": 27
           },
           "with_route_id": {
-            "n": 21,
-            "of": 21
+            "n": 27,
+            "of": 27
           },
           "trip_join": {
-            "n": 21,
-            "of": 21
+            "n": 27,
+            "of": 27
           }
         }
       }

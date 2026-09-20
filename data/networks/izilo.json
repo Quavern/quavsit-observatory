@@ -395,11 +395,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T01:09:29Z",
-        "age_hours": 37.8,
+        "age_hours": 40.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 102,
         "counts": {
@@ -411,14 +411,14 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-20T13:09:01Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-rdla-lorient.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,27 +429,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 11,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 41,
+          "entities": 40,
           "trip_join": {
-            "n": 126,
-            "of": 127
+            "n": 152,
+            "of": 154
           },
           "stop_updates_timed": {
-            "n": 1778,
-            "of": 1863
+            "n": 2146,
+            "of": 2234
           },
           "cancelled": {
             "n": 0,
-            "of": 127
+            "of": 154
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -464,8 +464,8 @@
           "no_header_timestamp": 0,
           "entities": 24,
           "informed_resolved": {
-            "n": 232,
-            "of": 236
+            "n": 287,
+            "of": 292
           }
         }
       }

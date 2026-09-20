@@ -565,11 +565,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:42Z",
-        "age_hours": 282.5,
+        "age_hours": 285.5,
         "timetable_ends_on": "2027-02-28",
         "days_left": 161,
         "counts": {
@@ -581,14 +581,14 @@
         "pan_dataset_slug": "donnees-du-reseau-alterneo",
         "last_error": null,
         "checked_at": "2026-09-20T10:08:16Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -599,9 +599,9 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 31,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 30,
+          "entities": 24,
           "trip_join": {
             "n": 128,
             "of": 128
@@ -618,8 +618,8 @@
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -630,9 +630,9 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 34,
+          "header_age_seconds": 42,
           "no_header_timestamp": 0,
-          "entities": 11,
+          "entities": 10,
           "with_position": {
             "n": 56,
             "of": 56
@@ -652,8 +652,8 @@
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -664,7 +664,7 @@
           },
           "rate_limited": 0,
           "samples_night": 0,
-          "header_age_seconds": 21,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {

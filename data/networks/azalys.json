@@ -455,11 +455,11 @@
     {
       "day": "2026-09-20",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 6,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T19:07:41Z",
-        "age_hours": 67.8,
+        "age_hours": 70.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 28,
         "counts": {
@@ -471,14 +471,14 @@
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
         "checked_at": "2026-09-20T07:07:12Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -493,23 +493,23 @@
           "no_header_timestamp": 0,
           "entities": 2,
           "trip_join": {
-            "n": 9,
-            "of": 9
+            "n": 11,
+            "of": 11
           },
           "stop_updates_timed": {
-            "n": 235,
-            "of": 237
+            "n": 283,
+            "of": 285
           },
           "cancelled": {
             "n": 0,
-            "of": 9
+            "of": 11
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -524,20 +524,20 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "with_position": {
-            "n": 5,
-            "of": 5
+            "n": 6,
+            "of": 6
           },
           "with_trip_id": {
-            "n": 5,
-            "of": 5
+            "n": 6,
+            "of": 6
           },
           "with_route_id": {
-            "n": 5,
-            "of": 5
+            "n": 6,
+            "of": 6
           },
           "trip_join": {
-            "n": 5,
-            "of": 5
+            "n": 6,
+            "of": 6
           }
         }
       }

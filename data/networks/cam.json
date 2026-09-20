@@ -129,7 +129,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T01:08:24Z",
-        "age_hours": 13.8,
+        "age_hours": 16.8,
         "timetable_ends_on": "2026-10-21",
         "days_left": 31,
         "counts": {
@@ -141,7 +141,7 @@
         "pan_dataset_slug": "gtfs-3",
         "last_error": null,
         "checked_at": "2026-09-20T01:08:30Z",
-        "check_age_hours": 13.8,
+        "check_age_hours": 16.8,
         "source": "operator"
       },
       "realtime": {}
