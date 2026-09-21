@@ -473,11 +473,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 218.7,
+        "age_hours": 227.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 286,
         "counts": {
@@ -489,14 +489,14 @@
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
         "last_error": null,
         "checked_at": "2026-09-21T03:08:13Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -507,27 +507,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 27,
+          "header_age_seconds": 26,
           "no_header_timestamp": 0,
-          "entities": 464,
+          "entities": 478,
           "trip_join": {
-            "n": 464,
-            "of": 464
+            "n": 1918,
+            "of": 1918
           },
           "stop_updates_timed": {
-            "n": 14350,
-            "of": 14816
+            "n": 57375,
+            "of": 59984
           },
           "cancelled": {
             "n": 0,
-            "of": 464
+            "of": 1918
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -542,8 +542,8 @@
           "no_header_timestamp": 0,
           "entities": 7,
           "informed_resolved": {
-            "n": 10,
-            "of": 10
+            "n": 40,
+            "of": 40
           }
         }
       }

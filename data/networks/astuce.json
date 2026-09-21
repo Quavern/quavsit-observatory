@@ -509,11 +509,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T23:09:20Z",
-        "age_hours": 6.8,
+        "age_hours": 15.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 342,
         "counts": {
@@ -525,14 +525,14 @@
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
         "checked_at": "2026-09-20T23:09:43Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 15.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.mrn.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -545,25 +545,25 @@
           "samples_night": 1,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
-          "entities": 392,
+          "entities": 348,
           "trip_join": {
-            "n": 392,
-            "of": 392
+            "n": 1415,
+            "of": 1415
           },
           "stop_updates_timed": {
-            "n": 7163,
-            "of": 7163
+            "n": 26349,
+            "of": 26349
           },
           "cancelled": {
             "n": 0,
-            "of": 392
+            "of": 1415
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.mrn.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -574,24 +574,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 26,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
           "entities": 198,
           "with_position": {
-            "n": 198,
-            "of": 198
+            "n": 797,
+            "of": 797
           },
           "with_trip_id": {
-            "n": 198,
-            "of": 198
+            "n": 797,
+            "of": 797
           },
           "with_route_id": {
-            "n": 198,
-            "of": 198
+            "n": 797,
+            "of": 797
           },
           "trip_join": {
-            "n": 198,
-            "of": 198
+            "n": 797,
+            "of": 797
           }
         }
       }

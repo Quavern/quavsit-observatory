@@ -152,20 +152,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-08T20:08:54Z",
-        "age_hours": 297.8,
-        "timetable_ends_on": "2026-10-18",
-        "days_left": 27,
+        "refreshed_at": "2026-09-21T14:08:30Z",
+        "age_hours": 0.8,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 104,
         "counts": {
           "lines": 47,
-          "stops": 1651,
-          "trips": 5657,
-          "stop_times": 142109
+          "stops": 1646,
+          "trips": 10106,
+          "stop_times": 252297
         },
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lim-nva-m-1",
         "last_error": null,
-        "checked_at": "2026-09-21T02:07:23Z",
-        "check_age_hours": 3.8,
+        "checked_at": "2026-09-21T14:08:44Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {}

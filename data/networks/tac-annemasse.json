@@ -473,11 +473,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 297.6,
+        "age_hours": 306.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 344,
         "counts": {
@@ -488,15 +488,15 @@
         },
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
-        "checked_at": "2026-09-20T20:09:14Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-21T08:10:47Z",
+        "check_age_hours": 6.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -507,27 +507,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 14,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 62,
+          "entities": 56,
           "trip_join": {
-            "n": 62,
-            "of": 62
+            "n": 223,
+            "of": 231
           },
           "stop_updates_timed": {
-            "n": 1052,
-            "of": 1158
+            "n": 3977,
+            "of": 4404
           },
           "cancelled": {
             "n": 0,
-            "of": 62
+            "of": 231
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -538,12 +538,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 7,
-            "of": 7
+            "n": 28,
+            "of": 28
           }
         }
       }

@@ -152,20 +152,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-20T01:08:24Z",
-        "age_hours": 28.8,
+        "refreshed_at": "2026-09-21T13:07:08Z",
+        "age_hours": 1.8,
         "timetable_ends_on": "2026-10-21",
         "days_left": 30,
         "counts": {
           "lines": 13,
           "stops": 97,
-          "trips": 9940,
-          "stop_times": 138092
+          "trips": 7437,
+          "stop_times": 103329
         },
         "pan_dataset_slug": "gtfs-3",
         "last_error": null,
-        "checked_at": "2026-09-20T01:08:30Z",
-        "check_age_hours": 28.8,
+        "checked_at": "2026-09-21T13:07:18Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}

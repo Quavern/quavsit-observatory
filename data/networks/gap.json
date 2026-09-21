@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:31Z",
-        "age_hours": 297.6,
+        "age_hours": 306.6,
         "timetable_ends_on": "2026-12-31",
         "days_left": 101,
         "counts": {
@@ -560,15 +560,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reels-du-reseau-de-transports-lagglo-en-bus-communaute-dagglomeration-gap-tallard-durance",
         "last_error": null,
-        "checked_at": "2026-09-20T18:10:36Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-21T06:10:15Z",
+        "check_age_hours": 8.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs-rt.infra-hubup.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -579,27 +579,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 20,
+          "entities": 18,
           "trip_join": {
-            "n": 20,
-            "of": 20
+            "n": 72,
+            "of": 72
           },
           "stop_updates_timed": {
-            "n": 383,
-            "of": 383
+            "n": 1407,
+            "of": 1407
           },
           "cancelled": {
             "n": 0,
-            "of": 20
+            "of": 72
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs-rt.infra-hubup.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -610,24 +610,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 20,
+          "entities": 18,
           "with_position": {
-            "n": 10,
-            "of": 10
+            "n": 36,
+            "of": 36
           },
           "with_trip_id": {
-            "n": 10,
-            "of": 10
+            "n": 36,
+            "of": 36
           },
           "with_route_id": {
-            "n": 10,
-            "of": 10
+            "n": 36,
+            "of": 36
           },
           "trip_join": {
-            "n": 10,
-            "of": 10
+            "n": 36,
+            "of": 36
           }
         }
       }

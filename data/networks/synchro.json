@@ -473,11 +473,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 297.6,
+        "age_hours": 306.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 27,
         "counts": {
@@ -488,15 +488,15 @@
         },
         "pan_dataset_slug": "arrets-et-horaires-theoriques-bus-temps-reel",
         "last_error": null,
-        "checked_at": "2026-09-20T20:09:13Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-21T08:10:47Z",
+        "check_age_hours": 6.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "mwe.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -507,27 +507,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 8,
+          "header_age_seconds": 9,
           "no_header_timestamp": 0,
-          "entities": 283,
+          "entities": 248,
           "trip_join": {
-            "n": 283,
-            "of": 283
+            "n": 1007,
+            "of": 1007
           },
           "stop_updates_timed": {
-            "n": 7735,
-            "of": 8007
+            "n": 28947,
+            "of": 30075
           },
           "cancelled": {
             "n": 0,
-            "of": 283
+            "of": 1007
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "mwe.mecatran.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -540,10 +540,10 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 15,
+          "entities": 16,
           "informed_resolved": {
-            "n": 19,
-            "of": 20
+            "n": 79,
+            "of": 83
           }
         }
       }

@@ -341,11 +341,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:25:17Z",
-        "age_hours": 297.5,
+        "age_hours": 306.5,
         "timetable_ends_on": "2027-08-31",
         "days_left": 344,
         "counts": {
@@ -356,15 +356,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-reseau-mobius",
         "last_error": null,
-        "checked_at": "2026-09-20T22:08:27Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-21T10:07:30Z",
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -375,20 +375,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 25,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
-          "entities": 109,
+          "entities": 80,
           "trip_join": {
-            "n": 109,
-            "of": 109
+            "n": 330,
+            "of": 330
           },
           "stop_updates_timed": {
-            "n": 2721,
-            "of": 3212
+            "n": 7758,
+            "of": 8957
           },
           "cancelled": {
             "n": 0,
-            "of": 109
+            "of": 330
           },
           "no_trip_id": 0
         }

@@ -152,20 +152,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-14T08:09:43Z",
-        "age_hours": 165.8,
-        "timetable_ends_on": "2026-11-22",
-        "days_left": 62,
+        "refreshed_at": "2026-09-21T08:10:49Z",
+        "age_hours": 6.7,
+        "timetable_ends_on": "2026-11-29",
+        "days_left": 69,
         "counts": {
           "lines": 235,
-          "stops": 2667,
-          "trips": 4509,
-          "stop_times": 113427
+          "stops": 2673,
+          "trips": 4508,
+          "stop_times": 113435
         },
         "pan_dataset_slug": "mobilite-offre-de-transport-du-reseau-bus-gtfs-gtfs-rt",
         "last_error": null,
-        "checked_at": "2026-09-20T20:09:54Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-21T08:11:04Z",
+        "check_age_hours": 6.7,
         "source": "operator"
       },
       "realtime": {}

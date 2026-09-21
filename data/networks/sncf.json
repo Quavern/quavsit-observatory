@@ -479,11 +479,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T23:08:14Z",
-        "age_hours": 6.8,
+        "age_hours": 15.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -502,8 +502,39 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 79,
+          "no_header_timestamp": 0,
+          "entities": 1658,
+          "trip_join": {
+            "n": 5944,
+            "of": 6678
+          },
+          "stop_updates_timed": {
+            "n": 58765,
+            "of": 58765
+          },
+          "cancelled": {
+            "n": 172,
+            "of": 6678
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -516,41 +547,10 @@
           "samples_night": 1,
           "header_age_seconds": 65,
           "no_header_timestamp": 0,
-          "entities": 2194,
-          "trip_join": {
-            "n": 1946,
-            "of": 2194
-          },
-          "stop_updates_timed": {
-            "n": 19571,
-            "of": 19571
-          },
-          "cancelled": {
-            "n": 69,
-            "of": 2194
-          },
-          "no_trip_id": 0
-        },
-        "alerts": {
-          "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
-          "failures": {
-            "timeout": 0,
-            "connection": 0,
-            "http_4xx": 0,
-            "http_5xx": 0,
-            "decode_error": 0,
-            "budget": 0
-          },
-          "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 66,
-          "no_header_timestamp": 0,
-          "entities": 452,
+          "entities": 484,
           "informed_resolved": {
-            "n": 422,
-            "of": 422
+            "n": 1698,
+            "of": 1698
           }
         }
       }

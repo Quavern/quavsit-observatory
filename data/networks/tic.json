@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 297.8,
+        "age_hours": 306.8,
         "timetable_ends_on": "2026-11-11",
         "days_left": 51,
         "counts": {
@@ -560,15 +560,15 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-tic-urbain-communaute-dagglomeration-de-la-region-de-compiegne-et-de-la-basse-automne",
         "last_error": null,
-        "checked_at": "2026-09-21T01:07:23Z",
-        "check_age_hours": 4.8,
+        "checked_at": "2026-09-21T13:07:20Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -581,25 +581,25 @@
           "samples_night": 1,
           "header_age_seconds": 54,
           "no_header_timestamp": 0,
-          "entities": 57,
+          "entities": 40,
           "trip_join": {
-            "n": 57,
-            "of": 57
+            "n": 173,
+            "of": 173
           },
           "stop_updates_timed": {
-            "n": 873,
-            "of": 873
+            "n": 2681,
+            "of": 2681
           },
           "cancelled": {
             "n": 0,
-            "of": 57
+            "of": 173
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.oisemob.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -610,24 +610,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 29,
+          "header_age_seconds": 33,
           "no_header_timestamp": 0,
-          "entities": 15,
+          "entities": 13,
           "with_position": {
-            "n": 15,
-            "of": 15
+            "n": 54,
+            "of": 54
           },
           "with_trip_id": {
-            "n": 15,
-            "of": 15
+            "n": 54,
+            "of": 54
           },
           "with_route_id": {
-            "n": 15,
-            "of": 15
+            "n": 54,
+            "of": 54
           },
           "trip_join": {
-            "n": 15,
-            "of": 15
+            "n": 54,
+            "of": 54
           }
         }
       }

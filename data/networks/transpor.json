@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:52Z",
-        "age_hours": 297.8,
+        "age_hours": 306.8,
         "timetable_ends_on": "2030-01-31",
         "days_left": 1228,
         "counts": {
@@ -561,14 +561,14 @@
         "pan_dataset_slug": "offre-transport-en-commun-du-reseau-transpor-gtfs",
         "last_error": null,
         "checked_at": "2026-09-21T03:08:12Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -579,27 +579,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 9,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 18,
+          "entities": 11,
           "trip_join": {
-            "n": 18,
-            "of": 18
+            "n": 45,
+            "of": 45
           },
           "stop_updates_timed": {
-            "n": 312,
-            "of": 337
+            "n": 1152,
+            "of": 2163
           },
           "cancelled": {
             "n": 0,
-            "of": 18
+            "of": 45
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -610,24 +610,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 23,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
-          "entities": 9,
+          "entities": 8,
           "with_position": {
-            "n": 8,
-            "of": 9
+            "n": 33,
+            "of": 34
           },
           "with_trip_id": {
-            "n": 8,
-            "of": 8
+            "n": 33,
+            "of": 33
           },
           "with_route_id": {
-            "n": 8,
-            "of": 8
+            "n": 33,
+            "of": 33
           },
           "trip_join": {
-            "n": 8,
-            "of": 8
+            "n": 33,
+            "of": 33
           }
         }
       }

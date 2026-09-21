@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:13:30Z",
-        "age_hours": 297.7,
+        "age_hours": 306.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 101,
         "counts": {
@@ -561,14 +561,14 @@
         "pan_dataset_slug": "simouv-horaires-theoriques-format-gtfs-et-temps-reel-format-siri-transvilles-valenciennes",
         "last_error": null,
         "checked_at": "2026-09-21T05:10:06Z",
-        "check_age_hours": 0.7,
+        "check_age_hours": 9.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -579,27 +579,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 44,
+          "header_age_seconds": 45,
           "no_header_timestamp": 0,
-          "entities": 219,
+          "entities": 208,
           "trip_join": {
             "n": 0,
-            "of": 130
+            "of": 462
           },
           "stop_updates_timed": {
-            "n": 1487,
-            "of": 1487
+            "n": 5348,
+            "of": 5348
           },
           "cancelled": {
             "n": 0,
-            "of": 130
+            "of": 462
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "ara-api.enroute.mobi",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -610,24 +610,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 44,
+          "header_age_seconds": 45,
           "no_header_timestamp": 0,
-          "entities": 219,
+          "entities": 208,
           "with_position": {
-            "n": 89,
-            "of": 89
+            "n": 372,
+            "of": 372
           },
           "with_trip_id": {
-            "n": 89,
-            "of": 89
+            "n": 372,
+            "of": 372
           },
           "with_route_id": {
-            "n": 89,
-            "of": 89
+            "n": 372,
+            "of": 372
           },
           "trip_join": {
             "n": 0,
-            "of": 89
+            "of": 372
           }
         }
       }

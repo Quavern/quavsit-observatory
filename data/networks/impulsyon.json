@@ -287,11 +287,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:37Z",
-        "age_hours": 297.8,
+        "age_hours": 306.8,
         "timetable_ends_on": "2027-06-27",
         "days_left": 279,
         "counts": {
@@ -303,14 +303,14 @@
         "pan_dataset_slug": "reseau-de-transport-impulsyon-a-la-roche-sur-yon",
         "last_error": null,
         "checked_at": "2026-09-21T03:08:11Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -321,12 +321,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 18,
-            "of": 18
+            "n": 72,
+            "of": 72
           }
         }
       }

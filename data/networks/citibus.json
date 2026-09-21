@@ -677,11 +677,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T23:07:28Z",
-        "age_hours": 54.8,
+        "age_hours": 63.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 284,
         "counts": {
@@ -692,15 +692,15 @@
         },
         "pan_dataset_slug": "offre-de-transport-communaute-dagglomeration-le-grand-narbonne",
         "last_error": null,
-        "checked_at": "2026-09-20T23:09:44Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-21T11:08:37Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-citibus-narbonne.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -713,25 +713,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 98,
           "trip_join": {
-            "n": 92,
-            "of": 93
+            "n": 229,
+            "of": 230
           },
           "stop_updates_timed": {
-            "n": 820,
-            "of": 820
+            "n": 2590,
+            "of": 2590
           },
           "cancelled": {
-            "n": 5,
-            "of": 93
+            "n": 6,
+            "of": 230
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-citibus-narbonne.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -744,28 +744,28 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 163,
+          "entities": 98,
           "with_position": {
-            "n": 68,
-            "of": 68
+            "n": 184,
+            "of": 184
           },
           "with_trip_id": {
-            "n": 68,
-            "of": 68
+            "n": 184,
+            "of": 184
           },
           "with_route_id": {
-            "n": 68,
-            "of": 68
+            "n": 184,
+            "of": 184
           },
           "trip_join": {
-            "n": 68,
-            "of": 68
+            "n": 184,
+            "of": 184
           }
         },
         "alerts": {
           "host": "notifytest.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -780,8 +780,8 @@
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 2,
-            "of": 2
+            "n": 8,
+            "of": 8
           }
         }
       }
