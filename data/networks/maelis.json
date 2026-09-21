@@ -539,11 +539,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T11:10:40Z",
-        "age_hours": 3.7,
+        "age_hours": 9.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 104,
         "counts": {
@@ -555,14 +555,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
         "checked_at": "2026-09-21T11:10:43Z",
-        "check_age_hours": 3.7,
+        "check_age_hours": 9.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -572,28 +572,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 17,
+          "samples_night": 2,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
-          "entities": 31,
+          "entities": 25,
           "trip_join": {
-            "n": 123,
-            "of": 124
+            "n": 124,
+            "of": 125
           },
           "stop_updates_timed": {
-            "n": 3620,
-            "of": 3629
+            "n": 3660,
+            "of": 3669
           },
           "cancelled": {
             "n": 0,
-            "of": 124
+            "of": 125
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -603,25 +603,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 18,
+          "samples_night": 2,
+          "header_age_seconds": 17,
           "no_header_timestamp": 0,
-          "entities": 17,
+          "entities": 13,
           "with_position": {
-            "n": 69,
-            "of": 69
+            "n": 70,
+            "of": 70
           },
           "with_trip_id": {
-            "n": 69,
-            "of": 69
+            "n": 70,
+            "of": 70
           },
           "with_route_id": {
             "n": 0,
-            "of": 69
+            "of": 70
           },
           "trip_join": {
-            "n": 69,
-            "of": 69
+            "n": 70,
+            "of": 70
           }
         }
       }

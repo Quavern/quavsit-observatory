@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T22:07:49Z",
-        "age_hours": 16.8,
+        "age_hours": 22.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 344,
         "counts": {
@@ -561,14 +561,14 @@
         "pan_dataset_slug": "reseau-lio-occitanie",
         "last_error": null,
         "checked_at": "2026-09-20T22:08:25Z",
-        "check_age_hours": 16.8,
+        "check_age_hours": 22.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "lio.2cloud.app",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -578,28 +578,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 5,
+          "samples_night": 2,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 253,
+          "entities": 214,
           "trip_join": {
-            "n": 1084,
-            "of": 1090
+            "n": 1217,
+            "of": 1223
           },
           "stop_updates_timed": {
-            "n": 22603,
-            "of": 22872
+            "n": 25693,
+            "of": 25990
           },
           "cancelled": {
             "n": 0,
-            "of": 1090
+            "of": 1223
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "lio.2cloud.app",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -609,25 +609,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 8,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 250,
+          "entities": 209,
           "with_position": {
-            "n": 1012,
-            "of": 1079
+            "n": 1141,
+            "of": 1210
           },
           "with_trip_id": {
-            "n": 1012,
-            "of": 1012
+            "n": 1141,
+            "of": 1141
           },
           "with_route_id": {
-            "n": 1012,
-            "of": 1012
+            "n": 1141,
+            "of": 1141
           },
           "trip_join": {
-            "n": 1007,
-            "of": 1012
+            "n": 1136,
+            "of": 1141
           }
         }
       }

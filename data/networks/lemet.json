@@ -545,11 +545,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T09:09:14Z",
-        "age_hours": 29.8,
+        "age_hours": 35.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 27,
         "counts": {
@@ -561,14 +561,14 @@
         "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
         "last_error": null,
         "checked_at": "2026-09-20T09:09:36Z",
-        "check_age_hours": 29.8,
+        "check_age_hours": 35.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -578,28 +578,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 15,
+          "samples_night": 2,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 309,
+          "entities": 257,
           "trip_join": {
-            "n": 1225,
-            "of": 1230
+            "n": 1393,
+            "of": 1399
           },
           "stop_updates_timed": {
-            "n": 17319,
-            "of": 17319
+            "n": 19916,
+            "of": 19916
           },
           "cancelled": {
             "n": 0,
-            "of": 1230
+            "of": 1399
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -609,25 +609,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 21,
+          "samples_night": 2,
+          "header_age_seconds": 20,
           "no_header_timestamp": 0,
-          "entities": 140,
+          "entities": 117,
           "with_position": {
-            "n": 570,
-            "of": 570
+            "n": 658,
+            "of": 658
           },
           "with_trip_id": {
-            "n": 570,
-            "of": 570
+            "n": 658,
+            "of": 658
           },
           "with_route_id": {
-            "n": 570,
-            "of": 570
+            "n": 658,
+            "of": 658
           },
           "trip_join": {
-            "n": 565,
-            "of": 570
+            "n": 651,
+            "of": 658
           }
         }
       }

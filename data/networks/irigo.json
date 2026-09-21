@@ -677,11 +677,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T16:07:49Z",
-        "age_hours": 46.8,
+        "age_hours": 52.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 284,
         "counts": {
@@ -692,15 +692,15 @@
         },
         "pan_dataset_slug": "angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri",
         "last_error": null,
-        "checked_at": "2026-09-21T04:08:04Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-21T16:09:00Z",
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -710,28 +710,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 18,
+          "samples_night": 2,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 355,
+          "entities": 346,
           "trip_join": {
-            "n": 1387,
-            "of": 1387
+            "n": 1679,
+            "of": 1679
           },
           "stop_updates_timed": {
-            "n": 26806,
-            "of": 26806
+            "n": 32435,
+            "of": 32435
           },
           "cancelled": {
             "n": 0,
-            "of": 1387
+            "of": 1679
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "ara-api.enroute.mobi",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -741,31 +741,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 15,
+          "samples_night": 2,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 220,
+          "entities": 216,
           "with_position": {
-            "n": 825,
-            "of": 825
+            "n": 1029,
+            "of": 1029
           },
           "with_trip_id": {
-            "n": 825,
-            "of": 825
+            "n": 1029,
+            "of": 1029
           },
           "with_route_id": {
-            "n": 825,
-            "of": 825
+            "n": 1029,
+            "of": 1029
           },
           "trip_join": {
-            "n": 825,
-            "of": 825
+            "n": 1029,
+            "of": 1029
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -775,13 +775,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 21,
           "informed_resolved": {
-            "n": 110,
-            "of": 110
+            "n": 140,
+            "of": 140
           }
         }
       }

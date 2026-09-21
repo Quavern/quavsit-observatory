@@ -473,11 +473,11 @@
     {
       "day": "2026-09-21",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 171.8,
+        "age_hours": 177.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 284,
         "counts": {
@@ -489,14 +489,14 @@
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
         "checked_at": "2026-09-21T11:08:37Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -506,28 +506,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 7,
+          "samples_night": 2,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 80,
+          "entities": 67,
           "trip_join": {
-            "n": 323,
-            "of": 323
+            "n": 351,
+            "of": 351
           },
           "stop_updates_timed": {
-            "n": 6162,
-            "of": 6259
+            "n": 6687,
+            "of": 6834
           },
           "cancelled": {
             "n": 0,
-            "of": 323
+            "of": 351
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -537,13 +537,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 2,
           "informed_resolved": {
-            "n": 10,
-            "of": 10
+            "n": 13,
+            "of": 13
           }
         }
       }
