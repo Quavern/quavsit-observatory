@@ -564,12 +564,12 @@
     },
     {
       "day": "2026-09-20",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:09:31Z",
-        "age_hours": 121.8,
+        "age_hours": 125.3,
         "timetable_ends_on": "2026-11-30",
         "days_left": 71,
         "counts": {
@@ -581,7 +581,7 @@
         "pan_dataset_slug": "reseau-de-transport-urbain-de-la-metropole-toulon-provence-mediterranee",
         "last_error": null,
         "checked_at": "2026-09-20T19:08:55Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 74,
           "no_header_timestamp": 0,
           "entities": 157,
@@ -629,7 +629,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 74,
           "no_header_timestamp": 0,
           "entities": 61,
@@ -663,13 +663,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 9,
           "informed_resolved": {
             "n": 90,
             "of": 90
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-21",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-15T19:09:31Z",
+        "age_hours": 130.8,
+        "timetable_ends_on": "2026-11-30",
+        "days_left": 70,
+        "counts": {
+          "lines": 99,
+          "stops": 2016,
+          "trips": 11725,
+          "stop_times": 389149
+        },
+        "pan_dataset_slug": "reseau-de-transport-urbain-de-la-metropole-toulon-provence-mediterranee",
+        "last_error": null,
+        "checked_at": "2026-09-20T19:08:55Z",
+        "check_age_hours": 10.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-rdtpm-toulon.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 75,
+          "no_header_timestamp": 0,
+          "entities": 550,
+          "trip_join": {
+            "n": 545,
+            "of": 550
+          },
+          "stop_updates_timed": {
+            "n": 16303,
+            "of": 16448
+          },
+          "cancelled": {
+            "n": 9,
+            "of": 550
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-rdtpm-toulon.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 78,
+          "no_header_timestamp": 0,
+          "entities": 215,
+          "with_position": {
+            "n": 215,
+            "of": 215
+          },
+          "with_trip_id": {
+            "n": 213,
+            "of": 215
+          },
+          "with_route_id": {
+            "n": 213,
+            "of": 215
+          },
+          "trip_join": {
+            "n": 213,
+            "of": 213
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 9,
+          "informed_resolved": {
+            "n": 18,
+            "of": 18
           }
         }
       }

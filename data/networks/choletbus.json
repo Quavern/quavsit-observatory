@@ -394,12 +394,12 @@
     },
     {
       "day": "2026-09-20",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 153.8,
+        "age_hours": 157.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 285,
         "counts": {
@@ -410,8 +410,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
-        "checked_at": "2026-09-20T11:08:24Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-20T23:09:44Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -428,7 +428,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
           "entities": 0,
@@ -459,13 +459,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
             "n": 5,
             "of": 5
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-21",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T11:09:11Z",
+        "age_hours": 162.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 284,
+        "counts": {
+          "lines": 19,
+          "stops": 664,
+          "trips": 1490,
+          "stop_times": 24973
+        },
+        "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
+        "last_error": null,
+        "checked_at": "2026-09-20T23:09:44Z",
+        "check_age_hours": 6.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 13,
+          "no_header_timestamp": 0,
+          "entities": 99,
+          "trip_join": {
+            "n": 99,
+            "of": 99
+          },
+          "stop_updates_timed": {
+            "n": 1582,
+            "of": 1584
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 99
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 1,
+            "of": 1
           }
         }
       }

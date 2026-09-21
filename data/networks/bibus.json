@@ -564,12 +564,12 @@
     },
     {
       "day": "2026-09-20",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T23:07:20Z",
-        "age_hours": 45.8,
+        "age_hours": 49.3,
         "timetable_ends_on": "2026-12-20",
         "days_left": 91,
         "counts": {
@@ -580,8 +580,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole",
         "last_error": null,
-        "checked_at": "2026-09-20T11:08:24Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-20T23:09:43Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 33,
           "no_header_timestamp": 0,
           "entities": 487,
@@ -629,7 +629,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 35,
@@ -663,13 +663,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
           "entities": 25,
           "informed_resolved": {
             "n": 165,
             "of": 165
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-21",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T23:07:20Z",
+        "age_hours": 54.8,
+        "timetable_ends_on": "2026-12-20",
+        "days_left": 90,
+        "counts": {
+          "lines": 69,
+          "stops": 1075,
+          "trips": 7610,
+          "stop_times": 153875
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole",
+        "last_error": null,
+        "checked_at": "2026-09-20T23:09:43Z",
+        "check_age_hours": 6.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 14,
+          "no_header_timestamp": 0,
+          "entities": 1832,
+          "trip_join": {
+            "n": 1797,
+            "of": 1832
+          },
+          "stop_updates_timed": {
+            "n": 46439,
+            "of": 46439
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 1832
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 58,
+          "no_header_timestamp": 0,
+          "entities": 131,
+          "with_position": {
+            "n": 131,
+            "of": 131
+          },
+          "with_trip_id": {
+            "n": 131,
+            "of": 131
+          },
+          "with_route_id": {
+            "n": 131,
+            "of": 131
+          },
+          "trip_join": {
+            "n": 131,
+            "of": 131
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 9,
+          "no_header_timestamp": 0,
+          "entities": 26,
+          "informed_resolved": {
+            "n": 35,
+            "of": 35
           }
         }
       }

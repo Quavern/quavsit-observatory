@@ -124,12 +124,12 @@
     },
     {
       "day": "2026-09-20",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T19:07:14Z",
-        "age_hours": 145.8,
+        "age_hours": 149.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 28,
         "counts": {
@@ -141,7 +141,31 @@
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
         "last_error": null,
         "checked_at": "2026-09-20T19:08:34Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-21",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T19:07:14Z",
+        "age_hours": 154.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 27,
+        "counts": {
+          "lines": 63,
+          "stops": 1110,
+          "trips": 4325,
+          "stop_times": 114594
+        },
+        "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
+        "last_error": null,
+        "checked_at": "2026-09-20T19:08:34Z",
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {}
