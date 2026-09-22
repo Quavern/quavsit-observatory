@@ -551,11 +551,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:47Z",
-        "age_hours": 330.8,
+        "age_hours": 336.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 100,
         "counts": {
@@ -566,15 +566,15 @@
         },
         "pan_dataset_slug": "ctlb-donnees-theoriques-et-rt-aix-les-bains-lac-du-bourget",
         "last_error": null,
-        "checked_at": "2026-09-22T03:08:29Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-22T15:07:21Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -584,28 +584,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 8,
+          "samples_night": 2,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 48,
+          "entities": 25,
           "trip_join": {
-            "n": 202,
-            "of": 204
+            "n": 220,
+            "of": 222
           },
           "stop_updates_timed": {
-            "n": 4090,
-            "of": 4090
+            "n": 4598,
+            "of": 4598
           },
           "cancelled": {
             "n": 0,
-            "of": 204
+            "of": 222
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -615,13 +615,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 11,
           "informed_resolved": {
-            "n": 45,
-            "of": 45
+            "n": 60,
+            "of": 60
           }
         }
       }

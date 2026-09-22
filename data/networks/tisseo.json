@@ -551,11 +551,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T08:07:43Z",
-        "age_hours": 6.8,
+        "age_hours": 12.8,
         "timetable_ends_on": "2026-10-25",
         "days_left": 33,
         "counts": {
@@ -567,14 +567,14 @@
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
         "checked_at": "2026-09-22T08:08:54Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 12.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -584,28 +584,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": 1607,
+          "entities": 1420,
           "trip_join": {
-            "n": 5550,
-            "of": 6256
+            "n": 6459,
+            "of": 7338
           },
           "stop_updates_timed": {
-            "n": 107200,
-            "of": 107979
+            "n": 124251,
+            "of": 125152
           },
           "cancelled": {
-            "n": 872,
-            "of": 6256
+            "n": 1057,
+            "of": 7338
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -615,13 +615,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": 1607,
+          "entities": 1420,
           "informed_resolved": {
-            "n": 133,
-            "of": 177
+            "n": 167,
+            "of": 222
           }
         }
       }

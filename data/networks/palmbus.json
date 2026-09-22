@@ -635,11 +635,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-11T20:08:44Z",
-        "age_hours": 258.8,
+        "age_hours": 264.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 103,
         "counts": {
@@ -650,15 +650,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
         "last_error": null,
-        "checked_at": "2026-09-22T08:07:41Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-22T20:10:40Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -668,28 +668,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 36,
+          "samples_night": 2,
+          "header_age_seconds": 39,
           "no_header_timestamp": 0,
-          "entities": 189,
+          "entities": 184,
           "trip_join": {
-            "n": 756,
-            "of": 756
+            "n": 865,
+            "of": 865
           },
           "stop_updates_timed": {
-            "n": 7640,
-            "of": 7649
+            "n": 9061,
+            "of": 9070
           },
           "cancelled": {
             "n": 12,
-            "of": 756
+            "of": 865
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -699,25 +699,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 36,
+          "samples_night": 2,
+          "header_age_seconds": 39,
           "no_header_timestamp": 0,
-          "entities": 83,
+          "entities": 82,
           "with_position": {
-            "n": 328,
-            "of": 328
+            "n": 396,
+            "of": 396
           },
           "with_trip_id": {
-            "n": 328,
-            "of": 328
+            "n": 396,
+            "of": 396
           },
           "with_route_id": {
-            "n": 328,
-            "of": 328
+            "n": 396,
+            "of": 396
           },
           "trip_join": {
-            "n": 328,
-            "of": 328
+            "n": 396,
+            "of": 396
           }
         }
       }

@@ -183,13 +183,13 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-21T05:09:11Z",
-        "age_hours": 33.8,
+        "refreshed_at": "2026-09-22T17:08:14Z",
+        "age_hours": 3.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
-          "lines": 2120,
-          "stops": 55973,
+          "lines": 2119,
+          "stops": 55975,
           "trips": null,
           "stop_times": null
         },

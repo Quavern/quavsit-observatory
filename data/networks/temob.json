@@ -397,11 +397,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:49Z",
-        "age_hours": 330.6,
+        "age_hours": 336.6,
         "timetable_ends_on": "2027-08-29",
         "days_left": 341,
         "counts": {
@@ -412,15 +412,15 @@
         },
         "pan_dataset_slug": "offre-de-transport-du-reseau-temob-syndicat-mixte-des-transports-urbains-thionville-fensch",
         "last_error": null,
-        "checked_at": "2026-09-22T07:08:06Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-22T19:08:53Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -430,21 +430,21 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3268,
+          "samples_night": 2,
+          "header_age_seconds": 6481,
           "no_header_timestamp": 0,
           "entities": 31,
           "trip_join": {
-            "n": 163,
-            "of": 163
+            "n": 194,
+            "of": 194
           },
           "stop_updates_timed": {
-            "n": 3319,
-            "of": 3319
+            "n": 3976,
+            "of": 3976
           },
           "cancelled": {
             "n": 0,
-            "of": 163
+            "of": 194
           },
           "no_trip_id": 0
         }

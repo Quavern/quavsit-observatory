@@ -789,11 +789,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:27:36Z",
-        "age_hours": 330.5,
+        "age_hours": 336.5,
         "timetable_ends_on": "2027-07-04",
         "days_left": 285,
         "counts": {
@@ -805,14 +805,14 @@
         "pan_dataset_slug": "transurbain-evreux-portes-de-normandie",
         "last_error": null,
         "checked_at": "2026-09-22T10:07:37Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -822,28 +822,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 29,
+          "samples_night": 2,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 61,
+          "entities": 48,
           "trip_join": {
-            "n": 246,
-            "of": 246
+            "n": 270,
+            "of": 270
           },
           "stop_updates_timed": {
-            "n": 2695,
-            "of": 2695
+            "n": 2901,
+            "of": 2901
           },
           "cancelled": {
-            "n": 0,
-            "of": 246
+            "n": 1,
+            "of": 270
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -853,31 +853,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 13,
+          "samples_night": 2,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": 21,
+          "entities": 20,
           "with_position": {
-            "n": 94,
-            "of": 94
+            "n": 107,
+            "of": 107
           },
           "with_trip_id": {
-            "n": 94,
-            "of": 94
+            "n": 107,
+            "of": 107
           },
           "with_route_id": {
-            "n": 94,
-            "of": 94
+            "n": 107,
+            "of": 107
           },
           "trip_join": {
-            "n": 94,
-            "of": 94
+            "n": 107,
+            "of": 107
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -887,13 +887,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 694438,
+          "samples_night": 2,
+          "header_age_seconds": 699842,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
-            "n": 4,
-            "of": 4
+            "n": 5,
+            "of": 5
           }
         }
       }

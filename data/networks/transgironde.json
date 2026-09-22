@@ -177,7 +177,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T20:10:48Z",
-        "age_hours": 90.7,
+        "age_hours": 96.7,
         "timetable_ends_on": "2027-09-15",
         "days_left": 358,
         "counts": {
@@ -188,8 +188,8 @@
         },
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-gir-nva-m-1",
         "last_error": null,
-        "checked_at": "2026-09-22T08:08:55Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-22T20:10:41Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {}

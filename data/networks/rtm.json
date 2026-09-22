@@ -334,11 +334,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T09:09:05Z",
-        "age_hours": 29.8,
+        "age_hours": 35.8,
         "timetable_ends_on": "2026-11-19",
         "days_left": 58,
         "counts": {
@@ -350,14 +350,14 @@
         "pan_dataset_slug": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone",
         "last_error": null,
         "checked_at": "2026-09-21T09:10:27Z",
-        "check_age_hours": 29.7,
+        "check_age_hours": 35.7,
         "source": "operator"
       },
       "realtime": {
         "alerts": {
           "host": "api-mobilite.rbgl.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -367,13 +367,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 67,
+          "samples_night": 2,
+          "header_age_seconds": 132,
           "no_header_timestamp": 0,
-          "entities": 79,
+          "entities": 80,
           "informed_resolved": {
-            "n": 189,
-            "of": 1003
+            "n": 235,
+            "of": 1260
           }
         }
       }

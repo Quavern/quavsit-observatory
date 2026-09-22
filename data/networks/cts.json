@@ -176,20 +176,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-15T19:08:27Z",
-        "age_hours": 163.8,
-        "timetable_ends_on": "2027-03-14",
-        "days_left": 173,
+        "refreshed_at": "2026-09-22T19:07:56Z",
+        "age_hours": 1.8,
+        "timetable_ends_on": "2027-03-21",
+        "days_left": 180,
         "counts": {
-          "lines": 48,
-          "stops": 1354,
-          "trips": 35042,
-          "stop_times": 786940
+          "lines": 50,
+          "stops": 1359,
+          "trips": 36376,
+          "stop_times": 815144
         },
         "pan_dataset_slug": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
         "last_error": null,
-        "checked_at": "2026-09-22T07:07:55Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-22T19:08:35Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}
