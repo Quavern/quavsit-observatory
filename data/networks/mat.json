@@ -177,7 +177,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T20:10:28Z",
-        "age_hours": 81.7,
+        "age_hours": 84.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 100,
         "counts": {
@@ -188,8 +188,8 @@
         },
         "pan_dataset_slug": "reseau-urbain-mat",
         "last_error": null,
-        "checked_at": "2026-09-21T20:07:40Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-22T08:07:40Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {}

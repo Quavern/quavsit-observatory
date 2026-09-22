@@ -177,7 +177,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T07:08:31Z",
-        "age_hours": 22.8,
+        "age_hours": 25.8,
         "timetable_ends_on": "2026-10-16",
         "days_left": 24,
         "counts": {
@@ -189,7 +189,7 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tarbes-lourdes-tlp-mobilites-gtfs",
         "last_error": null,
         "checked_at": "2026-09-21T07:08:35Z",
-        "check_age_hours": 22.8,
+        "check_age_hours": 25.8,
         "source": "operator"
       },
       "realtime": {}

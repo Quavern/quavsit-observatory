@@ -635,11 +635,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T03:08:25Z",
-        "age_hours": 2.8,
+        "age_hours": 5.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 285,
         "counts": {
@@ -651,14 +651,14 @@
         "pan_dataset_slug": "donnees-du-reseau-de-transport-aleo",
         "last_error": null,
         "checked_at": "2026-09-22T03:08:28Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -669,27 +669,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 38,
+          "entities": 28,
           "trip_join": {
-            "n": 19,
-            "of": 19
+            "n": 28,
+            "of": 28
           },
           "stop_updates_timed": {
-            "n": 579,
-            "of": 582
+            "n": 880,
+            "of": 884
           },
           "cancelled": {
             "n": 0,
-            "of": 19
+            "of": 28
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -700,24 +700,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 38,
+          "entities": 28,
           "with_position": {
-            "n": 19,
-            "of": 19
+            "n": 28,
+            "of": 28
           },
           "with_trip_id": {
-            "n": 19,
-            "of": 19
+            "n": 28,
+            "of": 28
           },
           "with_route_id": {
-            "n": 19,
-            "of": 19
+            "n": 28,
+            "of": 28
           },
           "trip_join": {
-            "n": 19,
-            "of": 19
+            "n": 28,
+            "of": 28
           }
         }
       }

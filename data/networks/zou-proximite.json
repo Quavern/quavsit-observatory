@@ -551,11 +551,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T22:11:27Z",
-        "age_hours": 7.7,
+        "age_hours": 10.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 100,
         "counts": {
@@ -567,14 +567,14 @@
         "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
         "last_error": null,
         "checked_at": "2026-09-21T22:11:47Z",
-        "check_age_hours": 7.7,
+        "check_age_hours": 10.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -585,27 +585,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 21,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
-          "entities": 2319,
+          "entities": 2263,
           "trip_join": {
-            "n": 2319,
-            "of": 2319
+            "n": 4526,
+            "of": 4526
           },
           "stop_updates_timed": {
-            "n": 67514,
-            "of": 67514
+            "n": 132575,
+            "of": 132575
           },
           "cancelled": {
             "n": 0,
-            "of": 2319
+            "of": 4526
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy-data.zou.maregionsud.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -616,12 +616,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 36,
+          "header_age_seconds": 39,
           "no_header_timestamp": 0,
           "entities": 19,
           "informed_resolved": {
-            "n": 63,
-            "of": 89
+            "n": 126,
+            "of": 178
           }
         }
       }

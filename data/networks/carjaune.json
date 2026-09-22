@@ -789,11 +789,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T22:08:35Z",
-        "age_hours": 7.8,
+        "age_hours": 10.8,
         "timetable_ends_on": "2027-08-02",
         "days_left": 314,
         "counts": {
@@ -805,16 +805,16 @@
         "pan_dataset_slug": "horaires-theoriques-au-format-gtfs-et-horaires-temps-reel-au-format-gtfs-rt-du-reseau-car-jaune-a-la-reunion",
         "last_error": null,
         "checked_at": "2026-09-21T22:08:38Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "pysae.com",
-          "samples": 2,
+          "samples": 3,
           "ok": 2,
           "failures": {
-            "timeout": 0,
+            "timeout": 1,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
@@ -842,10 +842,10 @@
         },
         "vehicle_positions": {
           "host": "pysae.com",
-          "samples": 2,
+          "samples": 3,
           "ok": 2,
           "failures": {
-            "timeout": 0,
+            "timeout": 1,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
@@ -876,10 +876,10 @@
         },
         "alerts": {
           "host": "pysae.com",
-          "samples": 2,
+          "samples": 3,
           "ok": 2,
           "failures": {
-            "timeout": 0,
+            "timeout": 1,
             "connection": 0,
             "http_4xx": 0,
             "http_5xx": 0,
