@@ -629,11 +629,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T11:10:40Z",
-        "age_hours": 21.7,
+        "age_hours": 27.7,
         "timetable_ends_on": "2027-01-03",
         "days_left": 103,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
         "checked_at": "2026-09-21T11:10:43Z",
-        "check_age_hours": 21.7,
+        "check_age_hours": 27.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -665,25 +665,25 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 34,
+          "entities": 32,
           "trip_join": {
-            "n": 67,
-            "of": 69
+            "n": 131,
+            "of": 133
           },
           "stop_updates_timed": {
-            "n": 1989,
-            "of": 1989
+            "n": 3833,
+            "of": 3833
           },
           "cancelled": {
             "n": 0,
-            "of": 69
+            "of": 133
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -694,24 +694,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 17,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 18,
           "with_position": {
-            "n": 36,
-            "of": 36
+            "n": 74,
+            "of": 74
           },
           "with_trip_id": {
-            "n": 36,
-            "of": 36
+            "n": 74,
+            "of": 74
           },
           "with_route_id": {
             "n": 0,
-            "of": 36
+            "of": 74
           },
           "trip_join": {
-            "n": 36,
-            "of": 36
+            "n": 74,
+            "of": 74
           }
         }
       }

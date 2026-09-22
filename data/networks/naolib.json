@@ -397,30 +397,30 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-18T00:08:46Z",
-        "age_hours": 104.8,
-        "timetable_ends_on": "2026-12-17",
-        "days_left": 86,
+        "refreshed_at": "2026-09-22T12:07:25Z",
+        "age_hours": 2.8,
+        "timetable_ends_on": "2026-12-21",
+        "days_left": 90,
         "counts": {
           "lines": 97,
-          "stops": 3651,
-          "trips": 176756,
-          "stop_times": 4352697
+          "stops": 3634,
+          "trips": 166975,
+          "stop_times": 4104840
         },
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
-        "checked_at": "2026-09-22T00:07:32Z",
-        "check_age_hours": 8.8,
-        "source": "operator"
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 3,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -429,22 +429,22 @@
             "decode_error": 0,
             "budget": 0
           },
-          "rate_limited": 0,
+          "rate_limited": 1,
           "samples_night": 1,
-          "header_age_seconds": 12,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 731,
+          "entities": 840,
           "trip_join": {
-            "n": 1231,
-            "of": 1463
+            "n": 2080,
+            "of": 2312
           },
           "stop_updates_timed": {
-            "n": 18279,
-            "of": 18279
+            "n": 27815,
+            "of": 27815
           },
           "cancelled": {
             "n": 0,
-            "of": 1463
+            "of": 2312
           },
           "no_trip_id": 0
         }

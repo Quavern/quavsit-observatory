@@ -551,11 +551,11 @@
     {
       "day": "2026-09-22",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 189.8,
+        "age_hours": 195.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 283,
         "counts": {
@@ -566,15 +566,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
-        "checked_at": "2026-09-21T23:09:51Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-22T11:07:43Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -585,27 +585,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 23,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": 83,
+          "entities": 80,
           "trip_join": {
-            "n": 167,
-            "of": 167
+            "n": 324,
+            "of": 324
           },
           "stop_updates_timed": {
-            "n": 3107,
-            "of": 3118
+            "n": 6227,
+            "of": 6258
           },
           "cancelled": {
             "n": 0,
-            "of": 167
+            "of": 324
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -620,8 +620,8 @@
           "no_header_timestamp": 0,
           "entities": 2,
           "informed_resolved": {
-            "n": 6,
-            "of": 6
+            "n": 12,
+            "of": 12
           }
         }
       }

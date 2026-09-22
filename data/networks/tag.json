@@ -177,7 +177,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T01:08:50Z",
-        "age_hours": 7.8,
+        "age_hours": 13.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 100,
         "counts": {
@@ -189,7 +189,7 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
         "last_error": null,
         "checked_at": "2026-09-22T01:09:27Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 13.8,
         "source": "operator"
       },
       "realtime": {}
