@@ -472,12 +472,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-20T10:10:24Z",
-        "age_hours": 34.7,
+        "refreshed_at": "2026-09-21T22:11:27Z",
+        "age_hours": 2.2,
         "timetable_ends_on": "2026-12-31",
         "days_left": 101,
         "counts": {
@@ -488,8 +488,8 @@
         },
         "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
         "last_error": null,
-        "checked_at": "2026-09-20T10:10:45Z",
-        "check_age_hours": 34.7,
+        "checked_at": "2026-09-21T22:11:47Z",
+        "check_age_hours": 2.2,
         "source": "operator"
       },
       "realtime": {
@@ -506,7 +506,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 20,
           "no_header_timestamp": 0,
           "entities": 1474,
@@ -537,13 +537,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 42,
           "no_header_timestamp": 0,
           "entities": 21,
           "informed_resolved": {
             "n": 329,
             "of": 471
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-21T22:11:27Z",
+        "age_hours": 7.7,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 100,
+        "counts": {
+          "lines": 124,
+          "stops": 6189,
+          "trips": 3320,
+          "stop_times": 103614
+        },
+        "pan_dataset_slug": "lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3",
+        "last_error": null,
+        "checked_at": "2026-09-21T22:11:47Z",
+        "check_age_hours": 7.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy-data.zou.maregionsud.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 21,
+          "no_header_timestamp": 0,
+          "entities": 2319,
+          "trip_join": {
+            "n": 2319,
+            "of": 2319
+          },
+          "stop_updates_timed": {
+            "n": 67514,
+            "of": 67514
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 2319
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy-data.zou.maregionsud.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 36,
+          "no_header_timestamp": 0,
+          "entities": 19,
+          "informed_resolved": {
+            "n": 63,
+            "of": 89
           }
         }
       }

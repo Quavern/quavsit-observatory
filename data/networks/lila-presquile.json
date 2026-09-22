@@ -544,12 +544,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T15:09:32Z",
-        "age_hours": 173.8,
+        "age_hours": 177.3,
         "timetable_ends_on": "2026-12-18",
         "days_left": 88,
         "counts": {
@@ -561,7 +561,7 @@
         "pan_dataset_slug": "reseau-urbain-scolaire-lila-presquile",
         "last_error": null,
         "checked_at": "2026-09-21T15:08:40Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 9.3,
         "source": "operator"
       },
       "realtime": {
@@ -578,7 +578,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 19,
@@ -609,7 +609,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -628,6 +628,96 @@
           "trip_join": {
             "n": 143,
             "of": 143
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-14T15:09:32Z",
+        "age_hours": 182.8,
+        "timetable_ends_on": "2026-12-18",
+        "days_left": 87,
+        "counts": {
+          "lines": 122,
+          "stops": 1900,
+          "trips": 1395,
+          "stop_times": 28947
+        },
+        "pan_dataset_slug": "reseau-urbain-scolaire-lila-presquile",
+        "last_error": null,
+        "checked_at": "2026-09-22T03:08:29Z",
+        "check_age_hours": 2.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 105,
+          "trip_join": {
+            "n": 105,
+            "of": 105
+          },
+          "stop_updates_timed": {
+            "n": 1014,
+            "of": 1014
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 105
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 71,
+          "with_position": {
+            "n": 71,
+            "of": 71
+          },
+          "with_trip_id": {
+            "n": 71,
+            "of": 71
+          },
+          "with_route_id": {
+            "n": 71,
+            "of": 71
+          },
+          "trip_join": {
+            "n": 71,
+            "of": 71
           }
         }
       }

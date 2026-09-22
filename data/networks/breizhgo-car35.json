@@ -340,12 +340,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T15:08:31Z",
-        "age_hours": 5.8,
+        "age_hours": 9.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 284,
         "counts": {
@@ -357,7 +357,7 @@
         "pan_dataset_slug": "breizhgo-car",
         "last_error": null,
         "checked_at": "2026-09-21T15:08:40Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 9.3,
         "source": "operator"
       },
       "realtime": {
@@ -374,7 +374,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7912,
           "no_header_timestamp": 0,
           "entities": 1,
@@ -389,6 +389,62 @@
           "cancelled": {
             "n": 0,
             "of": 19
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-21T15:08:31Z",
+        "age_hours": 14.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 283,
+        "counts": {
+          "lines": 27,
+          "stops": 705,
+          "trips": 1775,
+          "stop_times": 22502
+        },
+        "pan_dataset_slug": "breizhgo-car",
+        "last_error": null,
+        "checked_at": "2026-09-21T15:08:40Z",
+        "check_age_hours": 14.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "www.korrigo.bzh",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 861,
+          "no_header_timestamp": 0,
+          "entities": 12,
+          "trip_join": {
+            "n": 12,
+            "of": 12
+          },
+          "stop_updates_timed": {
+            "n": 23,
+            "of": 23
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 12
           },
           "no_trip_id": 0
         }

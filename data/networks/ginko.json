@@ -148,12 +148,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T07:08:36Z",
-        "age_hours": 85.8,
+        "age_hours": 89.3,
         "timetable_ends_on": "2026-10-25",
         "days_left": 34,
         "counts": {
@@ -165,7 +165,31 @@
         "pan_dataset_slug": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
         "last_error": null,
         "checked_at": "2026-09-21T19:07:42Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T07:08:36Z",
+        "age_hours": 94.8,
+        "timetable_ends_on": "2026-10-25",
+        "days_left": 33,
+        "counts": {
+          "lines": 182,
+          "stops": 2035,
+          "trips": 14022,
+          "stop_times": 298096
+        },
+        "pan_dataset_slug": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
+        "last_error": null,
+        "checked_at": "2026-09-21T19:07:42Z",
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {}

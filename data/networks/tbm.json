@@ -676,12 +676,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-20T14:08:46Z",
-        "age_hours": 30.8,
+        "age_hours": 34.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 284,
         "counts": {
@@ -693,7 +693,7 @@
         "pan_dataset_slug": "offres-de-services-bus-tram-et-scolaire-au-format-gtfs-netex-gtfs-rt-siri-lite",
         "last_error": null,
         "checked_at": "2026-09-20T14:12:50Z",
-        "check_age_hours": 30.7,
+        "check_age_hours": 34.2,
         "source": "operator"
       },
       "realtime": {
@@ -710,7 +710,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 2136,
@@ -741,7 +741,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 411,
@@ -775,13 +775,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 100,
           "informed_resolved": {
             "n": 843,
             "of": 843
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-22T02:07:51Z",
+        "age_hours": 3.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 283,
+        "counts": {
+          "lines": 129,
+          "stops": 7405,
+          "trips": 74529,
+          "stop_times": 2905681
+        },
+        "pan_dataset_slug": "offres-de-services-bus-tram-et-scolaire-au-format-gtfs-netex-gtfs-rt-siri-lite",
+        "last_error": null,
+        "checked_at": "2026-09-22T02:12:02Z",
+        "check_age_hours": 3.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "bdx.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 9,
+          "no_header_timestamp": 0,
+          "entities": 2259,
+          "trip_join": {
+            "n": 2088,
+            "of": 2113
+          },
+          "stop_updates_timed": {
+            "n": 66827,
+            "of": 69929
+          },
+          "cancelled": {
+            "n": 204,
+            "of": 2113
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "bdx.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 9,
+          "no_header_timestamp": 0,
+          "entities": 540,
+          "with_position": {
+            "n": 540,
+            "of": 540
+          },
+          "with_trip_id": {
+            "n": 540,
+            "of": 540
+          },
+          "with_route_id": {
+            "n": 539,
+            "of": 540
+          },
+          "trip_join": {
+            "n": 539,
+            "of": 540
+          }
+        },
+        "alerts": {
+          "host": "bdx.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 102,
+          "informed_resolved": {
+            "n": 166,
+            "of": 166
           }
         }
       }

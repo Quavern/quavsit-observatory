@@ -676,12 +676,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T09:07:48Z",
-        "age_hours": 107.8,
+        "age_hours": 111.3,
         "timetable_ends_on": "2027-06-27",
         "days_left": 279,
         "counts": {
@@ -692,8 +692,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac",
         "last_error": null,
-        "checked_at": "2026-09-21T09:10:39Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-21T21:08:56Z",
+        "check_age_hours": 3.3,
         "source": "operator"
       },
       "realtime": {
@@ -710,7 +710,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 71,
@@ -741,7 +741,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 71,
@@ -775,10 +775,122 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 71,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-17T09:07:48Z",
+        "age_hours": 116.8,
+        "timetable_ends_on": "2027-06-27",
+        "days_left": 278,
+        "counts": {
+          "lines": 60,
+          "stops": 803,
+          "trips": 6228,
+          "stop_times": 183869
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac",
+        "last_error": null,
+        "checked_at": "2026-09-21T21:08:56Z",
+        "check_age_hours": 8.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 89,
+          "trip_join": {
+            "n": 45,
+            "of": 45
+          },
+          "stop_updates_timed": {
+            "n": 762,
+            "of": 762
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 45
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 89,
+          "with_position": {
+            "n": 43,
+            "of": 43
+          },
+          "with_trip_id": {
+            "n": 43,
+            "of": 43
+          },
+          "with_route_id": {
+            "n": 43,
+            "of": 43
+          },
+          "trip_join": {
+            "n": 43,
+            "of": 43
+          }
+        },
+        "alerts": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 89,
           "informed_resolved": {
             "n": 0,
             "of": 0

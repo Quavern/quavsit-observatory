@@ -148,12 +148,12 @@
     },
     {
       "day": "2026-09-21",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T08:10:49Z",
-        "age_hours": 12.7,
+        "age_hours": 16.2,
         "timetable_ends_on": "2026-11-29",
         "days_left": 69,
         "counts": {
@@ -165,7 +165,31 @@
         "pan_dataset_slug": "mobilite-offre-de-transport-du-reseau-bus-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-21T08:11:04Z",
-        "check_age_hours": 12.7,
+        "check_age_hours": 16.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-22",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-21T08:10:49Z",
+        "age_hours": 21.7,
+        "timetable_ends_on": "2026-11-29",
+        "days_left": 68,
+        "counts": {
+          "lines": 235,
+          "stops": 2673,
+          "trips": 4508,
+          "stop_times": 113435
+        },
+        "pan_dataset_slug": "mobilite-offre-de-transport-du-reseau-bus-gtfs-gtfs-rt",
+        "last_error": null,
+        "checked_at": "2026-09-21T08:11:04Z",
+        "check_age_hours": 21.7,
         "source": "operator"
       },
       "realtime": {}
