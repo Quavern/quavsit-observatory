@@ -901,11 +901,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:18:24Z",
-        "age_hours": 354.6,
+        "age_hours": 360.6,
         "timetable_ends_on": "2027-07-02",
         "days_left": 282,
         "counts": {
@@ -916,15 +916,15 @@
         },
         "pan_dataset_slug": "reseau-urbain-glazgo",
         "last_error": null,
-        "checked_at": "2026-09-23T07:07:51Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-23T19:10:19Z",
+        "check_age_hours": 1.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -934,28 +934,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 5,
+          "samples_night": 2,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 222,
           "trip_join": {
-            "n": 552,
-            "of": 552
+            "n": 690,
+            "of": 690
           },
           "stop_updates_timed": {
-            "n": 12795,
-            "of": 13341
+            "n": 15995,
+            "of": 16677
           },
           "cancelled": {
             "n": 0,
-            "of": 552
+            "of": 690
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -965,31 +965,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 5,
+          "samples_night": 2,
+          "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 222,
           "with_position": {
-            "n": 15,
-            "of": 15
+            "n": 17,
+            "of": 17
           },
           "with_trip_id": {
-            "n": 15,
-            "of": 15
+            "n": 17,
+            "of": 17
           },
           "with_route_id": {
-            "n": 15,
-            "of": 15
+            "n": 17,
+            "of": 17
           },
           "trip_join": {
-            "n": 15,
-            "of": 15
+            "n": 17,
+            "of": 17
           }
         },
         "alerts": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -999,13 +999,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 6,
+          "samples_night": 2,
+          "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 222,
           "informed_resolved": {
-            "n": 16,
-            "of": 16
+            "n": 20,
+            "of": 20
           }
         }
       }

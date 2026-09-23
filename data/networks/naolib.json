@@ -453,11 +453,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T12:08:56Z",
-        "age_hours": 2.8,
+        "age_hours": 8.8,
         "timetable_ends_on": "2026-12-21",
         "days_left": 89,
         "counts": {
@@ -469,14 +469,14 @@
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
         "checked_at": "2026-09-23T12:23:26Z",
-        "check_age_hours": 2.5,
+        "check_age_hours": 8.5,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 0,
+          "samples": 5,
+          "ok": 1,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -486,13 +486,22 @@
             "budget": 0
           },
           "rate_limited": 4,
-          "samples_night": 1,
-          "header_age_seconds": null,
+          "samples_night": 2,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 542,
+          "trip_join": {
+            "n": 542,
+            "of": 542
+          },
+          "stop_updates_timed": {
+            "n": 8001,
+            "of": 8001
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 542
+          },
           "no_trip_id": 0
         }
       }

@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 354.6,
+        "age_hours": 360.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 25,
         "counts": {
@@ -644,15 +644,15 @@
         },
         "pan_dataset_slug": "arrets-et-horaires-theoriques-bus-temps-reel",
         "last_error": null,
-        "checked_at": "2026-09-23T08:08:45Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-23T20:07:55Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "mwe.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -662,28 +662,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 18,
+          "samples_night": 2,
+          "header_age_seconds": 13,
           "no_header_timestamp": 0,
-          "entities": 239,
+          "entities": 228,
           "trip_join": {
-            "n": 977,
-            "of": 977
+            "n": 1087,
+            "of": 1087
           },
           "stop_updates_timed": {
-            "n": 28593,
-            "of": 29670
+            "n": 32007,
+            "of": 33224
           },
           "cancelled": {
             "n": 0,
-            "of": 977
+            "of": 1087
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "mwe.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -693,13 +693,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 16,
           "informed_resolved": {
-            "n": 79,
-            "of": 83
+            "n": 99,
+            "of": 104
           }
         }
       }

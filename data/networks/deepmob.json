@@ -725,11 +725,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:24:10Z",
-        "age_hours": 354.5,
+        "age_hours": 360.5,
         "timetable_ends_on": "2027-05-31",
         "days_left": 250,
         "counts": {
@@ -741,14 +741,14 @@
         "pan_dataset_slug": "deepmob-dieppe-maritime",
         "last_error": null,
         "checked_at": "2026-09-23T10:08:13Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -758,28 +758,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 60,
+          "entities": 54,
           "trip_join": {
-            "n": 234,
-            "of": 234
+            "n": 247,
+            "of": 247
           },
           "stop_updates_timed": {
-            "n": 6504,
-            "of": 6504
+            "n": 6832,
+            "of": 6832
           },
           "cancelled": {
             "n": 0,
-            "of": 234
+            "of": 247
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -789,25 +789,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 56,
+          "samples_night": 2,
+          "header_age_seconds": 81,
           "no_header_timestamp": 0,
           "entities": 9,
           "with_position": {
-            "n": 39,
-            "of": 39
+            "n": 47,
+            "of": 47
           },
           "with_trip_id": {
-            "n": 39,
-            "of": 39
+            "n": 47,
+            "of": 47
           },
           "with_route_id": {
-            "n": 39,
-            "of": 39
+            "n": 47,
+            "of": 47
           },
           "trip_join": {
-            "n": 39,
-            "of": 39
+            "n": 47,
+            "of": 47
           }
         }
       }

@@ -725,11 +725,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T06:09:11Z",
-        "age_hours": 152.8,
+        "age_hours": 158.8,
         "timetable_ends_on": "2026-11-01",
         "days_left": 39,
         "counts": {
@@ -740,15 +740,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
-        "checked_at": "2026-09-23T06:07:30Z",
-        "check_age_hours": 8.8,
+        "checked_at": "2026-09-23T18:08:45Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -758,28 +758,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 88,
+          "entities": 86,
           "trip_join": {
-            "n": 347,
-            "of": 347
+            "n": 401,
+            "of": 401
           },
           "stop_updates_timed": {
-            "n": 10075,
-            "of": 10165
+            "n": 11781,
+            "of": 11876
           },
           "cancelled": {
             "n": 0,
-            "of": 347
+            "of": 401
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-beemob-beziers.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -789,25 +789,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 35,
           "with_position": {
-            "n": 143,
-            "of": 143
+            "n": 169,
+            "of": 169
           },
           "with_trip_id": {
-            "n": 143,
-            "of": 143
+            "n": 169,
+            "of": 169
           },
           "with_route_id": {
-            "n": 143,
-            "of": 143
+            "n": 169,
+            "of": 169
           },
           "trip_join": {
-            "n": 143,
-            "of": 143
+            "n": 169,
+            "of": 169
           }
         }
       }
