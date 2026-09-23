@@ -172,12 +172,12 @@
     },
     {
       "day": "2026-09-22",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T17:08:07Z",
-        "age_hours": 99.8,
+        "age_hours": 103.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 103,
         "counts": {
@@ -189,7 +189,31 @@
         "pan_dataset_slug": "eveole-douai-reseau-bus-du-syndicat-mixte-des-transports-du-douaisis-smtd",
         "last_error": null,
         "checked_at": "2026-09-22T17:09:03Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 7.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-23",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T17:08:07Z",
+        "age_hours": 105.8,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 102,
+        "counts": {
+          "lines": 41,
+          "stops": 1448,
+          "trips": 5767,
+          "stop_times": 103591
+        },
+        "pan_dataset_slug": "eveole-douai-reseau-bus-du-syndicat-mixte-des-transports-du-douaisis-smtd",
+        "last_error": null,
+        "checked_at": "2026-09-22T17:09:03Z",
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {}
