@@ -725,11 +725,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:30:44Z",
-        "age_hours": 342.4,
+        "age_hours": 348.4,
         "timetable_ends_on": "2026-10-18",
         "days_left": 25,
         "counts": {
@@ -741,14 +741,14 @@
         "pan_dataset_slug": "horaires-montelibus",
         "last_error": null,
         "checked_at": "2026-09-22T23:09:46Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -759,18 +759,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 150,
+          "trip_join": {
+            "n": 277,
+            "of": 301
+          },
+          "stop_updates_timed": {
+            "n": 5417,
+            "of": 5639
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 301
+          },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -781,13 +790,25 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 6,
           "no_header_timestamp": 0,
-          "entities": null,
-          "with_position": null,
-          "with_trip_id": null,
-          "with_route_id": null,
-          "trip_join": null
+          "entities": 12,
+          "with_position": {
+            "n": 24,
+            "of": 24
+          },
+          "with_trip_id": {
+            "n": 24,
+            "of": 24
+          },
+          "with_route_id": {
+            "n": 24,
+            "of": 24
+          },
+          "trip_join": {
+            "n": 23,
+            "of": 24
+          }
         }
       }
     }

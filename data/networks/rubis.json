@@ -719,11 +719,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T22:11:13Z",
-        "age_hours": 28.7,
+        "age_hours": 34.7,
         "timetable_ends_on": "2027-12-31",
         "days_left": 464,
         "counts": {
@@ -735,14 +735,14 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-21T22:11:16Z",
-        "check_age_hours": 28.7,
+        "check_age_hours": 34.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -753,18 +753,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 31,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 65,
+          "trip_join": {
+            "n": 128,
+            "of": 131
+          },
+          "stop_updates_timed": {
+            "n": 3634,
+            "of": 3634
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 131
+          },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -775,13 +784,25 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 17,
           "no_header_timestamp": 0,
-          "entities": null,
-          "with_position": null,
-          "with_trip_id": null,
-          "with_route_id": null,
-          "trip_join": null
+          "entities": 33,
+          "with_position": {
+            "n": 67,
+            "of": 67
+          },
+          "with_trip_id": {
+            "n": 67,
+            "of": 67
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 67
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 67
+          }
         }
       }
     }

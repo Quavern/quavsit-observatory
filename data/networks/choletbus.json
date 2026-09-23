@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-14T11:09:11Z",
-        "age_hours": 207.8,
+        "age_hours": 213.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 282,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "horaires-theoriques-reseau-choletbus",
         "last_error": null,
         "checked_at": "2026-09-22T23:07:42Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -663,18 +663,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 14,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 87,
+          "trip_join": {
+            "n": 175,
+            "of": 175
+          },
+          "stop_updates_timed": {
+            "n": 3191,
+            "of": 3202
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 175
+          },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -685,10 +694,13 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": null,
-          "informed_resolved": null
+          "entities": 2,
+          "informed_resolved": {
+            "n": 6,
+            "of": 6
+          }
         }
       }
     }

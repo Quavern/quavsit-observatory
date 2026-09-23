@@ -725,11 +725,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 1,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T11:07:44Z",
-        "age_hours": 15.8,
+        "age_hours": 21.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 282,
         "counts": {
@@ -741,14 +741,14 @@
         "pan_dataset_slug": "filibus-urbain",
         "last_error": null,
         "checked_at": "2026-09-22T11:08:03Z",
-        "check_age_hours": 15.8,
+        "check_age_hours": 21.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -759,18 +759,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": null,
-          "trip_join": null,
-          "stop_updates_timed": null,
-          "cancelled": null,
+          "entities": 90,
+          "trip_join": {
+            "n": 94,
+            "of": 94
+          },
+          "stop_updates_timed": {
+            "n": 94,
+            "of": 94
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 94
+          },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 0,
-          "ok": 0,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -781,13 +790,25 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": null,
+          "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": null,
-          "with_position": null,
-          "with_trip_id": null,
-          "with_route_id": null,
-          "trip_join": null
+          "entities": 90,
+          "with_position": {
+            "n": 86,
+            "of": 86
+          },
+          "with_trip_id": {
+            "n": 86,
+            "of": 86
+          },
+          "with_route_id": {
+            "n": 86,
+            "of": 86
+          },
+          "trip_join": {
+            "n": 86,
+            "of": 86
+          }
         }
       }
     }
