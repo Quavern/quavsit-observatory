@@ -200,20 +200,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-22T01:08:50Z",
-        "age_hours": 31.8,
-        "timetable_ends_on": "2026-12-31",
-        "days_left": 99,
+        "refreshed_at": "2026-09-23T13:10:13Z",
+        "age_hours": 1.7,
+        "timetable_ends_on": "2026-11-08",
+        "days_left": 46,
         "counts": {
           "lines": 56,
-          "stops": 2538,
-          "trips": 19204,
-          "stop_times": 447241
+          "stops": 2541,
+          "trips": 18050,
+          "stop_times": 420101
         },
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
         "last_error": null,
-        "checked_at": "2026-09-22T01:09:27Z",
-        "check_age_hours": 31.8,
+        "checked_at": "2026-09-23T13:10:33Z",
+        "check_age_hours": 1.7,
         "source": "operator"
       },
       "realtime": {}

@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T05:08:42Z",
-        "age_hours": 99.8,
+        "age_hours": 105.8,
         "timetable_ends_on": "2027-09-18",
         "days_left": 360,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-23T05:08:02Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -663,27 +663,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 21,
+          "header_age_seconds": 20,
           "no_header_timestamp": 0,
           "entities": 66,
           "trip_join": {
-            "n": 133,
-            "of": 133
+            "n": 266,
+            "of": 266
           },
           "stop_updates_timed": {
-            "n": 4363,
-            "of": 4363
+            "n": 8785,
+            "of": 8785
           },
           "cancelled": {
             "n": 0,
-            "of": 133
+            "of": 266
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -696,10 +696,10 @@
           "samples_night": 1,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 12,
+          "entities": 11,
           "informed_resolved": {
-            "n": 83,
-            "of": 83
+            "n": 174,
+            "of": 174
           }
         }
       }

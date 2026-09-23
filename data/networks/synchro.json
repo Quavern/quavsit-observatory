@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:11Z",
-        "age_hours": 348.6,
+        "age_hours": 354.6,
         "timetable_ends_on": "2026-10-18",
         "days_left": 25,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "arrets-et-horaires-theoriques-bus-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-23T08:08:45Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "mwe.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -663,27 +663,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 21,
+          "header_age_seconds": 18,
           "no_header_timestamp": 0,
-          "entities": 255,
+          "entities": 239,
           "trip_join": {
-            "n": 510,
-            "of": 510
+            "n": 977,
+            "of": 977
           },
           "stop_updates_timed": {
-            "n": 14533,
-            "of": 15114
+            "n": 28593,
+            "of": 29670
           },
           "cancelled": {
             "n": 0,
-            "of": 510
+            "of": 977
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "mwe.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -696,10 +696,10 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 15,
+          "entities": 16,
           "informed_resolved": {
-            "n": 39,
-            "of": 41
+            "n": 79,
+            "of": 83
           }
         }
       }

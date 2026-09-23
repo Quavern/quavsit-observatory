@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:20:16Z",
-        "age_hours": 348.6,
+        "age_hours": 354.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 342,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "offre-de-transports-reseau-tac-annemasse-agglo",
         "last_error": null,
         "checked_at": "2026-09-23T08:08:45Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -663,27 +663,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 15,
+          "header_age_seconds": 18,
           "no_header_timestamp": 0,
-          "entities": 55,
+          "entities": 53,
           "trip_join": {
-            "n": 110,
-            "of": 110
+            "n": 216,
+            "of": 216
           },
           "stop_updates_timed": {
-            "n": 1875,
-            "of": 2079
+            "n": 3828,
+            "of": 4241
           },
           "cancelled": {
             "n": 0,
-            "of": 110
+            "of": 216
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -694,12 +694,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 1,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 5,
           "informed_resolved": {
-            "n": 14,
-            "of": 14
+            "n": 29,
+            "of": 29
           }
         }
       }

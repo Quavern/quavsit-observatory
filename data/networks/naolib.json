@@ -453,11 +453,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-22T12:07:25Z",
-        "age_hours": 20.8,
+        "refreshed_at": "2026-09-23T12:08:56Z",
+        "age_hours": 2.8,
         "timetable_ends_on": "2026-12-21",
         "days_left": 89,
         "counts": {
@@ -468,14 +468,14 @@
         },
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
-        "checked_at": null,
-        "check_age_hours": null,
-        "source": null
+        "checked_at": "2026-09-23T12:23:26Z",
+        "check_age_hours": 2.5,
+        "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
+          "samples": 4,
           "ok": 0,
           "failures": {
             "timeout": 0,
@@ -485,7 +485,7 @@
             "decode_error": 0,
             "budget": 0
           },
-          "rate_limited": 2,
+          "rate_limited": 4,
           "samples_night": 1,
           "header_age_seconds": null,
           "no_header_timestamp": 0,

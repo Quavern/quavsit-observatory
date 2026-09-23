@@ -689,11 +689,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-22T11:07:22Z",
-        "age_hours": 21.8,
+        "refreshed_at": "2026-09-23T11:09:11Z",
+        "age_hours": 3.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 340,
         "counts": {
@@ -704,15 +704,15 @@
         },
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
-        "checked_at": "2026-09-22T11:07:43Z",
-        "check_age_hours": 21.8,
+        "checked_at": "2026-09-23T11:09:32Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.mrn.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -723,27 +723,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 28,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 361,
+          "entities": 363,
           "trip_join": {
-            "n": 723,
-            "of": 723
+            "n": 1450,
+            "of": 1450
           },
           "stop_updates_timed": {
-            "n": 13549,
-            "of": 13549
+            "n": 27003,
+            "of": 27003
           },
           "cancelled": {
             "n": 0,
-            "of": 723
+            "of": 1450
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.mrn.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -754,24 +754,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 28,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 172,
+          "entities": 173,
           "with_position": {
-            "n": 344,
-            "of": 344
+            "n": 695,
+            "of": 695
           },
           "with_trip_id": {
-            "n": 344,
-            "of": 344
+            "n": 695,
+            "of": 695
           },
           "with_route_id": {
-            "n": 344,
-            "of": 344
+            "n": 695,
+            "of": 695
           },
           "trip_join": {
-            "n": 344,
-            "of": 344
+            "n": 695,
+            "of": 695
           }
         }
       }

@@ -901,11 +901,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T02:09:06Z",
-        "age_hours": 6.8,
+        "age_hours": 12.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 282,
         "counts": {
@@ -917,14 +917,14 @@
         "pan_dataset_slug": "offres-de-services-bus-tram-et-scolaire-au-format-gtfs-netex-gtfs-rt-siri-lite",
         "last_error": null,
         "checked_at": "2026-09-23T02:16:11Z",
-        "check_age_hours": 6.6,
+        "check_age_hours": 12.6,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "bdx.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -937,25 +937,25 @@
           "samples_night": 1,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 2093,
+          "entities": 2203,
           "trip_join": {
-            "n": 2607,
-            "of": 4163
+            "n": 5253,
+            "of": 8555
           },
           "stop_updates_timed": {
-            "n": 139625,
-            "of": 141188
+            "n": 288851,
+            "of": 292630
           },
           "cancelled": {
-            "n": 245,
-            "of": 4163
+            "n": 442,
+            "of": 8555
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "bdx.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -968,28 +968,28 @@
           "samples_night": 1,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 485,
+          "entities": 479,
           "with_position": {
-            "n": 971,
-            "of": 971
+            "n": 1923,
+            "of": 1923
           },
           "with_trip_id": {
-            "n": 971,
-            "of": 971
+            "n": 1923,
+            "of": 1923
           },
           "with_route_id": {
-            "n": 969,
-            "of": 971
+            "n": 1919,
+            "of": 1923
           },
           "trip_join": {
-            "n": 783,
-            "of": 971
+            "n": 1543,
+            "of": 1923
           }
         },
         "alerts": {
           "host": "bdx.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1002,10 +1002,10 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 103,
+          "entities": 104,
           "informed_resolved": {
-            "n": 344,
-            "of": 344
+            "n": 685,
+            "of": 685
           }
         }
       }

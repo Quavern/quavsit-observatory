@@ -725,11 +725,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T07:08:54Z",
-        "age_hours": 121.8,
+        "age_hours": 127.8,
         "timetable_ends_on": "2027-04-04",
         "days_left": 193,
         "counts": {
@@ -741,14 +741,14 @@
         "pan_dataset_slug": "reseau-bus-sete-agglopole-mobilite",
         "last_error": null,
         "checked_at": "2026-09-23T07:07:53Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "sete.ceccli.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -759,27 +759,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 12,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 125,
+          "entities": 123,
           "trip_join": {
-            "n": 251,
-            "of": 251
+            "n": 466,
+            "of": 466
           },
           "stop_updates_timed": {
-            "n": 3906,
-            "of": 3906
+            "n": 7306,
+            "of": 7306
           },
           "cancelled": {
             "n": 0,
-            "of": 251
+            "of": 466
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "sete.ceccli.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -790,24 +790,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 12,
+          "header_age_seconds": 10,
           "no_header_timestamp": 0,
-          "entities": 37,
+          "entities": 42,
           "with_position": {
-            "n": 75,
-            "of": 75
+            "n": 169,
+            "of": 169
           },
           "with_trip_id": {
-            "n": 64,
-            "of": 75
+            "n": 130,
+            "of": 169
           },
           "with_route_id": {
-            "n": 64,
-            "of": 75
+            "n": 130,
+            "of": 169
           },
           "trip_join": {
-            "n": 63,
-            "of": 64
+            "n": 129,
+            "of": 130
           }
         }
       }

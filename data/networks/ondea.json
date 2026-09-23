@@ -629,11 +629,11 @@
     {
       "day": "2026-09-23",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:47Z",
-        "age_hours": 348.8,
+        "age_hours": 354.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 99,
         "counts": {
@@ -645,14 +645,14 @@
         "pan_dataset_slug": "ctlb-donnees-theoriques-et-rt-aix-les-bains-lac-du-bourget",
         "last_error": null,
         "checked_at": "2026-09-23T03:08:34Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -663,27 +663,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 29,
+          "header_age_seconds": 28,
           "no_header_timestamp": 0,
-          "entities": 48,
+          "entities": 27,
           "trip_join": {
-            "n": 95,
-            "of": 96
+            "n": 150,
+            "of": 151
           },
           "stop_updates_timed": {
-            "n": 2001,
-            "of": 2001
+            "n": 3408,
+            "of": 3408
           },
           "cancelled": {
             "n": 0,
-            "of": 96
+            "of": 151
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -698,8 +698,8 @@
           "no_header_timestamp": 0,
           "entities": 13,
           "informed_resolved": {
-            "n": 30,
-            "of": 30
+            "n": 60,
+            "of": 60
           }
         }
       }

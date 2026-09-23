@@ -201,7 +201,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:33Z",
-        "age_hours": 348.6,
+        "age_hours": 354.6,
         "timetable_ends_on": "2027-08-31",
         "days_left": 342,
         "counts": {
@@ -213,7 +213,7 @@
         "pan_dataset_slug": "reseau-de-bus-urbain-horizon",
         "last_error": null,
         "checked_at": "2026-09-23T06:09:33Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {}
