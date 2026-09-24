@@ -815,11 +815,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T23:07:32Z",
-        "age_hours": 153.8,
+        "age_hours": 159.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 341,
         "counts": {
@@ -830,15 +830,15 @@
         },
         "pan_dataset_slug": "donnees-statiques-et-temps-reels-reseau-envia",
         "last_error": null,
-        "checked_at": "2026-09-23T23:07:25Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-24T11:11:21Z",
+        "check_age_hours": 3.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "accm.plateforme-2cloud.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -849,27 +849,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 15,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 179,
+          "entities": 102,
           "trip_join": {
-            "n": 345,
-            "of": 359
+            "n": 532,
+            "of": 556
           },
           "stop_updates_timed": {
-            "n": 9024,
-            "of": 9024
+            "n": 14266,
+            "of": 14268
           },
           "cancelled": {
             "n": 0,
-            "of": 359
+            "of": 556
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "accm.plateforme-2cloud.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -880,24 +880,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 0,
+          "header_age_seconds": 11,
           "no_header_timestamp": 0,
-          "entities": 31,
+          "entities": 29,
           "with_position": {
-            "n": 57,
-            "of": 62
+            "n": 114,
+            "of": 120
           },
           "with_trip_id": {
-            "n": 57,
-            "of": 57
+            "n": 114,
+            "of": 114
           },
           "with_route_id": {
-            "n": 57,
-            "of": 57
+            "n": 114,
+            "of": 114
           },
           "trip_join": {
-            "n": 50,
-            "of": 57
+            "n": 101,
+            "of": 114
           }
         }
       }

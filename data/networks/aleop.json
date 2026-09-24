@@ -1013,11 +1013,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T07:08:02Z",
-        "age_hours": 1.8,
+        "age_hours": 7.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 341,
         "counts": {
@@ -1029,45 +1029,14 @@
         "pan_dataset_slug": "arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1",
         "last_error": null,
         "checked_at": "2026-09-24T07:08:17Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
-          "failures": {
-            "timeout": 0,
-            "connection": 0,
-            "http_4xx": 0,
-            "http_5xx": 0,
-            "decode_error": 0,
-            "budget": 0
-          },
-          "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 6,
-          "no_header_timestamp": 0,
-          "entities": 323,
-          "trip_join": {
-            "n": 417,
-            "of": 647
-          },
-          "stop_updates_timed": {
-            "n": 7771,
-            "of": 7782
-          },
-          "cancelled": {
-            "n": 12,
-            "of": 647
-          },
-          "no_trip_id": 0
-        },
-        "vehicle_positions": {
-          "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1080,28 +1049,25 @@
           "samples_night": 1,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 160,
-          "with_position": {
-            "n": 320,
-            "of": 320
-          },
-          "with_trip_id": {
-            "n": 301,
-            "of": 320
-          },
-          "with_route_id": {
-            "n": 301,
-            "of": 320
-          },
+          "entities": 286,
           "trip_join": {
-            "n": 301,
-            "of": 301
-          }
+            "n": 737,
+            "of": 1220
+          },
+          "stop_updates_timed": {
+            "n": 14660,
+            "of": 14684
+          },
+          "cancelled": {
+            "n": 30,
+            "of": 1220
+          },
+          "no_trip_id": 0
         },
-        "alerts": {
+        "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1112,12 +1078,46 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 3,
+          "header_age_seconds": 10,
+          "no_header_timestamp": 0,
+          "entities": 120,
+          "with_position": {
+            "n": 558,
+            "of": 560
+          },
+          "with_trip_id": {
+            "n": 530,
+            "of": 558
+          },
+          "with_route_id": {
+            "n": 530,
+            "of": 558
+          },
+          "trip_join": {
+            "n": 530,
+            "of": 530
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 4,
+          "ok": 4,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 44,
           "informed_resolved": {
-            "n": 112,
-            "of": 175
+            "n": 226,
+            "of": 374
           }
         }
       }

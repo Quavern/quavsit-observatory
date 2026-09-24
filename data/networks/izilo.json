@@ -707,11 +707,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T01:09:29Z",
-        "age_hours": 127.8,
+        "age_hours": 133.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -722,15 +722,15 @@
         },
         "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
         "last_error": null,
-        "checked_at": "2026-09-24T01:07:40Z",
-        "check_age_hours": 7.8,
+        "checked_at": "2026-09-24T13:07:38Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-rdla-lorient.ratpdev.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -741,27 +741,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 26,
+          "header_age_seconds": 20,
           "no_header_timestamp": 0,
-          "entities": 232,
+          "entities": 238,
           "trip_join": {
-            "n": 458,
-            "of": 464
+            "n": 934,
+            "of": 945
           },
           "stop_updates_timed": {
-            "n": 3971,
-            "of": 4063
+            "n": 8771,
+            "of": 8980
           },
           "cancelled": {
             "n": 0,
-            "of": 464
+            "of": 945
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -772,12 +772,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 3,
+          "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 30,
           "informed_resolved": {
-            "n": 144,
-            "of": 146
+            "n": 288,
+            "of": 292
           }
         }
       }

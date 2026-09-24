@@ -815,11 +815,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T06:09:19Z",
-        "age_hours": 146.8,
+        "age_hours": 152.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -831,14 +831,14 @@
         "pan_dataset_slug": "donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur",
         "last_error": null,
         "checked_at": "2026-09-24T06:10:18Z",
-        "check_age_hours": 2.7,
+        "check_age_hours": 8.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -849,27 +849,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 26,
+          "header_age_seconds": 27,
           "no_header_timestamp": 0,
-          "entities": 955,
+          "entities": 942,
           "trip_join": {
-            "n": 1910,
-            "of": 1910
+            "n": 3781,
+            "of": 3781
           },
           "stop_updates_timed": {
-            "n": 32871,
-            "of": 32871
+            "n": 65141,
+            "of": 65141
           },
           "cancelled": {
             "n": 0,
-            "of": 1910
+            "of": 3781
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "ara-api.enroute.mobi",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -880,24 +880,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 48,
+          "header_age_seconds": 47,
           "no_header_timestamp": 0,
           "entities": 215,
           "with_position": {
-            "n": 430,
-            "of": 430
+            "n": 870,
+            "of": 870
           },
           "with_trip_id": {
-            "n": 430,
-            "of": 430
+            "n": 870,
+            "of": 870
           },
           "with_route_id": {
-            "n": 430,
-            "of": 430
+            "n": 870,
+            "of": 870
           },
           "trip_join": {
-            "n": 430,
-            "of": 430
+            "n": 870,
+            "of": 870
           }
         }
       }

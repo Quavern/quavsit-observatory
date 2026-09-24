@@ -815,11 +815,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T11:07:44Z",
-        "age_hours": 45.8,
+        "age_hours": 51.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 281,
         "counts": {
@@ -830,15 +830,15 @@
         },
         "pan_dataset_slug": "filibus-urbain",
         "last_error": null,
-        "checked_at": "2026-09-23T23:07:25Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-24T11:11:21Z",
+        "check_age_hours": 3.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -851,25 +851,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 116,
+          "entities": 124,
           "trip_join": {
-            "n": 121,
-            "of": 121
+            "n": 247,
+            "of": 247
           },
           "stop_updates_timed": {
-            "n": 121,
-            "of": 121
+            "n": 247,
+            "of": 247
           },
           "cancelled": {
             "n": 0,
-            "of": 121
+            "of": 247
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -882,22 +882,22 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 116,
+          "entities": 124,
           "with_position": {
-            "n": 112,
-            "of": 112
+            "n": 234,
+            "of": 234
           },
           "with_trip_id": {
-            "n": 112,
-            "of": 112
+            "n": 234,
+            "of": 234
           },
           "with_route_id": {
-            "n": 112,
-            "of": 112
+            "n": 234,
+            "of": 234
           },
           "trip_join": {
-            "n": 112,
-            "of": 112
+            "n": 234,
+            "of": 234
           }
         }
       }

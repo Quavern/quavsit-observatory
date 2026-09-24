@@ -225,7 +225,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T13:08:55Z",
-        "age_hours": 19.8,
+        "age_hours": 25.8,
         "timetable_ends_on": "2026-10-21",
         "days_left": 27,
         "counts": {
@@ -237,7 +237,7 @@
         "pan_dataset_slug": "gtfs-3",
         "last_error": null,
         "checked_at": "2026-09-23T13:09:02Z",
-        "check_age_hours": 19.8,
+        "check_age_hours": 25.8,
         "source": "operator"
       },
       "realtime": {}

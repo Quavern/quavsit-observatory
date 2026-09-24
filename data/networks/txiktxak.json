@@ -707,11 +707,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 293.7,
+        "age_hours": 299.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 283,
         "counts": {
@@ -723,14 +723,14 @@
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
         "last_error": null,
         "checked_at": "2026-09-24T03:07:43Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 11.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -745,23 +745,23 @@
           "no_header_timestamp": 0,
           "entities": 617,
           "trip_join": {
-            "n": 1234,
-            "of": 1234
+            "n": 2356,
+            "of": 2356
           },
           "stop_updates_timed": {
-            "n": 39920,
-            "of": 41351
+            "n": 75702,
+            "of": 78839
           },
           "cancelled": {
             "n": 0,
-            "of": 1234
+            "of": 2356
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -776,8 +776,8 @@
           "no_header_timestamp": 0,
           "entities": 13,
           "informed_resolved": {
-            "n": 32,
-            "of": 32
+            "n": 64,
+            "of": 64
           }
         }
       }
