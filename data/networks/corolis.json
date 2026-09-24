@@ -724,12 +724,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-21T23:09:52Z",
-        "age_hours": 45.8,
+        "refreshed_at": "2026-09-23T23:07:23Z",
+        "age_hours": 1.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 99,
         "counts": {
@@ -740,8 +740,8 @@
         },
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis",
         "last_error": null,
-        "checked_at": "2026-09-23T11:09:34Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-23T23:07:25Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -758,7 +758,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 54,
           "no_header_timestamp": 0,
           "entities": 49,
@@ -789,7 +789,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 34,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -808,6 +808,96 @@
           "trip_join": {
             "n": 108,
             "of": 108
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T23:07:23Z",
+        "age_hours": 6.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 98,
+        "counts": {
+          "lines": 10,
+          "stops": 249,
+          "trips": 1454,
+          "stop_times": 30336
+        },
+        "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis",
+        "last_error": null,
+        "checked_at": "2026-09-23T23:07:25Z",
+        "check_age_hours": 6.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 56,
+          "no_header_timestamp": 0,
+          "entities": 57,
+          "trip_join": {
+            "n": 57,
+            "of": 57
+          },
+          "stop_updates_timed": {
+            "n": 1010,
+            "of": 1010
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 57
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 35,
+          "no_header_timestamp": 0,
+          "entities": 24,
+          "with_position": {
+            "n": 24,
+            "of": 24
+          },
+          "with_trip_id": {
+            "n": 24,
+            "of": 24
+          },
+          "with_route_id": {
+            "n": 24,
+            "of": 24
+          },
+          "trip_join": {
+            "n": 24,
+            "of": 24
           }
         }
       }

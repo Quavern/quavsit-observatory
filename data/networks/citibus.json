@@ -900,12 +900,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T23:07:28Z",
-        "age_hours": 117.8,
+        "age_hours": 121.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 282,
         "counts": {
@@ -916,8 +916,8 @@
         },
         "pan_dataset_slug": "offre-de-transport-communaute-dagglomeration-le-grand-narbonne",
         "last_error": null,
-        "checked_at": "2026-09-23T11:09:33Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-23T23:07:21Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -934,7 +934,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -965,7 +965,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 65,
@@ -999,13 +999,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
             "n": 10,
             "of": 10
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T23:07:28Z",
+        "age_hours": 126.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 281,
+        "counts": {
+          "lines": 72,
+          "stops": 712,
+          "trips": 5243,
+          "stop_times": 124336
+        },
+        "pan_dataset_slug": "offre-de-transport-communaute-dagglomeration-le-grand-narbonne",
+        "last_error": null,
+        "checked_at": "2026-09-23T23:07:21Z",
+        "check_age_hours": 6.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-citibus-narbonne.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 168,
+          "trip_join": {
+            "n": 93,
+            "of": 94
+          },
+          "stop_updates_timed": {
+            "n": 761,
+            "of": 774
+          },
+          "cancelled": {
+            "n": 4,
+            "of": 94
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-citibus-narbonne.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 168,
+          "with_position": {
+            "n": 72,
+            "of": 72
+          },
+          "with_trip_id": {
+            "n": 72,
+            "of": 72
+          },
+          "with_route_id": {
+            "n": 72,
+            "of": 72
+          },
+          "trip_join": {
+            "n": 72,
+            "of": 72
+          }
+        },
+        "alerts": {
+          "host": "notifytest.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 2,
+            "of": 2
           }
         }
       }

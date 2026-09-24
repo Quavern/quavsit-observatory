@@ -452,12 +452,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T04:09:31Z",
-        "age_hours": 16.8,
+        "age_hours": 20.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 102,
         "counts": {
@@ -469,7 +469,7 @@
         "pan_dataset_slug": "gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole",
         "last_error": null,
         "checked_at": "2026-09-23T04:17:11Z",
-        "check_age_hours": 16.6,
+        "check_age_hours": 20.1,
         "source": "operator"
       },
       "realtime": {
@@ -486,7 +486,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
           "entities": 1230,
@@ -501,6 +501,62 @@
           "cancelled": {
             "n": 0,
             "of": 6152
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T04:09:31Z",
+        "age_hours": 25.8,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 101,
+        "counts": {
+          "lines": 41,
+          "stops": 1364,
+          "trips": 63328,
+          "stop_times": 1992741
+        },
+        "pan_dataset_slug": "gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole",
+        "last_error": null,
+        "checked_at": "2026-09-23T04:17:11Z",
+        "check_age_hours": 25.6,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 37,
+          "no_header_timestamp": 0,
+          "entities": 2232,
+          "trip_join": {
+            "n": 2232,
+            "of": 2232
+          },
+          "stop_updates_timed": {
+            "n": 65856,
+            "of": 65856
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 2232
           },
           "no_trip_id": 0
         }

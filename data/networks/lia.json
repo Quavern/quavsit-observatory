@@ -900,12 +900,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T04:08:50Z",
-        "age_hours": 16.8,
+        "age_hours": 20.3,
         "timetable_ends_on": "2026-10-31",
         "days_left": 38,
         "counts": {
@@ -917,7 +917,7 @@
         "pan_dataset_slug": "reseau-de-transport-en-commun-lia-gtfs-siri",
         "last_error": null,
         "checked_at": "2026-09-23T04:09:01Z",
-        "check_age_hours": 16.8,
+        "check_age_hours": 20.3,
         "source": "operator"
       },
       "realtime": {
@@ -934,7 +934,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 364,
@@ -965,7 +965,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 101,
@@ -999,8 +999,120 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 13,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-24T04:08:54Z",
+        "age_hours": 1.8,
+        "timetable_ends_on": "2026-10-31",
+        "days_left": 37,
+        "counts": {
+          "lines": 63,
+          "stops": 1095,
+          "trips": 10934,
+          "stop_times": 263901
+        },
+        "pan_dataset_slug": "reseau-de-transport-en-commun-lia-gtfs-siri",
+        "last_error": null,
+        "checked_at": "2026-09-24T04:09:05Z",
+        "check_age_hours": 1.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 55,
+          "no_header_timestamp": 0,
+          "entities": 371,
+          "trip_join": {
+            "n": 371,
+            "of": 371
+          },
+          "stop_updates_timed": {
+            "n": 7667,
+            "of": 8060
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 371
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 15,
+          "no_header_timestamp": 0,
+          "entities": 106,
+          "with_position": {
+            "n": 106,
+            "of": 106
+          },
+          "with_trip_id": {
+            "n": 106,
+            "of": 106
+          },
+          "with_route_id": {
+            "n": 106,
+            "of": 106
+          },
+          "trip_join": {
+            "n": 106,
+            "of": 106
+          }
+        },
+        "alerts": {
+          "host": "opendata.transports-lia.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 16,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {

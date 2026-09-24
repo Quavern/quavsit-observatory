@@ -688,12 +688,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T11:09:11Z",
-        "age_hours": 9.8,
+        "age_hours": 13.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 340,
         "counts": {
@@ -705,7 +705,7 @@
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
         "checked_at": "2026-09-23T11:09:32Z",
-        "check_age_hours": 9.8,
+        "check_age_hours": 13.3,
         "source": "operator"
       },
       "realtime": {
@@ -722,7 +722,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
           "entities": 342,
@@ -753,7 +753,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
           "entities": 187,
@@ -772,6 +772,96 @@
           "trip_join": {
             "n": 885,
             "of": 885
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T11:09:11Z",
+        "age_hours": 18.8,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 339,
+        "counts": {
+          "lines": 111,
+          "stops": 3707,
+          "trips": 13576,
+          "stop_times": 353154
+        },
+        "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
+        "last_error": null,
+        "checked_at": "2026-09-23T11:09:32Z",
+        "check_age_hours": 18.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.mrn.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 28,
+          "no_header_timestamp": 0,
+          "entities": 401,
+          "trip_join": {
+            "n": 223,
+            "of": 401
+          },
+          "stop_updates_timed": {
+            "n": 7450,
+            "of": 7450
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 401
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.mrn.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 28,
+          "no_header_timestamp": 0,
+          "entities": 179,
+          "with_position": {
+            "n": 179,
+            "of": 179
+          },
+          "with_trip_id": {
+            "n": 179,
+            "of": 179
+          },
+          "with_route_id": {
+            "n": 179,
+            "of": 179
+          },
+          "trip_join": {
+            "n": 102,
+            "of": 179
           }
         }
       }

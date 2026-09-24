@@ -196,12 +196,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:39Z",
-        "age_hours": 360.8,
+        "age_hours": 364.3,
         "timetable_ends_on": "2027-01-03",
         "days_left": 102,
         "counts": {
@@ -213,7 +213,31 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-per-nva-m-1",
         "last_error": null,
         "checked_at": "2026-09-23T13:10:12Z",
-        "check_age_hours": 7.7,
+        "check_age_hours": 11.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:07:39Z",
+        "age_hours": 369.8,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 101,
+        "counts": {
+          "lines": 79,
+          "stops": 1314,
+          "trips": 2281,
+          "stop_times": 32316
+        },
+        "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-per-nva-m-1",
+        "last_error": null,
+        "checked_at": "2026-09-24T01:07:41Z",
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {}

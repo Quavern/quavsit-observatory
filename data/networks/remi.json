@@ -900,12 +900,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T21:10:48Z",
-        "age_hours": 23.7,
+        "age_hours": 27.2,
         "timetable_ends_on": "2027-09-01",
         "days_left": 343,
         "counts": {
@@ -917,7 +917,7 @@
         "pan_dataset_slug": "remi-offre-theorique-mobilite-reseau-interurbain-regional",
         "last_error": null,
         "checked_at": "2026-09-22T21:11:17Z",
-        "check_age_hours": 23.7,
+        "check_age_hours": 27.2,
         "source": "operator"
       },
       "realtime": {
@@ -934,7 +934,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 115,
@@ -965,7 +965,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 84,
@@ -999,13 +999,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 35,
           "no_header_timestamp": 0,
           "entities": 11,
           "informed_resolved": {
             "n": 0,
             "of": 85
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-22T21:10:48Z",
+        "age_hours": 32.7,
+        "timetable_ends_on": "2027-09-01",
+        "days_left": 342,
+        "counts": {
+          "lines": 152,
+          "stops": 5823,
+          "trips": 9144,
+          "stop_times": 125654
+        },
+        "pan_dataset_slug": "remi-offre-theorique-mobilite-reseau-interurbain-regional",
+        "last_error": null,
+        "checked_at": "2026-09-22T21:11:17Z",
+        "check_age_hours": 32.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.okina.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 2,
+          "no_header_timestamp": 0,
+          "entities": 301,
+          "trip_join": {
+            "n": 124,
+            "of": 153
+          },
+          "stop_updates_timed": {
+            "n": 3706,
+            "of": 3732
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 153
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.okina.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 2,
+          "no_header_timestamp": 0,
+          "entities": 207,
+          "with_position": {
+            "n": 207,
+            "of": 207
+          },
+          "with_trip_id": {
+            "n": 207,
+            "of": 207
+          },
+          "with_route_id": {
+            "n": 207,
+            "of": 207
+          },
+          "trip_join": {
+            "n": 157,
+            "of": 207
+          }
+        },
+        "alerts": {
+          "host": "jvmalin.api.instant-system.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 29,
+          "no_header_timestamp": 0,
+          "entities": 11,
+          "informed_resolved": {
+            "n": 0,
+            "of": 17
           }
         }
       }

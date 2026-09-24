@@ -724,24 +724,24 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-21T21:08:04Z",
-        "age_hours": 47.8,
+        "refreshed_at": "2026-09-23T21:08:29Z",
+        "age_hours": 3.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 25,
         "counts": {
-          "lines": 78,
-          "stops": 1667,
-          "trips": 17492,
-          "stop_times": 421314
+          "lines": 79,
+          "stops": 1674,
+          "trips": 21047,
+          "stop_times": 475569
         },
         "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
         "last_error": null,
-        "checked_at": "2026-09-23T09:08:27Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-23T21:08:51Z",
+        "check_age_hours": 3.3,
         "source": "operator"
       },
       "realtime": {
@@ -758,7 +758,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 25,
           "no_header_timestamp": 0,
           "entities": 254,
@@ -789,7 +789,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 25,
           "no_header_timestamp": 0,
           "entities": 116,
@@ -808,6 +808,96 @@
           "trip_join": {
             "n": 618,
             "of": 624
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T21:08:29Z",
+        "age_hours": 8.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 24,
+        "counts": {
+          "lines": 79,
+          "stops": 1674,
+          "trips": 21047,
+          "stop_times": 475569
+        },
+        "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
+        "last_error": null,
+        "checked_at": "2026-09-23T21:08:51Z",
+        "check_age_hours": 8.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 34,
+          "no_header_timestamp": 0,
+          "entities": 354,
+          "trip_join": {
+            "n": 352,
+            "of": 354
+          },
+          "stop_updates_timed": {
+            "n": 5153,
+            "of": 5153
+          },
+          "cancelled": {
+            "n": 8,
+            "of": 354
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 175,
+          "with_position": {
+            "n": 175,
+            "of": 175
+          },
+          "with_trip_id": {
+            "n": 175,
+            "of": 175
+          },
+          "with_route_id": {
+            "n": 175,
+            "of": 175
+          },
+          "trip_join": {
+            "n": 173,
+            "of": 175
           }
         }
       }

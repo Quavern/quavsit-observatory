@@ -196,12 +196,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:16:33Z",
-        "age_hours": 360.6,
+        "age_hours": 364.1,
         "timetable_ends_on": "2027-08-31",
         "days_left": 342,
         "counts": {
@@ -213,7 +213,31 @@
         "pan_dataset_slug": "reseau-de-bus-urbain-horizon",
         "last_error": null,
         "checked_at": "2026-09-23T18:10:48Z",
-        "check_age_hours": 2.7,
+        "check_age_hours": 6.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:16:33Z",
+        "age_hours": 369.6,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 341,
+        "counts": {
+          "lines": 18,
+          "stops": 509,
+          "trips": 1408,
+          "stop_times": 37954
+        },
+        "pan_dataset_slug": "reseau-de-bus-urbain-horizon",
+        "last_error": null,
+        "checked_at": "2026-09-23T18:10:48Z",
+        "check_age_hours": 11.7,
         "source": "operator"
       },
       "realtime": {}

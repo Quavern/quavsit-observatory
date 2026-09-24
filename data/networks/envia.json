@@ -724,12 +724,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T23:07:32Z",
-        "age_hours": 141.8,
+        "age_hours": 145.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 342,
         "counts": {
@@ -740,8 +740,8 @@
         },
         "pan_dataset_slug": "donnees-statiques-et-temps-reels-reseau-envia",
         "last_error": null,
-        "checked_at": "2026-09-23T11:09:34Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-23T23:07:25Z",
+        "check_age_hours": 1.3,
         "source": "operator"
       },
       "realtime": {
@@ -758,7 +758,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 83,
@@ -789,7 +789,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 8,
           "no_header_timestamp": 0,
           "entities": 23,
@@ -808,6 +808,96 @@
           "trip_join": {
             "n": 92,
             "of": 108
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-17T23:07:32Z",
+        "age_hours": 150.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 341,
+        "counts": {
+          "lines": 29,
+          "stops": 784,
+          "trips": 4570,
+          "stop_times": 121963
+        },
+        "pan_dataset_slug": "donnees-statiques-et-temps-reels-reseau-envia",
+        "last_error": null,
+        "checked_at": "2026-09-23T23:07:25Z",
+        "check_age_hours": 6.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "accm.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 26,
+          "no_header_timestamp": 0,
+          "entities": 264,
+          "trip_join": {
+            "n": 254,
+            "of": 264
+          },
+          "stop_updates_timed": {
+            "n": 6398,
+            "of": 6398
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 264
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "accm.plateforme-2cloud.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 39,
+          "with_position": {
+            "n": 38,
+            "of": 39
+          },
+          "with_trip_id": {
+            "n": 38,
+            "of": 38
+          },
+          "with_route_id": {
+            "n": 38,
+            "of": 38
+          },
+          "trip_join": {
+            "n": 34,
+            "of": 38
           }
         }
       }

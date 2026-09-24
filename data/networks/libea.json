@@ -196,12 +196,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T21:09:27Z",
-        "age_hours": 119.8,
+        "age_hours": 123.3,
         "timetable_ends_on": "2027-07-03",
         "days_left": 283,
         "counts": {
@@ -212,8 +212,32 @@
         },
         "pan_dataset_slug": "offre-de-transports-du-grand-albigeois-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-23T09:08:28Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-23T21:08:51Z",
+        "check_age_hours": 3.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T21:09:27Z",
+        "age_hours": 128.8,
+        "timetable_ends_on": "2027-07-03",
+        "days_left": 282,
+        "counts": {
+          "lines": 10,
+          "stops": 502,
+          "trips": 1890,
+          "stop_times": 48190
+        },
+        "pan_dataset_slug": "offre-de-transports-du-grand-albigeois-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-23T21:08:51Z",
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {}

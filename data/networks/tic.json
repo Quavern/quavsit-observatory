@@ -724,12 +724,12 @@
     },
     {
       "day": "2026-09-23",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:07:56Z",
-        "age_hours": 360.8,
+        "age_hours": 364.3,
         "timetable_ends_on": "2026-11-11",
         "days_left": 49,
         "counts": {
@@ -741,7 +741,7 @@
         "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-tic-urbain-communaute-dagglomeration-de-la-region-de-compiegne-et-de-la-basse-automne",
         "last_error": null,
         "checked_at": "2026-09-23T13:10:34Z",
-        "check_age_hours": 7.7,
+        "check_age_hours": 11.2,
         "source": "operator"
       },
       "realtime": {
@@ -758,7 +758,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 55,
           "no_header_timestamp": 0,
           "entities": 42,
@@ -789,7 +789,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 30,
           "no_header_timestamp": 0,
           "entities": 13,
@@ -808,6 +808,96 @@
           "trip_join": {
             "n": 68,
             "of": 68
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-24",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:07:56Z",
+        "age_hours": 369.8,
+        "timetable_ends_on": "2026-11-11",
+        "days_left": 48,
+        "counts": {
+          "lines": 15,
+          "stops": 266,
+          "trips": 1214,
+          "stop_times": 22638
+        },
+        "pan_dataset_slug": "donnees-theoriques-et-temps-reel-du-reseau-tic-urbain-communaute-dagglomeration-de-la-region-de-compiegne-et-de-la-basse-automne",
+        "last_error": null,
+        "checked_at": "2026-09-24T01:07:41Z",
+        "check_age_hours": 4.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 60,
+          "no_header_timestamp": 0,
+          "entities": 54,
+          "trip_join": {
+            "n": 54,
+            "of": 54
+          },
+          "stop_updates_timed": {
+            "n": 839,
+            "of": 839
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 54
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.oisemob.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 36,
+          "no_header_timestamp": 0,
+          "entities": 15,
+          "with_position": {
+            "n": 15,
+            "of": 15
+          },
+          "with_trip_id": {
+            "n": 15,
+            "of": 15
+          },
+          "with_route_id": {
+            "n": 15,
+            "of": 15
+          },
+          "trip_join": {
+            "n": 15,
+            "of": 15
           }
         }
       }
