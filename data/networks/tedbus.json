@@ -1013,11 +1013,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T18:07:40Z",
-        "age_hours": 188.8,
+        "age_hours": 194.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 341,
         "counts": {
@@ -1028,15 +1028,15 @@
         },
         "pan_dataset_slug": "reseau-tedbus-lignes-regulieres-dracenie-provence-verdon-agglomeration",
         "last_error": null,
-        "checked_at": "2026-09-24T06:10:18Z",
-        "check_age_hours": 8.7,
+        "checked_at": "2026-09-24T18:09:11Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1046,28 +1046,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 22,
           "trip_join": {
-            "n": 47,
-            "of": 50
+            "n": 51,
+            "of": 54
           },
           "stop_updates_timed": {
-            "n": 1261,
-            "of": 1280
+            "n": 1352,
+            "of": 1371
           },
           "cancelled": {
             "n": 0,
-            "of": 50
+            "of": 54
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1077,31 +1077,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 22,
           "with_position": {
-            "n": 51,
-            "of": 51
+            "n": 55,
+            "of": 55
           },
           "with_trip_id": {
-            "n": 51,
-            "of": 51
+            "n": 55,
+            "of": 55
           },
           "with_route_id": {
-            "n": 51,
-            "of": 51
+            "n": 55,
+            "of": 55
           },
           "trip_join": {
-            "n": 48,
-            "of": 51
+            "n": 52,
+            "of": 55
           }
         },
         "alerts": {
           "host": "pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1111,10 +1111,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
-          "entities": 25,
+          "entities": 22,
           "informed_resolved": {
             "n": 1,
             "of": 1

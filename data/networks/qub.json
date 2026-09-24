@@ -1013,11 +1013,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T16:09:06Z",
-        "age_hours": 22.8,
+        "age_hours": 28.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 101,
         "counts": {
@@ -1029,14 +1029,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale",
         "last_error": null,
         "checked_at": "2026-09-23T16:09:12Z",
-        "check_age_hours": 22.8,
+        "check_age_hours": 28.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1046,28 +1046,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 130,
+          "entities": 92,
           "trip_join": {
-            "n": 542,
-            "of": 549
+            "n": 580,
+            "of": 589
           },
           "stop_updates_timed": {
-            "n": 16466,
-            "of": 16797
+            "n": 17636,
+            "of": 17988
           },
           "cancelled": {
             "n": 0,
-            "of": 549
+            "of": 589
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-qub-quimper.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1077,31 +1077,31 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 44,
+          "entities": 35,
           "with_position": {
-            "n": 182,
-            "of": 182
+            "n": 206,
+            "of": 206
           },
           "with_trip_id": {
-            "n": 182,
-            "of": 182
+            "n": 206,
+            "of": 206
           },
           "with_route_id": {
-            "n": 182,
-            "of": 182
+            "n": 206,
+            "of": 206
           },
           "trip_join": {
-            "n": 182,
-            "of": 182
+            "n": 206,
+            "of": 206
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1111,13 +1111,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 7,
           "informed_resolved": {
-            "n": 40,
-            "of": 40
+            "n": 50,
+            "of": 50
           }
         }
       }

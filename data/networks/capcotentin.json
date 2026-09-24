@@ -815,11 +815,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T13:07:30Z",
-        "age_hours": 1.8,
+        "age_hours": 7.8,
         "timetable_ends_on": "2027-06-27",
         "days_left": 276,
         "counts": {
@@ -831,14 +831,14 @@
         "pan_dataset_slug": "horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin",
         "last_error": null,
         "checked_at": "2026-09-24T13:07:38Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 7.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -848,28 +848,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 5,
+          "samples_night": 2,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 96,
+          "entities": 92,
           "trip_join": {
-            "n": 191,
-            "of": 202
+            "n": 227,
+            "of": 238
           },
           "stop_updates_timed": {
-            "n": 5634,
-            "of": 5732
+            "n": 6646,
+            "of": 6759
           },
           "cancelled": {
             "n": 0,
-            "of": 202
+            "of": 238
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "app.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -879,25 +879,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 5,
+          "samples_night": 2,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 96,
+          "entities": 92,
           "with_position": {
-            "n": 202,
-            "of": 202
+            "n": 238,
+            "of": 238
           },
           "with_trip_id": {
-            "n": 202,
-            "of": 202
+            "n": 238,
+            "of": 238
           },
           "with_route_id": {
-            "n": 202,
-            "of": 202
+            "n": 238,
+            "of": 238
           },
           "trip_join": {
-            "n": 191,
-            "of": 202
+            "n": 227,
+            "of": 238
           }
         }
       }

@@ -716,11 +716,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T11:08:24Z",
-        "age_hours": 3.8,
+        "age_hours": 9.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -739,8 +739,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -750,28 +750,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 61,
+          "samples_night": 2,
+          "header_age_seconds": 65,
           "no_header_timestamp": 0,
-          "entities": 1680,
+          "entities": 1752,
           "trip_join": {
-            "n": 5945,
-            "of": 6723
+            "n": 7511,
+            "of": 8475
           },
           "stop_updates_timed": {
-            "n": 58782,
-            "of": 58782
+            "n": 74375,
+            "of": 74375
           },
           "cancelled": {
-            "n": 119,
-            "of": 6723
+            "n": 151,
+            "of": 8475
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -781,13 +781,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 63,
           "no_header_timestamp": 0,
-          "entities": 505,
+          "entities": 510,
           "informed_resolved": {
-            "n": 1704,
-            "of": 1704
+            "n": 2129,
+            "of": 2129
           }
         }
       }

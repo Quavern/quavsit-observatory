@@ -509,11 +509,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T05:08:05Z",
-        "age_hours": 33.8,
+        "age_hours": 39.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -524,15 +524,15 @@
         },
         "pan_dataset_slug": "fr-200052264-t0009-0000-1",
         "last_error": null,
-        "checked_at": "2026-09-24T05:08:40Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-24T17:08:47Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -542,21 +542,21 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 45,
+          "samples_night": 2,
+          "header_age_seconds": 44,
           "no_header_timestamp": 0,
-          "entities": 75,
+          "entities": 73,
           "trip_join": {
-            "n": 295,
-            "of": 295
+            "n": 324,
+            "of": 324
           },
           "stop_updates_timed": {
-            "n": 6162,
-            "of": 6162
+            "n": 6926,
+            "of": 6926
           },
           "cancelled": {
             "n": 0,
-            "of": 295
+            "of": 324
           },
           "no_trip_id": 0
         }

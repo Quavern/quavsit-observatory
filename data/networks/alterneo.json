@@ -1013,11 +1013,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:23:42Z",
-        "age_hours": 378.5,
+        "age_hours": 384.5,
         "timetable_ends_on": "2027-02-28",
         "days_left": 157,
         "counts": {
@@ -1029,14 +1029,14 @@
         "pan_dataset_slug": "donnees-du-reseau-alterneo",
         "last_error": null,
         "checked_at": "2026-09-24T10:07:51Z",
-        "check_age_hours": 4.8,
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1046,10 +1046,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
-          "header_age_seconds": 32,
+          "samples_night": 1,
+          "header_age_seconds": 30,
           "no_header_timestamp": 0,
-          "entities": 108,
+          "entities": 107,
           "trip_join": {
             "n": 498,
             "of": 498
@@ -1066,8 +1066,8 @@
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1077,10 +1077,10 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
-          "header_age_seconds": 36,
+          "samples_night": 1,
+          "header_age_seconds": 34,
           "no_header_timestamp": 0,
-          "entities": 57,
+          "entities": 55,
           "with_position": {
             "n": 265,
             "of": 265
@@ -1100,8 +1100,8 @@
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 5,
-          "ok": 5,
+          "samples": 6,
+          "ok": 6,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1111,8 +1111,8 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 0,
-          "header_age_seconds": 19,
+          "samples_night": 1,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {

@@ -224,20 +224,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-23T06:09:34Z",
-        "age_hours": 32.8,
+        "refreshed_at": "2026-09-24T18:09:11Z",
+        "age_hours": 2.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 281,
         "counts": {
           "lines": 139,
           "stops": 2305,
-          "trips": 4128,
-          "stop_times": 118106
+          "trips": 4127,
+          "stop_times": 118097
         },
         "pan_dataset_slug": "yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1",
         "last_error": null,
-        "checked_at": "2026-09-23T06:09:40Z",
-        "check_age_hours": 32.8,
+        "checked_at": "2026-09-24T18:09:17Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {}

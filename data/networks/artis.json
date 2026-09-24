@@ -225,7 +225,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T15:08:23Z",
-        "age_hours": 143.8,
+        "age_hours": 149.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 339,
         "counts": {
@@ -236,8 +236,8 @@
         },
         "pan_dataset_slug": "reseau-de-transport-artis",
         "last_error": null,
-        "checked_at": "2026-09-24T03:07:42Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-24T15:08:05Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {}
