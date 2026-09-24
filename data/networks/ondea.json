@@ -707,11 +707,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:09:47Z",
-        "age_hours": 369.8,
+        "age_hours": 372.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -723,14 +723,14 @@
         "pan_dataset_slug": "ctlb-donnees-theoriques-et-rt-aix-les-bains-lac-du-bourget",
         "last_error": null,
         "checked_at": "2026-09-24T03:07:42Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -741,27 +741,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 32,
+          "header_age_seconds": 20,
           "no_header_timestamp": 0,
-          "entities": 82,
+          "entities": 53,
           "trip_join": {
-            "n": 81,
-            "of": 82
+            "n": 106,
+            "of": 107
           },
           "stop_updates_timed": {
-            "n": 1481,
-            "of": 1481
+            "n": 2131,
+            "of": 2131
           },
           "cancelled": {
             "n": 0,
-            "of": 82
+            "of": 107
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -772,12 +772,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 7,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 12,
           "informed_resolved": {
-            "n": 12,
-            "of": 12
+            "n": 27,
+            "of": 27
           }
         }
       }

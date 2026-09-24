@@ -509,30 +509,30 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-22T20:08:44Z",
-        "age_hours": 33.8,
+        "refreshed_at": "2026-09-24T08:08:57Z",
+        "age_hours": 0.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 281,
         "counts": {
           "lines": 157,
-          "stops": 4922,
-          "trips": 39629,
-          "stop_times": 1165072
+          "stops": 4923,
+          "trips": 39635,
+          "stop_times": 1165265
         },
         "pan_dataset_slug": "ilevia-localisation-des-arrets-bus-metro-et-tram-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-22T20:10:39Z",
-        "check_age_hours": 33.7,
+        "checked_at": "2026-09-24T08:11:08Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -543,20 +543,20 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 0,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 359,
+          "entities": 355,
           "trip_join": {
-            "n": 359,
-            "of": 359
+            "n": 698,
+            "of": 710
           },
           "stop_updates_timed": {
-            "n": 1024,
-            "of": 1024
+            "n": 4843,
+            "of": 4843
           },
           "cancelled": {
             "n": 0,
-            "of": 359
+            "of": 710
           },
           "no_trip_id": 0
         }

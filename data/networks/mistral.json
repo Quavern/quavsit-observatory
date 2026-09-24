@@ -1013,11 +1013,11 @@
     {
       "day": "2026-09-24",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T19:09:31Z",
-        "age_hours": 202.8,
+        "age_hours": 205.8,
         "timetable_ends_on": "2026-11-30",
         "days_left": 67,
         "counts": {
@@ -1028,15 +1028,15 @@
         },
         "pan_dataset_slug": "reseau-de-transport-urbain-de-la-metropole-toulon-provence-mediterranee",
         "last_error": null,
-        "checked_at": "2026-09-23T19:10:21Z",
-        "check_age_hours": 10.7,
+        "checked_at": "2026-09-24T07:08:17Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-rdtpm-toulon.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1047,27 +1047,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 74,
+          "header_age_seconds": 76,
           "no_header_timestamp": 0,
-          "entities": 549,
+          "entities": 514,
           "trip_join": {
-            "n": 545,
-            "of": 549
+            "n": 1008,
+            "of": 1029
           },
           "stop_updates_timed": {
-            "n": 16085,
-            "of": 16364
+            "n": 30351,
+            "of": 30819
           },
           "cancelled": {
-            "n": 8,
-            "of": 549
+            "n": 9,
+            "of": 1029
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-rdtpm-toulon.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1080,28 +1080,28 @@
           "samples_night": 1,
           "header_age_seconds": 78,
           "no_header_timestamp": 0,
-          "entities": 220,
+          "entities": 204,
           "with_position": {
-            "n": 220,
-            "of": 220
+            "n": 409,
+            "of": 409
           },
           "with_trip_id": {
-            "n": 216,
-            "of": 220
+            "n": 404,
+            "of": 409
           },
           "with_route_id": {
-            "n": 216,
-            "of": 220
+            "n": 404,
+            "of": 409
           },
           "trip_join": {
-            "n": 216,
-            "of": 216
+            "n": 403,
+            "of": 404
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1116,8 +1116,8 @@
           "no_header_timestamp": 0,
           "entities": 10,
           "informed_resolved": {
-            "n": 24,
-            "of": 24
+            "n": 48,
+            "of": 48
           }
         }
       }

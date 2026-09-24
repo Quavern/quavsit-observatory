@@ -225,7 +225,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T18:09:48Z",
-        "age_hours": 203.8,
+        "age_hours": 206.8,
         "timetable_ends_on": "2026-10-18",
         "days_left": 24,
         "counts": {
@@ -236,8 +236,8 @@
         },
         "pan_dataset_slug": "offre-de-transports-sibra-a-annecy-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-23T18:10:48Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-24T06:10:18Z",
+        "check_age_hours": 2.7,
         "source": "operator"
       },
       "realtime": {}
