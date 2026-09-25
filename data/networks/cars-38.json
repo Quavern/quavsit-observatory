@@ -785,30 +785,30 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-11T21:07:43Z",
-        "age_hours": 323.8,
+        "refreshed_at": "2026-09-25T09:07:45Z",
+        "age_hours": 5.8,
         "timetable_ends_on": "2027-08-31",
         "days_left": 340,
         "counts": {
-          "lines": 495,
-          "stops": 9392,
-          "trips": 3643,
-          "stop_times": 52511
+          "lines": 497,
+          "stops": 9399,
+          "trips": 3649,
+          "stop_times": 52621
         },
         "pan_dataset_slug": "reseau-interurbain-cars-region-isere-38-1",
         "last_error": null,
-        "checked_at": "2026-09-24T21:08:12Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-25T09:08:12Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.oura3.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -819,27 +819,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 39,
+          "header_age_seconds": 40,
           "no_header_timestamp": 0,
-          "entities": 187,
+          "entities": 99,
           "trip_join": {
-            "n": 375,
-            "of": 375
+            "n": 573,
+            "of": 573
           },
           "stop_updates_timed": {
-            "n": 1889,
-            "of": 1889
+            "n": 3638,
+            "of": 3638
           },
           "cancelled": {
-            "n": 6,
-            "of": 375
+            "n": 12,
+            "of": 573
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.oura3.cityway.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -850,12 +850,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 145,
+          "header_age_seconds": 117,
           "no_header_timestamp": 0,
-          "entities": 1595,
+          "entities": 1597,
           "informed_resolved": {
-            "n": 6394,
-            "of": 6394
+            "n": 12833,
+            "of": 12833
           }
         }
       }

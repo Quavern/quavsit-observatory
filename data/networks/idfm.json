@@ -259,7 +259,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T05:08:22Z",
-        "age_hours": 3.8,
+        "age_hours": 9.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {

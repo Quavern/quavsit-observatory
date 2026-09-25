@@ -248,20 +248,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-08T20:08:19Z",
-        "age_hours": 396.8,
+        "refreshed_at": "2026-09-25T14:09:00Z",
+        "age_hours": 0.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 282,
         "counts": {
           "lines": 23,
           "stops": 822,
-          "trips": 5195,
-          "stop_times": 166879
+          "trips": 4526,
+          "stop_times": 145468
         },
         "pan_dataset_slug": "fichier-des-donnees-theoriques-du-reseau-idelis-au-format-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-25T02:08:41Z",
-        "check_age_hours": 6.8,
+        "checked_at": "2026-09-25T14:09:08Z",
+        "check_age_hours": 0.8,
         "source": "operator"
       },
       "realtime": {}

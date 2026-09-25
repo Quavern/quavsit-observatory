@@ -249,7 +249,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T09:07:44Z",
-        "age_hours": 359.8,
+        "age_hours": 365.8,
         "timetable_ends_on": "2026-11-15",
         "days_left": 51,
         "counts": {
@@ -260,8 +260,8 @@
         },
         "pan_dataset_slug": "fr-200052264-t0004-0000-1",
         "last_error": null,
-        "checked_at": "2026-09-24T21:08:15Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-25T09:08:47Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {}

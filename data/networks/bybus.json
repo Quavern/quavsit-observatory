@@ -249,7 +249,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T18:08:00Z",
-        "age_hours": 38.8,
+        "age_hours": 44.8,
         "timetable_ends_on": "2027-03-31",
         "days_left": 187,
         "counts": {
@@ -261,7 +261,7 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-25T06:07:31Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {}

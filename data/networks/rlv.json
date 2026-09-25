@@ -905,11 +905,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:22:11Z",
-        "age_hours": 396.5,
+        "age_hours": 402.5,
         "timetable_ends_on": "2027-08-28",
         "days_left": 337,
         "counts": {
@@ -920,15 +920,15 @@
         },
         "pan_dataset_slug": "horaires-rlv-mobilites",
         "last_error": null,
-        "checked_at": "2026-09-24T21:08:13Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-25T09:08:45Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -941,25 +941,25 @@
           "samples_night": 1,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 28,
+          "entities": 33,
           "trip_join": {
-            "n": 57,
-            "of": 57
+            "n": 131,
+            "of": 131
           },
           "stop_updates_timed": {
-            "n": 1595,
-            "of": 1595
+            "n": 3720,
+            "of": 3720
           },
           "cancelled": {
             "n": 0,
-            "of": 57
+            "of": 131
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -970,24 +970,24 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 2,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 6,
           "with_position": {
-            "n": 13,
-            "of": 13
+            "n": 24,
+            "of": 24
           },
           "with_trip_id": {
-            "n": 13,
-            "of": 13
+            "n": 24,
+            "of": 24
           },
           "with_route_id": {
-            "n": 13,
-            "of": 13
+            "n": 24,
+            "of": 24
           },
           "trip_join": {
-            "n": 13,
-            "of": 13
+            "n": 24,
+            "of": 24
           }
         }
       }

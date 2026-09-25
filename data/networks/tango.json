@@ -905,11 +905,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-15T11:12:15Z",
-        "age_hours": 237.7,
+        "age_hours": 243.7,
         "timetable_ends_on": "2026-12-31",
         "days_left": 97,
         "counts": {
@@ -920,15 +920,15 @@
         },
         "pan_dataset_slug": "offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt",
         "last_error": null,
-        "checked_at": "2026-09-24T23:08:49Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-25T11:07:53Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -943,23 +943,23 @@
           "no_header_timestamp": 0,
           "entities": 250,
           "trip_join": {
-            "n": 476,
-            "of": 501
+            "n": 954,
+            "of": 1002
           },
           "stop_updates_timed": {
-            "n": 6342,
-            "of": 6342
+            "n": 12997,
+            "of": 12997
           },
           "cancelled": {
             "n": 0,
-            "of": 501
+            "of": 1002
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "gtfs.bus-tracker.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -972,22 +972,22 @@
           "samples_night": 1,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
-          "entities": 103,
+          "entities": 111,
           "with_position": {
-            "n": 206,
-            "of": 206
+            "n": 428,
+            "of": 428
           },
           "with_trip_id": {
-            "n": 206,
-            "of": 206
+            "n": 428,
+            "of": 428
           },
           "with_route_id": {
-            "n": 206,
-            "of": 206
+            "n": 428,
+            "of": 428
           },
           "trip_join": {
-            "n": 198,
-            "of": 206
+            "n": 413,
+            "of": 428
           }
         }
       }

@@ -785,11 +785,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T05:08:42Z",
-        "age_hours": 147.8,
+        "age_hours": 153.8,
         "timetable_ends_on": "2027-09-18",
         "days_left": 358,
         "counts": {
@@ -801,14 +801,14 @@
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
         "checked_at": "2026-09-25T05:09:21Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -821,25 +821,25 @@
           "samples_night": 1,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 66,
+          "entities": 67,
           "trip_join": {
-            "n": 133,
-            "of": 133
+            "n": 268,
+            "of": 268
           },
           "stop_updates_timed": {
-            "n": 4358,
-            "of": 4358
+            "n": 8832,
+            "of": 8832
           },
           "cancelled": {
             "n": 0,
-            "of": 133
+            "of": 268
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -850,12 +850,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 5,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 13,
+          "entities": 12,
           "informed_resolved": {
-            "n": 82,
-            "of": 82
+            "n": 158,
+            "of": 158
           }
         }
       }

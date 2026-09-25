@@ -565,11 +565,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 3,
+      "samples_taken": 5,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T18:08:07Z",
-        "age_hours": 38.8,
+        "age_hours": 44.8,
         "timetable_ends_on": "2028-06-30",
         "days_left": 644,
         "counts": {
@@ -581,14 +581,14 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-des-reseaux-de-transport-public-normands",
         "last_error": null,
         "checked_at": "2026-09-25T06:07:31Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 2,
-          "ok": 2,
+          "samples": 4,
+          "ok": 4,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -601,18 +601,18 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 799,
+          "entities": 835,
           "trip_join": {
             "n": 0,
-            "of": 1598
+            "of": 3268
           },
           "stop_updates_timed": {
-            "n": 29090,
-            "of": 29090
+            "n": 58726,
+            "of": 58726
           },
           "cancelled": {
             "n": 0,
-            "of": 1598
+            "of": 3268
           },
           "no_trip_id": 0
         }
