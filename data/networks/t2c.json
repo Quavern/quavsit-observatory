@@ -508,12 +508,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:08:44Z",
-        "age_hours": 384.8,
+        "age_hours": 388.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -525,7 +525,7 @@
         "pan_dataset_slug": "syndicat-mixte-des-transports-en-commun-de-lagglomeration-clermontoise-smtc-ac-reseau-t2c-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-24T14:08:28Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 10.3,
         "source": "operator"
       },
       "realtime": {
@@ -542,7 +542,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 4,
           "no_header_timestamp": 0,
           "entities": 829,
@@ -557,6 +557,62 @@
           "cancelled": {
             "n": 152,
             "of": 4205
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:08:44Z",
+        "age_hours": 393.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 97,
+        "counts": {
+          "lines": 54,
+          "stops": 2073,
+          "trips": 9830,
+          "stop_times": 278535
+        },
+        "pan_dataset_slug": "syndicat-mixte-des-transports-en-commun-de-lagglomeration-clermontoise-smtc-ac-reseau-t2c-gtfs-gtfs-rt",
+        "last_error": null,
+        "checked_at": "2026-09-25T02:09:03Z",
+        "check_age_hours": 3.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 1438,
+          "trip_join": {
+            "n": 153,
+            "of": 1438
+          },
+          "stop_updates_timed": {
+            "n": 43476,
+            "of": 44403
+          },
+          "cancelled": {
+            "n": 19,
+            "of": 1438
           },
           "no_trip_id": 0
         }

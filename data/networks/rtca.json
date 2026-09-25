@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-10T20:10:22Z",
-        "age_hours": 336.7,
+        "age_hours": 340.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 101,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "reseau-rtca",
         "last_error": null,
         "checked_at": "2026-09-24T20:08:05Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-10T20:10:22Z",
+        "age_hours": 345.7,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 100,
+        "counts": {
+          "lines": 56,
+          "stops": 960,
+          "trips": 1199,
+          "stop_times": 21882
+        },
+        "pan_dataset_slug": "reseau-rtca",
+        "last_error": null,
+        "checked_at": "2026-09-24T20:08:05Z",
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {}

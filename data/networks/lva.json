@@ -1012,12 +1012,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T21:08:51Z",
-        "age_hours": 23.8,
+        "age_hours": 27.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -1029,7 +1029,7 @@
         "pan_dataset_slug": "reseau-lva",
         "last_error": null,
         "checked_at": "2026-09-23T21:08:56Z",
-        "check_age_hours": 23.8,
+        "check_age_hours": 27.3,
         "source": "operator"
       },
       "realtime": {
@@ -1046,7 +1046,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 28,
@@ -1077,7 +1077,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 28,
@@ -1111,13 +1111,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 18,
           "informed_resolved": {
             "n": 123,
             "of": 123
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T21:08:51Z",
+        "age_hours": 32.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 97,
+        "counts": {
+          "lines": 48,
+          "stops": 995,
+          "trips": 4296,
+          "stop_times": 108443
+        },
+        "pan_dataset_slug": "reseau-lva",
+        "last_error": null,
+        "checked_at": "2026-09-23T21:08:56Z",
+        "check_age_hours": 32.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-vienne-mobi.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 141,
+          "trip_join": {
+            "n": 0,
+            "of": 75
+          },
+          "stop_updates_timed": {
+            "n": 594,
+            "of": 594
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 75
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-vienne-mobi.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 141,
+          "with_position": {
+            "n": 66,
+            "of": 66
+          },
+          "with_trip_id": {
+            "n": 66,
+            "of": 66
+          },
+          "with_route_id": {
+            "n": 66,
+            "of": 66
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 66
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 18,
+          "informed_resolved": {
+            "n": 24,
+            "of": 24
           }
         }
       }

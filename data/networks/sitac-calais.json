@@ -1012,12 +1012,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "error",
         "refreshed_at": "2026-09-17T09:07:48Z",
-        "age_hours": 179.8,
+        "age_hours": 183.3,
         "timetable_ends_on": "2027-06-27",
         "days_left": 276,
         "counts": {
@@ -1032,7 +1032,7 @@
           "host": null
         },
         "checked_at": "2026-09-23T21:08:56Z",
-        "check_age_hours": 23.8,
+        "check_age_hours": 27.3,
         "source": "operator"
       },
       "realtime": {
@@ -1049,7 +1049,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 73,
@@ -1080,7 +1080,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 73,
@@ -1114,10 +1114,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 73,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "error",
+        "refreshed_at": "2026-09-17T09:07:48Z",
+        "age_hours": 188.8,
+        "timetable_ends_on": "2027-06-27",
+        "days_left": 275,
+        "counts": {
+          "lines": 60,
+          "stops": 803,
+          "trips": 6228,
+          "stop_times": 183869
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac",
+        "last_error": {
+          "reason": "archive_invalid",
+          "host": null
+        },
+        "checked_at": "2026-09-23T21:08:56Z",
+        "check_age_hours": 32.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 78,
+          "trip_join": {
+            "n": 39,
+            "of": 39
+          },
+          "stop_updates_timed": {
+            "n": 650,
+            "of": 653
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 39
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 78,
+          "with_position": {
+            "n": 38,
+            "of": 38
+          },
+          "with_trip_id": {
+            "n": 38,
+            "of": 38
+          },
+          "with_route_id": {
+            "n": 38,
+            "of": 38
+          },
+          "trip_join": {
+            "n": 38,
+            "of": 38
+          }
+        },
+        "alerts": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 78,
           "informed_resolved": {
             "n": 0,
             "of": 0

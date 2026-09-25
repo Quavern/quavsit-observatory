@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T13:07:30Z",
-        "age_hours": 7.8,
+        "age_hours": 11.3,
         "timetable_ends_on": "2027-06-27",
         "days_left": 276,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin",
         "last_error": null,
         "checked_at": "2026-09-24T13:07:38Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 11.3,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 92,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 92,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 227,
             "of": 238
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-24T13:07:30Z",
+        "age_hours": 16.8,
+        "timetable_ends_on": "2027-06-27",
+        "days_left": 275,
+        "counts": {
+          "lines": 35,
+          "stops": 620,
+          "trips": 6967,
+          "stop_times": 181106
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin",
+        "last_error": null,
+        "checked_at": "2026-09-24T13:07:38Z",
+        "check_age_hours": 16.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 120,
+          "trip_join": {
+            "n": 54,
+            "of": 60
+          },
+          "stop_updates_timed": {
+            "n": 1591,
+            "of": 1632
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 60
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "app.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 120,
+          "with_position": {
+            "n": 60,
+            "of": 60
+          },
+          "with_trip_id": {
+            "n": 60,
+            "of": 60
+          },
+          "with_route_id": {
+            "n": 60,
+            "of": 60
+          },
+          "trip_join": {
+            "n": 54,
+            "of": 60
           }
         }
       }

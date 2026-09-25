@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T05:08:44Z",
-        "age_hours": 15.8,
+        "age_hours": 19.3,
         "timetable_ends_on": "2027-08-28",
         "days_left": 338,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "reseau-ruban",
         "last_error": null,
         "checked_at": "2026-09-24T05:08:48Z",
-        "check_age_hours": 15.8,
+        "check_age_hours": 19.3,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 40,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 3,
           "no_header_timestamp": 0,
           "entities": 40,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 111,
             "of": 111
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T05:09:16Z",
+        "age_hours": 0.8,
+        "timetable_ends_on": "2027-08-28",
+        "days_left": 337,
+        "counts": {
+          "lines": 35,
+          "stops": 1047,
+          "trips": 1898,
+          "stop_times": 55273
+        },
+        "pan_dataset_slug": "reseau-ruban",
+        "last_error": null,
+        "checked_at": "2026-09-25T05:09:21Z",
+        "check_age_hours": 0.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 74,
+          "trip_join": {
+            "n": 37,
+            "of": 37
+          },
+          "stop_updates_timed": {
+            "n": 937,
+            "of": 945
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 37
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "app.pysae.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 6,
+          "no_header_timestamp": 0,
+          "entities": 74,
+          "with_position": {
+            "n": 37,
+            "of": 37
+          },
+          "with_trip_id": {
+            "n": 37,
+            "of": 37
+          },
+          "with_route_id": {
+            "n": 37,
+            "of": 37
+          },
+          "trip_join": {
+            "n": 37,
+            "of": 37
           }
         }
       }

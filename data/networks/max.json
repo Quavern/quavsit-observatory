@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T19:10:19Z",
-        "age_hours": 25.7,
+        "age_hours": 29.2,
         "timetable_ends_on": "2027-08-28",
         "days_left": 338,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
         "last_error": null,
         "checked_at": "2026-09-23T19:10:21Z",
-        "check_age_hours": 25.7,
+        "check_age_hours": 29.2,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 6,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 15,
             "of": 15
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T19:10:19Z",
+        "age_hours": 34.7,
+        "timetable_ends_on": "2027-08-28",
+        "days_left": 337,
+        "counts": {
+          "lines": 6,
+          "stops": 123,
+          "trips": 266,
+          "stop_times": 3865
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-max-mende-mobilites-bus-gtfs-gtfs-rt",
+        "last_error": null,
+        "checked_at": "2026-09-23T19:10:21Z",
+        "check_age_hours": 34.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "trip_join": {
+            "n": 5,
+            "of": 5
+          },
+          "stop_updates_timed": {
+            "n": 52,
+            "of": 52
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 5
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "zenbus.net",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 10,
+          "with_position": {
+            "n": 5,
+            "of": 5
+          },
+          "with_trip_id": {
+            "n": 5,
+            "of": 5
+          },
+          "with_route_id": {
+            "n": 5,
+            "of": 5
+          },
+          "trip_join": {
+            "n": 5,
+            "of": 5
           }
         }
       }

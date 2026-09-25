@@ -508,24 +508,24 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-23T12:08:56Z",
-        "age_hours": 32.8,
-        "timetable_ends_on": "2026-12-21",
-        "days_left": 88,
+        "refreshed_at": "2026-09-25T00:08:41Z",
+        "age_hours": 0.3,
+        "timetable_ends_on": "2026-12-24",
+        "days_left": 91,
         "counts": {
           "lines": 97,
-          "stops": 3634,
-          "trips": 166975,
-          "stop_times": 4104840
+          "stops": 3640,
+          "trips": 181989,
+          "stop_times": 4534364
         },
         "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
         "last_error": null,
-        "checked_at": "2026-09-23T12:23:26Z",
-        "check_age_hours": 32.5,
+        "checked_at": "2026-09-25T00:20:29Z",
+        "check_age_hours": 0.1,
         "source": "operator"
       },
       "realtime": {
@@ -542,7 +542,7 @@
             "budget": 0
           },
           "rate_limited": 2,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 2,
           "no_header_timestamp": 0,
           "entities": 629,
@@ -557,6 +557,62 @@
           "cancelled": {
             "n": 0,
             "of": 2000
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T00:08:41Z",
+        "age_hours": 5.8,
+        "timetable_ends_on": "2026-12-24",
+        "days_left": 90,
+        "counts": {
+          "lines": 97,
+          "stops": 3640,
+          "trips": 181989,
+          "stop_times": 4534364
+        },
+        "pan_dataset_slug": "reseau-de-transports-collectifs-naolib",
+        "last_error": null,
+        "checked_at": "2026-09-25T00:20:29Z",
+        "check_age_hours": 5.6,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 13,
+          "no_header_timestamp": 0,
+          "entities": 742,
+          "trip_join": {
+            "n": 742,
+            "of": 742
+          },
+          "stop_updates_timed": {
+            "n": 8748,
+            "of": 8748
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 742
           },
           "no_trip_id": 0
         }

@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T19:10:02Z",
-        "age_hours": 25.8,
+        "age_hours": 29.3,
         "timetable_ends_on": "2026-11-01",
         "days_left": 38,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "base-de-donnees-multimodale-transports-publics-en-bretagne-korrigo-gtfs",
         "last_error": null,
         "checked_at": "2026-09-23T19:10:10Z",
-        "check_age_hours": 25.7,
+        "check_age_hours": 29.2,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T19:10:02Z",
+        "age_hours": 34.7,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 37,
+        "counts": {
+          "lines": 4,
+          "stops": 98,
+          "trips": 68,
+          "stop_times": 1413
+        },
+        "pan_dataset_slug": "base-de-donnees-multimodale-transports-publics-en-bretagne-korrigo-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-23T19:10:10Z",
+        "check_age_hours": 34.7,
         "source": "operator"
       },
       "realtime": {}

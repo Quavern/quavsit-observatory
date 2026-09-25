@@ -1012,12 +1012,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-23T10:10:21Z",
-        "age_hours": 34.7,
+        "refreshed_at": "2026-09-24T22:10:43Z",
+        "age_hours": 2.2,
         "timetable_ends_on": "2026-11-01",
         "days_left": 38,
         "counts": {
@@ -1028,8 +1028,8 @@
         },
         "pan_dataset_slug": "gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole",
         "last_error": null,
-        "checked_at": "2026-09-23T10:10:33Z",
-        "check_age_hours": 34.7,
+        "checked_at": "2026-09-24T22:10:52Z",
+        "check_age_hours": 2.2,
         "source": "operator"
       },
       "realtime": {
@@ -1046,7 +1046,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 239,
@@ -1077,7 +1077,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 93,
@@ -1111,13 +1111,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 1,
           "informed_resolved": {
             "n": 5,
             "of": 5
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-24T22:10:43Z",
+        "age_hours": 7.7,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 37,
+        "counts": {
+          "lines": 61,
+          "stops": 1547,
+          "trips": 9565,
+          "stop_times": 214207
+        },
+        "pan_dataset_slug": "gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole",
+        "last_error": null,
+        "checked_at": "2026-09-24T22:10:52Z",
+        "check_age_hours": 7.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "eur.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 309,
+          "trip_join": {
+            "n": 309,
+            "of": 309
+          },
+          "stop_updates_timed": {
+            "n": 6915,
+            "of": 7086
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 309
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 107,
+          "with_position": {
+            "n": 107,
+            "of": 107
+          },
+          "with_trip_id": {
+            "n": 97,
+            "of": 107
+          },
+          "with_route_id": {
+            "n": 98,
+            "of": 107
+          },
+          "trip_join": {
+            "n": 97,
+            "of": 97
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 1,
+          "informed_resolved": {
+            "n": 1,
+            "of": 1
           }
         }
       }

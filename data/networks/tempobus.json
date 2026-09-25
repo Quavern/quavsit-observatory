@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T09:08:32Z",
-        "age_hours": 203.8,
+        "age_hours": 207.3,
         "timetable_ends_on": "2027-08-31",
         "days_left": 341,
         "counts": {
@@ -236,8 +236,32 @@
         },
         "pan_dataset_slug": "agen-gtfs-urbain",
         "last_error": null,
-        "checked_at": "2026-09-24T09:10:26Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-24T21:08:14Z",
+        "check_age_hours": 3.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-16T09:08:32Z",
+        "age_hours": 212.8,
+        "timetable_ends_on": "2027-08-31",
+        "days_left": 340,
+        "counts": {
+          "lines": 70,
+          "stops": 1326,
+          "trips": 1981,
+          "stop_times": 33458
+        },
+        "pan_dataset_slug": "agen-gtfs-urbain",
+        "last_error": null,
+        "checked_at": "2026-09-24T21:08:14Z",
+        "check_age_hours": 8.8,
         "source": "operator"
       },
       "realtime": {}

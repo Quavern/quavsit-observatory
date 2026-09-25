@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-08T20:19:38Z",
-        "age_hours": 384.6,
+        "age_hours": 388.1,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "information-sur-les-transports-en-commun",
         "last_error": null,
         "checked_at": "2026-09-24T20:08:04Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-08T20:19:38Z",
+        "age_hours": 393.6,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 97,
+        "counts": {
+          "lines": 13,
+          "stops": 554,
+          "trips": 974,
+          "stop_times": 15824
+        },
+        "pan_dataset_slug": "information-sur-les-transports-en-commun",
+        "last_error": null,
+        "checked_at": "2026-09-24T20:08:04Z",
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {}

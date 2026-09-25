@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T07:08:54Z",
-        "age_hours": 157.8,
+        "age_hours": 161.3,
         "timetable_ends_on": "2027-04-04",
         "days_left": 192,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "reseau-bus-sete-agglopole-mobilite",
         "last_error": null,
         "checked_at": "2026-09-24T19:08:28Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 126,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 12,
           "no_header_timestamp": 0,
           "entities": 47,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 159,
             "of": 160
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T07:08:54Z",
+        "age_hours": 166.8,
+        "timetable_ends_on": "2027-04-04",
+        "days_left": 191,
+        "counts": {
+          "lines": 23,
+          "stops": 518,
+          "trips": 2997,
+          "stop_times": 60007
+        },
+        "pan_dataset_slug": "reseau-bus-sete-agglopole-mobilite",
+        "last_error": null,
+        "checked_at": "2026-09-24T19:08:28Z",
+        "check_age_hours": 10.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "sete.ceccli.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 138,
+          "trip_join": {
+            "n": 138,
+            "of": 138
+          },
+          "stop_updates_timed": {
+            "n": 2102,
+            "of": 2102
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 138
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "sete.ceccli.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 7,
+          "no_header_timestamp": 0,
+          "entities": 37,
+          "with_position": {
+            "n": 37,
+            "of": 37
+          },
+          "with_trip_id": {
+            "n": 33,
+            "of": 37
+          },
+          "with_route_id": {
+            "n": 33,
+            "of": 37
+          },
+          "trip_join": {
+            "n": 33,
+            "of": 33
           }
         }
       }

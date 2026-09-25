@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-17T06:09:11Z",
-        "age_hours": 182.8,
+        "age_hours": 186.3,
         "timetable_ends_on": "2026-11-01",
         "days_left": 38,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
         "last_error": null,
         "checked_at": "2026-09-24T18:07:07Z",
-        "check_age_hours": 2.8,
+        "check_age_hours": 6.3,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 86,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 33,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 167,
             "of": 167
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-17T06:09:11Z",
+        "age_hours": 191.8,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 37,
+        "counts": {
+          "lines": 29,
+          "stops": 611,
+          "trips": 2583,
+          "stop_times": 65716
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-temps-reel-du-reseau-de-transports-beemob-beziers-mediterranee",
+        "last_error": null,
+        "checked_at": "2026-09-24T18:07:07Z",
+        "check_age_hours": 11.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-beemob-beziers.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 96,
+          "trip_join": {
+            "n": 96,
+            "of": 96
+          },
+          "stop_updates_timed": {
+            "n": 2658,
+            "of": 2794
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 96
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "feed-beemob-beziers.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 40,
+          "with_position": {
+            "n": 40,
+            "of": 40
+          },
+          "with_trip_id": {
+            "n": 40,
+            "of": 40
+          },
+          "with_route_id": {
+            "n": 40,
+            "of": 40
+          },
+          "trip_join": {
+            "n": 40,
+            "of": 40
           }
         }
       }

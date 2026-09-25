@@ -706,12 +706,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T01:09:29Z",
-        "age_hours": 139.8,
+        "age_hours": 143.3,
         "timetable_ends_on": "2026-12-31",
         "days_left": 98,
         "counts": {
@@ -723,7 +723,7 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-24T13:07:38Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 11.3,
         "source": "operator"
       },
       "realtime": {
@@ -740,7 +740,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 19,
           "no_header_timestamp": 0,
           "entities": 164,
@@ -771,13 +771,91 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 30,
           "informed_resolved": {
             "n": 360,
             "of": 365
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-19T01:09:29Z",
+        "age_hours": 148.8,
+        "timetable_ends_on": "2026-12-31",
+        "days_left": 97,
+        "counts": {
+          "lines": 133,
+          "stops": 2077,
+          "trips": 3365,
+          "stop_times": 94395
+        },
+        "pan_dataset_slug": "horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration",
+        "last_error": null,
+        "checked_at": "2026-09-25T01:09:55Z",
+        "check_age_hours": 4.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "feed-rdla-lorient.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 11,
+          "no_header_timestamp": 0,
+          "entities": 313,
+          "trip_join": {
+            "n": 309,
+            "of": 313
+          },
+          "stop_updates_timed": {
+            "n": 3014,
+            "of": 3076
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 313
+          },
+          "no_trip_id": 0
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 1,
+          "no_header_timestamp": 0,
+          "entities": 30,
+          "informed_resolved": {
+            "n": 72,
+            "of": 73
           }
         }
       }

@@ -814,12 +814,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T19:09:08Z",
-        "age_hours": 25.8,
+        "age_hours": 29.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 24,
         "counts": {
@@ -831,7 +831,7 @@
         "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
         "last_error": null,
         "checked_at": "2026-09-23T19:09:12Z",
-        "check_age_hours": 25.8,
+        "check_age_hours": 29.3,
         "source": "operator"
       },
       "realtime": {
@@ -848,7 +848,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 13,
           "no_header_timestamp": 0,
           "entities": 33,
@@ -879,7 +879,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 11,
           "no_header_timestamp": 0,
           "entities": 17,
@@ -898,6 +898,96 @@
           "trip_join": {
             "n": 134,
             "of": 134
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T19:09:08Z",
+        "age_hours": 34.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 23,
+        "counts": {
+          "lines": 73,
+          "stops": 1165,
+          "trips": 1783,
+          "stop_times": 38257
+        },
+        "pan_dataset_slug": "agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois",
+        "last_error": null,
+        "checked_at": "2026-09-23T19:09:12Z",
+        "check_age_hours": 34.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 18,
+          "no_header_timestamp": 0,
+          "entities": 55,
+          "trip_join": {
+            "n": 55,
+            "of": 55
+          },
+          "stop_updates_timed": {
+            "n": 685,
+            "of": 685
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 55
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "app.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 18,
+          "no_header_timestamp": 0,
+          "entities": 43,
+          "with_position": {
+            "n": 43,
+            "of": 43
+          },
+          "with_trip_id": {
+            "n": 43,
+            "of": 43
+          },
+          "with_route_id": {
+            "n": 43,
+            "of": 43
+          },
+          "trip_join": {
+            "n": 43,
+            "of": 43
           }
         }
       }

@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T15:08:23Z",
-        "age_hours": 149.8,
+        "age_hours": 153.3,
         "timetable_ends_on": "2027-08-29",
         "days_left": 339,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "reseau-de-transport-artis",
         "last_error": null,
         "checked_at": "2026-09-24T15:08:05Z",
-        "check_age_hours": 5.8,
+        "check_age_hours": 9.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-18T15:08:23Z",
+        "age_hours": 158.8,
+        "timetable_ends_on": "2027-08-29",
+        "days_left": 338,
+        "counts": {
+          "lines": 53,
+          "stops": 1205,
+          "trips": 7806,
+          "stop_times": 174290
+        },
+        "pan_dataset_slug": "reseau-de-transport-artis",
+        "last_error": null,
+        "checked_at": "2026-09-25T03:07:52Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {}

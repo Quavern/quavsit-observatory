@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T07:08:31Z",
-        "age_hours": 85.8,
+        "age_hours": 89.3,
         "timetable_ends_on": "2026-10-16",
         "days_left": 22,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tarbes-lourdes-tlp-mobilites-gtfs",
         "last_error": null,
         "checked_at": "2026-09-24T19:08:28Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-21T07:08:31Z",
+        "age_hours": 94.8,
+        "timetable_ends_on": "2026-10-16",
+        "days_left": 21,
+        "counts": {
+          "lines": 26,
+          "stops": 676,
+          "trips": 2538,
+          "stop_times": 49066
+        },
+        "pan_dataset_slug": "horaires-theoriques-du-reseau-tarbes-lourdes-tlp-mobilites-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-24T19:08:28Z",
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {}

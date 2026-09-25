@@ -220,12 +220,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T19:07:56Z",
-        "age_hours": 49.8,
+        "age_hours": 53.3,
         "timetable_ends_on": "2027-03-21",
         "days_left": 178,
         "counts": {
@@ -237,7 +237,31 @@
         "pan_dataset_slug": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
         "last_error": null,
         "checked_at": "2026-09-24T19:08:07Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-22T19:07:56Z",
+        "age_hours": 58.8,
+        "timetable_ends_on": "2027-03-21",
+        "days_left": 177,
+        "counts": {
+          "lines": 50,
+          "stops": 1359,
+          "trips": 36376,
+          "stop_times": 815144
+        },
+        "pan_dataset_slug": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
+        "last_error": null,
+        "checked_at": "2026-09-24T19:08:07Z",
+        "check_age_hours": 10.8,
         "source": "operator"
       },
       "realtime": {}

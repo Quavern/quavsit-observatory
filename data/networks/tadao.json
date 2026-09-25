@@ -508,12 +508,12 @@
     },
     {
       "day": "2026-09-24",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T11:13:26Z",
-        "age_hours": 9.7,
+        "age_hours": 13.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 101,
         "counts": {
@@ -525,7 +525,7 @@
         "pan_dataset_slug": "gtfs-tadao",
         "last_error": null,
         "checked_at": "2026-09-24T11:14:05Z",
-        "check_age_hours": 9.7,
+        "check_age_hours": 13.2,
         "source": "operator"
       },
       "realtime": {
@@ -542,7 +542,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 48,
           "no_header_timestamp": 0,
           "entities": 160,
@@ -557,6 +557,62 @@
           "cancelled": {
             "n": 0,
             "of": 975
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-25",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-24T11:13:26Z",
+        "age_hours": 18.7,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 100,
+        "counts": {
+          "lines": 333,
+          "stops": 3398,
+          "trips": 9250,
+          "stop_times": 290892
+        },
+        "pan_dataset_slug": "gtfs-tadao",
+        "last_error": null,
+        "checked_at": "2026-09-24T11:14:05Z",
+        "check_age_hours": 18.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 36,
+          "no_header_timestamp": 0,
+          "entities": 421,
+          "trip_join": {
+            "n": 396,
+            "of": 396
+          },
+          "stop_updates_timed": {
+            "n": 1341,
+            "of": 1341
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 396
           },
           "no_trip_id": 0
         }
