@@ -475,40 +475,40 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-24T16:07:45Z",
-        "age_hours": 22.8,
+        "refreshed_at": "2026-09-25T16:08:57Z",
+        "age_hours": 4.8,
         "timetable_ends_on": "2026-12-20",
         "days_left": 86,
         "counts": {
           "lines": 85,
           "stops": 2283,
-          "trips": 24890,
-          "stop_times": 607780
+          "trips": 24872,
+          "stop_times": 607518
         },
         "pan_dataset_slug": "horaires-du-reseau-stas",
         "last_error": null,
-        "checked_at": "2026-09-24T16:08:24Z",
-        "check_age_hours": 22.8,
+        "checked_at": "2026-09-25T16:09:25Z",
+        "check_age_hours": 4.8,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "bus-prod.saint-etienne-metropole.fr",
-          "samples": 4,
+          "samples": 5,
           "ok": 0,
           "failures": {
             "timeout": 0,
-            "connection": 4,
+            "connection": 5,
             "http_4xx": 0,
             "http_5xx": 0,
             "decode_error": 0,
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": null,
           "no_header_timestamp": 0,
           "entities": null,

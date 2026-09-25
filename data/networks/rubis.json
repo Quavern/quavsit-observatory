@@ -899,11 +899,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T22:10:29Z",
-        "age_hours": 16.7,
+        "age_hours": 22.7,
         "timetable_ends_on": "2027-12-31",
         "days_left": 462,
         "counts": {
@@ -915,14 +915,14 @@
         "pan_dataset_slug": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
         "last_error": null,
         "checked_at": "2026-09-24T22:10:43Z",
-        "check_age_hours": 16.7,
+        "check_age_hours": 22.7,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -932,28 +932,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 22,
+          "samples_night": 2,
+          "header_age_seconds": 21,
           "no_header_timestamp": 0,
-          "entities": 67,
+          "entities": 66,
           "trip_join": {
-            "n": 269,
-            "of": 269
+            "n": 286,
+            "of": 286
           },
           "stop_updates_timed": {
-            "n": 7550,
-            "of": 7563
+            "n": 8025,
+            "of": 8038
           },
           "cancelled": {
             "n": 0,
-            "of": 269
+            "of": 286
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -963,25 +963,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 34,
+          "entities": 32,
           "with_position": {
-            "n": 136,
-            "of": 136
+            "n": 151,
+            "of": 151
           },
           "with_trip_id": {
-            "n": 136,
-            "of": 136
+            "n": 151,
+            "of": 151
           },
           "with_route_id": {
             "n": 0,
-            "of": 136
+            "of": 151
           },
           "trip_join": {
             "n": 0,
-            "of": 136
+            "of": 151
           }
         }
       }

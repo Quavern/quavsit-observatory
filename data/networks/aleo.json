@@ -905,11 +905,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T03:07:50Z",
-        "age_hours": 11.8,
+        "age_hours": 17.8,
         "timetable_ends_on": "2027-07-04",
         "days_left": 282,
         "counts": {
@@ -921,14 +921,14 @@
         "pan_dataset_slug": "donnees-du-reseau-de-transport-aleo",
         "last_error": null,
         "checked_at": "2026-09-25T03:07:52Z",
-        "check_age_hours": 11.8,
+        "check_age_hours": 17.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -938,28 +938,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 2,
+          "samples_night": 2,
+          "header_age_seconds": 3,
           "no_header_timestamp": 0,
-          "entities": 27,
+          "entities": 20,
           "trip_join": {
-            "n": 55,
-            "of": 55
+            "n": 61,
+            "of": 61
           },
           "stop_updates_timed": {
-            "n": 1749,
-            "of": 1755
+            "n": 1935,
+            "of": 1941
           },
           "cancelled": {
             "n": 0,
-            "of": 55
+            "of": 61
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "api.pysae.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -969,25 +969,25 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 3,
+          "samples_night": 2,
+          "header_age_seconds": 4,
           "no_header_timestamp": 0,
-          "entities": 27,
+          "entities": 20,
           "with_position": {
-            "n": 55,
-            "of": 55
+            "n": 61,
+            "of": 61
           },
           "with_trip_id": {
-            "n": 55,
-            "of": 55
+            "n": 61,
+            "of": 61
           },
           "with_route_id": {
-            "n": 55,
-            "of": 55
+            "n": 61,
+            "of": 61
           },
           "trip_join": {
-            "n": 55,
-            "of": 55
+            "n": 61,
+            "of": 61
           }
         }
       }

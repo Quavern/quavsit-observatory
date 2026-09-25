@@ -785,30 +785,30 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-24T08:11:10Z",
-        "age_hours": 30.7,
-        "timetable_ends_on": "2026-10-26",
-        "days_left": 31,
+        "refreshed_at": "2026-09-25T20:09:37Z",
+        "age_hours": 0.8,
+        "timetable_ends_on": "2026-10-28",
+        "days_left": 33,
         "counts": {
           "lines": 124,
-          "stops": 5724,
-          "trips": 40427,
-          "stop_times": 902869
+          "stops": 5725,
+          "trips": 40507,
+          "stop_times": 905166
         },
         "pan_dataset_slug": "tisseo-reseau-transport-urbain-toulousain",
         "last_error": null,
-        "checked_at": "2026-09-24T08:12:13Z",
-        "check_age_hours": 30.7,
+        "checked_at": "2026-09-25T20:11:23Z",
+        "check_age_hours": 0.7,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.tisseo.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -818,28 +818,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 1,
           "no_header_timestamp": 0,
-          "entities": 1609,
+          "entities": 1427,
           "trip_join": {
-            "n": 5561,
-            "of": 6268
+            "n": 6466,
+            "of": 7348
           },
           "stop_updates_timed": {
-            "n": 104331,
-            "of": 104941
+            "n": 121412,
+            "of": 122133
           },
           "cancelled": {
-            "n": 999,
-            "of": 6268
+            "n": 1184,
+            "of": 7348
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "api.tisseo.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -849,13 +849,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 1,
+          "samples_night": 2,
+          "header_age_seconds": 2,
           "no_header_timestamp": 0,
-          "entities": 1609,
+          "entities": 1427,
           "informed_resolved": {
-            "n": 128,
-            "of": 155
+            "n": 172,
+            "of": 208
           }
         }
       }

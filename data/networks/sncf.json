@@ -795,11 +795,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T11:08:24Z",
-        "age_hours": 27.8,
+        "age_hours": 33.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -818,8 +818,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -829,28 +829,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 74,
+          "samples_night": 2,
+          "header_age_seconds": 68,
           "no_header_timestamp": 0,
-          "entities": 1744,
+          "entities": 1810,
           "trip_join": {
-            "n": 6024,
-            "of": 6862
+            "n": 7612,
+            "of": 8672
           },
           "stop_updates_timed": {
-            "n": 60034,
-            "of": 60034
+            "n": 76256,
+            "of": 76256
           },
           "cancelled": {
-            "n": 99,
-            "of": 6862
+            "n": 127,
+            "of": 8672
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -860,13 +860,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 10,
+          "samples_night": 2,
+          "header_age_seconds": 15,
           "no_header_timestamp": 0,
-          "entities": 512,
+          "entities": 536,
           "informed_resolved": {
-            "n": 2006,
-            "of": 2006
+            "n": 2519,
+            "of": 2519
           }
         }
       }

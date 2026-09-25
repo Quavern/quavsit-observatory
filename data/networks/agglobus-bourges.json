@@ -785,11 +785,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-19T05:08:42Z",
-        "age_hours": 153.8,
+        "age_hours": 159.8,
         "timetable_ends_on": "2027-09-18",
         "days_left": 358,
         "counts": {
@@ -800,15 +800,15 @@
         },
         "pan_dataset_slug": "agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges",
         "last_error": null,
-        "checked_at": "2026-09-25T05:09:21Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-25T17:07:17Z",
+        "check_age_hours": 3.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -818,28 +818,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 21,
+          "samples_night": 2,
+          "header_age_seconds": 22,
           "no_header_timestamp": 0,
-          "entities": 67,
+          "entities": 65,
           "trip_join": {
-            "n": 268,
-            "of": 268
+            "n": 333,
+            "of": 333
           },
           "stop_updates_timed": {
-            "n": 8832,
-            "of": 8832
+            "n": 10927,
+            "of": 10927
           },
           "cancelled": {
             "n": 0,
-            "of": 268
+            "of": 333
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -849,13 +849,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 2,
+          "samples_night": 2,
+          "header_age_seconds": 5,
           "no_header_timestamp": 0,
           "entities": 12,
           "informed_resolved": {
-            "n": 158,
-            "of": 158
+            "n": 199,
+            "of": 199
           }
         }
       }

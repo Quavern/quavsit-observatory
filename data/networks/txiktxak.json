@@ -785,11 +785,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 5,
+      "samples_taken": 7,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-12T03:10:12Z",
-        "age_hours": 323.7,
+        "age_hours": 329.7,
         "timetable_ends_on": "2027-07-04",
         "days_left": 282,
         "counts": {
@@ -800,15 +800,15 @@
         },
         "pan_dataset_slug": "offre-transport-du-reseau-txik-txak",
         "last_error": null,
-        "checked_at": "2026-09-25T03:10:56Z",
-        "check_age_hours": 11.7,
+        "checked_at": "2026-09-25T15:09:03Z",
+        "check_age_hours": 5.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -818,28 +818,28 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 18,
+          "samples_night": 2,
+          "header_age_seconds": 17,
           "no_header_timestamp": 0,
-          "entities": 568,
+          "entities": 565,
           "trip_join": {
-            "n": 2264,
-            "of": 2264
+            "n": 2561,
+            "of": 2561
           },
           "stop_updates_timed": {
-            "n": 68170,
-            "of": 70818
+            "n": 77949,
+            "of": 80899
           },
           "cancelled": {
             "n": 0,
-            "of": 2264
+            "of": 2561
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "app.mecatran.com",
-          "samples": 4,
-          "ok": 4,
+          "samples": 5,
+          "ok": 5,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -849,13 +849,13 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 1,
+          "samples_night": 2,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 12,
           "informed_resolved": {
-            "n": 60,
-            "of": 60
+            "n": 75,
+            "of": 75
           }
         }
       }
