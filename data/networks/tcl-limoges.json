@@ -249,7 +249,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-21T14:08:30Z",
-        "age_hours": 87.8,
+        "age_hours": 90.8,
         "timetable_ends_on": "2027-01-03",
         "days_left": 100,
         "counts": {
@@ -261,7 +261,7 @@
         "pan_dataset_slug": "arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lim-nva-m-1",
         "last_error": null,
         "checked_at": "2026-09-25T02:09:04Z",
-        "check_age_hours": 3.8,
+        "check_age_hours": 6.8,
         "source": "operator"
       },
       "realtime": {}

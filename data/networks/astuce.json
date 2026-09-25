@@ -869,11 +869,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T23:08:06Z",
-        "age_hours": 6.8,
+        "age_hours": 9.8,
         "timetable_ends_on": "2027-08-29",
         "days_left": 338,
         "counts": {
@@ -885,45 +885,14 @@
         "pan_dataset_slug": "donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie",
         "last_error": null,
         "checked_at": "2026-09-24T23:08:39Z",
-        "check_age_hours": 6.8,
+        "check_age_hours": 9.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "api.mrn.cityway.fr",
-          "samples": 1,
-          "ok": 1,
-          "failures": {
-            "timeout": 0,
-            "connection": 0,
-            "http_4xx": 0,
-            "http_5xx": 0,
-            "decode_error": 0,
-            "budget": 0
-          },
-          "rate_limited": 0,
-          "samples_night": 1,
-          "header_age_seconds": 27,
-          "no_header_timestamp": 0,
-          "entities": 399,
-          "trip_join": {
-            "n": 399,
-            "of": 399
-          },
-          "stop_updates_timed": {
-            "n": 7410,
-            "of": 7410
-          },
-          "cancelled": {
-            "n": 0,
-            "of": 399
-          },
-          "no_trip_id": 0
-        },
-        "vehicle_positions": {
-          "host": "api.mrn.cityway.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -936,22 +905,53 @@
           "samples_night": 1,
           "header_age_seconds": 26,
           "no_header_timestamp": 0,
-          "entities": 182,
+          "entities": 367,
+          "trip_join": {
+            "n": 734,
+            "of": 734
+          },
+          "stop_updates_timed": {
+            "n": 13759,
+            "of": 13759
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 734
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.mrn.cityway.fr",
+          "samples": 2,
+          "ok": 2,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 26,
+          "no_header_timestamp": 0,
+          "entities": 186,
           "with_position": {
-            "n": 182,
-            "of": 182
+            "n": 373,
+            "of": 373
           },
           "with_trip_id": {
-            "n": 182,
-            "of": 182
+            "n": 373,
+            "of": 373
           },
           "with_route_id": {
-            "n": 182,
-            "of": 182
+            "n": 373,
+            "of": 373
           },
           "trip_join": {
-            "n": 182,
-            "of": 182
+            "n": 373,
+            "of": 373
           }
         }
       }

@@ -249,7 +249,7 @@
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-16T16:17:32Z",
-        "age_hours": 205.6,
+        "age_hours": 208.6,
         "timetable_ends_on": "2026-12-31",
         "days_left": 97,
         "counts": {
@@ -261,7 +261,7 @@
         "pan_dataset_slug": "gtfs-du-reseau-de-transports-publics-de-saint-brieuc-armor-agglomeration",
         "last_error": null,
         "checked_at": "2026-09-25T04:07:31Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {}

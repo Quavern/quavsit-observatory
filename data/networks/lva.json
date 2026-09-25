@@ -1125,11 +1125,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T21:08:51Z",
-        "age_hours": 32.8,
+        "age_hours": 35.8,
         "timetable_ends_on": "2026-12-31",
         "days_left": 97,
         "counts": {
@@ -1141,14 +1141,14 @@
         "pan_dataset_slug": "reseau-lva",
         "last_error": null,
         "checked_at": "2026-09-23T21:08:56Z",
-        "check_age_hours": 32.8,
+        "check_age_hours": 35.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "feed-vienne-mobi.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1161,25 +1161,25 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 141,
+          "entities": 83,
           "trip_join": {
             "n": 0,
-            "of": 75
+            "of": 88
           },
           "stop_updates_timed": {
-            "n": 594,
-            "of": 594
+            "n": 876,
+            "of": 876
           },
           "cancelled": {
             "n": 0,
-            "of": 75
+            "of": 88
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "feed-vienne-mobi.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1192,28 +1192,28 @@
           "samples_night": 1,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
-          "entities": 141,
+          "entities": 83,
           "with_position": {
-            "n": 66,
-            "of": 66
+            "n": 78,
+            "of": 78
           },
           "with_trip_id": {
-            "n": 66,
-            "of": 66
+            "n": 78,
+            "of": 78
           },
           "with_route_id": {
-            "n": 66,
-            "of": 66
+            "n": 78,
+            "of": 78
           },
           "trip_join": {
             "n": 0,
-            "of": 66
+            "of": 78
           }
         },
         "alerts": {
           "host": "notify.ratpdev.com",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1228,8 +1228,8 @@
           "no_header_timestamp": 0,
           "entities": 18,
           "informed_resolved": {
-            "n": 24,
-            "of": 24
+            "n": 48,
+            "of": 48
           }
         }
       }

@@ -795,11 +795,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-24T11:08:24Z",
-        "age_hours": 18.8,
+        "age_hours": 21.8,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
@@ -818,8 +818,8 @@
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -830,27 +830,27 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 66,
+          "header_age_seconds": 67,
           "no_header_timestamp": 0,
-          "entities": 2190,
+          "entities": 1687,
           "trip_join": {
-            "n": 1922,
-            "of": 2190
+            "n": 2953,
+            "of": 3374
           },
           "stop_updates_timed": {
-            "n": 19446,
-            "of": 19446
+            "n": 29324,
+            "of": 29324
           },
           "cancelled": {
-            "n": 45,
-            "of": 2190
+            "n": 62,
+            "of": 3374
           },
           "no_trip_id": 0
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -861,12 +861,12 @@
           },
           "rate_limited": 0,
           "samples_night": 1,
-          "header_age_seconds": 15,
+          "header_age_seconds": 8,
           "no_header_timestamp": 0,
-          "entities": 536,
+          "entities": 509,
           "informed_resolved": {
-            "n": 495,
-            "of": 495
+            "n": 990,
+            "of": 990
           }
         }
       }

@@ -1125,11 +1125,11 @@
     {
       "day": "2026-09-25",
       "complete": false,
-      "samples_taken": 2,
+      "samples_taken": 3,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-18T18:09:32Z",
-        "age_hours": 155.8,
+        "age_hours": 158.8,
         "timetable_ends_on": "2027-07-02",
         "days_left": 280,
         "counts": {
@@ -1140,15 +1140,15 @@
         },
         "pan_dataset_slug": "reseau-urbain-kiceo",
         "last_error": null,
-        "checked_at": "2026-09-24T18:09:10Z",
-        "check_age_hours": 11.8,
+        "checked_at": "2026-09-25T06:09:34Z",
+        "check_age_hours": 2.8,
         "source": "operator"
       },
       "realtime": {
         "trip_updates": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1161,25 +1161,25 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 119,
+          "entities": 110,
           "trip_join": {
-            "n": 119,
-            "of": 119
+            "n": 220,
+            "of": 220
           },
           "stop_updates_timed": {
-            "n": 2810,
-            "of": 2810
+            "n": 5319,
+            "of": 5319
           },
           "cancelled": {
-            "n": 1,
-            "of": 119
+            "n": 2,
+            "of": 220
           },
           "no_trip_id": 0
         },
         "vehicle_positions": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1192,28 +1192,28 @@
           "samples_night": 1,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
-          "entities": 67,
+          "entities": 61,
           "with_position": {
-            "n": 67,
-            "of": 67
+            "n": 123,
+            "of": 123
           },
           "with_trip_id": {
-            "n": 67,
-            "of": 67
+            "n": 123,
+            "of": 123
           },
           "with_route_id": {
-            "n": 67,
-            "of": 67
+            "n": 123,
+            "of": 123
           },
           "trip_join": {
-            "n": 67,
-            "of": 67
+            "n": 123,
+            "of": 123
           }
         },
         "alerts": {
           "host": "proxy.transport.data.gouv.fr",
-          "samples": 1,
-          "ok": 1,
+          "samples": 2,
+          "ok": 2,
           "failures": {
             "timeout": 0,
             "connection": 0,
@@ -1228,8 +1228,8 @@
           "no_header_timestamp": 0,
           "entities": 3,
           "informed_resolved": {
-            "n": 8,
-            "of": 8
+            "n": 16,
+            "of": 16
           }
         }
       }

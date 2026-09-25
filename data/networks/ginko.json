@@ -248,20 +248,20 @@
       "samples_taken": 0,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-18T07:08:36Z",
-        "age_hours": 166.8,
-        "timetable_ends_on": "2026-10-25",
-        "days_left": 30,
+        "refreshed_at": "2026-09-25T07:07:41Z",
+        "age_hours": 1.8,
+        "timetable_ends_on": "2026-11-27",
+        "days_left": 63,
         "counts": {
-          "lines": 182,
-          "stops": 2035,
-          "trips": 14022,
-          "stop_times": 298096
+          "lines": 181,
+          "stops": 2028,
+          "trips": 22506,
+          "stop_times": 513842
         },
         "pan_dataset_slug": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
         "last_error": null,
-        "checked_at": "2026-09-24T19:08:08Z",
-        "check_age_hours": 10.8,
+        "checked_at": "2026-09-25T07:08:03Z",
+        "check_age_hours": 1.8,
         "source": "operator"
       },
       "realtime": {}
