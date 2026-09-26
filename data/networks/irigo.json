@@ -1124,12 +1124,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T04:07:13Z",
-        "age_hours": 16.8,
+        "age_hours": 20.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 280,
         "counts": {
@@ -1141,7 +1141,7 @@
         "pan_dataset_slug": "angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri",
         "last_error": null,
         "checked_at": "2026-09-25T04:07:29Z",
-        "check_age_hours": 16.8,
+        "check_age_hours": 20.3,
         "source": "operator"
       },
       "realtime": {
@@ -1158,7 +1158,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
           "entities": 324,
@@ -1189,7 +1189,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 21,
           "no_header_timestamp": 0,
           "entities": 218,
@@ -1223,13 +1223,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 28,
           "informed_resolved": {
             "n": 193,
             "of": 193
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T04:07:13Z",
+        "age_hours": 25.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 279,
+        "counts": {
+          "lines": 104,
+          "stops": 1774,
+          "trips": 9936,
+          "stop_times": 347761
+        },
+        "pan_dataset_slug": "angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri",
+        "last_error": null,
+        "checked_at": "2026-09-26T04:08:09Z",
+        "check_age_hours": 1.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 53,
+          "no_header_timestamp": 0,
+          "entities": 245,
+          "trip_join": {
+            "n": 245,
+            "of": 245
+          },
+          "stop_updates_timed": {
+            "n": 4965,
+            "of": 4965
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 245
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "ara-api.enroute.mobi",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 24,
+          "no_header_timestamp": 0,
+          "entities": 73,
+          "with_position": {
+            "n": 73,
+            "of": 73
+          },
+          "with_trip_id": {
+            "n": 73,
+            "of": 73
+          },
+          "with_route_id": {
+            "n": 73,
+            "of": 73
+          },
+          "trip_join": {
+            "n": 73,
+            "of": 73
+          }
+        },
+        "alerts": {
+          "host": "notify.ratpdev.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 27,
+          "informed_resolved": {
+            "n": 36,
+            "of": 36
           }
         }
       }

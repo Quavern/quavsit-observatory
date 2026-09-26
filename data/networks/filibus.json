@@ -904,12 +904,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T11:07:44Z",
-        "age_hours": 81.8,
+        "age_hours": 85.3,
         "timetable_ends_on": "2027-07-02",
         "days_left": 280,
         "counts": {
@@ -920,8 +920,8 @@
         },
         "pan_dataset_slug": "filibus-urbain",
         "last_error": null,
-        "checked_at": "2026-09-25T11:07:52Z",
-        "check_age_hours": 9.8,
+        "checked_at": "2026-09-25T23:12:11Z",
+        "check_age_hours": 1.2,
         "source": "operator"
       },
       "realtime": {
@@ -938,7 +938,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 99,
@@ -969,7 +969,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 99,
@@ -988,6 +988,96 @@
           "trip_join": {
             "n": 289,
             "of": 289
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-22T11:07:44Z",
+        "age_hours": 90.8,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 279,
+        "counts": {
+          "lines": 80,
+          "stops": 1294,
+          "trips": 11015,
+          "stop_times": 255903
+        },
+        "pan_dataset_slug": "filibus-urbain",
+        "last_error": null,
+        "checked_at": "2026-09-25T23:12:11Z",
+        "check_age_hours": 6.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "gtfs.bus-tracker.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 46,
+          "trip_join": {
+            "n": 24,
+            "of": 24
+          },
+          "stop_updates_timed": {
+            "n": 24,
+            "of": 24
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 24
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "gtfs.bus-tracker.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 46,
+          "with_position": {
+            "n": 22,
+            "of": 22
+          },
+          "with_trip_id": {
+            "n": 22,
+            "of": 22
+          },
+          "with_route_id": {
+            "n": 22,
+            "of": 22
+          },
+          "trip_join": {
+            "n": 22,
+            "of": 22
           }
         }
       }

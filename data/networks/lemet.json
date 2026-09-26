@@ -904,12 +904,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T09:08:16Z",
-        "age_hours": 11.8,
+        "age_hours": 15.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 23,
         "counts": {
@@ -921,7 +921,7 @@
         "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
         "last_error": null,
         "checked_at": "2026-09-25T09:08:39Z",
-        "check_age_hours": 11.8,
+        "check_age_hours": 15.3,
         "source": "operator"
       },
       "realtime": {
@@ -938,7 +938,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 14,
           "no_header_timestamp": 0,
           "entities": 263,
@@ -969,7 +969,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 116,
@@ -988,6 +988,96 @@
           "trip_join": {
             "n": 651,
             "of": 652
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T09:08:16Z",
+        "age_hours": 20.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 22,
+        "counts": {
+          "lines": 79,
+          "stops": 1674,
+          "trips": 21047,
+          "stop_times": 475569
+        },
+        "pan_dataset_slug": "fichiers-gtfs-eurometropole-de-metz",
+        "last_error": null,
+        "checked_at": "2026-09-25T09:08:39Z",
+        "check_age_hours": 20.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 20,
+          "no_header_timestamp": 0,
+          "entities": 190,
+          "trip_join": {
+            "n": 0,
+            "of": 190
+          },
+          "stop_updates_timed": {
+            "n": 2356,
+            "of": 2356
+          },
+          "cancelled": {
+            "n": 3,
+            "of": 190
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 20,
+          "no_header_timestamp": 0,
+          "entities": 77,
+          "with_position": {
+            "n": 77,
+            "of": 77
+          },
+          "with_trip_id": {
+            "n": 77,
+            "of": 77
+          },
+          "with_route_id": {
+            "n": 77,
+            "of": 77
+          },
+          "trip_join": {
+            "n": 0,
+            "of": 77
           }
         }
       }

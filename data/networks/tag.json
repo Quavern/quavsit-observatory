@@ -244,12 +244,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-23T13:10:13Z",
-        "age_hours": 55.7,
+        "age_hours": 59.2,
         "timetable_ends_on": "2026-11-08",
         "days_left": 44,
         "counts": {
@@ -261,7 +261,31 @@
         "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
         "last_error": null,
         "checked_at": "2026-09-25T13:09:09Z",
-        "check_age_hours": 7.8,
+        "check_age_hours": 11.3,
+        "source": "operator"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-23T13:10:13Z",
+        "age_hours": 64.7,
+        "timetable_ends_on": "2026-11-08",
+        "days_left": 43,
+        "counts": {
+          "lines": 56,
+          "stops": 2541,
+          "trips": 18050,
+          "stop_times": 420101
+        },
+        "pan_dataset_slug": "horaires-theoriques-du-reseau-tag",
+        "last_error": null,
+        "checked_at": "2026-09-26T01:07:40Z",
+        "check_age_hours": 4.8,
         "source": "operator"
       },
       "realtime": {}

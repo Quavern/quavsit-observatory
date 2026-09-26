@@ -564,12 +564,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-22T19:08:39Z",
-        "age_hours": 73.8,
+        "age_hours": 77.3,
         "timetable_ends_on": "2026-11-01",
         "days_left": 37,
         "counts": {
@@ -581,7 +581,7 @@
         "pan_dataset_slug": "offre-de-transport-du-reseau-grand-reims-mobilites-communaute-urbaine-du-grand-reims",
         "last_error": null,
         "checked_at": "2026-09-25T19:07:53Z",
-        "check_age_hours": 1.8,
+        "check_age_hours": 5.3,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 38,
           "no_header_timestamp": 0,
           "entities": 315,
@@ -613,6 +613,62 @@
           "cancelled": {
             "n": 0,
             "of": 1522
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-22T19:08:39Z",
+        "age_hours": 82.8,
+        "timetable_ends_on": "2026-11-01",
+        "days_left": 36,
+        "counts": {
+          "lines": 27,
+          "stops": 1184,
+          "trips": 9345,
+          "stop_times": 237661
+        },
+        "pan_dataset_slug": "offre-de-transport-du-reseau-grand-reims-mobilites-communaute-urbaine-du-grand-reims",
+        "last_error": null,
+        "checked_at": "2026-09-25T19:07:53Z",
+        "check_age_hours": 10.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 48,
+          "no_header_timestamp": 0,
+          "entities": 213,
+          "trip_join": {
+            "n": 213,
+            "of": 213
+          },
+          "stop_updates_timed": {
+            "n": 4031,
+            "of": 4031
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 213
           },
           "no_trip_id": 0
         }

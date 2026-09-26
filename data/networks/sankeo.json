@@ -564,14 +564,14 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-24T09:10:15Z",
-        "age_hours": 35.7,
-        "timetable_ends_on": "2026-10-07",
-        "days_left": 12,
+        "refreshed_at": "2026-09-25T21:10:12Z",
+        "age_hours": 3.2,
+        "timetable_ends_on": "2026-10-08",
+        "days_left": 13,
         "counts": {
           "lines": 38,
           "stops": 1695,
@@ -580,8 +580,8 @@
         },
         "pan_dataset_slug": "gtfs-sankeo",
         "last_error": null,
-        "checked_at": "2026-09-24T09:10:25Z",
-        "check_age_hours": 35.7,
+        "checked_at": "2026-09-25T21:10:23Z",
+        "check_age_hours": 3.2,
         "source": "operator"
       },
       "realtime": {
@@ -598,7 +598,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
           "entities": 132,
@@ -613,6 +613,62 @@
           "cancelled": {
             "n": 0,
             "of": 717
+          },
+          "no_trip_id": 0
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T21:10:12Z",
+        "age_hours": 8.7,
+        "timetable_ends_on": "2026-10-08",
+        "days_left": 12,
+        "counts": {
+          "lines": 38,
+          "stops": 1695,
+          "trips": 7545,
+          "stop_times": 213680
+        },
+        "pan_dataset_slug": "gtfs-sankeo",
+        "last_error": null,
+        "checked_at": "2026-09-25T21:10:23Z",
+        "check_age_hours": 8.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "eur.mecatran.com",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 42,
+          "no_header_timestamp": 0,
+          "entities": 89,
+          "trip_join": {
+            "n": 89,
+            "of": 89
+          },
+          "stop_updates_timed": {
+            "n": 1510,
+            "of": 1563
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 89
           },
           "no_trip_id": 0
         }

@@ -904,12 +904,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T20:09:29Z",
-        "age_hours": 0.8,
+        "age_hours": 4.3,
         "timetable_ends_on": "2026-10-18",
         "days_left": 23,
         "counts": {
@@ -921,7 +921,7 @@
         "pan_dataset_slug": "reseau-orizo-grand-avignon",
         "last_error": null,
         "checked_at": "2026-09-25T20:09:35Z",
-        "check_age_hours": 0.8,
+        "check_age_hours": 4.3,
         "source": "operator"
       },
       "realtime": {
@@ -938,7 +938,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 223,
@@ -969,7 +969,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 0,
           "no_header_timestamp": 0,
           "entities": 78,
@@ -988,6 +988,96 @@
           "trip_join": {
             "n": 414,
             "of": 414
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T20:09:29Z",
+        "age_hours": 9.8,
+        "timetable_ends_on": "2026-10-18",
+        "days_left": 22,
+        "counts": {
+          "lines": 67,
+          "stops": 973,
+          "trips": 4639,
+          "stop_times": 100084
+        },
+        "pan_dataset_slug": "reseau-orizo-grand-avignon",
+        "last_error": null,
+        "checked_at": "2026-09-25T20:09:35Z",
+        "check_age_hours": 9.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "api.maas-fr.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 3,
+          "no_header_timestamp": 0,
+          "entities": 198,
+          "trip_join": {
+            "n": 198,
+            "of": 198
+          },
+          "stop_updates_timed": {
+            "n": 3763,
+            "of": 3763
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 198
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "api.maas-fr.cityway.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 57,
+          "with_position": {
+            "n": 57,
+            "of": 57
+          },
+          "with_trip_id": {
+            "n": 57,
+            "of": 57
+          },
+          "with_route_id": {
+            "n": 57,
+            "of": 57
+          },
+          "trip_join": {
+            "n": 57,
+            "of": 57
           }
         }
       }

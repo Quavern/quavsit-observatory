@@ -1124,12 +1124,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T06:09:35Z",
-        "age_hours": 14.8,
+        "age_hours": 18.3,
         "timetable_ends_on": "2026-10-24",
         "days_left": 29,
         "counts": {
@@ -1141,7 +1141,7 @@
         "pan_dataset_slug": "offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain",
         "last_error": null,
         "checked_at": "2026-09-25T06:09:48Z",
-        "check_age_hours": 14.8,
+        "check_age_hours": 18.3,
         "source": "operator"
       },
       "realtime": {
@@ -1158,7 +1158,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 51,
           "no_header_timestamp": 0,
           "entities": 387,
@@ -1189,7 +1189,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 28,
           "no_header_timestamp": 0,
           "entities": 134,
@@ -1223,13 +1223,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 23,
           "no_header_timestamp": 0,
           "entities": 0,
           "informed_resolved": {
             "n": 0,
             "of": 38
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T06:09:35Z",
+        "age_hours": 23.8,
+        "timetable_ends_on": "2026-10-24",
+        "days_left": 28,
+        "counts": {
+          "lines": 19,
+          "stops": 1575,
+          "trips": 17484,
+          "stop_times": 405480
+        },
+        "pan_dataset_slug": "offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain",
+        "last_error": null,
+        "checked_at": "2026-09-25T06:09:48Z",
+        "check_age_hours": 23.8,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "data.montpellier3m.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 53,
+          "no_header_timestamp": 0,
+          "entities": 307,
+          "trip_join": {
+            "n": 306,
+            "of": 307
+          },
+          "stop_updates_timed": {
+            "n": 5638,
+            "of": 5657
+          },
+          "cancelled": {
+            "n": 15,
+            "of": 307
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "data.montpellier3m.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 33,
+          "no_header_timestamp": 0,
+          "entities": 94,
+          "with_position": {
+            "n": 94,
+            "of": 94
+          },
+          "with_trip_id": {
+            "n": 94,
+            "of": 94
+          },
+          "with_route_id": {
+            "n": 94,
+            "of": 94
+          },
+          "trip_join": {
+            "n": 94,
+            "of": 94
+          }
+        },
+        "alerts": {
+          "host": "data.montpellier3m.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 33,
+          "no_header_timestamp": 0,
+          "entities": 0,
+          "informed_resolved": {
+            "n": 0,
+            "of": 0
           }
         }
       }

@@ -1124,12 +1124,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T18:10:11Z",
-        "age_hours": 2.7,
+        "age_hours": 6.2,
         "timetable_ends_on": "2027-07-02",
         "days_left": 280,
         "counts": {
@@ -1141,7 +1141,7 @@
         "pan_dataset_slug": "reseau-urbain-kiceo",
         "last_error": null,
         "checked_at": "2026-09-25T18:10:21Z",
-        "check_age_hours": 2.7,
+        "check_age_hours": 6.2,
         "source": "operator"
       },
       "realtime": {
@@ -1158,7 +1158,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 101,
@@ -1189,7 +1189,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 9,
           "no_header_timestamp": 0,
           "entities": 58,
@@ -1223,13 +1223,125 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 7,
           "no_header_timestamp": 0,
           "entities": 3,
           "informed_resolved": {
             "n": 40,
             "of": 40
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T18:10:11Z",
+        "age_hours": 11.7,
+        "timetable_ends_on": "2027-07-02",
+        "days_left": 279,
+        "counts": {
+          "lines": 198,
+          "stops": 2592,
+          "trips": 2569,
+          "stop_times": 64896
+        },
+        "pan_dataset_slug": "reseau-urbain-kiceo",
+        "last_error": null,
+        "checked_at": "2026-09-25T18:10:21Z",
+        "check_age_hours": 11.7,
+        "source": "operator"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 4,
+          "no_header_timestamp": 0,
+          "entities": 65,
+          "trip_join": {
+            "n": 65,
+            "of": 65
+          },
+          "stop_updates_timed": {
+            "n": 1597,
+            "of": 1597
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 65
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 4,
+          "no_header_timestamp": 0,
+          "entities": 35,
+          "with_position": {
+            "n": 35,
+            "of": 35
+          },
+          "with_trip_id": {
+            "n": 35,
+            "of": 35
+          },
+          "with_route_id": {
+            "n": 35,
+            "of": 35
+          },
+          "trip_join": {
+            "n": 35,
+            "of": 35
+          }
+        },
+        "alerts": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 14,
+          "no_header_timestamp": 0,
+          "entities": 3,
+          "informed_resolved": {
+            "n": 8,
+            "of": 8
           }
         }
       }

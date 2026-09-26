@@ -898,12 +898,12 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
-      "samples_taken": 7,
+      "complete": true,
+      "samples_taken": 8,
       "static": {
         "state": "ok",
-        "refreshed_at": "2026-09-24T11:13:22Z",
-        "age_hours": 33.7,
+        "refreshed_at": "2026-09-25T23:14:12Z",
+        "age_hours": 1.2,
         "timetable_ends_on": "2027-01-03",
         "days_left": 100,
         "counts": {
@@ -914,8 +914,8 @@
         },
         "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
         "last_error": null,
-        "checked_at": "2026-09-24T11:13:25Z",
-        "check_age_hours": 33.7,
+        "checked_at": "2026-09-25T23:14:15Z",
+        "check_age_hours": 1.2,
         "source": "transport_data_gouv_fr_copy"
       },
       "realtime": {
@@ -932,7 +932,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 18,
           "no_header_timestamp": 0,
           "entities": 24,
@@ -963,7 +963,7 @@
             "budget": 0
           },
           "rate_limited": 0,
-          "samples_night": 2,
+          "samples_night": 3,
           "header_age_seconds": 6,
           "no_header_timestamp": 0,
           "entities": 12,
@@ -982,6 +982,96 @@
           "trip_join": {
             "n": 69,
             "of": 69
+          }
+        }
+      }
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 2,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-25T23:14:12Z",
+        "age_hours": 6.7,
+        "timetable_ends_on": "2027-01-03",
+        "days_left": 99,
+        "counts": {
+          "lines": 20,
+          "stops": 458,
+          "trips": 687,
+          "stop_times": 19381
+        },
+        "pan_dataset_slug": "horaires-theoriques-et-reel-du-reseau-maelis-montlucon-communaute-gtfs",
+        "last_error": null,
+        "checked_at": "2026-09-25T23:14:15Z",
+        "check_age_hours": 6.7,
+        "source": "transport_data_gouv_fr_copy"
+      },
+      "realtime": {
+        "trip_updates": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 0,
+          "no_header_timestamp": 0,
+          "entities": 16,
+          "trip_join": {
+            "n": 16,
+            "of": 16
+          },
+          "stop_updates_timed": {
+            "n": 509,
+            "of": 509
+          },
+          "cancelled": {
+            "n": 0,
+            "of": 16
+          },
+          "no_trip_id": 0
+        },
+        "vehicle_positions": {
+          "host": "proxy.transport.data.gouv.fr",
+          "samples": 1,
+          "ok": 1,
+          "failures": {
+            "timeout": 0,
+            "connection": 0,
+            "http_4xx": 0,
+            "http_5xx": 0,
+            "decode_error": 0,
+            "budget": 0
+          },
+          "rate_limited": 0,
+          "samples_night": 1,
+          "header_age_seconds": 11,
+          "no_header_timestamp": 0,
+          "entities": 8,
+          "with_position": {
+            "n": 8,
+            "of": 8
+          },
+          "with_trip_id": {
+            "n": 8,
+            "of": 8
+          },
+          "with_route_id": {
+            "n": 0,
+            "of": 8
+          },
+          "trip_join": {
+            "n": 8,
+            "of": 8
           }
         }
       }

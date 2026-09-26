@@ -254,17 +254,42 @@
     },
     {
       "day": "2026-09-25",
-      "complete": false,
+      "complete": true,
       "samples_taken": 0,
       "static": {
         "state": "ok",
         "refreshed_at": "2026-09-25T05:08:22Z",
-        "age_hours": 15.8,
+        "age_hours": 19.3,
         "timetable_ends_on": null,
         "days_left": null,
         "counts": {
           "lines": 2119,
           "stops": 55973,
+          "trips": null,
+          "stop_times": null
+        },
+        "pan_dataset_slug": null,
+        "last_error": null,
+        "checked_at": null,
+        "check_age_hours": null,
+        "source": null,
+        "timetable_ends_on_reason": "not_gtfs"
+      },
+      "realtime": {}
+    },
+    {
+      "day": "2026-09-26",
+      "complete": false,
+      "samples_taken": 0,
+      "static": {
+        "state": "ok",
+        "refreshed_at": "2026-09-26T05:08:54Z",
+        "age_hours": 0.8,
+        "timetable_ends_on": null,
+        "days_left": null,
+        "counts": {
+          "lines": 2119,
+          "stops": 55950,
           "trips": null,
           "stop_times": null
         },
